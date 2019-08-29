@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -55,7 +55,7 @@ private:
     Qt::SortOrder order;
 };
 
-/** Model for list of recently generated payment requests / dexergi: URIs.
+/** Model for list of recently generated payment requests / bitstats: URIs.
  * Part of wallet model.
  */
 class RecentRequestsTableModel : public QAbstractTableModel

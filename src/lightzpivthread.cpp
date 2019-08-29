@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -9,8 +9,8 @@
 #include "main.h"
 
 /****** Thread ********/
-void CLightWorker::ThreadLightZDXRSimplified() {
-    RenameThread("dexergi-light-thread");
+void CLightWorker::ThreadLightZBTTSimplified() {
+    RenameThread("bitstats-light-thread");
     isWorkerRunning = true;
     while (true) {
         try {
@@ -20,7 +20,7 @@ void CLightWorker::ThreadLightZDXRSimplified() {
 
             // TODO: Future: join several similar requests into one calculation if the filter and denom match..
             CGenWit genWit = requestsQueue.pop();
-            LogPrintf("%s pop work for %s \n\n", "dexergi-light-thread", genWit.toString());
+            LogPrintf("%s pop work for %s \n\n", "bitstats-light-thread", genWit.toString());
 
             libzerocoin::ZerocoinParams *params = Params().Zerocoin_Params(false);
             CBlockIndex *pIndex = chainActive[genWit.getStartingHeight()];
@@ -28,7 +28,7 @@ void CLightWorker::ThreadLightZDXRSimplified() {
                 // Rejects only the failed height
                 rejectWork(genWit, genWit.getStartingHeight(), NON_DETERMINED);
             } else {
-                LogPrintf("%s calculating work for %s \n\n", "dexergi-light-thread", genWit.toString());
+                LogPrintf("%s calculating work for %s \n\n", "bitstats-light-thread", genWit.toString());
                 int blockHeight = pIndex->nHeight;
                 if (blockHeight >= Params().Zerocoin_Block_V2_Start()) {
 
@@ -61,7 +61,7 @@ void CLightWorker::ThreadLightZDXRSimplified() {
                         );
 
                     } catch (NotEnoughMintsException e) {
-                        LogPrintStr(std::string("ThreadLightZDXRSimplified: ") + e.message + "\n");
+                        LogPrintStr(std::string("ThreadLightZBTTSimplified: ") + e.message + "\n");
                         rejectWork(genWit, blockHeight, NOT_ENOUGH_MINTS);
                         continue;
                     }
@@ -83,10 +83,10 @@ void CLightWorker::ThreadLightZDXRSimplified() {
                         }
                         ss << heightStop;
                         if (genWit.getPfrom()) {
-                            LogPrintf("%s pushing message to %s \n", "dexergi-light-thread", genWit.getPfrom()->addrName);
+                            LogPrintf("%s pushing message to %s \n", "bitstats-light-thread", genWit.getPfrom()->addrName);
                             genWit.getPfrom()->PushMessage("pubcoins", ss);
                         } else
-                            LogPrintf("%s NOT pushing message to %s \n", "dexergi-light-thread", genWit.getPfrom()->addrName);
+                            LogPrintf("%s NOT pushing message to %s \n", "bitstats-light-thread", genWit.getPfrom()->addrName);
                     }
                 } else {
                     // Rejects only the failed height
@@ -106,7 +106,7 @@ void CLightWorker::ThreadLightZDXRSimplified() {
 // TODO: Think more the peer misbehaving policy..
 void CLightWorker::rejectWork(CGenWit& wit, int blockHeight, uint32_t errorNumber) {
     if (wit.getStartingHeight() == blockHeight){
-        LogPrintf("%s rejecting work %s , error code: %s\n", "dexergi-light-thread", wit.toString(), errorNumber);
+        LogPrintf("%s rejecting work %s , error code: %s\n", "bitstats-light-thread", wit.toString(), errorNumber);
         CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
         ss << wit.getRequestNum();
         ss << errorNumber;

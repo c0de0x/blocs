@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2013 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -8,7 +8,7 @@
 #define BITCOIN_QT_NOTIFICATOR_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dexergi-config.h"
+#include "config/bitstats-config.h"
 #endif
 
 #include <QIcon>

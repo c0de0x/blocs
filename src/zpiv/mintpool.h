@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_MINTPOOL_H
-#define DEXERGI_MINTPOOL_H
+#ifndef BITSTATS_MINTPOOL_H
+#define BITSTATS_MINTPOOL_H
 
 #include <map>
 #include <list>
@@ -51,4 +51,4 @@ public:
 };
 
 
-#endif //DEXERGI_MINTPOOL_H
+#endif //BITSTATS_MINTPOOL_H

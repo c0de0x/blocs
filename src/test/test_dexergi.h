@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
-// Copyright (c) 2015 The DEXERGI developers
+/* Copyright (c) 2019-2020 The Bitstats Developers */
+// Copyright (c) 2015 The BITSTATS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_TEST_TEST_DEXERGI_H
-#define DEXERGI_TEST_TEST_DEXERGI_H
+#ifndef BITSTATS_TEST_TEST_BITSTATS_H
+#define BITSTATS_TEST_TEST_BITSTATS_H
 
 #include "txdb.h"
 

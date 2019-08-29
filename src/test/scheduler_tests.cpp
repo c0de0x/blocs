@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2012-2013 The Bitcoin Core developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
@@ -7,7 +7,7 @@
 #include "random.h"
 #include "scheduler.h"
 #if defined(HAVE_CONFIG_H)
-#include "config/dexergi-config.h"
+#include "config/bitstats-config.h"
 #else
 #define HAVE_WORKING_BOOST_SLEEP_FOR
 #endif

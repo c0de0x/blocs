@@ -1,7 +1,7 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The DEXERGI developers
+// Copyright (c) 2015-2017 The BITSTATS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(DXR);
-    unitlist.append(mDXR);
-    unitlist.append(uDXR);
+    unitlist.append(BTT);
+    unitlist.append(mBTT);
+    unitlist.append(uBTT);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case DXR:
-    case mDXR:
-    case uDXR:
+    case BTT:
+    case mBTT:
+    case uBTT:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case DXR:
-        return QString("dexergi");
-    case mDXR:
-        return QString("mdexergi");
-    case uDXR:
-        return QString::fromUtf8("udexergi");
+    case BTT:
+        return QString("bitstats");
+    case mBTT:
+        return QString("mbitstats");
+    case uBTT:
+        return QString::fromUtf8("ubitstats");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case DXR:
-            return QString("DXR");
-        case mDXR:
-            return QString("mDXR");
-        case uDXR:
-            return QString::fromUtf8("μDXR");
+        case BTT:
+            return QString("BTT");
+        case mBTT:
+            return QString("mBTT");
+        case uBTT:
+            return QString::fromUtf8("μBTT");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case DXR:
-            return QString("tDXR");
-        case mDXR:
-            return QString("mtDXR");
-        case uDXR:
-            return QString::fromUtf8("μtDXR");
+        case BTT:
+            return QString("tBTT");
+        case mBTT:
+            return QString("mtBTT");
+        case uBTT:
+            return QString::fromUtf8("μtBTT");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case DXR:
-            return QString("DXR");
-        case mDXR:
-            return QString("Milli-DXR (1 / 1" THIN_SP_UTF8 "000)");
-        case uDXR:
-            return QString("Micro-DXR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case BTT:
+            return QString("BTT");
+        case mBTT:
+            return QString("Milli-BTT (1 / 1" THIN_SP_UTF8 "000)");
+        case uBTT:
+            return QString("Micro-BTT (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case DXR:
-            return QString("TestDXRs");
-        case mDXR:
-            return QString("Milli-TestDXR (1 / 1" THIN_SP_UTF8 "000)");
-        case uDXR:
-            return QString("Micro-TestDXR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case BTT:
+            return QString("TestBTTs");
+        case mBTT:
+            return QString("Milli-TestBTT (1 / 1" THIN_SP_UTF8 "000)");
+        case uBTT:
+            return QString("Micro-TestBTT (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case DXR:
+    case BTT:
         return 100000000;
-    case mDXR:
+    case mBTT:
         return 100000;
-    case uDXR:
+    case uBTT:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case DXR:
+    case BTT:
         return 8;
-    case mDXR:
+    case mBTT:
         return 5;
-    case uDXR:
+    case uBTT:
         return 2;
     default:
         return 0;

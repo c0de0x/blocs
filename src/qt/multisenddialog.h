@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_QT_MULTISENDDIALOG_H
-#define DEXERGI_QT_MULTISENDDIALOG_H
+#ifndef BITSTATS_QT_MULTISENDDIALOG_H
+#define BITSTATS_QT_MULTISENDDIALOG_H
 
 #include <QDialog>
 
@@ -39,4 +39,4 @@ private:
     WalletModel* model;
 };
 
-#endif // DEXERGI_QT_MULTISENDDIALOG_H
+#endif // BITSTATS_QT_MULTISENDDIALOG_H

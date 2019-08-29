@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
@@ -10,7 +10,7 @@
 #define BITCOIN_MAIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dexergi-config.h"
+#include "config/bitstats-config.h"
 #endif
 
 #include "amount.h"
@@ -132,7 +132,7 @@ static const unsigned char REJECT_DUST = 0x41;
 static const unsigned char REJECT_INSUFFICIENTFEE = 0x42;
 static const unsigned char REJECT_CHECKPOINT = 0x43;
 
-/** zDXR precomputing variables
+/** zBTT precomputing variables
  * Set the number of included blocks to precompute per cycle. */
 static const int DEFAULT_PRECOMPUTE_LENGTH = 1000;
 static const int MIN_PRECOMPUTE_LENGTH = 500;
@@ -369,9 +369,9 @@ bool IsTransactionInChain(const uint256& txId, int& nHeightTx);
 bool IsBlockHashInChain(const uint256& hashBlock);
 bool ValidOutPoint(const COutPoint out, int nHeight);
 void AddWrappedSerialsInflation();
-void RecalculateZDXRSpent();
-void RecalculateZDXRMinted();
-bool RecalculateDXRSupply(int nHeightStart);
+void RecalculateZBTTSpent();
+void RecalculateZBTTMinted();
+bool RecalculateBTTSupply(int nHeightStart);
 bool ReindexAccumulators(list<uint256>& listMissingCheckpoints, string& strError);
 
 // Fake Serial attack Range

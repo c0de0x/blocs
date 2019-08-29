@@ -1,5 +1,5 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
-// Copyright (c) 2017-2019 The DEXERGI developers
+/* Copyright (c) 2019-2020 The Bitstats Developers */
+// Copyright (c) 2017-2019 The BITSTATS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -77,7 +77,7 @@ private:
 
     int nDisplayUnit;
     bool updateLabel(const QString& address);
-    void sendzDXR();
+    void sendzBTT();
 
 private slots:
     void on_payTo_textChanged(const QString& address);
@@ -97,10 +97,10 @@ private slots:
 //    void coinControlClipboardLowOutput();
 //    void coinControlClipboardChange();
 
-// MINT disabled    void on_pushButtonMintzDXR_clicked();
+// MINT disabled    void on_pushButtonMintzBTT_clicked();
     void on_pushButtonMintReset_clicked();
     void on_pushButtonSpentReset_clicked();
-    void on_pushButtonSpendzDXR_clicked();
+    void on_pushButtonSpendzBTT_clicked();
     void on_pushButtonZPivControl_clicked();
     void on_pushButtonHideDenoms_clicked();
     void on_pushButtonShowDenoms_clicked();

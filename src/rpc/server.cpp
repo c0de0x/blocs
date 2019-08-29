@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
@@ -268,11 +268,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop DEXERGI server.");
+            "\nStop BITSTATS server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "DEXERGI server stopping";
+    return "BITSTATS server stopping";
 }
 
 
@@ -366,35 +366,35 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblock",           &waitforblock,           true,  true,  false  },
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true,  true,  false  },
 
-        /* DEXERGI features */
-        {"dexergi", "listmasternodes", &listmasternodes, true, true, false},
-        {"dexergi", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"dexergi", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"dexergi", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"dexergi", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"dexergi", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"dexergi", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"dexergi", "masternodedebug", &masternodedebug, true, true, false},
-        {"dexergi", "startmasternode", &startmasternode, true, true, false},
-        {"dexergi", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"dexergi", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"dexergi", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"dexergi", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"dexergi", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"dexergi", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"dexergi", "preparebudget", &preparebudget, true, true, false},
-        {"dexergi", "submitbudget", &submitbudget, true, true, false},
-        {"dexergi", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"dexergi", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"dexergi", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"dexergi", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"dexergi", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"dexergi", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"dexergi", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"dexergi", "checkbudgets", &checkbudgets, true, true, false},
-        {"dexergi", "mnsync", &mnsync, true, true, false},
-        {"dexergi", "spork", &spork, true, true, false},
-        {"dexergi", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* BITSTATS features */
+        {"bitstats", "listmasternodes", &listmasternodes, true, true, false},
+        {"bitstats", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"bitstats", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"bitstats", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"bitstats", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"bitstats", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"bitstats", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"bitstats", "masternodedebug", &masternodedebug, true, true, false},
+        {"bitstats", "startmasternode", &startmasternode, true, true, false},
+        {"bitstats", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"bitstats", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"bitstats", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"bitstats", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"bitstats", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"bitstats", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"bitstats", "preparebudget", &preparebudget, true, true, false},
+        {"bitstats", "submitbudget", &submitbudget, true, true, false},
+        {"bitstats", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"bitstats", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"bitstats", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"bitstats", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"bitstats", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"bitstats", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"bitstats", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"bitstats", "checkbudgets", &checkbudgets, true, true, false},
+        {"bitstats", "mnsync", &mnsync, true, true, false},
+        {"bitstats", "spork", &spork, true, true, false},
+        {"bitstats", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -634,7 +634,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> dexergi-cli " + methodname + " " + args + "\n";
+    return "> bitstats-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

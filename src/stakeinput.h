@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_STAKEINPUT_H
-#define DEXERGI_STAKEINPUT_H
+#ifndef BITSTATS_STAKEINPUT_H
+#define BITSTATS_STAKEINPUT_H
 
 #include "chain.h"
 #include "streams.h"
@@ -27,13 +27,13 @@ public:
     virtual CAmount GetValue() = 0;
     virtual bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) = 0;
     virtual bool GetModifier(uint64_t& nStakeModifier) = 0;
-    virtual bool IsZDXR() = 0;
+    virtual bool IsZBTT() = 0;
     virtual CDataStream GetUniqueness() = 0;
     virtual uint256 GetSerialHash() const = 0;
 };
 
 
-// zDXRStake can take two forms
+// zBTTStake can take two forms
 // 1) the stake candidate, which is a zcmint that is attempted to be staked
 // 2) a staked zpiv, which is a zcspend that has successfully staked
 class CZPivStake : public CStakeInput
@@ -63,7 +63,7 @@ public:
     bool CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut = 0) override;
     bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) override;
     bool MarkSpent(CWallet* pwallet, const uint256& txid);
-    bool IsZDXR() override { return true; }
+    bool IsZBTT() override { return true; }
     uint256 GetSerialHash() const override { return hashSerial; }
     int GetChecksumHeightFromMint();
     int GetChecksumHeightFromSpend();
@@ -90,9 +90,9 @@ public:
     CDataStream GetUniqueness() override;
     bool CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut = 0) override;
     bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) override;
-    bool IsZDXR() override { return false; }
+    bool IsZBTT() override { return false; }
     uint256 GetSerialHash() const override { return uint256(0); }
 };
 
 
-#endif //DEXERGI_STAKEINPUT_H
+#endif //BITSTATS_STAKEINPUT_H

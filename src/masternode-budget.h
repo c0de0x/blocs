@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -367,7 +367,7 @@ public:
 
     // Verify and vote on finalized budget
     void CheckAndVote();
-    //total dexergi paid out by this budget
+    //total bitstats paid out by this budget
     CAmount GetTotalPayout();
     //vote on this finalized budget as a masternode
     void SubmitVote();

@@ -62,11 +62,11 @@
         <translation>Ricevanta adresojn</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ĉi tiuj estas viaj DEXERGI adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ĉi tiuj estas viaj BITSTATS adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ĉi tiuj estas vian adreson por ricevi pagojn. Ĝi rekomendas uzi novajn ricenvantan adreson por ĉiu nova transakcio.</translation>
     </message>
     <message>
@@ -176,15 +176,15 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn DXRs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn BTTs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ĉu vi certas ke vi volas ĉifri vian monujon?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
         <translation>Averto: se vi ĉifras vian monujo kaj perdi vian pasfrazon, vi &lt;b&gt;PERDOS VIAN TUTAN MONON&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -254,11 +254,11 @@
         <translation>Adreso:</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Eniri unu DEXERGI adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
+        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Eniri unu BITSTATS adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
     </message>
     <message>
-        <source>The DEXERGI address to encrypt</source>
+        <source>The BITSTATS address to encrypt</source>
         <translation>Adreson por ĉifri</translation>
     </message>
     <message>
@@ -290,8 +290,8 @@
         <translation>Kopiu la aktualan subskribo al la sistemo-poŝo</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this DEXERGI address</source>
-        <translation>Ĉifri la privata ŝlosilo por ĉi tiu DEXERGI adreso</translation>
+        <source>Encrypt the private key for this BITSTATS address</source>
+        <translation>Ĉifri la privata ŝlosilo por ĉi tiu BITSTATS adreso</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>&amp;Foliumi transakcio historio</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>Privataj agoj por zDXR</translation>
+        <source>Privacy Actions for zBTT</source>
+        <translation>Privataj agoj por zBTT</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -641,16 +641,16 @@
         <translation>Iloj langeto</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerno</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerno</translation>
     </message>
     <message>
-        <source>Send coins to a DEXERGI address</source>
-        <translation>Sendu mono al DEXERGI addreso</translation>
+        <source>Send coins to a BITSTATS address</source>
+        <translation>Sendu mono al BITSTATS addreso</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dexergi: URIs)</source>
-        <translation>Peto pagojn (generas QR kodojn kaj dexergi: URIs)</translation>
+        <source>Request payments (generates QR codes and bitstats: URIs)</source>
+        <translation>Peto pagojn (generas QR kodojn kaj bitstats: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,24 +665,24 @@
         <translation>Foliumi mastro-nodo</translation>
     </message>
     <message>
-        <source>&amp;About DEXERGI Core</source>
-        <translation>&amp;Pri DEXERGI Kerno</translation>
+        <source>&amp;About BITSTATS Core</source>
+        <translation>&amp;Pri BITSTATS Kerno</translation>
     </message>
     <message>
-        <source>Show information about DEXERGI Core</source>
-        <translation>Montri informon pri DEXERGI Kerno</translation>
+        <source>Show information about BITSTATS Core</source>
+        <translation>Montri informon pri BITSTATS Kerno</translation>
     </message>
     <message>
-        <source>Modify configuration options for DEXERGI</source>
-        <translation>Modifi agordajn opciojn por DEXERGI</translation>
+        <source>Modify configuration options for BITSTATS</source>
+        <translation>Modifi agordajn opciojn por BITSTATS</translation>
     </message>
     <message>
-        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
-        <translation>Subskribu mesaĝo per via DEXERGI adreso por pruvi vi posedas ĝin</translation>
+        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
+        <translation>Subskribu mesaĝo per via BITSTATS adreso por pruvi vi posedas ĝin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
-        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita DEXERGI adreso</translation>
+        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
+        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita BITSTATS adreso</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Malfermi mastro-nodo agord-dosieron</translation>
     </message>
     <message>
-        <source>Open a DEXERGI: URI or payment request</source>
-        <translation>Malfermi unu DEXERGI: URI aŭ pago peto</translation>
+        <source>Open a BITSTATS: URI or payment request</source>
+        <translation>Malfermi unu BITSTATS: URI aŭ pago peto</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Bloko esplorilo fenestro</translation>
     </message>
     <message>
-        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
-        <translation>Montri la DEXERGI Kore help-mesaĝo por havi liston de havebla DEXERGI komandlinion opciojn</translation>
+        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
+        <translation>Montri la BITSTATS Kore help-mesaĝo por havi liston de havebla BITSTATS komandlinion opciojn</translation>
     </message>
     <message>
-        <source>DEXERGI Core client</source>
-        <translation>DEXERGI Kerno kliento</translation>
+        <source>BITSTATS Core client</source>
+        <translation>BITSTATS Kerno kliento</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -868,8 +868,8 @@ Muktisendi: %1</translation>
         <translation>Tekstetikedo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
-        <translation>Ĉiuj transakcio ne estos montri. Peor vidi ĉiuj transakcio bezonas agordi txindekso=1 en la agordo dosiero (dexergi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
+        <translation>Ĉiuj transakcio ne estos montri. Peor vidi ĉiuj transakcio bezonas agordi txindekso=1 en la agordo dosiero (bitstats.conf).</translation>
     </message>
 </context>
 <context>
@@ -1098,8 +1098,8 @@ Muktisendi: %1</translation>
         <translation>Ĉi tiun etikedo ruĝiĝas se iu ajna ricevanto ricevas totalo pli malgranda ol %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uDXR per input.</source>
-        <translation>Povas varii +/- %1 uDXR per enigo.</translation>
+        <source>Can vary +/- %1 uBTT per input.</source>
+        <translation>Povas varii +/- %1 uBTT per enigo.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1153,8 +1153,8 @@ Muktisendi: %1</translation>
         <translation>Redaktu sendantan adreson</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DEXERGI address.</source>
-        <translation>La enirita "%1" adreso ne estas validan DEXERGI adreson.</translation>
+        <source>The entered address "%1" is not a valid BITSTATS address.</source>
+        <translation>La enirita "%1" adreso ne estas validan BITSTATS adreson.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1210,16 +1210,16 @@ Muktisendi: %1</translation>
         <translation>versio</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerno</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerno</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bajto)</translation>
     </message>
     <message>
-        <source>About DEXERGI Core</source>
-        <translation>Pri DEXERGI Kerno</translation>
+        <source>About BITSTATS Core</source>
+        <translation>Pri BITSTATS Kerno</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1261,16 +1261,16 @@ Muktisendi: %1</translation>
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to DEXERGI Core.</source>
-        <translation>Bonvenon al la DEXERGI Kerno.</translation>
+        <source>Welcome to BITSTATS Core.</source>
+        <translation>Bonvenon al la BITSTATS Kerno.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
-        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie DEXERGI kernk storigis sian datumojn. </translation>
+        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
+        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie BITSTATS kernk storigis sian datumojn. </translation>
     </message>
     <message>
-        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DEXERGI kerno elŝutos kaj konservi kopion de la DEXERGI blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
+        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BITSTATS kerno elŝutos kaj konservi kopion de la BITSTATS blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1281,8 +1281,8 @@ Muktisendi: %1</translation>
         <translation>Uzi kutimon datumojn dosierujo:</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerno</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerno</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1514,8 +1514,8 @@ Muktisendi: %1</translation>
         <translation>Adreso / Kvanto:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>Aldonu destinoj por sendi DXR al</translation>
+        <source>Add destinations to send BTT to</source>
+        <translation>Aldonu destinoj por sendi BTT al</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1604,8 +1604,8 @@ Muktisendi: %1</translation>
         <translation>&amp;Monujo</translation>
     </message>
     <message>
-        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi DEXERGI klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
+        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi BITSTATS klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1616,8 +1616,8 @@ Muktisendi: %1</translation>
         <translation>Sperta</translation>
     </message>
     <message>
-        <source>&amp;Start DEXERGI on system login</source>
-        <translation>&amp;Komencu DEXERGI en sistem-ensaluto</translation>
+        <source>&amp;Start BITSTATS on system login</source>
+        <translation>&amp;Komencu BITSTATS en sistem-ensaluto</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1628,18 +1628,18 @@ Muktisendi: %1</translation>
         <translation>&amp;Reto</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
-        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci DEXERGI.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
+        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci BITSTATS.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
         <translation>Ĉu mankas lingvon aŭ nekompleta tradukado? Helpu la  tradukcio ĉi tie:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</translation>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
-        <translation>Konekti al la DEXERGI reto per SOCKS5 prokurilo.</translation>
+        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
+        <translation>Konekti al la BITSTATS reto per SOCKS5 prokurilo.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1705,20 +1705,20 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Via aktuala elspezebla saldo</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>DXR kvanto</translation>
+        <source>BTT Balance</source>
+        <translation>BTT kvanto</translation>
     </message>
     <message>
         <source>Immature:</source>
         <translation>Nematura:</translation>
     </message>
     <message>
-        <source>Your current DEXERGI balance, unconfirmed and immature transactions included</source>
-        <translation>Via aktuala DEXERGI totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
+        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
+        <translation>Via aktuala BITSTATS totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>zDXR kvanto</translation>
+        <source>zBTT Balance</source>
+        <translation>zBTT kvanto</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -1727,8 +1727,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mintita</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la DEXERGI reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la BITSTATS reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1780,28 +1780,28 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la DEXERGI reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la BITSTATS reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Reset</source>
         <translation>Restarigi</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
-        <translation>zDXR kontrolu</translation>
+        <source>zBTT Control</source>
+        <translation>zBTT kontrolu</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
-        <translation>Elektita zDXR</translation>
+        <source>zBTT Selected:</source>
+        <translation>Elektita zBTT</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1812,20 +1812,20 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Elspezi zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending</source>
-        <translation>Havebla (matura kaj elspezebla) zDXR por elspezi</translation>
+        <source>Available (mature and spendable) zBTT for spending</source>
+        <translation>Havebla (matura kaj elspezebla) zBTT por elspezi</translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zBTT</source>
+        <translation>0 zBTT</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>DEXERGI adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
+        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>BITSTATS adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1894,8 +1894,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>&lt;b&gt;malebligita&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Invalid DEXERGI Address</source>
-        <translation>Nevalida DEXERGI adreso</translation>
+        <source>Invalid BITSTATS Address</source>
+        <translation>Nevalida BITSTATS adreso</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1928,8 +1928,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>NEKONATA</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerno</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerno</translation>
     </message>
     </context>
 <context>
@@ -1994,8 +1994,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Rekonstrui indekson</translation>
     </message>
     <message>
-        <source>Welcome to the DEXERGI RPC console.</source>
-        <translation>Bonvenon al la DEXERGI RPC konzolo.</translation>
+        <source>Welcome to the BITSTATS RPC console.</source>
+        <translation>Bonvenon al la BITSTATS RPC konzolo.</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -2194,8 +2194,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Se estas aktiva sed ŝanĝo-adreso estas malpleniĝa au nevalida, ŝanĝo sendos al nova generita adreson.</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 BTT</source>
+        <translation>0 BTT</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
@@ -2242,8 +2242,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Kopi ŝanĝo</translation>
     </message>
     <message>
-        <source>Warning: Invalid DEXERGI address</source>
-        <translation>Averto: nevalida DEXERGI adreson</translation>
+        <source>Warning: Invalid BITSTATS address</source>
+        <translation>Averto: nevalida BITSTATS adreson</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2269,8 +2269,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to</source>
-        <translation>DXRC adreso por sendi la pago al</translation>
+        <source>The BITSTATS address to send the payment to</source>
+        <translation>BTTC adreso por sendi la pago al</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2304,8 +2304,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DEXERGI Core is shutting down...</source>
-        <translation>DEXERGI kerno fermanta...</translation>
+        <source>BITSTATS Core is shutting down...</source>
+        <translation>BITSTATS kerno fermanta...</translation>
     </message>
     </context>
 <context>
@@ -2358,8 +2358,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerno</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerno</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2370,8 +2370,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>La Dash kerno programistoj</translation>
     </message>
     <message>
-        <source>The DEXERGI Core developers</source>
-        <translation>La DEXERGI kerno programistoj</translation>
+        <source>The BITSTATS Core developers</source>
+        <translation>La BITSTATS kerno programistoj</translation>
     </message>
     </context>
 <context>
@@ -2552,12 +2552,12 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     <message>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Konekti per SOCKS5 prokurilo</translation>

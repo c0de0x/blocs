@@ -1,12 +1,12 @@
 [Desktop Entry]
 Version=1.0
-Name=DEXERGI Core
-Comment=DEXERGI P2P Cryptocurrency
-Exec=DEXERGI-qt %u
+Name=BITSTATS Core
+Comment=BITSTATS P2P Cryptocurrency
+Exec=BITSTATS-qt %u
 Terminal=false
 Type=Application
-Icon=DEXERGI128
-MimeType=x-scheme-handler/DEXERGI;
+Icon=BITSTATS128
+MimeType=x-scheme-handler/BITSTATS;
 Categories=Office;Finance;
-StartupWMClass=Dexergi-qt
-Name[en_IN]=dexergi-qt.desktop
+StartupWMClass=Bitstats-qt
+Name[en_IN]=bitstats-qt.desktop

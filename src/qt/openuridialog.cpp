@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
@@ -17,7 +17,7 @@ OpenURIDialog::OpenURIDialog(QWidget* parent) : QDialog(parent, Qt::WindowSystem
                                                 ui(new Ui::OpenURIDialog)
 {
     ui->setupUi(this);
-    ui->uriEdit->setPlaceholderText("dexergi:");
+    ui->uriEdit->setPlaceholderText("bitstats:");
 }
 
 OpenURIDialog::~OpenURIDialog()
@@ -47,5 +47,5 @@ void OpenURIDialog::on_selectFileButton_clicked()
     if (filename.isEmpty())
         return;
     QUrl fileUri = QUrl::fromLocalFile(filename);
-    ui->uriEdit->setText("dexergi:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+    ui->uriEdit->setText("bitstats:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
 }

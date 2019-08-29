@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_UINT512_H
-#define DEXERGI_UINT512_H
+#ifndef BITSTATS_UINT512_H
+#define BITSTATS_UINT512_H
 
 #include "arith_uint256.h"
 #include "uint256.h"
@@ -43,4 +43,4 @@ inline uint512 uint512S(const char* str)
     return rv;
 }
 
-#endif // DEXERGI_UINT512_H
+#endif // BITSTATS_UINT512_H

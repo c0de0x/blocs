@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_ZDXRCHAIN_H
-#define DEXERGI_ZDXRCHAIN_H
+#ifndef BITSTATS_ZBTTCHAIN_H
+#define BITSTATS_ZBTTCHAIN_H
 
 #include "libzerocoin/Coin.h"
 #include "libzerocoin/Denominations.h"
@@ -40,4 +40,4 @@ bool TxOutToPublicCoin(const CTxOut& txout, libzerocoin::PublicCoin& pubCoin, CV
 std::list<libzerocoin::CoinDenomination> ZerocoinSpendListFromBlock(const CBlock& block, bool fFilterInvalid);
 
 
-#endif //DEXERGI_ZDXRCHAIN_H
+#endif //BITSTATS_ZBTTCHAIN_H

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
@@ -126,15 +126,15 @@ public:
         pchMessageStart[3] = 0xeb;
         vAlertPubKey = ParseHex("04f7cb2edc06b95f190fe219999f3dc1a26299fc44f0ba02ff071d13b0fa11af52d8fe10bd905b9cf37a577675268cecdbce552acc4bd70e9d4ac6535e88d15bc4");
         nDefaultPort = 5536;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // DEXERGI starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // BITSTATS starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 525600;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 8100; // 75%
         nRejectBlockOutdatedMajority = 10260; // 95%
         nToCheckBlockUpgradeMajority = 10800; // Approximate expected amount of blocks in 7 days (1440*7.5)
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DEXERGI: 1 day
-        nTargetSpacing = 1 * 60;  // DEXERGI: 1 minute
+        nTargetTimespan = 1 * 60; // BITSTATS: 1 day
+        nTargetSpacing = 1 * 60;  // BITSTATS: 1 minute
         nMaturity = 100;
         nMasternodeCountDrift = 20;
         nMasternodeCollateral = 1000 * COIN;
@@ -186,8 +186,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x178daba4034f1a649bc912fd7f2dc46d2350bf1f51eb5c50dd8adf2386704e9e"));
 
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("dexergi.io", "seed1.dexergi.io"));     // Primary DNS Seeder from dexergi
-        vSeeds.push_back(CDNSSeedData("dexergi.io", "seed2.dexergi.io"));    // Secondary DNS Seeder from dexergi
+        vSeeds.push_back(CDNSSeedData("bitstats.io", "seed1.bitstats.io"));     // Primary DNS Seeder from bitstats
+        vSeeds.push_back(CDNSSeedData("bitstats.io", "seed2.bitstats.io"));    // Secondary DNS Seeder from bitstats
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63);
@@ -263,8 +263,8 @@ public:
         nRejectBlockOutdatedMajority = 5472; // 95%
         nToCheckBlockUpgradeMajority = 5760; // 4 days
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DEXERGI: 1 day
-        nTargetSpacing = 1 * 60;  // DEXERGI: 1 minute
+        nTargetTimespan = 1 * 60; // BITSTATS: 1 day
+        nTargetSpacing = 1 * 60;  // BITSTATS: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -293,14 +293,14 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet DEXERGI addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet DEXERGI script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet BITSTATS addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet BITSTATS script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet DEXERGI BIP32 pubkeys start with 'DRKV'
+        // Testnet BITSTATS BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet DEXERGI BIP32 prvkeys start with 'DRKP'
+        // Testnet BITSTATS BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet DEXERGI BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet BITSTATS BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -349,8 +349,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // DEXERGI: 1 day
-        nTargetSpacing = 1 * 60;        // DEXERGI: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // BITSTATS: 1 day
+        nTargetSpacing = 1 * 60;        // BITSTATS: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nLastPOWBlock = 250;
         nMaturity = 100;

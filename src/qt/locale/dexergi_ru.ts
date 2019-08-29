@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши DEXERGI-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши BITSTATS-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши DEXERGI-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши BITSTATS-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши DEXERGI от кражи с использованием вредоносного ПО.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши BITSTATS от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ DXR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ BTT&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите DEXERGI адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите BITSTATS адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
-        <source>The DEXERGI address to encrypt</source>
-        <translation>Адрес DEXERGI для зашифровки</translation>
+        <source>The BITSTATS address to encrypt</source>
+        <translation>Адрес BITSTATS для зашифровки</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this DEXERGI address</source>
-        <translation>Зашифровать личные ключи для этого DEXERGI адреса </translation>
+        <source>Encrypt the private key for this BITSTATS address</source>
+        <translation>Зашифровать личные ключи для этого BITSTATS адреса </translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,7 +433,7 @@
         <translation>Просмотр истории транзакций</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
+        <source>Privacy Actions for zBTT</source>
         <translation>Действия конфиденциальности для зпив</translation>
     </message>
     <message>
@@ -645,16 +645,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
-        <source>Send coins to a DEXERGI address</source>
-        <translation>Отправить монеты на DEXERGI адрес</translation>
+        <source>Send coins to a BITSTATS address</source>
+        <translation>Отправить монеты на BITSTATS адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dexergi: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и DEXERGI: URI)</translation>
+        <source>Request payments (generates QR codes and bitstats: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и BITSTATS: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About DEXERGI Core</source>
-        <translation>&amp;О DEXERGI Core</translation>
+        <source>&amp;About BITSTATS Core</source>
+        <translation>&amp;О BITSTATS Core</translation>
     </message>
     <message>
-        <source>Show information about DEXERGI Core</source>
-        <translation>Показать информацию о DEXERGI Core</translation>
+        <source>Show information about BITSTATS Core</source>
+        <translation>Показать информацию о BITSTATS Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for DEXERGI</source>
-        <translation>Изменение параметров конфигурации DEXERGI</translation>
+        <source>Modify configuration options for BITSTATS</source>
+        <translation>Изменение параметров конфигурации BITSTATS</translation>
     </message>
     <message>
-        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими DEXERGI адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими BITSTATS адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным DEXERGI адресом </translation>
+        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным BITSTATS адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a DEXERGI: URI or payment request</source>
-        <translation>Открыть DEXERGI: URI или запрос платежа</translation>
+        <source>Open a BITSTATS: URI or payment request</source>
+        <translation>Открыть BITSTATS: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,12 +729,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды DEXERGI</translation>
+        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды BITSTATS</translation>
     </message>
     <message>
-        <source>DEXERGI Core client</source>
-        <translation>Клиент DEXERGI Core</translation>
+        <source>BITSTATS Core client</source>
+        <translation>Клиент BITSTATS Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -872,8 +872,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (dexergi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (bitstats.conf).</translation>
     </message>
 </context>
 <context>
@@ -1110,8 +1110,8 @@ MultiSend: %1</translation>
         <translation>Этот маркер становится красным если получаемая адресатом сумма меньше, чем %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uDXR per input.</source>
-        <translation>Может вариироваться +/- %1 uDXR при вводе</translation>
+        <source>Can vary +/- %1 uBTT per input.</source>
+        <translation>Может вариироваться +/- %1 uBTT при вводе</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1165,8 +1165,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DEXERGI address.</source>
-        <translation>Введенный адрес "%1" не является DEXERGI адресом.</translation>
+        <source>The entered address "%1" is not a valid BITSTATS address.</source>
+        <translation>Введенный адрес "%1" не является BITSTATS адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1222,16 +1222,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About DEXERGI Core</source>
-        <translation>О DEXERGI Core</translation>
+        <source>About BITSTATS Core</source>
+        <translation>О BITSTATS Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1277,16 +1277,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to DEXERGI Core.</source>
-        <translation>Добро пожаловать в DEXERGI Core.</translation>
+        <source>Welcome to BITSTATS Core.</source>
+        <translation>Добро пожаловать в BITSTATS Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные DEXERGI Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные BITSTATS Core.</translation>
     </message>
     <message>
-        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DEXERGI Core загрузит и сохранит копию цепочки блоков DEXERGI. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BITSTATS Core загрузит и сохранит копию цепочки блоков BITSTATS. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1297,8 +1297,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1439,12 +1439,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DEXERGI addresses after it matures.
-To Add: enter percentage to give and DEXERGI address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITSTATS addresses after it matures.
+To Add: enter percentage to give and BITSTATS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие DEXERGI адреса.
-Для добавления: введите передаваемый процент и DEXERGI адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие BITSTATS адреса.
+Для добавления: введите передаваемый процент и BITSTATS адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1632,8 +1632,8 @@ Please be patient after clicking import.</source>
         <translation>Адрес/ Сумма:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>Добавить назначение куда отправить DXR</translation>
+        <source>Add destinations to send BTT to</source>
+        <translation>Добавить назначение куда отправить BTT</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1766,8 +1766,8 @@ Please be patient after clicking import.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт DEXERGI через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт BITSTATS через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1786,12 +1786,12 @@ Please be patient after clicking import.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start DEXERGI after logging in to the system.</source>
-        <translation>Автоматически запускать DEXERGI после входа в систему.</translation>
+        <source>Automatically start BITSTATS after logging in to the system.</source>
+        <translation>Автоматически запускать BITSTATS после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start DEXERGI on system login</source>
-        <translation>&amp;Запускать DEXERGI при входе в систему</translation>
+        <source>&amp;Start BITSTATS on system login</source>
+        <translation>&amp;Запускать BITSTATS при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1818,50 +1818,50 @@ Please be patient after clicking import.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска DEXERGI.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска BITSTATS.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</translation>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of DXR units to zDXR</source>
-        <translation>Невозможно автоматически отчеканить единицы DXR для zDXR</translation>
+        <source>Enable automatic minting of BTT units to zBTT</source>
+        <translation>Невозможно автоматически отчеканить единицы BTT для zBTT</translation>
     </message>
     <message>
-        <source>Enable zDXR Automint</source>
-        <translation>Невозможно авточеканка  zDXR</translation>
+        <source>Enable zBTT Automint</source>
+        <translation>Невозможно авточеканка  zBTT</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих DXR, которые автоматически конвертируются в zDXR благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих BTT, которые автоматически конвертируются в zBTT благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXR</source>
-        <translation>Процент  авточеканненых zDXR</translation>
+        <source>Percentage of autominted zBTT</source>
+        <translation>Процент  авточеканненых zBTT</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
-        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно DXR для этой номинации.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
+        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно BTT для этой номинации.</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXR Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zDXR</translation>
+        <source>Preferred Automint zBTT Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zBTT</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Порог разделения доли:</translation>
     </message>
     <message>
-        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети DEXERGI через SOCKS5 прокси.</translation>
+        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети BITSTATS через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2011,8 +2011,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Общий баланс включая все не доступные монеты</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>Баланс DXR</translation>
+        <source>BTT Balance</source>
+        <translation>Баланс BTT</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2035,17 +2035,17 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Текущий заблокированый баланс всех наблюдаемых адресов</translation>
     </message>
     <message>
-        <source>Your current DEXERGI balance, unconfirmed and immature transactions included</source>
-        <translation>Ваш текущий DEXERGI  баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
+        <translation>Ваш текущий BITSTATS  баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>Баланс zDXR</translation>
+        <source>zBTT Balance</source>
+        <translation>Баланс zBTT</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zDXR are spendable.</source>
-        <translation>Зрелые: более 20 подтверждений и более 1 чеканки одного и того же наименования после того, как оно было отчеканено. Эти zDXR можно потратить.</translation>
+These zBTT are spendable.</source>
+        <translation>Зрелые: более 20 подтверждений и более 1 чеканки одного и того же наименования после того, как оно было отчеканено. Эти zBTT можно потратить.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2054,8 +2054,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Незрелый: подтвержден, но менее 1 чеканок того же наименования после того, как он был отчеканен</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью DEXERGI после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью BITSTATS после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2098,8 +2098,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
-        <translation>Заблокированно дополнительное обеспечение DXR или Masternode. Они исключены из чеканки zDXR.</translation>
+        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
+        <translation>Заблокированно дополнительное обеспечение BTT или Masternode. Они исключены из чеканки zBTT.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2110,8 +2110,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Неподтвержденный:</translation>
     </message>
     <message>
-        <source>Your current zDXR balance, unconfirmed and immature zDXR included.</source>
-        <translation>Ваш текущий zDXR баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
+        <translation>Ваш текущий zBTT баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2122,10 +2122,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>несинронизировано</translation>
     </message>
     <message>
-        <source>Current percentage of zDXR.
+        <source>Current percentage of zBTT.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Текущий процент от zDXR.
+        <translation>Текущий процент от zBTT.
 Если АвтоЧеканка включена, этот процент будет располагаться на настроенном проценте АвтоЧеканка  (по умолчанию = 10%).
 </translation>
     </message>
@@ -2134,14 +2134,14 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <translation>Авточеканка в данный момен включена и установлена в</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in dexergi.conf.</source>
-        <translation>To disable AutoMint add 'enablezeromint=0' in dexergi.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</source>
+        <translation>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.conf</source>
         <translation>Авточеканка  в настоящее время отключена.
-Чтобы включить Авточеканку, измените 'enablezeromint = 0' на 'enablezeromint = 1' в файле dexergi.conf</translation>
+Чтобы включить Авточеканку, измените 'enablezeromint = 0' на 'enablezeromint = 1' в файле bitstats.conf</translation>
     </message>
 </context>
 <context>
@@ -2167,12 +2167,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start dexergi: click-to-pay handler</source>
-        <translation>Не удалось запустить dexergi: обработчик click-to-pay </translation>
+        <source>Cannot start bitstats: click-to-pay handler</source>
+        <translation>Не удалось запустить bitstats: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DEXERGI address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный DEXERGI адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BITSTATS address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный BITSTATS адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2257,8 +2257,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>Действия Zerocoin </translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью DEXERGI после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью BITSTATS после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2269,8 +2269,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>КОНФИДЕНЦИАЛЬНОСТЬ</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
-        <translation>Контроль zDXR</translation>
+        <source>zBTT Control</source>
+        <translation>Контроль zBTT</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
-        <translation>Выбрано zDXR:</translation>
+        <source>zBTT Selected:</source>
+        <translation>Выбрано zBTT:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,32 +2317,32 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>Потратить Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending</source>
-        <translation>Доступный (зрелый и расходуемый) zDXR для расходов</translation>
+        <source>Available (mature and spendable) zBTT for spending</source>
+        <translation>Доступный (зрелый и расходуемый) zBTT для расходов</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Доступный Баланс :</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending
+        <source>Available (mature and spendable) zBTT for spending
 
-zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Доступный (зрелый и затратный) zDXR для расходов
+zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Доступный (зрелый и затратный) zBTT для расходов
 
-zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
+zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zBTT</source>
+        <translation>0 zBTT</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Оплатить &amp;кому:</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Адрес DEXERGI для отправки платежа. Создает локальный платеж себе, когда он пуст.</translation>
+        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Адрес BITSTATS для отправки платежа. Создает локальный платеж себе, когда он пуст.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2393,8 +2393,8 @@ zDXR are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDXR</source>
-        <translation>Общий баланс, включая неподтвержденные и незрелые zDXR</translation>
+        <source>Total Balance including unconfirmed and immature zBTT</source>
+        <translation>Общий баланс, включая неподтвержденные и незрелые zBTT</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Незрелый: подтвержден, но менее 1 чеканок того же наименования после того, как он был отчеканен</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zDXR minting.
+        <source>Show the current status of automatic zBTT minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to dexergi.conf
-- disable: add 'enablezeromint=0' to dexergi.conf
+- enable: add 'enablezeromint=1' to bitstats.conf
+- disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zDXR
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
 
 </source>
-        <translation>Показать текущий статус автоматической чеканки zDXR.
+        <translation>Показать текущий статус автоматической чеканки zBTT.
 
 Чтобы изменить статус (требуется перезагрузка):
-- включить: добавить 'enablezeromint = 1' в dexergi.conf
-- отключить: добавить 'enablezeromint = 0' в dexergi.conf
+- включить: добавить 'enablezeromint = 1' в bitstats.conf
+- отключить: добавить 'enablezeromint = 0' в bitstats.conf
 
 Чтобы изменить процент (не требуется перезагрузка):
-- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zDXR</translation>
+- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zBTT</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2605,12 +2605,12 @@ Please be patient...</source>
 Будьте терпеливы ...</translation>
     </message>
     <message>
-        <source>zDXR Spend #: </source>
-        <translation>zDXR Тратить #: </translation>
+        <source>zBTT Spend #: </source>
+        <translation>zBTT Тратить #: </translation>
     </message>
     <message>
-        <source>zDXR Mint</source>
-        <translation>чеканка zDXR</translation>
+        <source>zBTT Mint</source>
+        <translation>чеканка zBTT</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2625,12 +2625,12 @@ Please be patient...</source>
         <translation> Настроенный целевой процент: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zDXR is currently disabled due to maintenance.</source>
-        <translation>zDXR в настоящее время отключен от обслуживания.</translation>
+        <source>zBTT is currently disabled due to maintenance.</source>
+        <translation>zBTT в настоящее время отключен от обслуживания.</translation>
     </message>
     <message>
-        <source>zDXR is currently undergoing maintenance.</source>
-        <translation>В настоящее время zDXR проходит техническое обслуживание.</translation>
+        <source>zBTT is currently undergoing maintenance.</source>
+        <translation>В настоящее время zBTT проходит техническое обслуживание.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2719,8 +2719,8 @@ Please be patient...</source>
         <translation>Не предоставляется адрес «Pay To», создающий местный платеж</translation>
     </message>
     <message>
-        <source>Invalid DEXERGI Address</source>
-        <translation>неправильный DEXERGI адрес</translation>
+        <source>Invalid BITSTATS Address</source>
+        <translation>неправильный BITSTATS адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2797,8 +2797,8 @@ Please be patient...</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI address (e.g. %1)</source>
-        <translation>Введите адрес DEXERGI (например %1)</translation>
+        <source>Enter a BITSTATS address (e.g. %1)</source>
+        <translation>Введите адрес BITSTATS (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2841,8 +2841,8 @@ Please be patient...</source>
         <translation>%1 мс</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     </context>
 <context>
@@ -2939,8 +2939,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the DEXERGI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки DEXERGI. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки BITSTATS. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3075,8 +3075,8 @@ Please be patient...</source>
         <translation>Пользовательский путь резервного копирования:</translation>
     </message>
     <message>
-        <source>Custom zDXR Backup Path:</source>
-        <translation>Пользовательский путь резервного копирования zDXR:</translation>
+        <source>Custom zBTT Backup Path:</source>
+        <translation>Пользовательский путь резервного копирования zBTT:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3156,8 +3156,8 @@ Please be patient...</source>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the DEXERGI RPC console.</source>
-        <translation>Добро пожаловать в окружение DEXERGI RPC.</translation>
+        <source>Welcome to the BITSTATS RPC console.</source>
+        <translation>Добро пожаловать в окружение BITSTATS RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3283,16 +3283,16 @@ Please be patient...</source>
         <translation>С&amp;умма:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DEXERGI network.</source>
-        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. Примечание. Сообщение не будет отправлено с оплатой через сеть DEXERGI.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
+        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. Примечание. Сообщение не будет отправлено с оплатой через сеть BITSTATS.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ПОЛУЧАТЬ</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DEXERGI network.</source>
-        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. &lt;br&gt;Примечание. Сообщение не будет отправлено с оплатой через сеть DEXERGI.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
+        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. &lt;br&gt;Примечание. Сообщение не будет отправлено с оплатой через сеть BITSTATS.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3524,8 +3524,8 @@ Please be patient...</source>
         <translation>UTXO Размер:</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 BTT</source>
+        <translation>0 BTT</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3580,16 +3580,16 @@ Please be patient...</source>
         <translation>Монеты автоматически выбираются</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если пользовательская плата установлена в 1000 uDXRs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uDXRs,&lt;br /&gt;а «по крайней мере» платит 1000 uDXR. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если пользовательская плата установлена в 1000 uBTTs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uBTTs,&lt;br /&gt;а «по крайней мере» платит 1000 uBTT. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "total at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если пользовательская плата установлена в 1000 uDXRs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uDXRs,&lt;br /&gt;а «по крайней мере» платит 1000 uDXR. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если пользовательская плата установлена в 1000 uBTTs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uBTTs,&lt;br /&gt;а «по крайней мере» платит 1000 uBTT. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
-        <translation>Платить только минимальную плату просто отлично, если в блоке меньше объема транзакции, чем места в блоке.&lt;br /&gt; Но имейте в виду, что это может закончиться никогда не подтверждающей транзакцией, если будет больше спроса на транзакции DEXERGI, чем сеть может обрабатывать.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
+        <translation>Платить только минимальную плату просто отлично, если в блоке меньше объема транзакции, чем места в блоке.&lt;br /&gt; Но имейте в виду, что это может закончиться никогда не подтверждающей транзакцией, если будет больше спроса на транзакции BITSTATS, чем сеть может обрабатывать.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3636,8 +3636,8 @@ Please be patient...</source>
         <translation>Добавить &amp;Получателя</translation>
     </message>
     <message>
-        <source>Anonymized DXR</source>
-        <translation>Анонимный DXR</translation>
+        <source>Anonymized BTT</source>
+        <translation>Анонимный BTT</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3684,8 +3684,8 @@ Please be patient...</source>
         <translation>Инструмент разделения блоков не работает с несколькими адресами. Попробуй еще раз.</translation>
     </message>
     <message>
-        <source>Warning: Invalid DEXERGI address</source>
-        <translation>Предупреждение: неправильный DEXERGI адрес</translation>
+        <source>Warning: Invalid BITSTATS address</source>
+        <translation>Предупреждение: неправильный BITSTATS адрес</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3783,8 +3783,8 @@ Please be patient...</source>
         <translation>Оплатить &amp;кому:</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to</source>
-        <translation>Адрес DEXERGI для отправки платежа</translation>
+        <source>The BITSTATS address to send the payment to</source>
+        <translation>Адрес BITSTATS для отправки платежа</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3823,8 +3823,8 @@ Please be patient...</source>
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the DEXERGI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DEXERGI network.</source>
-        <translation>Сообщение, которое было прикреплено к URI DEXERGI: URI, который будет сохранен с транзакцией для вашей справки. Примечание. Это сообщение не будет отправлено через сеть DEXERGI.</translation>
+        <source>A message that was attached to the BITSTATS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BITSTATS network.</source>
+        <translation>Сообщение, которое было прикреплено к URI BITSTATS: URI, который будет сохранен с транзакцией для вашей справки. Примечание. Это сообщение не будет отправлено через сеть BITSTATS.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3850,8 +3850,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DEXERGI Core is shutting down...</source>
-        <translation>DEXERGI Core выключается...</translation>
+        <source>BITSTATS Core is shutting down...</source>
+        <translation>BITSTATS Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3873,8 +3873,8 @@ Please be patient...</source>
         <translation>Вы можете подписывать сообщения с вашими адресами, чтобы доказать, что вы ими владеете. Будьте осторожны, чтобы не подписывать ничего неопределенного, поскольку фишинг-атаки могут попытаться обмануть вас, подписав вашу личность на них. Подпишите только полные подробные заявления, с которыми вы согласны.</translation>
     </message>
     <message>
-        <source>The DEXERGI address to sign the message with</source>
-        <translation>Адрес DEXERGI для подписи сообщения с помощью</translation>
+        <source>The BITSTATS address to sign the message with</source>
+        <translation>Адрес BITSTATS для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3905,16 +3905,16 @@ Please be patient...</source>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DEXERGI address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес DEXERGI</translation>
+        <source>Sign the message to prove you own this BITSTATS address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес BITSTATS</translation>
     </message>
     <message>
-        <source>The DEXERGI address the message was signed with</source>
-        <translation>Адрес DEXERGI, которым подписано сообщение</translation>
+        <source>The BITSTATS address the message was signed with</source>
+        <translation>Адрес BITSTATS, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным DEXERGI адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным BITSTATS адресом </translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4000,8 +4000,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4016,8 +4016,8 @@ Please be patient...</source>
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The DEXERGI Core developers</source>
-        <translation>Разработчики DEXERGI Core</translation>
+        <source>The BITSTATS Core developers</source>
+        <translation>Разработчики BITSTATS Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4280,12 +4280,12 @@ Please be patient...</source>
         <translation>Получено через обфускацию</translation>
     </message>
     <message>
-        <source>DXR Stake</source>
-        <translation>Доля DXR</translation>
+        <source>BTT Stake</source>
+        <translation>Доля BTT</translation>
     </message>
     <message>
-        <source>zDXR Stake</source>
-        <translation>Доля zDXR</translation>
+        <source>zBTT Stake</source>
+        <translation>Доля zBTT</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4304,32 +4304,32 @@ Please be patient...</source>
         <translation>Обфускация Создание конфессий</translation>
     </message>
     <message>
-        <source>Converted DXR to zDXR</source>
-        <translation>Преобразованный DXR в zDXR</translation>
+        <source>Converted BTT to zBTT</source>
+        <translation>Преобразованный BTT в zBTT</translation>
     </message>
     <message>
-        <source>Spent zDXR</source>
-        <translation>потраченный zDXR</translation>
+        <source>Spent zBTT</source>
+        <translation>потраченный zBTT</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
-        <translation>Полученный DXR от zDXR</translation>
+        <source>Received BTT from zBTT</source>
+        <translation>Полученный BTT от zBTT</translation>
     </message>
     <message>
-        <source>Minted Change as zDXR from zDXR Spend</source>
-        <translation>созданная  замена  zDXR из потраенного zDXR </translation>
+        <source>Minted Change as zBTT from zBTT Spend</source>
+        <translation>созданная  замена  zBTT из потраенного zBTT </translation>
     </message>
     <message>
-        <source>Converted zDXR to DXR</source>
-        <translation>Преобразованный zDXR to DXR</translation>
+        <source>Converted zBTT to BTT</source>
+        <translation>Преобразованный zBTT to BTT</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Transaction)</source>
-        <translation>Анонимный (транзакция zDXR)</translation>
+        <source>Anonymous (zBTT Transaction)</source>
+        <translation>Анонимный (транзакция zBTT)</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Stake)</source>
-        <translation>Анонимный (ставка zDXR)</translation>
+        <source>Anonymous (zBTT Stake)</source>
+        <translation>Анонимный (ставка zBTT)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4539,12 +4539,12 @@ Please be patient...</source>
         <translation>Экспортирование произошло успешно</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
-        <translation>Полученный DXR от zDXR</translation>
+        <source>Received BTT from zBTT</source>
+        <translation>Полученный BTT от zBTT</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zDXR</source>
-        <translation>Потратить Zerocoin, Преобразовать в zDXR</translation>
+        <source>Zerocoin Spend, Change in zBTT</source>
+        <translation>Потратить Zerocoin, Преобразовать в zBTT</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4580,8 +4580,8 @@ Please be patient...</source>
         <translation>Отправить Монеты</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
-        <translation>SwiftX не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 DXR.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
+        <translation>SwiftX не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 BTT.</translation>
     </message>
 </context>
 <context>
@@ -4614,8 +4614,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zDXR to Spend</source>
-        <translation>Выберите zDXR чтобы потратить</translation>
+        <source>Select zBTT to Spend</source>
+        <translation>Выберите zBTT чтобы потратить</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4626,8 +4626,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4635,7 +4635,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = сохранить tx метаданные, например, владельца учетной записи и информацию о запросе платежа, 2 = удалить tx метаданные)</translation>
@@ -4661,8 +4661,8 @@ Please be patient...</source>
         <translation>Расчетная контрольная точка  не является тем, что регистрируется блочным индексом</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. DEXERGI Core is probably already running.</source>
-        <translation>Не удается получить блокировку в каталоге данных %s. DEXERGI Core, вероятно, уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. BITSTATS Core is probably already running.</source>
+        <translation>Не удается получить блокировку в каталоге данных %s. BITSTATS Core, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4689,16 +4689,16 @@ Please be patient...</source>
         <translation>Распространяется по лицензии программного обеспечения MIT, см. Сопроводительный файл COPYING или &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</source>
-        <translation>Включить автоматическое резервное копирование кошелька, запускаемое после каждого чеканки zDXR (0-1, по умолчанию: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</source>
+        <translation>Включить автоматическое резервное копирование кошелька, запускаемое после каждого чеканки zBTT (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</source>
-        <translation>Включение или отключение функций разбивки для входов DXR (0-1, по умолчанию: %u)</translation>
+        <source>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</source>
+        <translation>Включение или отключение функций разбивки для входов BTT (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</source>
-        <translation>Включение или отключение функций разбивки для входов zDXR (0-1, по умолчанию: %u)</translation>
+        <source>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</source>
+        <translation>Включение или отключение функций разбивки для входов zBTT (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4733,12 +4733,12 @@ Please be patient...</source>
         <translation>Выполнить команду, когда лучший блок изменяется (%s в cmd заменяется блочным хэшем)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Тарифы (в DXR / Kb), меньшие, чем это, считаются нулевой комиссией за ретрансляцию (по умолчанию: %s)</translation>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Тарифы (в BTT / Kb), меньшие, чем это, считаются нулевой комиссией за ретрансляцию (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Плата (в DXR / Kb) меньше этого считается нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Плата (в BTT / Kb) меньше этого считается нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4833,20 +4833,20 @@ Please be patient...</source>
         <translation>Этот продукт включает программное обеспечение, разработанное OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографическом программном обеспечении, написанном Эриком Яном и программным обеспечением UPnP, написанным Томасом Бернардом.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. DEXERGI Core is probably already running.</source>
-        <translation>Не удалось привязать к %s на этом компьютере. DEXERGI Core, вероятно, уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. BITSTATS Core is probably already running.</source>
+        <translation>Не удалось привязать к %s на этом компьютере. BITSTATS Core, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Не удалось найти достаточное количество средств, предназначенных для обфускации, для этой транзакции.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>Невозможно найти достаточное количество средств, не предназначенных для обфускации, для этой транзакции, которые не равны 10000 DXR.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</source>
+        <translation>Невозможно найти достаточное количество средств, не предназначенных для обфускации, для этой транзакции, которые не равны 10000 BTT.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>Не удалось найти достаточное количество средств для этой транзакции, которые не равны 10000 DXR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</source>
+        <translation>Не удалось найти достаточное количество средств для этой транзакции, которые не равны 10000 BTT.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4861,8 +4861,8 @@ Please be patient...</source>
         <translation>Предупреждение: -paytxfee установлен очень высоко! Это комиссия за транзакцию, которую вы заплатите, если вы отправляете транзакцию.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DEXERGI Core will not work properly.</source>
-        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, DEXERGI Core не будет работать должным образом.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BITSTATS Core will not work properly.</source>
+        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, BITSTATS Core не будет работать должным образом.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4993,8 +4993,8 @@ Please be patient...</source>
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DEXERGI Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики DEXERGI Core</translation>
+        <source>Copyright (C) 2015-%i The BITSTATS Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики BITSTATS Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5073,8 +5073,8 @@ Please be patient...</source>
         <translation>Ошибка при загрузке wallet.dat: Кошелек поврежден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DEXERGI Core</source>
-        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новой версии DEXERGI Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BITSTATS Core</source>
+        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новой версии BITSTATS Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5129,8 +5129,8 @@ Please be patient...</source>
         <translation>Не удалось прочитать блок</translation>
     </message>
     <message>
-        <source>Fee (in DXR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Плата (в DXR / kB) для добавления к транзакциям, которые вы отправляете (по умолчанию: %s)</translation>
+        <source>Fee (in BTT/kB) to add to transactions you send (default: %s)</source>
+        <translation>Плата (в BTT / kB) для добавления к транзакциям, которые вы отправляете (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5169,8 +5169,8 @@ Please be patient...</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. DEXERGI Core is shutting down.</source>
-        <translation>Инициализация проверки работоспособности не удалась. DEXERGI Core отключается.</translation>
+        <source>Initialization sanity check failed. BITSTATS Core is shutting down.</source>
+        <translation>Инициализация проверки работоспособности не удалась. BITSTATS Core отключается.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5233,8 +5233,8 @@ Please be patient...</source>
         <translation>Процент автоматически отчеканенного Zerocoin (1-100, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Reindex the DXR and zDXR money supply statistics</source>
-        <translation>Reindex статистика денежной массы DXR и zDXR</translation>
+        <source>Reindex the BTT and zBTT money supply statistics</source>
+        <translation>Reindex статистика денежной массы BTT и zBTT</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5273,8 +5273,8 @@ Please be patient...</source>
 </translation>
     </message>
     <message>
-        <source>Disable all DEXERGI specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Отключите все специфические функции DEXERGI (Masternodes, Zerocoin, SwiftX, Бюджетирование) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all BITSTATS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Отключите все специфические функции BITSTATS (Masternodes, Zerocoin, SwiftX, Бюджетирование) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5309,8 +5309,8 @@ Please be patient...</source>
         <translation>Предпочтительный номинал для автоматически чеканившегося Zerocoin (1/5/10/50/100/500/1000/5000), 0 без предпочтений. default: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Укажите собственный путь резервного копирования, чтобы добавить копию любой автоматической резервной копии zDXR. Если задано как dir, каждая резервная копия генерирует файл с отметкой времени. Если он установлен как файл, он будет переписывать в этот файл каждую резервную копию. Если также установлен резервный путь, произойдет 4 резервных копии</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Укажите собственный путь резервного копирования, чтобы добавить копию любой автоматической резервной копии zBTT. Если задано как dir, каждая резервная копия генерирует файл с отметкой времени. Если он установлен как файл, он будет переписывать в этот файл каждую резервную копию. Если также установлен резервный путь, произойдет 4 резервных копии</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5721,8 +5721,8 @@ Please be patient...</source>
         <translation>Синхронизация спорков ...</translation>
     </message>
     <message>
-        <source>Syncing zDXR wallet...</source>
-        <translation>Синхронизация zDXR кошелька ...</translation>
+        <source>Syncing zBTT wallet...</source>
+        <translation>Синхронизация zBTT кошелька ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5829,7 +5829,7 @@ Please be patient...</source>
         <translation>Имя пользователя для соединений JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zDXR</source>
+        <source>Value is below the smallest available denomination (= 1) of zBTT</source>
         <translation>Значение ниже наименьшего доступного номинала (= 1) zPiv</translation>
     </message>
     <message>
@@ -5845,8 +5845,8 @@ Please be patient...</source>
         <translation>Кошелек %s находится за пределами каталога данных %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DEXERGI Core to complete</source>
-        <translation>Кошелек необходимо переписать: перезапустите DEXERGI Core, чтобы завершить</translation>
+        <source>Wallet needed to be rewritten: restart BITSTATS Core to complete</source>
+        <translation>Кошелек необходимо переписать: перезапустите BITSTATS Core, чтобы завершить</translation>
     </message>
     <message>
         <source>Wallet options:</source>

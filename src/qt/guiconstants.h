@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
@@ -14,7 +14,7 @@ static const int MODEL_UPDATE_DELAY = 1000;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* DEXERGI GUI -- Size of icons in status bar */
+/* BITSTATS GUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -54,9 +54,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "DEXERGI"
-#define QAPP_ORG_DOMAIN "dexergi.org"
-#define QAPP_APP_NAME_DEFAULT "DEXERGI-Qt"
-#define QAPP_APP_NAME_TESTNET "DEXERGI-Qt-testnet"
+#define QAPP_ORG_NAME "BITSTATS"
+#define QAPP_ORG_DOMAIN "bitstats.org"
+#define QAPP_APP_NAME_DEFAULT "BITSTATS-Qt"
+#define QAPP_APP_NAME_TESTNET "BITSTATS-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

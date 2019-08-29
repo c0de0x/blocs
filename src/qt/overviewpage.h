@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2013 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -62,7 +62,7 @@ private:
     CAmount currentWatchUnconfBalance;
     CAmount currentWatchImmatureBalance;
     int nDisplayUnit;
-    void getPercentage(CAmount nTotalBalance, CAmount nZerocoinBalance, QString& sDXRPercentage, QString& szDXRPercentage);
+    void getPercentage(CAmount nTotalBalance, CAmount nZerocoinBalance, QString& sBTTPercentage, QString& szBTTPercentage);
 
     TxViewDelegate* txdelegate;
     TransactionFilterProxy* filter;

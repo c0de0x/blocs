@@ -1,6 +1,6 @@
 [Protocol]
-exec=dexergi-qt '%u'
-protocol=dexergi
+exec=bitstats-qt '%u'
+protocol=bitstats
 input=none
 output=none
 helper=true

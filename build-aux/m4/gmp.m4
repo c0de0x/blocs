@@ -1,4 +1,4 @@
-dnl Copyright (c) 2018 The DEXERGI Core developers
+dnl Copyright (c) 2018 The BITSTATS Core developers
 dnl Distributed under the MIT software license, see the accompanying
 dnl file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

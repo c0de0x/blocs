@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2013 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -39,9 +39,9 @@ public:
         Encrypt,        /** Encrypt unencrypted wallet */
         ToggleLock,     /** Toggle wallet lock state */
         ChangePass,     /** Change passphrase */
-        Send_DXR,       /** Send DXR */
-        Send_zDXR,      /** Send zDXR */
-        Mint_zDXR,      /** Mint zDXR */
+        Send_BTT,       /** Send BTT */
+        Send_zBTT,      /** Send zBTT */
+        Mint_zBTT,      /** Mint zBTT */
         BIP_38,         /** BIP38 menu */
         Multi_Sig,      /** Multi-Signature dialog */
         Sign_Message,   /** Sign/verify message dialog */

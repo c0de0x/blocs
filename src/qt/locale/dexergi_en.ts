@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -326,12 +326,12 @@
     </message>
     <message>
         <location line="-424"/>
-        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>The DEXERGI address to encrypt</source>
+        <source>The BITSTATS address to encrypt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -375,7 +375,7 @@
     </message>
     <message>
         <location line="+18"/>
-        <source>Encrypt the private key for this DEXERGI address</source>
+        <source>Encrypt the private key for this BITSTATS address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -557,7 +557,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zDXR</source>
+        <source>Privacy Actions for zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -841,17 +841,17 @@
     <message>
         <location line="-448"/>
         <location line="+938"/>
-        <source>DEXERGI Core</source>
+        <source>BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-742"/>
-        <source>Send coins to a DEXERGI address</source>
+        <source>Send coins to a BITSTATS address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and dexergi: URIs)</source>
+        <source>Request payments (generates QR codes and bitstats: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,27 +871,27 @@
     </message>
     <message>
         <location line="+43"/>
-        <source>&amp;About DEXERGI Core</source>
+        <source>&amp;About BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about DEXERGI Core</source>
+        <source>Show information about BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Modify configuration options for DEXERGI</source>
+        <source>Modify configuration options for BITSTATS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
+        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
+        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -931,7 +931,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a DEXERGI: URI or payment request</source>
+        <source>Open a BITSTATS: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -946,17 +946,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
+        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+234"/>
-        <source>DEXERGI Core client</source>
+        <source>BITSTATS Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+219"/>
-        <source>%n active connection(s) to DEXERGI network</source>
+        <source>%n active connection(s) to BITSTATS network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1128,8 +1128,8 @@ Address: %4
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../dexergi.cpp" line="+478"/>
-        <source>A fatal error occurred. DEXERGI can no longer continue safely and will quit.</source>
+        <location filename="../bitstats.cpp" line="+478"/>
+        <source>A fatal error occurred. BITSTATS can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1167,7 +1167,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+480"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1467,7 +1467,7 @@ Address: %4
     </message>
     <message>
         <location line="+8"/>
-        <source>Can vary +/- %1 uDXR per input.</source>
+        <source>Can vary +/- %1 uBTT per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1536,7 +1536,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid DEXERGI address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid BITSTATS address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1650,7 +1650,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>DEXERGI Core</source>
+        <source>BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1661,7 +1661,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About DEXERGI Core</source>
+        <source>About BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1719,17 +1719,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to DEXERGI Core.</source>
+        <source>Welcome to BITSTATS Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1744,7 +1744,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>DEXERGI Core</source>
+        <source>BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1920,8 +1920,8 @@ Address: %4
     </message>
     <message>
         <location line="-106"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DEXERGI addresses after it matures.
-To Add: enter percentage to give and DEXERGI address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITSTATS addresses after it matures.
+To Add: enter percentage to give and BITSTATS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -2242,7 +2242,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send DXR to</source>
+        <source>Add destinations to send BTT to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2408,7 +2408,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2433,12 +2433,12 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="-236"/>
-        <source>Automatically start DEXERGI after logging in to the system.</source>
+        <source>Automatically start BITSTATS after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DEXERGI on system login</source>
+        <source>&amp;Start BITSTATS on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2473,13 +2473,13 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2489,17 +2489,17 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
     </message>
     <message>
         <location line="-187"/>
-        <source>Enable automatic minting of DXR units to zDXR</source>
+        <source>Enable automatic minting of BTT units to zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Enable zDXR Automint</source>
+        <source>Enable zBTT Automint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Enable automatic zDXR minting from specific addresses</source>
+        <source>Enable automatic zBTT minting from specific addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,23 +2509,23 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
     </message>
     <message>
         <location line="+11"/>
-        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zDXR</source>
+        <source>Percentage of autominted zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zDXR Denomination</source>
+        <source>Preferred Automint zBTT Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2535,7 +2535,7 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
     </message>
     <message>
         <location line="+98"/>
-        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
+        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2744,7 +2744,7 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
     </message>
     <message>
         <location line="+71"/>
-        <source>DXR Balance</source>
+        <source>BTT Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2776,19 +2776,19 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
     <message>
         <location line="+16"/>
         <location line="+19"/>
-        <source>Your current DEXERGI balance, unconfirmed and immature transactions included</source>
+        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+96"/>
-        <source>zDXR Balance</source>
+        <source>zBTT Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+53"/>
         <location line="+17"/>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zDXR are spendable.</source>
+These zBTT are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2803,7 +2803,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="-725"/>
         <location line="+852"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2861,7 +2861,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+191"/>
         <location line="+19"/>
-        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
+        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2877,7 +2877,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+58"/>
         <location line="+19"/>
-        <source>Your current zDXR balance, unconfirmed and immature zDXR included.</source>
+        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2893,7 +2893,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+111"/>
-        <source>Current percentage of zDXR.
+        <source>Current percentage of zBTT.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2905,13 +2905,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in dexergi.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in bitstats.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in dexergi.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in bitstats.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2951,12 +2951,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-104"/>
-        <source>Cannot start dexergi: click-to-pay handler</source>
+        <source>Cannot start bitstats: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+110"/>
-        <source>URI cannot be parsed! This can be caused by an invalid DEXERGI address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid BITSTATS address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3064,7 +3064,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+10"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3080,7 +3080,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+229"/>
-        <source>zDXR</source>
+        <source>zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3115,12 +3115,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+462"/>
-        <source>zDXR Control</source>
+        <source>zBTT Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zDXR Selected:</source>
+        <source>zBTT Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3145,7 +3145,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zDXR for spending</source>
+        <source>Available (mature and spendable) zBTT for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3155,9 +3155,9 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zDXR for spending
+        <source>Available (mature and spendable) zBTT for spending
 
-zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3174,7 +3174,7 @@ zDXR are mature when they have more than 20 confirmations AND more than 2 mints 
         <location line="+31"/>
         <location line="+31"/>
         <location line="+31"/>
-        <source>0 zDXR</source>
+        <source>0 zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3184,7 +3184,7 @@ zDXR are mature when they have more than 20 confirmations AND more than 2 mints 
     </message>
     <message>
         <location line="+27"/>
-        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3252,7 +3252,7 @@ zDXR are mature when they have more than 20 confirmations AND more than 2 mints 
         <location line="+25"/>
         <location line="+704"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zDXR</source>
+        <source>Total Balance including unconfirmed and immature zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3286,14 +3286,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+40"/>
-        <source>Show the current status of automatic zDXR minting.
+        <source>Show the current status of automatic zBTT minting.
 
 To change the status (restart required):
-- enable: add &apos;enablezeromint=1&apos; to dexergi.conf
-- disable: add &apos;enablezeromint=0&apos; to dexergi.conf
+- enable: add &apos;enablezeromint=1&apos; to bitstats.conf
+- disable: add &apos;enablezeromint=0&apos; to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zDXR
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
 
 </source>
         <translation type="unfinished"></translation>
@@ -3363,7 +3363,7 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="-1092"/>
-        <source>Show zDXR denominations list</source>
+        <source>Show zBTT denominations list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3373,12 +3373,12 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="+29"/>
-        <source>zDXR minting is DISABLED</source>
+        <source>zBTT minting is DISABLED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+131"/>
-        <source>zDXR spending is NOT private (links back to the mint transaction)</source>
+        <source>zBTT spending is NOT private (links back to the mint transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3544,12 +3544,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+240"/>
-        <source>zDXR Spend #: </source>
+        <source>zBTT Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>zDXR Mint</source>
+        <source>zBTT Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3569,12 +3569,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+17"/>
-        <source>zDXR is currently disabled due to maintenance.</source>
+        <source>zBTT is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-537"/>
-        <source>zDXR is currently undergoing maintenance.</source>
+        <source>zBTT is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3690,7 +3690,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Invalid DEXERGI Address</source>
+        <source>Invalid BITSTATS Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3874,7 +3874,7 @@ Please be patient...</source>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+105"/>
-        <source>Enter a DEXERGI address (e.g. %1)</source>
+        <source>Enter a BITSTATS address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3934,11 +3934,11 @@ Please be patient...</source>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <location filename="../dexergi.cpp" line="+75"/>
+        <location filename="../bitstats.cpp" line="+75"/>
         <location line="+7"/>
         <location line="+13"/>
         <location line="+19"/>
-        <source>DEXERGI Core</source>
+        <source>BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3963,7 +3963,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+40"/>
-        <source>DEXERGI Core didn&apos;t yet exit safely...</source>
+        <source>BITSTATS Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4115,7 +4115,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the DEXERGI debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4287,7 +4287,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+29"/>
-        <source>Custom zDXR Backup Path:</source>
+        <source>Custom zBTT Backup Path:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4387,7 +4387,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="-39"/>
-        <source>Welcome to the DEXERGI RPC console.</source>
+        <source>Welcome to the BITSTATS RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4572,7 +4572,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+26"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DEXERGI network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4582,7 +4582,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+182"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DEXERGI network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4880,12 +4880,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 DXR</source>
+        <source>0 BTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+149"/>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 DXR applies</source>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BTT applies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4955,18 +4955,18 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1026"/>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDXRs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uBTTs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDXRs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uBTTs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5026,7 +5026,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized DXR</source>
+        <source>Anonymized BTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5086,7 +5086,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+653"/>
-        <source>Warning: Invalid DEXERGI address</source>
+        <source>Warning: Invalid BITSTATS address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5225,7 +5225,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The DEXERGI address to send the payment to</source>
+        <source>The BITSTATS address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5279,7 +5279,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the DEXERGI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DEXERGI network.</source>
+        <source>A message that was attached to the BITSTATS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BITSTATS network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5314,7 +5314,7 @@ Please be patient...</source>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>DEXERGI Core is shutting down...</source>
+        <source>BITSTATS Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5342,7 +5342,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>The DEXERGI address to sign the message with</source>
+        <source>The BITSTATS address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5384,17 +5384,17 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>Sign the message to prove you own this DEXERGI address</source>
+        <source>Sign the message to prove you own this BITSTATS address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+103"/>
-        <source>The DEXERGI address the message was signed with</source>
+        <source>The BITSTATS address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
+        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5509,7 +5509,7 @@ Please be patient...</source>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>DEXERGI Core</source>
+        <source>BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5529,7 +5529,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>The DEXERGI Core developers</source>
+        <source>The BITSTATS Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5906,12 +5906,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>DXR Stake</source>
+        <source>BTT Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>zDXR Stake</source>
+        <source>zBTT Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5936,37 +5936,37 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Converted DXR to zDXR</source>
+        <source>Converted BTT to zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zDXR</source>
+        <source>Spent zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received DXR from zDXR</source>
+        <source>Received BTT from zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zDXR from zDXR Spend</source>
+        <source>Minted Change as zBTT from zBTT Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zDXR to DXR</source>
+        <source>Converted zBTT to BTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+56"/>
-        <source>Anonymous (zDXR Transaction)</source>
+        <source>Anonymous (zBTT Transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Anonymous (zDXR Stake)</source>
+        <source>Anonymous (zBTT Stake)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6235,12 +6235,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="-310"/>
-        <source>Received DXR from zDXR</source>
+        <source>Received BTT from zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Zerocoin Spend, Change in zDXR</source>
+        <source>Zerocoin Spend, Change in zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6287,7 +6287,7 @@ Please be patient...</source>
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6328,7 +6328,7 @@ Please be patient...</source>
     <name>ZPivControlDialog</name>
     <message>
         <location filename="../forms/zpivcontroldialog.ui" line="+20"/>
-        <source>Select zDXR to Spend</source>
+        <source>Select zBTT to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6344,7 +6344,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="-7"/>
-        <source>zDXR</source>
+        <source>zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6359,9 +6359,9 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     <message>
-        <location filename="../dexergistrings.cpp" line="+15"/>
+        <location filename="../bitstatsstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -6392,7 +6392,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. DEXERGI Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. BITSTATS Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6432,17 +6432,17 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6487,12 +6487,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+8"/>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6637,7 +6637,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. DEXERGI Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. BITSTATS Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6647,12 +6647,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXR.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6672,7 +6672,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DEXERGI Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BITSTATS Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6852,7 +6852,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The DEXERGI Core Developers</source>
+        <source>Copyright (C) 2015-%i The BITSTATS Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6917,7 +6917,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Enable precomputation of zDXR spends and stakes (0-1, default %u)</source>
+        <source>Enable precomputation of zBTT spends and stakes (0-1, default %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6962,7 +6962,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DEXERGI Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of BITSTATS Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7032,7 +7032,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Fee (in DXR/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in BTT/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7082,7 +7082,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. DEXERGI Core is shutting down.</source>
+        <source>Initialization sanity check failed. BITSTATS Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7162,22 +7162,22 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>Recalculating DXR supply...</source>
+        <source>Recalculating BTT supply...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Recalculating minted ZDXR...</source>
+        <source>Recalculating minted ZBTT...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Recalculating spent ZDXR...</source>
+        <source>Recalculating spent ZBTT...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Reindex the DXR and zDXR money supply statistics</source>
+        <source>Reindex the BTT and zBTT money supply statistics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7229,7 +7229,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+38"/>
-        <source>Disable all DEXERGI specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all BITSTATS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7274,7 +7274,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+27"/>
-        <source>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <source>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7824,7 +7824,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Syncing zDXR wallet...</source>
+        <source>Syncing zBTT wallet...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7964,7 +7964,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Value is below the smallest available denomination (= 1) of zDXR</source>
+        <source>Value is below the smallest available denomination (= 1) of zBTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7984,7 +7984,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart DEXERGI Core to complete</source>
+        <source>Wallet needed to be rewritten: restart BITSTATS Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 /**
  * @file       Coin.h
  *
@@ -10,7 +10,7 @@
  * @copyright  Copyright 2013 Ian Miers, Christina Garman and Matthew Green
  * @license    This project is released under the MIT license.
  **/
-// Copyright (c) 2017-2019 The DEXERGI developers
+// Copyright (c) 2017-2019 The BITSTATS developers
 
 #ifndef COIN_H_
 #define COIN_H_

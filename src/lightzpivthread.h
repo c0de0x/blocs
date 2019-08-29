@@ -1,11 +1,11 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
 
-#ifndef DEXERGI_LIGHTZDXRTHREAD_H
-#define DEXERGI_LIGHTZDXRTHREAD_H
+#ifndef BITSTATS_LIGHTZBTTTHREAD_H
+#define BITSTATS_LIGHTZBTTTHREAD_H
 
 #include <atomic>
 #include "genwit.h"
@@ -43,7 +43,7 @@ public:
 
     bool addWitWork(CGenWit wit) {
         if (!isWorkerRunning) {
-            LogPrintf("%s not running trying to add wit work \n", "dexergi-light-thread");
+            LogPrintf("%s not running trying to add wit work \n", "bitstats-light-thread");
             return false;
         }
         requestsQueue.push(wit);
@@ -51,21 +51,21 @@ public:
     }
 
     void StartLightZpivThread(boost::thread_group& threadGroup) {
-        LogPrintf("%s thread start\n", "dexergi-light-thread");
-        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZDXRSimplified, this));
+        LogPrintf("%s thread start\n", "bitstats-light-thread");
+        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZBTTSimplified, this));
     }
 
     void StopLightZpivThread() {
         threadIns.interrupt();
-        LogPrintf("%s thread interrupted\n", "dexergi-light-thread");
+        LogPrintf("%s thread interrupted\n", "bitstats-light-thread");
     }
 
 private:
 
-    void ThreadLightZDXRSimplified();
+    void ThreadLightZBTTSimplified();
 
     void rejectWork(CGenWit& wit, int blockHeight, uint32_t errorNumber);
 
 };
 
-#endif //DEXERGI_LIGHTZDXRTHREAD_H
+#endif //BITSTATS_LIGHTZBTTTHREAD_H

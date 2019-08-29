@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
-// Copyright (c) 2017 The DEXERGI developers
+/* Copyright (c) 2019-2020 The Bitstats Developers */
+// Copyright (c) 2017 The BITSTATS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_CSPORKDB_H
-#define DEXERGI_CSPORKDB_H
+#ifndef BITSTATS_CSPORKDB_H
+#define BITSTATS_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //DEXERGI_CSPORKDB_H
+#endif //BITSTATS_CSPORKDB_H

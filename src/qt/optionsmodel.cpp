@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dexergi-config.h"
+#include "config/bitstats-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -63,7 +63,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::DXR);
+        settings.setValue("nDisplayUnit", BitcoinUnits::BTT);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -172,8 +172,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeDEXERGIAmount"))
-        SoftSetArg("-anonymizedexergiamount", settings.value("nAnonymizeDEXERGIAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeBITSTATSAmount"))
+        SoftSetArg("-anonymizebitstatsamount", settings.value("nAnonymizeBITSTATSAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -184,7 +184,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in dexergi.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in bitstats.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

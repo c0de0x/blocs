@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -7,7 +7,7 @@
 #define BITCOIN_QT_PAYMENTSERVER_H
 
 // This class handles payment requests from clicking on
-// dexergi: URIs
+// bitstats: URIs
 //
 // This is somewhat tricky, because we have to deal with
 // the situation where the user clicks on a link during

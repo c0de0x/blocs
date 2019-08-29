@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše DEXERGI adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše BITSTATS adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše DEXERGI adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše BITSTATS adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše DXRy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše BTTy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE DXRy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE BTTy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>Řešení soukromí pro zDXR</translation>
+        <source>Privacy Actions for zBTT</source>
+        <translation>Řešení soukromí pro zBTT</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -601,16 +601,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
-        <source>Send coins to a DEXERGI address</source>
-        <translation>Odeslat platbuna DEXERGI adresu</translation>
+        <source>Send coins to a BITSTATS address</source>
+        <translation>Odeslat platbuna BITSTATS adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dexergi: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a dexergi: URIs)</translation>
+        <source>Request payments (generates QR codes and bitstats: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a bitstats: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -625,24 +625,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About DEXERGI Core</source>
-        <translation>&amp;O DEXERGI Core</translation>
+        <source>&amp;About BITSTATS Core</source>
+        <translation>&amp;O BITSTATS Core</translation>
     </message>
     <message>
-        <source>Show information about DEXERGI Core</source>
-        <translation>Zobraz informace o DEXERGI Core</translation>
+        <source>Show information about BITSTATS Core</source>
+        <translation>Zobraz informace o BITSTATS Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for DEXERGI</source>
-        <translation>Upravit možnosti konfigurace pro DEXERGI</translation>
+        <source>Modify configuration options for BITSTATS</source>
+        <translation>Upravit možnosti konfigurace pro BITSTATS</translation>
     </message>
     <message>
-        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší DEXERGI adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší BITSTATS adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými DEXERGI adresami</translation>
+        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými BITSTATS adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -673,8 +673,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a DEXERGI: URI or payment request</source>
-        <translation>Otevřít DEXERGI: URI nebo platební žádost</translation>
+        <source>Open a BITSTATS: URI or payment request</source>
+        <translation>Otevřít BITSTATS: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -685,12 +685,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
-        <translation>Zobrazit DEXERGI Core pomocnou zpráv pro získání seznamu možných parametrů DEXERGI pro příkazy do příkazové řádky</translation>
+        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
+        <translation>Zobrazit BITSTATS Core pomocnou zpráv pro získání seznamu možných parametrů BITSTATS pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>DEXERGI Core client</source>
-        <translation>DEXERGI Core klient</translation>
+        <source>BITSTATS Core client</source>
+        <translation>BITSTATS Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -820,8 +820,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (dexergi.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (bitstats.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1081,8 +1081,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DEXERGI address.</source>
-        <translation>Zadaná adresa "%1" není validní DEXERGI adresa.</translation>
+        <source>The entered address "%1" is not a valid BITSTATS address.</source>
+        <translation>Zadaná adresa "%1" není validní BITSTATS adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1138,12 +1138,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
-        <source>About DEXERGI Core</source>
-        <translation>O DEXERGI Core</translation>
+        <source>About BITSTATS Core</source>
+        <translation>O BITSTATS Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1177,16 +1177,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to DEXERGI Core.</source>
-        <translation>Vítejte v DEXERGI Core.</translation>
+        <source>Welcome to BITSTATS Core.</source>
+        <translation>Vítejte v BITSTATS Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude DEXERGI Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude BITSTATS Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DEXERGI Core stáhne a uloží kopii DEXERGI blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BITSTATS Core stáhne a uloží kopii BITSTATS blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1197,8 +1197,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1480,12 +1480,12 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start DEXERGI after logging in to the system.</source>
-        <translation>Automaticky spustit DEXERGI po přihlášení do systému</translation>
+        <source>Automatically start BITSTATS after logging in to the system.</source>
+        <translation>Automaticky spustit BITSTATS po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start DEXERGI on system login</source>
-        <translation>&amp;Spusti DEXERGI při přihlášení do systému</translation>
+        <source>&amp;Start BITSTATS on system login</source>
+        <translation>&amp;Spusti BITSTATS při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1690,8 +1690,8 @@ MultiSend: %1</translation>
         <translation>N/A</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     </context>
 <context>
@@ -2016,8 +2016,8 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 BTT</source>
+        <translation>0 BTT</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2141,8 +2141,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DEXERGI address to sign the message with</source>
-        <translation>DEXERGI adresa pro podepsání zprávy</translation>
+        <source>The BITSTATS address to sign the message with</source>
+        <translation>BITSTATS adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2169,16 +2169,16 @@ MultiSend: %1</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DEXERGI address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto DEXERGI adresu</translation>
+        <source>Sign the message to prove you own this BITSTATS address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto BITSTATS adresu</translation>
     </message>
     <message>
-        <source>The DEXERGI address the message was signed with</source>
-        <translation>DEXERGI adresa zprávy byla podpsána</translation>
+        <source>The BITSTATS address the message was signed with</source>
+        <translation>BITSTATS adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou DEXERGI adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou BITSTATS adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2220,8 +2220,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     </context>
 <context>
@@ -2331,7 +2331,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

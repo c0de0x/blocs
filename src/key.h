@@ -1,12 +1,12 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_KEY_H
-#define DEXERGI_KEY_H
+#ifndef BITSTATS_KEY_H
+#define BITSTATS_KEY_H
 
 #include "allocators.h"
 #include "serialize.h"
@@ -182,4 +182,4 @@ void ECC_Stop(void);
 /** Check that required EC support is available at runtime. */
 bool ECC_InitSanityCheck(void);
 
-#endif // DEXERGI_KEY_H
+#endif // BITSTATS_KEY_H

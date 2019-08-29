@@ -1,11 +1,11 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 //
 // Copyright (c) 2015-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_CONCURRENTQUEUE_H
-#define DEXERGI_CONCURRENTQUEUE_H
+#ifndef BITSTATS_CONCURRENTQUEUE_H
+#define BITSTATS_CONCURRENTQUEUE_H
 
 
 #include <mutex>
@@ -49,4 +49,4 @@ public:
     }
 };
 
-#endif //DEXERGI_CONCURRENTQUEUE_H
+#endif //BITSTATS_CONCURRENTQUEUE_H

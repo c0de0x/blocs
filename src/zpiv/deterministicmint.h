@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_DETERMINISTICMINT_H
-#define DEXERGI_DETERMINISTICMINT_H
+#ifndef BITSTATS_DETERMINISTICMINT_H
+#define BITSTATS_DETERMINISTICMINT_H
 
 #include <libzerocoin/Denominations.h>
 #include <uint256.h>
@@ -65,4 +65,4 @@ public:
     };
 };
 
-#endif //DEXERGI_DETERMINISTICMINT_H
+#endif //BITSTATS_DETERMINISTICMINT_H

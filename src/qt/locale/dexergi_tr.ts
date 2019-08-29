@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan DEXERGI adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan BITSTATS adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan DEXERGI adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan BITSTATS adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, DXR'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, BTT'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -254,12 +254,12 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38 ile şifrelemek isteğiniz DEXERGI Adresini giriniz. Ortadaki kutucuğa bir parola giriniz. Şifrelenmiş özel anahtarı hesaplamak için şifrele tuşuna basınız. </translation>
+        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38 ile şifrelemek isteğiniz BITSTATS Adresini giriniz. Ortadaki kutucuğa bir parola giriniz. Şifrelenmiş özel anahtarı hesaplamak için şifrele tuşuna basınız. </translation>
     </message>
     <message>
-        <source>The DEXERGI address to encrypt</source>
-        <translation>Şifrelenecek DEXERGI adresi</translation>
+        <source>The BITSTATS address to encrypt</source>
+        <translation>Şifrelenecek BITSTATS adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Geçerli imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this DEXERGI address</source>
-        <translation>Bu DEXERGI adresinin özel anahtarını şifreleyin</translation>
+        <source>Encrypt the private key for this BITSTATS address</source>
+        <translation>Bu BITSTATS adresinin özel anahtarını şifreleyin</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>İşlem geçmişini ara</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>Gizlilik Aksiyonları zDXR</translation>
+        <source>Privacy Actions for zBTT</source>
+        <translation>Gizlilik Aksiyonları zBTT</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI CORE</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS CORE</translation>
     </message>
     <message>
-        <source>Send coins to a DEXERGI address</source>
-        <translation>Koinleri DEXERGI adresine gönder</translation>
+        <source>Send coins to a BITSTATS address</source>
+        <translation>Koinleri BITSTATS adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dexergi: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve dexergi üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and bitstats: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve bitstats üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About DEXERGI Core</source>
+        <source>&amp;About BITSTATS Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about DEXERGI Core</source>
+        <source>Show information about BITSTATS Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for DEXERGI</source>
-        <translation>DEXERGI için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for BITSTATS</source>
+        <translation>BITSTATS için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı DEXERGI adresleriyle imzalayın</translation>
+        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı BITSTATS adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
-        <translation>Belirtilen DEXERGI adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
+        <translation>Belirtilen BITSTATS adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a DEXERGI: URI or payment request</source>
-        <translation>Bir DEXERGI: URI veya ödeme isteği açın</translation>
+        <source>Open a BITSTATS: URI or payment request</source>
+        <translation>Bir BITSTATS: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,12 +729,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
-        <translation>Olası DEXERGI komut satırı seçeneklerine sahip bir liste almak için DEXERGI Core yardım mesajını gösterin</translation>
+        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
+        <translation>Olası BITSTATS komut satırı seçeneklerine sahip bir liste almak için BITSTATS Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>DEXERGI Core client</source>
-        <translation>DEXERGI Core istemci</translation>
+        <source>BITSTATS Core client</source>
+        <translation>BITSTATS Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -872,8 +872,8 @@ Adres: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (dexergi.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (bitstats.conf).
 </translation>
     </message>
 </context>
@@ -1162,8 +1162,8 @@ Adres: %4
         <translation>Gönderen adresini düzenle</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DEXERGI address.</source>
-        <translation>Girilen "%1" adresi geçerli bir DEXERGI adresi değil.</translation>
+        <source>The entered address "%1" is not a valid BITSTATS address.</source>
+        <translation>Girilen "%1" adresi geçerli bir BITSTATS adresi değil.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1219,16 +1219,16 @@ Adres: %4
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI CORE</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS CORE</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DEXERGI Core</source>
-        <translation>hakkında DEXERGI Core</translation>
+        <source>About BITSTATS Core</source>
+        <translation>hakkında BITSTATS Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ Adres: %4
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to DEXERGI Core.</source>
-        <translation>DEXERGI Core'a hoşgeldiniz.</translation>
+        <source>Welcome to BITSTATS Core.</source>
+        <translation>BITSTATS Core'a hoşgeldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
-        <translation>Program ilk başlatıldığında DEXERGI Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
+        <translation>Program ilk başlatıldığında BITSTATS Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DEXERGI Core, DEXERGI blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecek. Cüzdan ayrıca bu dizinde saklanır.</translation>
+        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BITSTATS Core, BITSTATS blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecek. Cüzdan ayrıca bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,8 +1294,8 @@ Adres: %4
         <translation>Özel bir veri dizini kullanın:</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI CORE</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS CORE</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1436,12 +1436,12 @@ Adres: %4
         <translation>Gönderim adresi girin</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DEXERGI addresses after it matures.
-To Add: enter percentage to give and DEXERGI address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITSTATS addresses after it matures.
+To Add: enter percentage to give and BITSTATS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>ÇokluGönderi, olgunlaştıktan sonra diğer DEXERGI adreslerinin bir listesine staking ya da masternode ödülünüzün 100% 'ünü otomatik olarak göndermenize olanak tanır.
-Eklemek için: Verilecek yüzdeyi ve ÇokluGönderi vektörüne eklemek için DEXERGI adresi girin.
+        <translation>ÇokluGönderi, olgunlaştıktan sonra diğer BITSTATS adreslerinin bir listesine staking ya da masternode ödülünüzün 100% 'ünü otomatik olarak göndermenize olanak tanır.
+Eklemek için: Verilecek yüzdeyi ve ÇokluGönderi vektörüne eklemek için BITSTATS adresi girin.
 Silme: Silinecek adresi girin ve silmek için basın.
 ÇokluGönderi, Etkinleştir'i tıklamadığınız sürece etkinleştirilmeyecektir</translation>
     </message>
@@ -1663,8 +1663,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Address /miktar:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>DXR göndermek için varış yerleri ekleyin</translation>
+        <source>Add destinations to send BTT to</source>
+        <translation>BTT göndermek için varış yerleri ekleyin</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1797,8 +1797,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Doğrulanmamış değişikliğin harcamasını devre dışı bırakırsanız, bir işlemdeki değişiklik&lt;br/&gt;Bu işlem en az bir onay alıncaya kadar kullanılamaz.&lt;br/&gt;Bu aynı zamanda bakiyenizin nasıl hesaplandığını etkiler.</translation>
     </message>
     <message>
-        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticideki DEXERGI istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
+        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticideki BITSTATS istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1817,12 +1817,12 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Uzman</translation>
     </message>
     <message>
-        <source>Automatically start DEXERGI after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra otomatik olarak DEXERGI'i başlatın.</translation>
+        <source>Automatically start BITSTATS after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra otomatik olarak BITSTATS'i başlatın.</translation>
     </message>
     <message>
-        <source>&amp;Start DEXERGI on system login</source>
-        <translation>&amp; Sistem oturum açma işleminde DEXERGI'i başlat</translation>
+        <source>&amp;Start BITSTATS on system login</source>
+        <translation>&amp; Sistem oturum açma işleminde BITSTATS'i başlat</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1849,46 +1849,46 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>&amp;ağ</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
-        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, DEXERGI yeniden başlatıldıktan sonra geçerli olur.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
+        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, BITSTATS yeniden başlatıldıktan sonra geçerli olur.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
         <translation>Dil eksik veya çeviri tamamlanmamış mı? Katkıda bulunan çevirilere yardımcı olun:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</translation>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of DXR units to zDXR</source>
-        <translation>DXR birimlerinin zDXR'e otomatik basımını ektinleştir</translation>
+        <source>Enable automatic minting of BTT units to zBTT</source>
+        <translation>BTT birimlerinin zBTT'e otomatik basımını ektinleştir</translation>
     </message>
     <message>
-        <source>Enable zDXR Automint</source>
-        <translation>zDXR Otomatik basımı etkinleştir</translation>
+        <source>Enable zBTT Automint</source>
+        <translation>zBTT Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zDXR'ye dönüştürülen gelen DXR yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zBTT'ye dönüştürülen gelen BTT yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXR</source>
-        <translation>Otomatikleştirilmiş zDXR yüzdesi</translation>
+        <source>Percentage of autominted zBTT</source>
+        <translation>Otomatikleştirilmiş zBTT yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
-        <translation>Bu mezhebi için yeterli DXR bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
+        <translation>Bu mezhebi için yeterli BTT bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXR Denomination</source>
-        <translation>Tercih edilen Automint zDXR Nominal değeri</translation>
+        <source>Preferred Automint zBTT Denomination</source>
+        <translation>Tercih edilen Automint zBTT Nominal değeri</translation>
     </message>
     <message>
-        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
-        <translation>Bir SOCKS5 proxy vasıtasıyla DEXERGI ağına bağlanın.</translation>
+        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
+        <translation>Bir SOCKS5 proxy vasıtasıyla BITSTATS ağına bağlanın.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2038,8 +2038,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Toplam Bakiye, mevcut olmayan tüm paralar dahil.</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>DXR Bakiyesi</translation>
+        <source>BTT Balance</source>
+        <translation>BTT Bakiyesi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2062,18 +2062,18 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Mevcut kilitli bakiye sadece görüntülenebilir adreslerde.</translation>
     </message>
     <message>
-        <source>Your current DEXERGI balance, unconfirmed and immature transactions included</source>
-        <translation>Güncel DEXERGI bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
+        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
+        <translation>Güncel BITSTATS bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>zDXR Bakiyesi</translation>
+        <source>zBTT Balance</source>
+        <translation>zBTT Bakiyesi</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zDXR are spendable.</source>
+These zBTT are spendable.</source>
         <translation>Olgun: basılmış olduktan sonra 20'den fazla onay alınmış ve aynı ölçü biriminden 1 kereden fazla basılmış.
-Bu zDXR ler harcanabilir.</translation>
+Bu zBTT ler harcanabilir.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2082,8 +2082,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden 1 taneden daha az basım bulunmakta.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak DEXERGI şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak BITSTATS şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2126,8 +2126,8 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>Harcanabilir:</translation>
     </message>
     <message>
-        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
-        <translation>Kilitli DXR veya Masternode teminatları. Bunlar zDXR matlaştırmadan çıkarılır.</translation>
+        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
+        <translation>Kilitli BTT veya Masternode teminatları. Bunlar zBTT matlaştırmadan çıkarılır.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2138,8 +2138,8 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>onaylanmamış:</translation>
     </message>
     <message>
-        <source>Your current zDXR balance, unconfirmed and immature zDXR included.</source>
-        <translation>Güncel zDXR bakiyeniz, onaylanmamış ve olgunlaşmamış zDXR'ler dahil.</translation>
+        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
+        <translation>Güncel zBTT bakiyeniz, onaylanmamış ve olgunlaşmamış zBTT'ler dahil.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2150,10 +2150,10 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>senkronizasyon dışı</translation>
     </message>
     <message>
-        <source>Current percentage of zDXR.
+        <source>Current percentage of zBTT.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Mevcut zDXR yüzdesi.
+        <translation>Mevcut zBTT yüzdesi.
 AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi etrafında düzelir (varsayılan = 10%).
 </translation>
     </message>
@@ -2162,14 +2162,14 @@ AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi e
         <translation>AutoMint şu anda etkinleştirilmiş ve</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in dexergi.conf.</source>
-        <translation>AutoMint kapatmak için ekle  'enablezeromint=0'  dexergi.conf. dosyasına</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</source>
+        <translation>AutoMint kapatmak için ekle  'enablezeromint=0'  bitstats.conf. dosyasına</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.conf</source>
         <translation>AutoMint şu anda aktif değil.
- AutoMint aktive etmek için  değiştir 'enablezeromint=0' yazan kısmı 'enablezeromint=1' şeklinde dexergi.conf dosyasında</translation>
+ AutoMint aktive etmek için  değiştir 'enablezeromint=0' yazan kısmı 'enablezeromint=1' şeklinde bitstats.conf dosyasında</translation>
     </message>
 </context>
 <context>
@@ -2195,12 +2195,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>Geçersiz ödeme adresi %1</translation>
     </message>
     <message>
-        <source>Cannot start dexergi: click-to-pay handler</source>
-        <translation>DEXERGI başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <source>Cannot start bitstats: click-to-pay handler</source>
+        <translation>BITSTATS başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DEXERGI address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir DEXERGI adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BITSTATS address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir BITSTATS adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2285,8 +2285,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>Zerocoin Actions:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak DEXERGI şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak BITSTATS şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2297,8 +2297,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2325,11 +2325,11 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>GİZLİLİK</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
-        <translation>zDXR Kontrolü</translation>
+        <source>zBTT Control</source>
+        <translation>zBTT Kontrolü</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
+        <source>zBTT Selected:</source>
         <translation>zPiv Seçildi:</translation>
     </message>
     <message>
@@ -2345,32 +2345,32 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>Harca Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zDXR</translation>
+        <source>Available (mature and spendable) zBTT for spending</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zBTT</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Kullanılabilir Bakiye:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending
+        <source>Available (mature and spendable) zBTT for spending
 
-zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zDXR
+zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zBTT
 
-zDXR, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
+zBTT, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zBTT</source>
+        <translation>0 zBTT</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>şuna öde:</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Ödemeyi göndermek için DEXERGI adresi. Boş olduğunda kendinize yerel ödeme oluşturur.</translation>
+        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Ödemeyi göndermek için BITSTATS adresi. Boş olduğunda kendinize yerel ödeme oluşturur.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2421,8 +2421,8 @@ zDXR, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhep
         <translation>Zerocoin durumu:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDXR</source>
-        <translation>Doğrulanmamış ve olgunlaşmamış zDXR dahil toplam bakiye</translation>
+        <source>Total Balance including unconfirmed and immature zBTT</source>
+        <translation>Doğrulanmamış ve olgunlaşmamış zBTT dahil toplam bakiye</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2581,12 +2581,12 @@ Please be patient...</source>
 Lütfen sabırlı olun...</translation>
     </message>
     <message>
-        <source>zDXR is currently disabled due to maintenance.</source>
-        <translation>zDXR bakım nedeniyle şu an kullanıma kapalı.</translation>
+        <source>zBTT is currently disabled due to maintenance.</source>
+        <translation>zBTT bakım nedeniyle şu an kullanıma kapalı.</translation>
     </message>
     <message>
-        <source>zDXR is currently undergoing maintenance.</source>
-        <translation>zDXR halen bakım alıyor.</translation>
+        <source>zBTT is currently undergoing maintenance.</source>
+        <translation>zBTT halen bakım alıyor.</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2611,8 +2611,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Sağlanan 'Ödeme Yapmak İçin' adresi yok, yerel ödeme oluşturun</translation>
     </message>
     <message>
-        <source>Invalid DEXERGI Address</source>
-        <translation>Geçersiz DEXERGI Adresi</translation>
+        <source>Invalid BITSTATS Address</source>
+        <translation>Geçersiz BITSTATS Adresi</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2685,8 +2685,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI address (e.g. %1)</source>
-        <translation>Gir bir DEXERGI addres (e.g. %1)</translation>
+        <source>Enter a BITSTATS address (e.g. %1)</source>
+        <translation>Gir bir BITSTATS addres (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2729,8 +2729,8 @@ Lütfen sabırlı olun...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI CORE</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS CORE</translation>
     </message>
     </context>
 <context>
@@ -2827,8 +2827,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the DEXERGI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Geçerli veri dizininden DEXERGI hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Geçerli veri dizininden BITSTATS hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3011,8 +3011,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Dışa:</translation>
     </message>
     <message>
-        <source>Welcome to the DEXERGI RPC console.</source>
-        <translation>DEXERGI RPC konsola hoşgeldiniz</translation>
+        <source>Welcome to the BITSTATS RPC console.</source>
+        <translation>BITSTATS RPC konsola hoşgeldiniz</translation>
     </message>
     <message>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
@@ -3098,12 +3098,12 @@ Lütfen sabırlı olun...</translation>
         <translation>Miktar:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DEXERGI network.</source>
-        <translation>Talep açıldığında görüntülenecek ödeme isteğine eklemek için isteğe bağlı bir mesaj. Not: Mesaj, ödemenin DEXERGI şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
+        <translation>Talep açıldığında görüntülenecek ödeme isteğine eklemek için isteğe bağlı bir mesaj. Not: Mesaj, ödemenin BITSTATS şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DEXERGI network.</source>
-        <translation>Talep açıldığında görüntülenecek, ödeme isteğine eklemek için isteğe bağlı bir mesaj.&lt;br&gt;Not: Mesaj, ödemenin DEXERGI şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
+        <translation>Talep açıldığında görüntülenecek, ödeme isteğine eklemek için isteğe bağlı bir mesaj.&lt;br&gt;Not: Mesaj, ödemenin BITSTATS şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3331,8 +3331,8 @@ Lütfen sabırlı olun...</translation>
         <translation>UTXO Boyutu:</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 BTT</source>
+        <translation>0 BTT</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3387,16 +3387,16 @@ Lütfen sabırlı olun...</translation>
         <translation>Koinler otomatik seçildi</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uDXR olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uDXR öder,&lt;br /&gt;"en az" ise 1000 uDXR öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uBTT olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uBTT öder,&lt;br /&gt;"en az" ise 1000 uBTT öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "total at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uDXR olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uDXR ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uDXR ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uBTT olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uBTT ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uBTT ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
-        <translation>Yalnızca minimum ücreti ödemek, işlem hacmi bloklardaki alana göre daha az olduğu sürece iyidir.&lt;br /&gt;Ancak, bunun, DEXERGI işlemleri için ağın işleyebileceğinden daha fazla talep olması durumunda, onaylama işleminde asla sonuçlanamayacağına dikkat edin.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
+        <translation>Yalnızca minimum ücreti ödemek, işlem hacmi bloklardaki alana göre daha az olduğu sürece iyidir.&lt;br /&gt;Ancak, bunun, BITSTATS işlemleri için ağın işleyebileceğinden daha fazla talep olması durumunda, onaylama işleminde asla sonuçlanamayacağına dikkat edin.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3443,8 +3443,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Alıcı ekle</translation>
     </message>
     <message>
-        <source>Anonymized DXR</source>
-        <translation>anonim edilmiş DXR</translation>
+        <source>Anonymized BTT</source>
+        <translation>anonim edilmiş BTT</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3491,8 +3491,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Bloğu böl aygıtı multipl adresle çalışmaz Tekrar deneyin</translation>
     </message>
     <message>
-        <source>Warning: Invalid DEXERGI address</source>
-        <translation>Uyarı: Geçersiz DEXERGI adresi</translation>
+        <source>Warning: Invalid BITSTATS address</source>
+        <translation>Uyarı: Geçersiz BITSTATS adresi</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3586,8 +3586,8 @@ Lütfen sabırlı olun...</translation>
         <translation>şuna öde:</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to</source>
-        <translation>Ödemeyi göndermek için DEXERGI adresi</translation>
+        <source>The BITSTATS address to send the payment to</source>
+        <translation>Ödemeyi göndermek için BITSTATS adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3626,8 +3626,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Mesaj:</translation>
     </message>
     <message>
-        <source>A message that was attached to the DEXERGI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DEXERGI network.</source>
-        <translation>DEXERGI e eklenmiş olan bir mesaj: İşleminizle beraber saklanacak olan URI hatırlamanız için. Not: Bu mesaj DEXERGI ağında yayınlanmayacak.</translation>
+        <source>A message that was attached to the BITSTATS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BITSTATS network.</source>
+        <translation>BITSTATS e eklenmiş olan bir mesaj: İşleminizle beraber saklanacak olan URI hatırlamanız için. Not: Bu mesaj BITSTATS ağında yayınlanmayacak.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3653,8 +3653,8 @@ Lütfen sabırlı olun...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DEXERGI Core is shutting down...</source>
-        <translation>DEXERGI Core kapanıyor ...</translation>
+        <source>BITSTATS Core is shutting down...</source>
+        <translation>BITSTATS Core kapanıyor ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3676,8 +3676,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Sahip olduğunuzu kanıtlamak için adreslerinizle mesaj imzalayabilirsiniz. Kimlik avı saldırıları sizi kimliğini onlara yazmaya kandırmaya çalışabilir, çünkü belirsiz bir şey imzalamamaya dikkat edin. Kabul ettiğiniz tamamen ayrıntılı ifadeleri yalnızca imzalayın.</translation>
     </message>
     <message>
-        <source>The DEXERGI address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için DEXERGI adresi</translation>
+        <source>The BITSTATS address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için BITSTATS adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3708,16 +3708,16 @@ Lütfen sabırlı olun...</translation>
         <translation>Geçerli imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DEXERGI address</source>
-        <translation>Bu DEXERGI adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this BITSTATS address</source>
+        <translation>Bu BITSTATS adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala</translation>
     </message>
     <message>
-        <source>The DEXERGI address the message was signed with</source>
-        <translation>Mesajın imzalandığı DEXERGI adresi</translation>
+        <source>The BITSTATS address the message was signed with</source>
+        <translation>Mesajın imzalandığı BITSTATS adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
-        <translation>Belirtilen DEXERGI adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
+        <translation>Belirtilen BITSTATS adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3803,8 +3803,8 @@ Lütfen sabırlı olun...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI CORE</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS CORE</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3819,8 +3819,8 @@ Lütfen sabırlı olun...</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The DEXERGI Core developers</source>
-        <translation>The DEXERGI Core developers</translation>
+        <source>The BITSTATS Core developers</source>
+        <translation>The BITSTATS Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4339,8 +4339,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Koinleri göder</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
-        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 DXR ile sınırlıdır.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
+        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 BTT ile sınırlıdır.</translation>
     </message>
 </context>
 <context>
@@ -4377,8 +4377,8 @@ Lütfen sabırlı olun...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4386,7 +4386,7 @@ Lütfen sabırlı olun...</translation>
     </message>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx meta verileri, örneğin hesap sahibi ve ödeme talebi bilgileri, 2 = tx meta verileri bırak)</translation>
@@ -4412,8 +4412,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Hesaplanan akümülatör kontrol noktası, blok indeksiyle kaydedilen kontrol noktası değildir.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. DEXERGI Core is probably already running.</source>
-        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. DEXERGI Core muhtemelen zaten çalışıyor.</translation>
+        <source>Cannot obtain a lock on data directory %s. BITSTATS Core is probably already running.</source>
+        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. BITSTATS Core muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4464,12 +4464,12 @@ Lütfen sabırlı olun...</translation>
         <translation>En iyi blok değiştirildiğinde komutu yürütün (cmd'deki %s yerine blok karması verilir)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (DXR / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (BTT / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (DXR / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (BTT / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

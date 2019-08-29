@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2016-2018 The PIVX developers
@@ -90,11 +90,11 @@ private:
     void operator=(const CZerocoinDB&);
 
 public:
-    /** Write zDXR mints to the zerocoinDB in a batch */
+    /** Write zBTT mints to the zerocoinDB in a batch */
     bool WriteCoinMintBatch(const std::vector<std::pair<libzerocoin::PublicCoin, uint256> >& mintInfo);
     bool ReadCoinMint(const CBigNum& bnPubcoin, uint256& txHash);
     bool ReadCoinMint(const uint256& hashPubcoin, uint256& hashTx);
-    /** Write zDXR spends to the zerocoinDB in a batch */
+    /** Write zBTT spends to the zerocoinDB in a batch */
     bool WriteCoinSpendBatch(const std::vector<std::pair<libzerocoin::CoinSpend, uint256> >& spendInfo);
     bool ReadCoinSpend(const CBigNum& bnSerial, uint256& txHash);
     bool ReadCoinSpend(const uint256& hashSerial, uint256 &txHash);

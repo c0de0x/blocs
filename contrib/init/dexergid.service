@@ -5,19 +5,19 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/dexergi/dexergi.conf
+# /etc/bitstats/bitstats.conf
 
 [Unit]
-Description=DEXERGI daemon
+Description=BITSTATS daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/dexergid -daemon -conf=/etc/dexergi/dexergi.conf -pid=/run/dexergid/dexergid.pid
-# Creates /run/dexergid owned by dexergi
-RuntimeDirectory=dexergid
-User=dexergi
+ExecStart=/usr/bin/bitstatsd -daemon -conf=/etc/bitstats/bitstats.conf -pid=/run/bitstatsd/bitstatsd.pid
+# Creates /run/bitstatsd owned by bitstats
+RuntimeDirectory=bitstatsd
+User=bitstats
 Type=forking
-PIDFile=/run/dexergid/dexergid.pid
+PIDFile=/run/bitstatsd/bitstatsd.pid
 Restart=on-failure
 
 # Hardening measures

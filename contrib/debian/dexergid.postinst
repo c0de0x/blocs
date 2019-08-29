@@ -1,15 +1,15 @@
 
 #!/bin/sh
 
-# setup dexergi account, homedir etc
+# setup bitstats account, homedir etc
 
 set -e
 
-BCUSER="dexergi"
-BCHOME="/var/lib/dexergi"
+BCUSER="bitstats"
+BCHOME="/var/lib/bitstats"
 
 if [ "$1" = "configure" ]; then
-	# Add dexergi user/group - this will gracefully abort if the user already exists.
+	# Add bitstats user/group - this will gracefully abort if the user already exists.
 	# A homedir is never created.
 	set +e
 	adduser --system --home "${BCHOME}" --no-create-home --group "${BCUSER}" 2>/dev/null

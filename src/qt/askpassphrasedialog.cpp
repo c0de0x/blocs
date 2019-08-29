@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
@@ -76,15 +76,15 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
     }
 
     // Set checkbox "For anonymization, automint, and staking only" depending on from where we were called
-    if (context == Context::Unlock_Menu || context == Context::Mint_zDXR || context == Context::BIP_38 || context == Context::UI_Vote) {
+    if (context == Context::Unlock_Menu || context == Context::Mint_zBTT || context == Context::BIP_38 || context == Context::UI_Vote) {
         ui->anonymizationCheckBox->setChecked(true);
     }
     else {
         ui->anonymizationCheckBox->setChecked(false);
     }
 
-    // It doesn't make sense to show the checkbox for sending DXR because you wouldn't check it anyway.
-    if (context == Context::Send_DXR || context == Context::Send_zDXR) {
+    // It doesn't make sense to show the checkbox for sending BTT because you wouldn't check it anyway.
+    if (context == Context::Send_BTT || context == Context::Send_zBTT) {
         ui->anonymizationCheckBox->hide();
     }
 
@@ -124,7 +124,7 @@ void AskPassphraseDialog::accept()
             break;
         }
         QMessageBox::StandardButton retval = QMessageBox::question(this, tr("Confirm wallet encryption"),
-            tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR DXR</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
+            tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR BTT</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
             QMessageBox::Yes | QMessageBox::Cancel,
             QMessageBox::Cancel);
         if (retval == QMessageBox::Yes) {
@@ -132,9 +132,9 @@ void AskPassphraseDialog::accept()
                 if (model->setWalletEncrypted(true, newpass1)) {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                         "<qt>" +
-                            tr("DEXERGI will close now to finish the encryption process. "
+                            tr("BITSTATS will close now to finish the encryption process. "
                                "Remember that encrypting your wallet cannot fully protect "
-                               "your DXRs from being stolen by malware infecting your computer.") +
+                               "your BTTs from being stolen by malware infecting your computer.") +
                             "<br><br><b>" +
                             tr("IMPORTANT: Any previous backups you have made of your wallet file "
                                "should be replaced with the newly generated, encrypted wallet file. "

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
@@ -60,7 +60,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent, Qt::WindowSy
     connect(ui->splitBlockCheckBox, SIGNAL(stateChanged(int)), this, SLOT(splitBlockChecked(int)));
     connect(ui->splitBlockLineEdit, SIGNAL(textChanged(const QString&)), this, SLOT(splitBlockLineEditChanged(const QString&)));
 
-    // DEXERGI specific
+    // BITSTATS specific
     QSettings settings;
     if (!settings.contains("bUseObfuScation"))
         settings.setValue("bUseObfuScation", false);
@@ -135,7 +135,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent, Qt::WindowSy
     ui->customFee->setValue(settings.value("nTransactionFee").toLongLong());
     ui->checkBoxMinimumFee->setChecked(settings.value("fPayOnlyMinFee").toBool());
     ui->checkBoxFreeTx->setChecked(settings.value("fSendFreeTransactions").toBool());
-    ui->checkzDXR->hide();
+    ui->checkzBTT->hide();
 
     minimizeFeeSection(settings.value("fFeeSectionMinimized").toBool());
     // If SwiftX activated hide button 'Choose'. Show otherwise.
@@ -325,7 +325,7 @@ void SendCoinsDialog::on_sendButton_clicked()
     // will call relock
     WalletModel::EncryptionStatus encStatus = model->getEncryptionStatus();
     if (encStatus == model->Locked || encStatus == model->UnlockedForAnonymizationOnly) {
-        WalletModel::UnlockContext ctx(model->requestUnlock(AskPassphraseDialog::Context::Send_DXR, true));
+        WalletModel::UnlockContext ctx(model->requestUnlock(AskPassphraseDialog::Context::Send_BTT, true));
         if (!ctx.isValid()) {
             // Unlock wallet was cancelled
             fNewRecipientAllowed = true;
@@ -911,7 +911,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
             ui->labelCoinControlChangeLabel->setText("");
         } else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid DEXERGI address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid BITSTATS address"));
         } else // Valid address
         {
             CPubKey pubkey;

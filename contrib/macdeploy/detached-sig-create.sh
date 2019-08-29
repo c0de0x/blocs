@@ -7,7 +7,7 @@ export LC_ALL=C
 set -e
 
 ROOTDIR=dist
-BUNDLE=${ROOTDIR}/DEXERGI-Qt.app
+BUNDLE=${ROOTDIR}/BITSTATS-Qt.app
 CODESIGN=codesign
 TEMPDIR=sign.temp
 TEMPLIST=${TEMPDIR}/signatures.txt

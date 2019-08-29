@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
@@ -6,8 +6,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_UINT256_H
-#define DEXERGI_UINT256_H
+#ifndef BITSTATS_UINT256_H
+#define BITSTATS_UINT256_H
 
 #include <assert.h>
 #include <cstring>
@@ -411,4 +411,4 @@ inline uint512 uint512S(const std::string& str)
     return rv;
 }
 
-#endif // DEXERGI_UINT256_H
+#endif // BITSTATS_UINT256_H

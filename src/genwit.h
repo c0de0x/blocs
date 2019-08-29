@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2015-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_GENWIT_H
-#define DEXERGI_GENWIT_H
+#ifndef BITSTATS_GENWIT_H
+#define BITSTATS_GENWIT_H
 
 
 #include <iostream>
@@ -59,4 +59,4 @@ private:
 };
 
 
-#endif //DEXERGI_GENWIT_H
+#endif //BITSTATS_GENWIT_H

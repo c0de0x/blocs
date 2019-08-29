@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
-// Copyright (c) 2019 The DEXERGI developers
+/* Copyright (c) 2019-2020 The Bitstats Developers */
+// Copyright (c) 2019 The BITSTATS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
-#ifndef DEXERGI_ZDXRMODULE_H
-#define DEXERGI_ZDXRMODULE_H
+#ifndef BITSTATS_ZBTTMODULE_H
+#define BITSTATS_ZBTTMODULE_H
 
 #include "libzerocoin/bignum.h"
 #include "libzerocoin/Denominations.h"
@@ -73,7 +73,7 @@ public:
 
 class CValidationState;
 
-namespace ZDXRModule {
+namespace ZBTTModule {
     bool createInput(CTxIn &in, CZerocoinMint& mint, uint256 hashTxOut);
     bool parseCoinSpend(const CTxIn &in, const CTransaction& tx, const CTxOut &prevOut, PublicCoinSpend& publicCoinSpend);
     bool validateInput(const CTxIn &in, const CTxOut &prevOut, const CTransaction& tx, PublicCoinSpend& ret);
@@ -90,4 +90,4 @@ namespace ZDXRModule {
 };
 
 
-#endif //DEXERGI_ZDXRMODULE_H
+#endif //BITSTATS_ZBTTMODULE_H

@@ -43,12 +43,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_dexergi">res/icons/unit_dexergi.png</file>
-        <file alias="unit_mdexergi">res/icons/unit_mdexergi.png</file>
-        <file alias="unit_udexergi">res/icons/unit_udexergi.png</file>
-        <file alias="unit_tdexergi">res/icons/unit_tdexergi.png</file>
-        <file alias="unit_tmdexergi">res/icons/unit_tmdexergi.png</file>
-        <file alias="unit_tudexergi">res/icons/unit_tudexergi.png</file>
+        <file alias="unit_bitstats">res/icons/unit_bitstats.png</file>
+        <file alias="unit_mbitstats">res/icons/unit_mbitstats.png</file>
+        <file alias="unit_ubitstats">res/icons/unit_ubitstats.png</file>
+        <file alias="unit_tbitstats">res/icons/unit_tbitstats.png</file>
+        <file alias="unit_tmbitstats">res/icons/unit_tmbitstats.png</file>
+        <file alias="unit_tubitstats">res/icons/unit_tubitstats.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -71,7 +71,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="dexergi_logo_horizontal">res/images/dexergi_logo_horizontal.png</file>
+        <file alias="bitstats_logo_horizontal">res/images/bitstats_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow_dark.png</file>
         <file alias="downArrow_small">res/images/downArrow_small_dark.png</file>
         <file alias="downArrow_small_white">res/images/downArrow_small.png</file>

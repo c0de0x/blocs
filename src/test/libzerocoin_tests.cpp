@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 /**
 * @file       Tests.cpp
 *
@@ -25,7 +25,7 @@
 #include "libzerocoin/Coin.h"
 #include "libzerocoin/CoinSpend.h"
 #include "libzerocoin/Accumulator.h"
-#include "test_dexergi.h"
+#include "test_bitstats.h"
 
 using namespace std;
 using namespace libzerocoin;

@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
-// Copyright (c) 2017-2019 The DEXERGI developers
+/* Copyright (c) 2019-2020 The Bitstats Developers */
+// Copyright (c) 2017-2019 The BITSTATS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_ZEROCOIN_H
-#define DEXERGI_ZEROCOIN_H
+#ifndef BITSTATS_ZEROCOIN_H
+#define BITSTATS_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -264,4 +264,4 @@ int GetWrapppedSerialInflation(libzerocoin::CoinDenomination denom);
 
 int64_t GetWrapppedSerialInflationAmount();
 
-#endif //DEXERGI_ZEROCOIN_H
+#endif //BITSTATS_ZEROCOIN_H

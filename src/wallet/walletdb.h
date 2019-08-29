@@ -1,7 +1,7 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
-// Copyright (c) 2016-2019 The DEXERGI developers
+// Copyright (c) 2016-2019 The BITSTATS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -180,14 +180,14 @@ public:
     bool ReadZerocoinSpendSerialEntry(const CBigNum& bnSerial);
     bool WriteCurrentSeedHash(const uint256& hashSeed);
     bool ReadCurrentSeedHash(uint256& hashSeed);
-    bool WriteZDXRSeed(const uint256& hashSeed, const vector<unsigned char>& seed);
-    bool ReadZDXRSeed(const uint256& hashSeed, vector<unsigned char>& seed);
-    bool ReadZDXRSeed_deprecated(uint256& seed);
-    bool EraseZDXRSeed();
-    bool EraseZDXRSeed_deprecated();
+    bool WriteZBTTSeed(const uint256& hashSeed, const vector<unsigned char>& seed);
+    bool ReadZBTTSeed(const uint256& hashSeed, vector<unsigned char>& seed);
+    bool ReadZBTTSeed_deprecated(uint256& seed);
+    bool EraseZBTTSeed();
+    bool EraseZBTTSeed_deprecated();
 
-    bool WriteZDXRCount(const uint32_t& nCount);
-    bool ReadZDXRCount(uint32_t& nCount);
+    bool WriteZBTTCount(const uint32_t& nCount);
+    bool ReadZBTTCount(uint32_t& nCount);
     std::map<uint256, std::vector<pair<uint256, uint32_t> > > MapMintPool();
     bool WriteMintPoolPair(const uint256& hashMasterSeed, const uint256& hashPubcoin, const uint32_t& nCount);
 

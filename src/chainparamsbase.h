@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2014 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
@@ -11,8 +11,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between dexergi-cli and dexergid)
- * of a given instance of the DEXERGI system.
+ * CBaseChainParams defines the base parameters (shared between bitstats-cli and bitstatsd)
+ * of a given instance of the BITSTATS system.
  */
 class CBaseChainParams
 {

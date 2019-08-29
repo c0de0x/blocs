@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZDXRCONTROLDIALOG_H
-#define ZDXRCONTROLDIALOG_H
+#ifndef ZBTTCONTROLDIALOG_H
+#define ZBTTCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -66,4 +66,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZDXRCONTROLDIALOG_H
+#endif // ZBTTCONTROLDIALOG_H

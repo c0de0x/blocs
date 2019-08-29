@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2013 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -21,7 +21,7 @@
 #include <QPixmap>
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dexergi-config.h" /* for USE_QRCODE */
+#include "config/bitstats-config.h" /* for USE_QRCODE */
 #endif
 
 #ifdef USE_QRCODE

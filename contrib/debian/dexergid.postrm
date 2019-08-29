@@ -1,15 +1,15 @@
 #!/bin/sh
 
-# setup dexergi account, homedir etc
+# setup bitstats account, homedir etc
 
 set -e
 
-BCUSER="dexergi"
-BCHOME="/var/lib/dexergi"
+BCUSER="bitstats"
+BCHOME="/var/lib/bitstats"
 
 if [ "$1" = "purge" ]; then
 
-	# The dexergi user is left in place for now - This is to ensure that a new user
+	# The bitstats user is left in place for now - This is to ensure that a new user
 	# will not inherit the users UID/GID and inadvertently gain access to wallets etc
 
 	# The homedir is also left intact to ensure that we don't accidentally delete a
@@ -17,7 +17,7 @@ if [ "$1" = "purge" ]; then
 
 	echo
 	echo "#"
-	echo "#  The dexergi user (${BCUSER}) and data dir (${BCHOME})"
+	echo "#  The bitstats user (${BCUSER}) and data dir (${BCHOME})"
 	echo "#  were left intact."
 	echo "#"
 	echo "#  Make sure to check \"${BCHOME}\" for wallets and other"

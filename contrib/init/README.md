@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: dexergid.service
-Upstart: dexergid.conf
-OpenRC:  dexergid.openrc
-         dexergid.openrcconf
-CentOS:  dexergid.init
-macOS:    org.dexergi.dexergid.plist
+SystemD: bitstatsd.service
+Upstart: bitstatsd.conf
+OpenRC:  bitstatsd.openrc
+         bitstatsd.openrcconf
+CentOS:  bitstatsd.init
+macOS:    org.bitstats.bitstatsd.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

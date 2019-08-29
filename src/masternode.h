@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -102,7 +102,7 @@ public:
 };
 
 //
-// The Masternode Class. For managing the Obfuscation process. It contains the input of the 1000 DEXERGI, signature to prove
+// The Masternode Class. For managing the Obfuscation process. It contains the input of the 1000 BITSTATS, signature to prove
 // it's the one who own that ip address and code for calculating the payment election.
 //
 class CMasternode

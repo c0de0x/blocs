@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
@@ -89,30 +89,30 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 DXR at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 BTT at the same time
     ONLY_1000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zDXR send
+// Possible states for zBTT send
 enum ZerocoinSpendStatus {
-    ZDXR_SPEND_OKAY = 0,                            // No error
-    ZDXR_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZDXR_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZDXR_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZDXR_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZDXR_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZDXR_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZDXR_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZDXR_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZDXR_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZDXR_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZDXR_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZDXR_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZDXR_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZDXR_SPENT_USED_ZDXR = 14,                      // Coin has already been spend
-    ZDXR_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
-    ZDXR_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
+    ZBTT_SPEND_OKAY = 0,                            // No error
+    ZBTT_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZBTT_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZBTT_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZBTT_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZBTT_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZBTT_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZBTT_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZBTT_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZBTT_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZBTT_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZBTT_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZBTT_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZBTT_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZBTT_SPENT_USED_ZBTT = 14,                      // Coin has already been spend
+    ZBTT_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
+    ZBTT_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
 };
 
 struct CompactTallyItem {
@@ -221,7 +221,7 @@ public:
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored, std::list<CDeterministicMint>& listDMintsRestored);
     void ZPivBackupWallet();
     bool GetZerocoinKey(const CBigNum& bnSerial, CKey& key);
-    bool CreateZDXROutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
+    bool CreateZBTTOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
     bool GetMint(const uint256& hashSerial, CZerocoinMint& mint);
     bool GetMintFromStakeHash(const uint256& hashStake, CZerocoinMint& mint);
     bool DatabaseMint(CDeterministicMint& dMint);
@@ -244,7 +244,7 @@ public:
      */
     mutable CCriticalSection cs_wallet;
 
-    CzDXRWallet* zwalletMain;
+    CzBTTWallet* zwalletMain;
 
     std::set<CBitcoinAddress> setAutoConvertAddresses;
 
@@ -252,7 +252,7 @@ public:
     bool fWalletUnlockAnonymizeOnly;
     std::string strWalletFile;
     bool fBackupMints;
-    std::unique_ptr<CzDXRTracker> zpivTracker;
+    std::unique_ptr<CzBTTTracker> zpivTracker;
 
     std::set<int64_t> setKeyPool;
     std::map<CKeyID, CKeyMetadata> mapKeyMetadata;
@@ -337,13 +337,13 @@ public:
         return nZeromintPercentage;
     }
 
-    void setZWallet(CzDXRWallet* zwallet)
+    void setZWallet(CzBTTWallet* zwallet)
     {
         zwalletMain = zwallet;
-        zpivTracker = std::unique_ptr<CzDXRTracker>(new CzDXRTracker(strWalletFile));
+        zpivTracker = std::unique_ptr<CzBTTTracker>(new CzBTTTracker(strWalletFile));
     }
 
-    CzDXRWallet* getZWallet() { return zwalletMain; }
+    CzBTTWallet* getZWallet() { return zwalletMain; }
 
     bool isZeromintEnabled()
     {
@@ -668,8 +668,8 @@ public:
     /** MultiSig address added */
     boost::signals2::signal<void(bool fHaveMultiSig)> NotifyMultiSigChanged;
 
-    /** zDXR reset */
-    boost::signals2::signal<void()> NotifyzDXRReset;
+    /** zBTT reset */
+    boost::signals2::signal<void()> NotifyzBTTReset;
 
     /** notify wallet file backed up */
     boost::signals2::signal<void (const bool& fSuccess, const std::string& filename)> NotifyWalletBacked;

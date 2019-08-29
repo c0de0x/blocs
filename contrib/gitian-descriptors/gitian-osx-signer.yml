@@ -1,5 +1,5 @@
 ---
-name: "dexergi-dmg-signer"
+name: "bitstats-dmg-signer"
 distro: "ubuntu"
 suites:
 - "bionic"
@@ -8,10 +8,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/dexergi-project/dexergi-detached-sigs.git"
+- "url": "https://github.com/bitstats-project/bitstats-detached-sigs.git"
   "dir": "signature"
 files:
-- "dexergi-osx-unsigned.tar.gz"
+- "bitstats-osx-unsigned.tar.gz"
 script: |
   set -e -o pipefail
 
@@ -30,8 +30,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=dexergi-osx-unsigned.tar.gz
-  SIGNED=dexergi-osx-signed.dmg
+  UNSIGNED=bitstats-osx-unsigned.tar.gz
+  SIGNED=bitstats-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

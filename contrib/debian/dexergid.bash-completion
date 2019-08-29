@@ -1,2 +1,2 @@
-contrib/dexergid.bash-completion	dexergid
-contrib/dexergi-cli.bash-completion dexergi-cli
+contrib/bitstatsd.bash-completion	bitstatsd
+contrib/bitstats-cli.bash-completion bitstats-cli

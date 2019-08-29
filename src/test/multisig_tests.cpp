@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2013 The Bitcoin Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -11,7 +11,7 @@
 #include "script/interpreter.h"
 #include "script/sign.h"
 #include "uint256.h"
-#include "test_dexergi.h"
+#include "test_bitstats.h"
 
 #ifdef ENABLE_WALLET
 #include "wallet/wallet_ismine.h"

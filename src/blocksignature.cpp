@@ -1,5 +1,5 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
-// Copyright (c) 2017-2019 The DEXERGI developers
+/* Copyright (c) 2019-2020 The Bitstats Developers */
+// Copyright (c) 2017-2019 The BITSTATS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -63,13 +63,13 @@ bool CheckBlockSignature(const CBlock& block)
     if (block.vchBlockSig.empty())
         return error("%s: vchBlockSig is empty!", __func__);
 
-    /** Each block is signed by the private key of the input that is staked. This can be either zDXR or normal UTXO
-     *  zDXR: Each zDXR has a keypair associated with it. The serial number is a hash of the public key.
+    /** Each block is signed by the private key of the input that is staked. This can be either zBTT or normal UTXO
+     *  zBTT: Each zBTT has a keypair associated with it. The serial number is a hash of the public key.
      *  UTXO: The public key that signs must match the public key associated with the first utxo of the coinstake tx.
      */
     CPubKey pubkey;
-    bool fzDXRStake = block.vtx[1].vin[0].IsZerocoinSpend();
-    if (fzDXRStake) {
+    bool fzBTTStake = block.vtx[1].vin[0].IsZerocoinSpend();
+    if (fzBTTStake) {
         libzerocoin::CoinSpend spend = TxInToZerocoinSpend(block.vtx[1].vin[0]);
         pubkey = spend.getPubKey();
     } else {

@@ -62,12 +62,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše DEXERGI adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše BITSTATS adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše DEXERGI adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše BITSTATS adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdite šifriranje novčanika</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše DXR od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše BTT od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ DXR1!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ BTT1!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -409,8 +409,8 @@
         <translation>Pregledajte povijest transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>Aktivnosti na privatnost za zDXR</translation>
+        <source>Privacy Actions for zBTT</source>
+        <translation>Aktivnosti na privatnost za zBTT</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -617,16 +617,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
-        <source>Send coins to a DEXERGI address</source>
-        <translation>Pošaljite kovanice na DEXERGI adresu</translation>
+        <source>Send coins to a BITSTATS address</source>
+        <translation>Pošaljite kovanice na BITSTATS adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dexergi: URIs)</source>
-        <translation>Zahtjev za plaćanja (generira QR kodove i dexergi: URI)</translation>
+        <source>Request payments (generates QR codes and bitstats: URIs)</source>
+        <translation>Zahtjev za plaćanja (generira QR kodove i bitstats: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -641,24 +641,24 @@
         <translation>Pregledajte masternode</translation>
     </message>
     <message>
-        <source>&amp;About DEXERGI Core</source>
-        <translation>&amp; O DEXERGI Coreu</translation>
+        <source>&amp;About BITSTATS Core</source>
+        <translation>&amp; O BITSTATS Coreu</translation>
     </message>
     <message>
-        <source>Show information about DEXERGI Core</source>
-        <translation>Prikaz informacija o DEXERGI Coreu</translation>
+        <source>Show information about BITSTATS Core</source>
+        <translation>Prikaz informacija o BITSTATS Coreu</translation>
     </message>
     <message>
-        <source>Modify configuration options for DEXERGI</source>
-        <translation>Izmijenite opcije konfiguracije za DEXERGI</translation>
+        <source>Modify configuration options for BITSTATS</source>
+        <translation>Izmijenite opcije konfiguracije za BITSTATS</translation>
     </message>
     <message>
-        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim DEXERGI adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim BITSTATS adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim DEXERGI adresama</translation>
+        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim BITSTATS adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -685,8 +685,8 @@
         <translation>Otvori konfiguracijsku datoteku za Masternode</translation>
     </message>
     <message>
-        <source>DEXERGI Core client</source>
-        <translation>DEXERGI Core klijent</translation>
+        <source>BITSTATS Core client</source>
+        <translation>BITSTATS Core klijent</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -922,15 +922,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1058,8 +1058,8 @@
         <translation>N/A</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     </context>
 <context>
@@ -1244,8 +1244,8 @@
         <translation>Ostatak:</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 BTT</source>
+        <translation>0 BTT</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -1322,15 +1322,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DEXERGI Core is shutting down...</source>
-        <translation>DEXERGI Core se gasi...</translation>
+        <source>BITSTATS Core is shutting down...</source>
+        <translation>BITSTATS Core se gasi...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DEXERGI address to sign the message with</source>
-        <translation>DEXERGI adresa za potpisivanje poruke s</translation>
+        <source>The BITSTATS address to sign the message with</source>
+        <translation>BITSTATS adresa za potpisivanje poruke s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1353,16 +1353,16 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DEXERGI address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove DEXERGI adrese</translation>
+        <source>Sign the message to prove you own this BITSTATS address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove BITSTATS adrese</translation>
     </message>
     <message>
-        <source>The DEXERGI address the message was signed with</source>
-        <translation>DEXERGI adresa s kojom je potpisana poruka</translation>
+        <source>The BITSTATS address the message was signed with</source>
+        <translation>BITSTATS adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom DEXERGI adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom BITSTATS adresom</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1408,8 +1408,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1567,7 +1567,7 @@
     </message>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

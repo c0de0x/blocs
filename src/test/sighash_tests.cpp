@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2013 The Bitcoin Core developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -12,7 +12,7 @@
 #include "script/interpreter.h"
 #include "util.h"
 #include "version.h"
-#include "test_dexergi.h"
+#include "test_bitstats.h"
 
 #include <iostream>
 

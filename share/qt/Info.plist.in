@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The DEXERGI Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The BITSTATS Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>DEXERGI-Qt</string>
+  <string>BITSTATS-Qt</string>
   
   <key>CFBundleName</key>
-  <string>DEXERGI-Qt</string>
+  <string>BITSTATS-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.dexergi.Dexergi-Qt</string>
+  <string>io.bitstats.Bitstats-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.dexergi.DexergiPayment</string>
+      <string>io.bitstats.BitstatsPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>dexergi</string>
+        <string>bitstats</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.dexergi.paymentrequest</string>
+      <string>io.bitstats.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Dexergi payment request</string>
+      <string>Bitstats payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-dexergi-payment-request</string>
+        <string>application/x-bitstats-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>dexergipaymentrequest</string>
+          <string>bitstatspaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.dexergi.paymentrequest</string>
+        <string>io.bitstats.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

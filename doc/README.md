@@ -1,39 +1,39 @@
-DEXERGI Core
+BITSTATS Core
 =============
 
 Setup
 ---------------------
-[DEXERGI Core](http://dexergi.org/wallet) is the original DEXERGI client and it builds the backbone of the network. However, it downloads and stores the entire history of DEXERGI transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[BITSTATS Core](http://bitstats.org/wallet) is the original BITSTATS client and it builds the backbone of the network. However, it downloads and stores the entire history of BITSTATS transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run DEXERGI Core on your native platform.
+The following are some helpful notes on how to run BITSTATS Core on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/dexergi-qt` (GUI) or
-- `bin/dexergid` (headless)
+- `bin/bitstats-qt` (GUI) or
+- `bin/bitstatsd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run dexergi-qt.exe.
+Unpack the files into a directory, and then run bitstats-qt.exe.
 
 ### macOS
 
-Drag DEXERGI-Qt to your applications folder, and then run DEXERGI-Qt.
+Drag BITSTATS-Qt to your applications folder, and then run BITSTATS-Qt.
 
 ### Need Help?
 
-* See the documentation at the [DEXERGI Wiki](https://github.com/DEXERGI-Project/DEXERGI/wiki)
+* See the documentation at the [BITSTATS Wiki](https://github.com/BITSTATS-Project/BITSTATS/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [DEXERGI Forum](http://forum.dexergi.org/).
-* Join our Discord server [Discord Server](https://discord.dexergi.org)
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [BITSTATS Forum](http://forum.bitstats.org/).
+* Join our Discord server [Discord Server](https://discord.bitstats.org)
 
 Building
 ---------------------
-The following are developer notes on how to build DEXERGI Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build BITSTATS Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -43,21 +43,21 @@ The following are developer notes on how to build DEXERGI Core on your native pl
 
 Development
 ---------------------
-The DEXERGI repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The BITSTATS repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/dexergi/doxygen/)
+- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/bitstats/doxygen/)
 - [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [DEXERGI](http://forum.dexergi.org/) forum.
-* Join the [DEXERGI Discord](https://discord.dexergi.org).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [BITSTATS](http://forum.bitstats.org/) forum.
+* Join the [BITSTATS Discord](https://discord.bitstats.org).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

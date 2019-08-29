@@ -195,6 +195,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     </context>
 </TS>

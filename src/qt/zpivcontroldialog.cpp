@@ -1,5 +1,5 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
-// Copyright (c) 2017-2019 The DEXERGI developers
+/* Copyright (c) 2019-2020 The Bitstats Developers */
+// Copyright (c) 2017-2019 The BITSTATS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -143,9 +143,9 @@ void ZPivControlDialog::updateList()
             if(nConfirmations < Params().Zerocoin_MintRequiredConfirmations())
                 strReason = strprintf("Needs %d more confirmations", Params().Zerocoin_MintRequiredConfirmations() - nConfirmations);
             else if (model->getEncryptionStatus() == WalletModel::EncryptionStatus::Locked)
-                strReason = "Your wallet is locked. Impossible to precompute or spend zDXR.";
+                strReason = "Your wallet is locked. Impossible to precompute or spend zBTT.";
             else if (!mint.isSeedCorrect)
-                strReason = "The zDXR seed used to mint this zDXR is not the same as currently hold in the wallet";
+                strReason = "The zBTT seed used to mint this zBTT is not the same as currently hold in the wallet";
             else
                 strReason = strprintf("Needs %d more mints added to network", Params().Zerocoin_RequiredAccumulation());
 

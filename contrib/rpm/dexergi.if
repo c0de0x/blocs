@@ -1,10 +1,10 @@
 
-## <summary>policy for dexergi</summary>
+## <summary>policy for bitstats</summary>
 
 
 ########################################
 ## <summary>
-##	Transition to dexergi.
+##	Transition to bitstats.
 ## </summary>
 ## <param name="domain">
 ## <summary>
@@ -12,19 +12,19 @@
 ## </summary>
 ## </param>
 #
-interface(`dexergi_domtrans',`
+interface(`bitstats_domtrans',`
 	gen_require(`
-		type dexergi_t, dexergi_exec_t;
+		type bitstats_t, bitstats_exec_t;
 	')
 
 	corecmd_search_bin($1)
-	domtrans_pattern($1, dexergi_exec_t, dexergi_t)
+	domtrans_pattern($1, bitstats_exec_t, bitstats_t)
 ')
 
 
 ########################################
 ## <summary>
-##	Execute dexergi server in the dexergi domain.
+##	Execute bitstats server in the bitstats domain.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -32,18 +32,18 @@ interface(`dexergi_domtrans',`
 ##	</summary>
 ## </param>
 #
-interface(`dexergi_initrc_domtrans',`
+interface(`bitstats_initrc_domtrans',`
 	gen_require(`
-		type dexergi_initrc_exec_t;
+		type bitstats_initrc_exec_t;
 	')
 
-	init_labeled_script_domtrans($1, dexergi_initrc_exec_t)
+	init_labeled_script_domtrans($1, bitstats_initrc_exec_t)
 ')
 
 
 ########################################
 ## <summary>
-##	Search dexergi lib directories.
+##	Search bitstats lib directories.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -51,18 +51,18 @@ interface(`dexergi_initrc_domtrans',`
 ##	</summary>
 ## </param>
 #
-interface(`dexergi_search_lib',`
+interface(`bitstats_search_lib',`
 	gen_require(`
-		type dexergi_var_lib_t;
+		type bitstats_var_lib_t;
 	')
 
-	allow $1 dexergi_var_lib_t:dir search_dir_perms;
+	allow $1 bitstats_var_lib_t:dir search_dir_perms;
 	files_search_var_lib($1)
 ')
 
 ########################################
 ## <summary>
-##	Read dexergi lib files.
+##	Read bitstats lib files.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -70,18 +70,18 @@ interface(`dexergi_search_lib',`
 ##	</summary>
 ## </param>
 #
-interface(`dexergi_read_lib_files',`
+interface(`bitstats_read_lib_files',`
 	gen_require(`
-		type dexergi_var_lib_t;
+		type bitstats_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	read_files_pattern($1, dexergi_var_lib_t, dexergi_var_lib_t)
+	read_files_pattern($1, bitstats_var_lib_t, bitstats_var_lib_t)
 ')
 
 ########################################
 ## <summary>
-##	Manage dexergi lib files.
+##	Manage bitstats lib files.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -89,18 +89,18 @@ interface(`dexergi_read_lib_files',`
 ##	</summary>
 ## </param>
 #
-interface(`dexergi_manage_lib_files',`
+interface(`bitstats_manage_lib_files',`
 	gen_require(`
-		type dexergi_var_lib_t;
+		type bitstats_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	manage_files_pattern($1, dexergi_var_lib_t, dexergi_var_lib_t)
+	manage_files_pattern($1, bitstats_var_lib_t, bitstats_var_lib_t)
 ')
 
 ########################################
 ## <summary>
-##	Manage dexergi lib directories.
+##	Manage bitstats lib directories.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -108,20 +108,20 @@ interface(`dexergi_manage_lib_files',`
 ##	</summary>
 ## </param>
 #
-interface(`dexergi_manage_lib_dirs',`
+interface(`bitstats_manage_lib_dirs',`
 	gen_require(`
-		type dexergi_var_lib_t;
+		type bitstats_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	manage_dirs_pattern($1, dexergi_var_lib_t, dexergi_var_lib_t)
+	manage_dirs_pattern($1, bitstats_var_lib_t, bitstats_var_lib_t)
 ')
 
 
 ########################################
 ## <summary>
 ##	All of the rules required to administrate
-##	a dexergi environment
+##	a bitstats environment
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -135,23 +135,23 @@ interface(`dexergi_manage_lib_dirs',`
 ## </param>
 ## <rolecap/>
 #
-interface(`dexergi_admin',`
+interface(`bitstats_admin',`
 	gen_require(`
-		type dexergi_t;
-		type dexergi_initrc_exec_t;
-		type dexergi_var_lib_t;
+		type bitstats_t;
+		type bitstats_initrc_exec_t;
+		type bitstats_var_lib_t;
 	')
 
-	allow $1 dexergi_t:process { ptrace signal_perms };
-	ps_process_pattern($1, dexergi_t)
+	allow $1 bitstats_t:process { ptrace signal_perms };
+	ps_process_pattern($1, bitstats_t)
 
-	dexergi_initrc_domtrans($1)
+	bitstats_initrc_domtrans($1)
 	domain_system_change_exemption($1)
-	role_transition $2 dexergi_initrc_exec_t system_r;
+	role_transition $2 bitstats_initrc_exec_t system_r;
 	allow $2 system_r;
 
 	files_search_var_lib($1)
-	admin_pattern($1, dexergi_var_lib_t)
+	admin_pattern($1, bitstats_var_lib_t)
 
 ')
 

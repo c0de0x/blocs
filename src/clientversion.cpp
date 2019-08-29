@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2012-2017 The Bitcoin Core developers
 // Copyright (c) 2016-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
@@ -11,10 +11,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both dexergid and dexergi-qt, to make it harder for attackers to
+ * for both bitstatsd and bitstats-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("DEXERGI Core");
+const std::string CLIENT_NAME("BITSTATS Core");
 
 /**
  * Client version number

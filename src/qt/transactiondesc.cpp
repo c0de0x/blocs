@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
@@ -254,7 +254,7 @@ QString TransactionDesc::toHTML(CWallet* wallet, CWalletTx& wtx, TransactionReco
     strHTML += "<b>" + tr("Transaction ID") + ":</b> " + rec->getTxID() + "<br>";
     strHTML += "<b>" + tr("Output index") + ":</b> " + QString::number(rec->getOutputIndex()) + "<br>";
 
-    // Message from normal dexergi:URI (dexergi:XyZ...?message=example)
+    // Message from normal bitstats:URI (bitstats:XyZ...?message=example)
     foreach (const PAIRTYPE(string, string) & r, wtx.vOrderForm)
         if (r.first == "Message")
             strHTML += "<br><b>" + tr("Message") + ":</b><br>" + GUIUtil::HtmlEscape(r.second, true) + "<br>";

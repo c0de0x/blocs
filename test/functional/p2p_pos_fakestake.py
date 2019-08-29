@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019 The DEXERGI developers
+# Copyright (c) 2019 The BITSTATS developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,9 +9,9 @@ Covers the scenario of a PoS block where the coinstake input prevout is already 
 
 from time import sleep
 
-from fake_stake.base_test import DEXERGI_FakeStakeTest
+from fake_stake.base_test import BITSTATS_FakeStakeTest
 
-class PoSFakeStake(DEXERGI_FakeStakeTest):
+class PoSFakeStake(BITSTATS_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the scenario of a PoS block where the coinstake input prevout is already spent."

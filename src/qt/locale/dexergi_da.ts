@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -176,16 +176,16 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE DXR&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE BTT&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast en DEXERGI-adresse, som du gerne vil kryptere ved hjælp af BIP 38. Indtast en adgangskode i mellemkassen. Tryk på krypteringen for at beregne den krypterede private nøgle.</translation>
+        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Indtast en BITSTATS-adresse, som du gerne vil kryptere ved hjælp af BIP 38. Indtast en adgangskode i mellemkassen. Tryk på krypteringen for at beregne den krypterede private nøgle.</translation>
     </message>
     <message>
-        <source>The DEXERGI address to encrypt</source>
-        <translation>DEXERGI-adressen for at kryptere</translation>
+        <source>The BITSTATS address to encrypt</source>
+        <translation>BITSTATS-adressen for at kryptere</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this DEXERGI address</source>
-        <translation>Krypter den private nøgle for denne DEXERGI-adresse</translation>
+        <source>Encrypt the private key for this BITSTATS address</source>
+        <translation>Krypter den private nøgle for denne BITSTATS-adresse</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Vis transaktionshistorik</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>Beskyttelse af personlige oplysninger for zDXR</translation>
+        <source>Privacy Actions for zBTT</source>
+        <translation>Beskyttelse af personlige oplysninger for zBTT</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -641,16 +641,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerne</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerne</translation>
     </message>
     <message>
-        <source>Send coins to a DEXERGI address</source>
-        <translation>Send mønter til en DEXERGI adresse</translation>
+        <source>Send coins to a BITSTATS address</source>
+        <translation>Send mønter til en BITSTATS adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dexergi: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og DEXERGI URL)</translation>
+        <source>Request payments (generates QR codes and bitstats: URIs)</source>
+        <translation>Anmod om betaling (genrerer QR kode og BITSTATS URL)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,24 +665,24 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About DEXERGI Core</source>
-        <translation>&amp;Om DEXERGI kerne</translation>
+        <source>&amp;About BITSTATS Core</source>
+        <translation>&amp;Om BITSTATS kerne</translation>
     </message>
     <message>
-        <source>Show information about DEXERGI Core</source>
-        <translation>Vis information om DEXERGI kerne</translation>
+        <source>Show information about BITSTATS Core</source>
+        <translation>Vis information om BITSTATS kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for DEXERGI</source>
-        <translation>Ret konfigurationsindstillinger for DEXERGI</translation>
+        <source>Modify configuration options for BITSTATS</source>
+        <translation>Ret konfigurationsindstillinger for BITSTATS</translation>
     </message>
     <message>
-        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
-        <translation>Underskriv beskeder med Deres DEXERGI adresser for at bekræfte at De ejer dem.</translation>
+        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
+        <translation>Underskriv beskeder med Deres BITSTATS adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
-        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne DEXERGI adresse</translation>
+        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
+        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne BITSTATS adresse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a DEXERGI: URI or payment request</source>
-        <translation>Åbn en DEXERGI URl eller betalingsanmodning</translation>
+        <source>Open a BITSTATS: URI or payment request</source>
+        <translation>Åbn en BITSTATS URl eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
-        <translation>Vis hjelpetekster fra DEXERGI kernen for at få en liste med mulige DEXERGI kommandolinie-startparametre</translation>
+        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
+        <translation>Vis hjelpetekster fra BITSTATS kernen for at få en liste med mulige BITSTATS kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>DEXERGI Core client</source>
-        <translation>DEXERGI kerneklient</translation>
+        <source>BITSTATS Core client</source>
+        <translation>BITSTATS kerneklient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -868,8 +868,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (dexergi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (bitstats.conf).</translation>
     </message>
 </context>
 <context>
@@ -1106,7 +1106,7 @@ Adresse: %4
         <translation>Denne tekstmarkør bliver rød, hvis en modtageradresse modtager et beløb mindre end %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uDXR per input.</source>
+        <source>Can vary +/- %1 uBTT per input.</source>
         <translation>Kan variere +/- %1 opiv pr input.</translation>
     </message>
     <message>
@@ -1161,8 +1161,8 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DEXERGI address.</source>
-        <translation>Den indtastede adresse %1 er ikke en gyldig DEXERGI adresse</translation>
+        <source>The entered address "%1" is not a valid BITSTATS address.</source>
+        <translation>Den indtastede adresse %1 er ikke en gyldig BITSTATS adresse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1218,16 +1218,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerne</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DEXERGI Core</source>
-        <translation>om DEXERGI kerne</translation>
+        <source>About BITSTATS Core</source>
+        <translation>om BITSTATS kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1273,16 +1273,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to DEXERGI Core.</source>
-        <translation>Velkommen til DEXERGI kerne</translation>
+        <source>Welcome to BITSTATS Core.</source>
+        <translation>Velkommen til BITSTATS kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor DEXERGI kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor BITSTATS kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DEXERGI kernen vil nu hente og gemme en kopi af DEXERGI blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BITSTATS kernen vil nu hente og gemme en kopi af BITSTATS blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1293,8 +1293,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerne</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1435,12 +1435,12 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DEXERGI addresses after it matures.
-To Add: enter percentage to give and DEXERGI address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITSTATS addresses after it matures.
+To Add: enter percentage to give and BITSTATS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre DEXERGI adressater når den er tilstrækkelig stor. 
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den DEXERGI adresse som skal modtage via Multisendsystemet. 
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre BITSTATS adressater når den er tilstrækkelig stor. 
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den BITSTATS adresse som skal modtage via Multisendsystemet. 
 For at fjerne: Indtast adressen som skal slettes og klik på slet. 
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
@@ -1646,8 +1646,8 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Adresse / Beløb:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>Tilføj destinationer for at sende DXR til</translation>
+        <source>Add destinations to send BTT to</source>
+        <translation>Tilføj destinationer for at sende BTT til</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1780,8 +1780,8 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn DEXERGI klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn BITSTATS klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1800,12 +1800,12 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start DEXERGI after logging in to the system.</source>
-        <translation>Start DEXERGI automatisk, når der logges på systemet</translation>
+        <source>Automatically start BITSTATS after logging in to the system.</source>
+        <translation>Start BITSTATS automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start DEXERGI on system login</source>
-        <translation>&amp;start DEXERGI når der logges på systemet</translation>
+        <source>&amp;Start BITSTATS on system login</source>
+        <translation>&amp;start BITSTATS når der logges på systemet</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1832,50 +1832,50 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang DEXERGI klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang BITSTATS klienten startes</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</translation>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of DXR units to zDXR</source>
-        <translation>Aktivér automatisk mintning af DXR-enheder til zDXR</translation>
+        <source>Enable automatic minting of BTT units to zBTT</source>
+        <translation>Aktivér automatisk mintning af BTT-enheder til zBTT</translation>
     </message>
     <message>
-        <source>Enable zDXR Automint</source>
-        <translation>Aktivér zDXR Automint</translation>
+        <source>Enable zBTT Automint</source>
+        <translation>Aktivér zBTT Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentdelen af indkommende DXR, som automatisk konverteres til zDXR via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentdelen af indkommende BTT, som automatisk konverteres til zBTT via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXR</source>
-        <translation>Procentdel af automatiseret zDXR</translation>
+        <source>Percentage of autominted zBTT</source>
+        <translation>Procentdel af automatiseret zBTT</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
-        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok DXR til denne betegnelse er tilgængelig</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
+        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok BTT til denne betegnelse er tilgængelig</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXR Denomination</source>
-        <translation>Foretrukket Automint zDXR Denomination</translation>
+        <source>Preferred Automint zBTT Denomination</source>
+        <translation>Foretrukket Automint zBTT Denomination</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Indtastningsgrænse for indsats:</translation>
     </message>
     <message>
-        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
-        <translation>Tilslut DEXERGI netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
+        <translation>Tilslut BITSTATS netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2025,8 +2025,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Samlet saldo, inklusive alle utilgængelige mønter.</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>DXR Balance</translation>
+        <source>BTT Balance</source>
+        <translation>BTT Balance</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2049,18 +2049,18 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Nuværende låst balance i kun-adresser</translation>
     </message>
     <message>
-        <source>Your current DEXERGI balance, unconfirmed and immature transactions included</source>
-        <translation>Din nuværende DEXERGI-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
+        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
+        <translation>Din nuværende BITSTATS-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>zDXR-saldo</translation>
+        <source>zBTT Balance</source>
+        <translation>zBTT-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zDXR are spendable.</source>
+These zBTT are spendable.</source>
         <translation>Ældre: mere end 20 bekræftelser og mere end 1 minutter med samme betegnelse, efter at den blev minted
-Disse zDXR kan bruges.</translation>
+Disse zBTT kan bruges.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2069,8 +2069,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at den blev mønnet</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med DEXERGI netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med BITSTATS netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2113,8 +2113,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Brugbare:</translation>
     </message>
     <message>
-        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
-        <translation>Låste DXR eller Masternode collaterals. Disse er udelukket fra zDXR-mintning.</translation>
+        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
+        <translation>Låste BTT eller Masternode collaterals. Disse er udelukket fra zBTT-mintning.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2125,8 +2125,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Ubekræftet:</translation>
     </message>
     <message>
-        <source>Your current zDXR balance, unconfirmed and immature zDXR included.</source>
-        <translation>Din nuværende zDXR-saldo, ubekræftede og umodne zDXR inkluderet.</translation>
+        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
+        <translation>Din nuværende zBTT-saldo, ubekræftede og umodne zBTT inkluderet.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2137,10 +2137,10 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Ude af synk</translation>
     </message>
     <message>
-        <source>Current percentage of zDXR.
+        <source>Current percentage of zBTT.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuværende procentdel af zDXR
+        <translation>Nuværende procentdel af zBTT
 Hvis AutoMint er aktiveret, vil denne procentdel sætte sig omkring den konfigurerede AutoMint-procent (default = 10%)</translation>
     </message>
     <message>
@@ -2148,14 +2148,14 @@ Hvis AutoMint er aktiveret, vil denne procentdel sætte sig omkring den konfigur
         <translation>AutoMint er i øjeblikket aktiveret og indstillet til</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in dexergi.conf.</source>
-        <translation>To disable AutoMint add 'enablezeromint=0' in dexergi.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</source>
+        <translation>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.conf</source>
         <translation>AutoMint er for øjeblikket deaktiveret
-For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' i dexergi.conf</translation>
+For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' i bitstats.conf</translation>
     </message>
 </context>
 <context>
@@ -2181,11 +2181,11 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start dexergi: click-to-pay handler</source>
-        <translation>Kan ikke starte DEXERGI "klik for at betale" systemet</translation>
+        <source>Cannot start bitstats: click-to-pay handler</source>
+        <translation>Kan ikke starte BITSTATS "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DEXERGI address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid BITSTATS address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -2271,8 +2271,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Zerocoin Aktioner:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med DEXERGI netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med BITSTATS netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2283,8 +2283,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2311,12 +2311,12 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>PRIVATLIV</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
-        <translation>zDXR Control</translation>
+        <source>zBTT Control</source>
+        <translation>zBTT Control</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
-        <translation>zDXR Selected:</translation>
+        <source>zBTT Selected:</source>
+        <translation>zBTT Selected:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2331,32 +2331,32 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Tilbring Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending</source>
-        <translation>Tilgængelig (moden og brugt) zDXR for udgifter</translation>
+        <source>Available (mature and spendable) zBTT for spending</source>
+        <translation>Tilgængelig (moden og brugt) zBTT for udgifter</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Disponibel saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending
+        <source>Available (mature and spendable) zBTT for spending
 
-zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tilgængelig (moden og brugt) zDXR for spending
+zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tilgængelig (moden og brugt) zBTT for spending
 
-zDXR er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
+zBTT er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zBTT</source>
+        <translation>0 zBTT</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>DEXERGI-adressen for at sende betalingen til. Opretter lokal betaling til dig selv, når du er tom.</translation>
+        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>BITSTATS-adressen for at sende betalingen til. Opretter lokal betaling til dig selv, når du er tom.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2407,8 +2407,8 @@ zDXR er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDXR</source>
-        <translation>Samlet saldo inklusive ubekræftede og umodne zDXR</translation>
+        <source>Total Balance including unconfirmed and immature zBTT</source>
+        <translation>Samlet saldo inklusive ubekræftede og umodne zBTT</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2429,24 +2429,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at den blev mønnet</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zDXR minting.
+        <source>Show the current status of automatic zBTT minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to dexergi.conf
-- disable: add 'enablezeromint=0' to dexergi.conf
+- enable: add 'enablezeromint=1' to bitstats.conf
+- disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zDXR
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
 
 </source>
-        <translation>Vis den aktuelle status for automatisk zDXR minting.øj
+        <translation>Vis den aktuelle status for automatisk zBTT minting.øj
 
 For at ændre status (genstart kræves):.
-- aktiver: tilføj 'enablezeromint = 1' til dexergi.conf
-- deaktiver: tilføj 'enablezeromint = 0' til dexergi.conf
+- aktiver: tilføj 'enablezeromint = 1' til bitstats.conf
+- deaktiver: tilføj 'enablezeromint = 0' til bitstats.conf
 
 For at ændre procentdelen (ingen genstart kræves):.
-- menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zDXR
+- menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zBTT
 </translation>
     </message>
     <message>
@@ -2620,12 +2620,12 @@ Please be patient...</source>
 Vær tålmodig...</translation>
     </message>
     <message>
-        <source>zDXR Spend #: </source>
-        <translation>zDXR Spend #: </translation>
+        <source>zBTT Spend #: </source>
+        <translation>zBTT Spend #: </translation>
     </message>
     <message>
-        <source>zDXR Mint</source>
-        <translation>zDXR Mint</translation>
+        <source>zBTT Mint</source>
+        <translation>zBTT Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2640,12 +2640,12 @@ Vær tålmodig...</translation>
         <translation>Konfigureret målprocent:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zDXR is currently disabled due to maintenance.</source>
-        <translation>zDXR er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
+        <source>zBTT is currently disabled due to maintenance.</source>
+        <translation>zBTT er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
     </message>
     <message>
-        <source>zDXR is currently undergoing maintenance.</source>
-        <translation>zDXR er i øjeblikket under opretholdelse.</translation>
+        <source>zBTT is currently undergoing maintenance.</source>
+        <translation>zBTT er i øjeblikket under opretholdelse.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2734,8 +2734,8 @@ Vær tålmodig...</translation>
         <translation>Ingen 'Betal til' adresse, der er oprettet, skaber lokal betaling</translation>
     </message>
     <message>
-        <source>Invalid DEXERGI Address</source>
-        <translation> Ugyldig DEXERGI adresse</translation>
+        <source>Invalid BITSTATS Address</source>
+        <translation> Ugyldig BITSTATS adresse</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2812,8 +2812,8 @@ Vær tålmodig...</translation>
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI address (e.g. %1)</source>
-        <translation>Indtast en DEXERGI adresse (F.eks. %1)</translation>
+        <source>Enter a BITSTATS address (e.g. %1)</source>
+        <translation>Indtast en BITSTATS adresse (F.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2856,8 +2856,8 @@ Vær tålmodig...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerne</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerne</translation>
     </message>
     </context>
 <context>
@@ -2954,8 +2954,8 @@ Vær tålmodig...</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the DEXERGI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn DEXERGI debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn BITSTATS debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3090,8 +3090,8 @@ Vær tålmodig...</translation>
         <translation>Brugerdefineret Backup-sti:</translation>
     </message>
     <message>
-        <source>Custom zDXR Backup Path:</source>
-        <translation>Brugerdefineret zDXR Backup-sti:</translation>
+        <source>Custom zBTT Backup Path:</source>
+        <translation>Brugerdefineret zBTT Backup-sti:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3170,8 +3170,8 @@ Vær tålmodig...</translation>
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the DEXERGI RPC console.</source>
-        <translation>Velkommen til DEXERGI RPC konsollet</translation>
+        <source>Welcome to the BITSTATS RPC console.</source>
+        <translation>Velkommen til BITSTATS RPC konsollet</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3301,16 +3301,16 @@ Vær tålmodig...</translation>
         <translation>A&amp;mount</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DEXERGI network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på DEXERGI netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på BITSTATS netværket.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>MODTAGE</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DEXERGI network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på DEXERGI netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på BITSTATS netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3542,8 +3542,8 @@ Vær tålmodig...</translation>
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 BTT</source>
+        <translation>0 BTT</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3598,15 +3598,15 @@ Vær tålmodig...</translation>
         <translation>Mønter vælges automatisk</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uDXRs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uDXR i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uDXRs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uBTTs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uBTT i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uBTTs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "total at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uDXRs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uDXR i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uDXRs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uBTTs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uBTT i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uBTTs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -3654,8 +3654,8 @@ Vær tålmodig...</translation>
         <translation>Tilføj &amp;Modtager</translation>
     </message>
     <message>
-        <source>Anonymized DXR</source>
-        <translation>Tilsløret DXR</translation>
+        <source>Anonymized BTT</source>
+        <translation>Tilsløret BTT</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3702,8 +3702,8 @@ Vær tålmodig...</translation>
         <translation>Split blok værktøjet virker ikke med flere adresser. Prøv igen</translation>
     </message>
     <message>
-        <source>Warning: Invalid DEXERGI address</source>
-        <translation>Advarsel! Ugyldig DEXERGI adresse</translation>
+        <source>Warning: Invalid BITSTATS address</source>
+        <translation>Advarsel! Ugyldig BITSTATS adresse</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3801,8 +3801,8 @@ Vær tålmodig...</translation>
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to</source>
-        <translation>DEXERGI adressen, som betalingen skal sendes til</translation>
+        <source>The BITSTATS address to send the payment to</source>
+        <translation>BITSTATS adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3841,8 +3841,8 @@ Vær tålmodig...</translation>
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the DEXERGI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DEXERGI network.</source>
-        <translation>En besked, der var vedhæftet til DEXERGI: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the BITSTATS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BITSTATS network.</source>
+        <translation>En besked, der var vedhæftet til BITSTATS: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3868,8 +3868,8 @@ Vær tålmodig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DEXERGI Core is shutting down...</source>
-        <translation>DEXERGI kernen lukker ned</translation>
+        <source>BITSTATS Core is shutting down...</source>
+        <translation>BITSTATS kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3891,8 +3891,8 @@ Vær tålmodig...</translation>
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The DEXERGI address to sign the message with</source>
-        <translation>Den DEXERGI adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The BITSTATS address to sign the message with</source>
+        <translation>Den BITSTATS adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3923,16 +3923,16 @@ Vær tålmodig...</translation>
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DEXERGI address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne DEXERGI adresse.</translation>
+        <source>Sign the message to prove you own this BITSTATS address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne BITSTATS adresse.</translation>
     </message>
     <message>
-        <source>The DEXERGI address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne DEXERGI adresse</translation>
+        <source>The BITSTATS address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne BITSTATS adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige DEXERGI adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige BITSTATS adresse.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4018,8 +4018,8 @@ Vær tålmodig...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI kerne</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4034,8 +4034,8 @@ Vær tålmodig...</translation>
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
-        <source>The DEXERGI Core developers</source>
-        <translation>DEXERGI "core" udviklerne</translation>
+        <source>The BITSTATS Core developers</source>
+        <translation>BITSTATS "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4298,12 +4298,12 @@ Vær tålmodig...</translation>
         <translation>Modtaget via tilsløring</translation>
     </message>
     <message>
-        <source>DXR Stake</source>
-        <translation>DXR Stake</translation>
+        <source>BTT Stake</source>
+        <translation>BTT Stake</translation>
     </message>
     <message>
-        <source>zDXR Stake</source>
-        <translation>zDXR Stake</translation>
+        <source>zBTT Stake</source>
+        <translation>zBTT Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4322,32 +4322,32 @@ Vær tålmodig...</translation>
         <translation>Opret tilsløret designering</translation>
     </message>
     <message>
-        <source>Converted DXR to zDXR</source>
-        <translation>Konverteret DXR til zDXR</translation>
+        <source>Converted BTT to zBTT</source>
+        <translation>Konverteret BTT til zBTT</translation>
     </message>
     <message>
-        <source>Spent zDXR</source>
+        <source>Spent zBTT</source>
         <translation>Brugt zPiv</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
+        <source>Received BTT from zBTT</source>
         <translation>Modtaget Piv fra zPiv</translation>
     </message>
     <message>
-        <source>Minted Change as zDXR from zDXR Spend</source>
-        <translation>Minted Change som zDXR fra zDXR Spend</translation>
+        <source>Minted Change as zBTT from zBTT Spend</source>
+        <translation>Minted Change som zBTT fra zBTT Spend</translation>
     </message>
     <message>
-        <source>Converted zDXR to DXR</source>
-        <translation>Konverteret DXR til zDXR</translation>
+        <source>Converted zBTT to BTT</source>
+        <translation>Konverteret BTT til zBTT</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Transaction)</source>
-        <translation>Anonym (zDXR Transaction)</translation>
+        <source>Anonymous (zBTT Transaction)</source>
+        <translation>Anonym (zBTT Transaction)</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Stake)</source>
-        <translation>Anonym (zDXR Stake)</translation>
+        <source>Anonymous (zBTT Stake)</source>
+        <translation>Anonym (zBTT Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4557,12 +4557,12 @@ Vær tålmodig...</translation>
         <translation>Eksporteret!</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
+        <source>Received BTT from zBTT</source>
         <translation>Modtaget Piv fra zPiv</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zDXR</source>
-        <translation>Zerocoin Spend, Ændring i zDXR</translation>
+        <source>Zerocoin Spend, Change in zBTT</source>
+        <translation>Zerocoin Spend, Ændring i zBTT</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4598,8 +4598,8 @@ Vær tålmodig...</translation>
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1DXR.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1BTT.</translation>
     </message>
 </context>
 <context>
@@ -4632,8 +4632,8 @@ Vær tålmodig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zDXR to Spend</source>
-        <translation>Vælg zDXR for at bruge</translation>
+        <source>Select zBTT to Spend</source>
+        <translation>Vælg zBTT for at bruge</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4644,8 +4644,8 @@ Vær tålmodig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4653,7 +4653,7 @@ Vær tålmodig...</translation>
     </message>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -4679,8 +4679,8 @@ Vær tålmodig...</translation>
         <translation>Beregnet akkumulator kontrolpunkt er ikke det, der er registreret af blok indeks</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. DEXERGI Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. DEXERGI core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. BITSTATS Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. BITSTATS core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4708,16 +4708,16 @@ Vær tålmodig...</translation>
 &lt;http://www.opensource.org/licenses/mit-license.php&gt;. </translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</source>
         <translation>Aktivér automatiske wallet-sikkerhedskopier udløst efter hver zPiv-mintning (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</source>
-        <translation>Aktiver eller deaktiver staking-funktionalitet for DXR-indgange (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</source>
+        <translation>Aktiver eller deaktiver staking-funktionalitet for BTT-indgange (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</source>
-        <translation>Aktiver eller deaktiver staking-funktionalitet for zDXR-indgange (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</source>
+        <translation>Aktiver eller deaktiver staking-funktionalitet for zBTT-indgange (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4752,12 +4752,12 @@ Vær tålmodig...</translation>
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in DXR/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in BTT/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in DXR/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in BTT/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4805,7 +4805,7 @@ Vær tålmodig...</translation>
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere DEXERGI</translation>
+        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere BITSTATS</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -4852,20 +4852,20 @@ Vær tålmodig...</translation>
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. DEXERGI Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. DEXERGI kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. BITSTATS Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. BITSTATS kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 DXR.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 BTT.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 DXR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 BTT.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4880,8 +4880,8 @@ Vær tålmodig...</translation>
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DEXERGI Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil DEXERGI core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BITSTATS Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil BITSTATS core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5012,8 +5012,8 @@ Vær tålmodig...</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Developers </translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DEXERGI Core Developers</source>
-        <translation>Copyright (C) 2015-%i The DEXERGI Core Developers</translation>
+        <source>Copyright (C) 2015-%i The BITSTATS Core Developers</source>
+        <translation>Copyright (C) 2015-%i The BITSTATS Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5092,8 +5092,8 @@ Vær tålmodig...</translation>
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DEXERGI Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af DEXERGI core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BITSTATS Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af BITSTATS core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5148,8 +5148,8 @@ Vær tålmodig...</translation>
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in DXR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i DXR/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in BTT/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i BTT/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5188,8 +5188,8 @@ Vær tålmodig...</translation>
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. DEXERGI Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. DEXERGI core lukker ned. </translation>
+        <source>Initialization sanity check failed. BITSTATS Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. BITSTATS core lukker ned. </translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5252,8 +5252,8 @@ Vær tålmodig...</translation>
         <translation>Procentdel af automatisk mintede Zerocoin (10-100, standard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the DXR and zDXR money supply statistics</source>
-        <translation>Reindex DXR og zDXR pengemængde statistikker</translation>
+        <source>Reindex the BTT and zBTT money supply statistics</source>
+        <translation>Reindex BTT og zBTT pengemængde statistikker</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5292,8 +5292,8 @@ Vær tålmodig...</translation>
 </translation>
     </message>
     <message>
-        <source>Disable all DEXERGI specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle DEXERGI funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all BITSTATS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle BITSTATS funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5328,8 +5328,8 @@ Vær tålmodig...</translation>
         <translation>Foretrukken Betegnelse for automatisk mintede Zerocoin (1/5/10/50/100/500/1000/5000), 0 uden præference. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Angiv brugerdefineret backup-vej for at tilføje en kopi af enhver zDXR-backup. Hvis det er angivet som dig, genererer hver backup en tidsstempelet fil. Hvis den er angivet som fil, ønsker man at omskrive til den pågældende fil hver backup. Hvis backupath er indstillet, vil der ske 4 sikkerhedskopier</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Angiv brugerdefineret backup-vej for at tilføje en kopi af enhver zBTT-backup. Hvis det er angivet som dig, genererer hver backup en tidsstempelet fil. Hvis den er angivet som fil, ønsker man at omskrive til den pågældende fil hver backup. Hvis backupath er indstillet, vil der ske 4 sikkerhedskopier</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5740,8 +5740,8 @@ Vær tålmodig...</translation>
         <translation>Synkroniserer sporks...</translation>
     </message>
     <message>
-        <source>Syncing zDXR wallet...</source>
-        <translation>Syncing zDXR wallet ..</translation>
+        <source>Syncing zBTT wallet...</source>
+        <translation>Syncing zBTT wallet ..</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5848,8 +5848,8 @@ Vær tålmodig...</translation>
         <translation>Brugernavn til JSON-RPC forbindelser</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zDXR</source>
-        <translation>Værdien er under den mindste tilgængelige værdi (= 1) for zDXR</translation>
+        <source>Value is below the smallest available denomination (= 1) of zBTT</source>
+        <translation>Værdien er under den mindste tilgængelige værdi (= 1) for zBTT</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5864,8 +5864,8 @@ Vær tålmodig...</translation>
         <translation>Tegnbogen %s befinder sig udenfor datamappen %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DEXERGI Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart DEXERGI core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart BITSTATS Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart BITSTATS core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

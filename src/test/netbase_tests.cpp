@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2012-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2015 The Dash Core developers
 // Copyright (c) 2015-2018 The PIVX developers
@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "netbase.h"
-#include "test/test_dexergi.h"
+#include "test/test_bitstats.h"
 
 #include <string>
 

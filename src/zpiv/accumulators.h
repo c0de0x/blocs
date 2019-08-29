@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
-// Copyright (c) 2017-2019 The DEXERGI developers
+/* Copyright (c) 2019-2020 The Bitstats Developers */
+// Copyright (c) 2017-2019 The BITSTATS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_ACCUMULATORS_H
-#define DEXERGI_ACCUMULATORS_H
+#ifndef BITSTATS_ACCUMULATORS_H
+#define BITSTATS_ACCUMULATORS_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -90,5 +90,5 @@ public:
     searchMintHeightException(const string &message) : message(message) {}
 };
 
-#endif //DEXERGI_ACCUMULATORS_H
+#endif //BITSTATS_ACCUMULATORS_H
 

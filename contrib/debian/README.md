@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package dexergid/dexergi-qt
-for Debian-based Linux systems. If you compile dexergid/dexergi-qt yourself, there are some useful files here.
+This directory contains files used to package bitstatsd/bitstats-qt
+for Debian-based Linux systems. If you compile bitstatsd/bitstats-qt yourself, there are some useful files here.
 
-## dexergi: URI support ##
+## bitstats: URI support ##
 
 
-dexergi-qt.desktop  (Gnome / Open Desktop)
+bitstats-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install dexergi-qt.desktop
+	sudo desktop-file-install bitstats-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your dexergi-qt binary to `/usr/bin`
-and the `../../share/pixmaps/dexergi128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your bitstats-qt binary to `/usr/bin`
+and the `../../share/pixmaps/bitstats128.png` to `/usr/share/pixmaps`
 
-dexergi-qt.protocol (KDE)
+bitstats-qt.protocol (KDE)
 

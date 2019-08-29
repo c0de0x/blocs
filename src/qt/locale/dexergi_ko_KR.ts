@@ -62,12 +62,12 @@
         <translation>받을 주소</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>이 주소들은 송금할 DEXERGI 주소입니다. 송금하기 전 항상 금액과 주소를 확인해주세요.</translation>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>이 주소들은 송금할 BITSTATS 주소입니다. 송금하기 전 항상 금액과 주소를 확인해주세요.</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>이 주소들은 입금 받을 DEXERGI 주소입니다. 매 거래마다 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>이 주소들은 입금 받을 BITSTATS 주소입니다. 매 거래마다 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 DXRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 BTTs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 DXR를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 BTT를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>주소:</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38 알고리즘으로 암호화할 DEXERGI 지갑 주소를 입력. 중간박스에 암호구절 입력. 암호화된 개인키를 계산하시려면 암호화 클릭</translation>
+        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38 알고리즘으로 암호화할 BITSTATS 지갑 주소를 입력. 중간박스에 암호구절 입력. 암호화된 개인키를 계산하시려면 암호화 클릭</translation>
     </message>
     <message>
-        <source>The DEXERGI address to encrypt</source>
-        <translation>암호화할 DEXERGI 주소</translation>
+        <source>The BITSTATS address to encrypt</source>
+        <translation>암호화할 BITSTATS 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this DEXERGI address</source>
-        <translation>이 DEXERGI 주소의 개인키 암호화</translation>
+        <source>Encrypt the private key for this BITSTATS address</source>
+        <translation>이 BITSTATS 주소의 개인키 암호화</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>겨래내역 보기</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>zDXR 생성 및 관리</translation>
+        <source>Privacy Actions for zBTT</source>
+        <translation>zBTT 생성 및 관리</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>탭 도구 모음</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
-        <source>Send coins to a DEXERGI address</source>
-        <translation>DEXERGI 주소로 입금하기</translation>
+        <source>Send coins to a BITSTATS address</source>
+        <translation>BITSTATS 주소로 입금하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dexergi: URIs)</source>
-        <translation>결제 요청 (QR 코드 및 dexergi: URI 생성)</translation>
+        <source>Request payments (generates QR codes and bitstats: URIs)</source>
+        <translation>결제 요청 (QR 코드 및 bitstats: URI 생성)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>마스터노드 검색</translation>
     </message>
     <message>
-        <source>&amp;About DEXERGI Core</source>
-        <translation>DEXERGI Core &amp;정보</translation>
+        <source>&amp;About BITSTATS Core</source>
+        <translation>BITSTATS Core &amp;정보</translation>
     </message>
     <message>
-        <source>Show information about DEXERGI Core</source>
-        <translation>DEXERGI Core에 대한 정보 표시</translation>
+        <source>Show information about BITSTATS Core</source>
+        <translation>BITSTATS Core에 대한 정보 표시</translation>
     </message>
     <message>
-        <source>Modify configuration options for DEXERGI</source>
-        <translation>DEXERGI에 대한 구성 옵션 수정</translation>
+        <source>Modify configuration options for BITSTATS</source>
+        <translation>BITSTATS에 대한 구성 옵션 수정</translation>
     </message>
     <message>
-        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
-        <translation>DEXERGI 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
+        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
+        <translation>BITSTATS 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
-        <translation>메시지가 지정된 DEXERGI 주소로 서명되었는지 확인합니다.</translation>
+        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
+        <translation>메시지가 지정된 BITSTATS 주소로 서명되었는지 확인합니다.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>마스터노드 구성 파일 열기</translation>
     </message>
     <message>
-        <source>Open a DEXERGI: URI or payment request</source>
-        <translation>DEXERGI: URI 또는 ​​결제 요청 열기</translation>
+        <source>Open a BITSTATS: URI or payment request</source>
+        <translation>BITSTATS: URI 또는 ​​결제 요청 열기</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,12 +729,12 @@
         <translation>블록 탐색 창</translation>
     </message>
     <message>
-        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
-        <translation>DEXERGI Core 도움말 메세지를 표시하여 사용 가능한 DEXERGI 명령행 옵션 목록 표시</translation>
+        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
+        <translation>BITSTATS Core 도움말 메세지를 표시하여 사용 가능한 BITSTATS 명령행 옵션 목록 표시</translation>
     </message>
     <message>
-        <source>DEXERGI Core client</source>
-        <translation>DEXERGI Core 클라이언트</translation>
+        <source>BITSTATS Core client</source>
+        <translation>BITSTATS Core 클라이언트</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -872,8 +872,8 @@ Address: %4
         <translation>텍스트라벨</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
-        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (dexergi.conf)에 txindex = 1을 설정해야합니다.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
+        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (bitstats.conf)에 txindex = 1을 설정해야합니다.</translation>
     </message>
 </context>
 <context>
@@ -1110,8 +1110,8 @@ Address: %4
         <translation>받는 사람이 %1 보다 작은 금액을 받으면 라벨이 빨간색으로 변경됩니다.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uDXR per input.</source>
-        <translation>Can vary +/- %1 uDXR per input.</translation>
+        <source>Can vary +/- %1 uBTT per input.</source>
+        <translation>Can vary +/- %1 uBTT per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1165,8 +1165,8 @@ Address: %4
         <translation>보내는 주소 수정</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DEXERGI address.</source>
-        <translation>입력된 주소 "%1"는 올바른 DEXERGI 주소가 아닙니다.</translation>
+        <source>The entered address "%1" is not a valid BITSTATS address.</source>
+        <translation>입력된 주소 "%1"는 올바른 BITSTATS 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1222,16 +1222,16 @@ Address: %4
         <translation>버전</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DEXERGI Core</source>
-        <translation>DEXERGI Core 정보</translation>
+        <source>About BITSTATS Core</source>
+        <translation>BITSTATS Core 정보</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1277,16 +1277,16 @@ Address: %4
         <translation>환영합니다</translation>
     </message>
     <message>
-        <source>Welcome to DEXERGI Core.</source>
-        <translation>DEXERGI Core에 오신 것을 환영합니다.</translation>
+        <source>Welcome to BITSTATS Core.</source>
+        <translation>BITSTATS Core에 오신 것을 환영합니다.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
-        <translation>이 프로그램이 처음 실행되었으므로 DEXERGI Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
+        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
+        <translation>이 프로그램이 처음 실행되었으므로 BITSTATS Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DEXERGI Core는 DEXERGI 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
+        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BITSTATS Core는 BITSTATS 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1297,8 +1297,8 @@ Address: %4
         <translation>사용자 지정 데이터 디렉토리 사용:</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1439,12 +1439,12 @@ Address: %4
         <translation>보낼 주소 입력</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DEXERGI addresses after it matures.
-To Add: enter percentage to give and DEXERGI address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITSTATS addresses after it matures.
+To Add: enter percentage to give and BITSTATS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>다중전송을 사용하면 성취 한 뒤 다른 DEXERGI 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
-추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 DEXERGI 주소를 입력하십시오.
+        <translation>다중전송을 사용하면 성취 한 뒤 다른 BITSTATS 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
+추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 BITSTATS 주소를 입력하십시오.
 삭제하려면 삭제할 주소를 입력하고 삭제를 누릅니다.
 활성화를 클릭하지 않으면 다중전송이 활성화되지 않습니다.</translation>
     </message>
@@ -1632,8 +1632,8 @@ Please be patient after clicking import.</source>
         <translation>주소 / 금액:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>DXR를 보낼 목적지 추가</translation>
+        <source>Add destinations to send BTT to</source>
+        <translation>BTT를 보낼 목적지 추가</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1766,8 +1766,8 @@ Please be patient after clicking import.</source>
         <translation>확인되지 않은 변경사항을 사용하지 않도록 설정하면 해당 트랜잭션에 하나 이상의 컨펌이 진행되야&lt;br/&gt;트랜잭션에 변경사항을 적용할 수 있습니다.&lt;br/&gt;또한 이것은 잔액 계산 방식에도 영향을 줍니다.</translation>
     </message>
     <message>
-        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>라우터에서 DEXERGI 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
+        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>라우터에서 BITSTATS 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1786,12 +1786,12 @@ Please be patient after clicking import.</source>
         <translation>전문적</translation>
     </message>
     <message>
-        <source>Automatically start DEXERGI after logging in to the system.</source>
-        <translation>시스템 로그인 후 DEXERGI을 자동으로 시작합니다.</translation>
+        <source>Automatically start BITSTATS after logging in to the system.</source>
+        <translation>시스템 로그인 후 BITSTATS을 자동으로 시작합니다.</translation>
     </message>
     <message>
-        <source>&amp;Start DEXERGI on system login</source>
-        <translation>&amp;시스템 로그인시 DEXERGI 시작</translation>
+        <source>&amp;Start BITSTATS on system login</source>
+        <translation>&amp;시스템 로그인시 BITSTATS 시작</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1818,50 +1818,50 @@ Please be patient after clicking import.</source>
         <translation>&amp;네트워크</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
-        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 DEXERGI을 다시 시작한 후에 적용됩니다.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 BITSTATS을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
         <translation>지원 언어가 없거나 번역이 불완전한가요? 번역을 도와주세요 :
-https://www.transifex.com/dexergi-project/dexergi-project-translations</translation>
+https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Enable automatic minting of DXR units to zDXR</source>
-        <translation>보상받은 DXR를 zDXR로 자동변환 활성화</translation>
+        <source>Enable automatic minting of BTT units to zBTT</source>
+        <translation>보상받은 BTT를 zBTT로 자동변환 활성화</translation>
     </message>
     <message>
-        <source>Enable zDXR Automint</source>
-        <translation>zDXR 자동생성 활성화</translation>
+        <source>Enable zBTT Automint</source>
+        <translation>zBTT 자동생성 활성화</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
-        <translation>DXR수신시 자동변환 zDXR 비율 (최소값:10%)</translation>
+        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
+        <translation>BTT수신시 자동변환 zBTT 비율 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXR</source>
-        <translation>자동 변환되는 zDXR 비율</translation>
+        <source>Percentage of autominted zBTT</source>
+        <translation>자동 변환되는 zBTT 비율</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
-        <translation>이 디노미네이션의 DXR가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
+        <translation>이 디노미네이션의 BTT가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXR Denomination</source>
-        <translation>선호하는 자동생성 zDXR 디노미네이션 </translation>
+        <source>Preferred Automint zBTT Denomination</source>
+        <translation>선호하는 자동생성 zBTT 디노미네이션 </translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Stake split threshold:</translation>
     </message>
     <message>
-        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 프록시를 통해 DEXERGI 네트워크에 연결해주세요.</translation>
+        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 프록시를 통해 BITSTATS 네트워크에 연결해주세요.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2011,8 +2011,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>전체 잔액, (현재 전송이 불가능한 코인 포함)</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>DXR 잔액</translation>
+        <source>BTT Balance</source>
+        <translation>BTT 잔액</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2035,18 +2035,18 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>현재 보기전용 주소의 잠긴 잔액 </translation>
     </message>
     <message>
-        <source>Your current DEXERGI balance, unconfirmed and immature transactions included</source>
-        <translation>현재 DEXERGI 잔액, 미확정, 생성중인 코인 포함</translation>
+        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
+        <translation>현재 BITSTATS 잔액, 미확정, 생성중인 코인 포함</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>zDXR 잔액</translation>
+        <source>zBTT Balance</source>
+        <translation>zBTT 잔액</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zDXR are spendable.</source>
+These zBTT are spendable.</source>
         <translation>성숙한 : 그것이 발행 된 후 같은 명칭의 20 개 이상의 확인 및 1 개 민트.
-이 zDXR는 쓸만합니다.</translation>
+이 zBTT는 쓸만합니다.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2055,8 +2055,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 미성숙 : 확인되었지만 발행 된 후 같은 종파 1 개 미만</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 DEXERGI 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 BITSTATS 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2099,8 +2099,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>출금 가능 액수:</translation>
     </message>
     <message>
-        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
-        <translation>잠금 DXR 또는 Masternode collaterals. 이들은 zDXR minting에서 제외됩니다.</translation>
+        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
+        <translation>잠금 BTT 또는 Masternode collaterals. 이들은 zBTT minting에서 제외됩니다.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2111,8 +2111,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>미승인:</translation>
     </message>
     <message>
-        <source>Your current zDXR balance, unconfirmed and immature zDXR included.</source>
-        <translation>zDXR 잔액, 미확정, 생성중인 zDXR 포함.</translation>
+        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
+        <translation>zBTT 잔액, 미확정, 생성중인 zBTT 포함.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2123,10 +2123,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>동기화되지 않음</translation>
     </message>
     <message>
-        <source>Current percentage of zDXR.
+        <source>Current percentage of zBTT.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>현재 zDXR의 백분율 .
+        <translation>현재 zBTT의 백분율 .
 자동 저장 기능이 활성화 된 경우이 비율은 구성된 자동 저장 비율 (기본값 = 10 %)을 기준으로 정해집니다.</translation>
     </message>
     <message>
@@ -2134,12 +2134,12 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <translation>자동 생성기능이 현재 작동중 그리고 </translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in dexergi.conf.</source>
-        <translation>자동생성 기능을 사용하지 않으시려면, dexergi.conf 화일에 enablezeromint=0 를 추가하세요.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</source>
+        <translation>자동생성 기능을 사용하지 않으시려면, bitstats.conf 화일에 enablezeromint=0 를 추가하세요.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.conf</source>
         <translation>자동 저장 기능이 현재 사용 중지되었습니다 .
 자동 변환을 사용하려면 pivotx.conf에서 'enablezeromint = 0'에서 'enablezeromint = 1'로 변경하십시오.</translation>
     </message>
@@ -2167,12 +2167,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>잘못된 결제 주소 %1</translation>
     </message>
     <message>
-        <source>Cannot start dexergi: click-to-pay handler</source>
-        <translation>DEXERGI을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <source>Cannot start bitstats: click-to-pay handler</source>
+        <translation>BITSTATS을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DEXERGI address or malformed URI parameters.</source>
-        <translation>URI를 분석할 수 없습니다! 이는 잘못된 DEXERGI 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BITSTATS address or malformed URI parameters.</source>
+        <translation>URI를 분석할 수 없습니다! 이는 잘못된 BITSTATS 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2257,8 +2257,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>제로코인 관리:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 DEXERGI 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 BITSTATS 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2269,8 +2269,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>프라이버시</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
-        <translation>zDXR 컨트롤</translation>
+        <source>zBTT Control</source>
+        <translation>zBTT 컨트롤</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
-        <translation>선택된 zDXR :</translation>
+        <source>zBTT Selected:</source>
+        <translation>선택된 zBTT :</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,32 +2317,32 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>제로코인 보내기</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending</source>
-        <translation>전송 가능한 zDXR</translation>
+        <source>Available (mature and spendable) zBTT for spending</source>
+        <translation>전송 가능한 zBTT</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending
+        <source>Available (mature and spendable) zBTT for spending
 
-zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>지출에 사용할 수있는 성숙한 소비재 zDXR
+zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>지출에 사용할 수있는 성숙한 소비재 zBTT
 
-zDXR는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
+zBTT는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zBTT</source>
+        <translation>0 zBTT</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>지불 &amp;대상:</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>DXR를 전송할 DEXERGI 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>BTT를 전송할 BITSTATS 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2393,7 +2393,7 @@ zDXR는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 �
         <translation>제로코인 상태 :</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDXR</source>
+        <source>Total Balance including unconfirmed and immature zBTT</source>
         <translation>승인중이거나, 생성중인 제로코인도 포함된 전체 잔액입니다.</translation>
     </message>
     <message>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 미성숙 : 확인되었지만 발행 된 후 같은 종파 1 개 미만</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zDXR minting.
+        <source>Show the current status of automatic zBTT minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to dexergi.conf
-- disable: add 'enablezeromint=0' to dexergi.conf
+- enable: add 'enablezeromint=1' to bitstats.conf
+- disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zDXR
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
 
 </source>
-        <translation>현재 zDXR 자동 생성 상태를 보여줍니다.
+        <translation>현재 zBTT 자동 생성 상태를 보여줍니다.
 
 자동생성 상태를 변경하시려면 (지갑 재시작 필요함):
-- 활성화: 'enablezeromint=1' 를 dexergi.conf 파일에 추가
-- 비활성화: 'enablezeromint=0' 를 dexergi.conf 파일에 추가
+- 활성화: 'enablezeromint=1' 를 bitstats.conf 파일에 추가
+- 비활성화: 'enablezeromint=0' 를 bitstats.conf 파일에 추가
 
 자동 생성 비율 변경하시려면 (지갑 재시작 필요없음):
-- 메뉴 설정-&gt;옵션-&gt;zDXR 자동생성 비율
+- 메뉴 설정-&gt;옵션-&gt;zBTT 자동생성 비율
 
 </translation>
     </message>
@@ -2607,12 +2607,12 @@ Please be patient...</source>
 기다려주세요...</translation>
     </message>
     <message>
-        <source>zDXR Spend #: </source>
-        <translation>zDXR 전송 # :</translation>
+        <source>zBTT Spend #: </source>
+        <translation>zBTT 전송 # :</translation>
     </message>
     <message>
-        <source>zDXR Mint</source>
-        <translation>zDXR 생성</translation>
+        <source>zBTT Mint</source>
+        <translation>zBTT 생성</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2627,12 +2627,12 @@ Please be patient...</source>
         <translation> 구성된 목표 비율 : &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zDXR is currently disabled due to maintenance.</source>
-        <translation>zDXR는 현재 점검중이라 사용하실수 없습니다.</translation>
+        <source>zBTT is currently disabled due to maintenance.</source>
+        <translation>zBTT는 현재 점검중이라 사용하실수 없습니다.</translation>
     </message>
     <message>
-        <source>zDXR is currently undergoing maintenance.</source>
-        <translation>zDXR는 현재 점검중입니다.</translation>
+        <source>zBTT is currently undergoing maintenance.</source>
+        <translation>zBTT는 현재 점검중입니다.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2721,8 +2721,8 @@ Please be patient...</source>
         <translation>주소를 입력하지 않아, 신규 주소를 생성합니다.</translation>
     </message>
     <message>
-        <source>Invalid DEXERGI Address</source>
-        <translation>잘못된 DEXERGI 주소</translation>
+        <source>Invalid BITSTATS Address</source>
+        <translation>잘못된 BITSTATS 주소</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2799,8 +2799,8 @@ Please be patient...</source>
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter a DEXERGI address (e.g. %1)</source>
-        <translation>DEXERGI 주소를 입력하세요 (예 %1)</translation>
+        <source>Enter a BITSTATS address (e.g. %1)</source>
+        <translation>BITSTATS 주소를 입력하세요 (예 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2843,8 +2843,8 @@ Please be patient...</source>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     </context>
 <context>
@@ -2941,8 +2941,8 @@ Please be patient...</source>
         <translation>블록체인</translation>
     </message>
     <message>
-        <source>Open the DEXERGI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>현재 데이터 디렉토리에서 DEXERGI 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
+        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>현재 데이터 디렉토리에서 BITSTATS 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3077,8 +3077,8 @@ Please be patient...</source>
         <translation>맞춤 백업 경로 :</translation>
     </message>
     <message>
-        <source>Custom zDXR Backup Path:</source>
-        <translation>맞춤 zDXR 백업 경로 :</translation>
+        <source>Custom zBTT Backup Path:</source>
+        <translation>맞춤 zBTT 백업 경로 :</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3158,8 +3158,8 @@ Please be patient...</source>
         <translation>출력:</translation>
     </message>
     <message>
-        <source>Welcome to the DEXERGI RPC console.</source>
-        <translation>DEXERGI RPC 콘솔에 오신 것을 환영합니다.</translation>
+        <source>Welcome to the BITSTATS RPC console.</source>
+        <translation>BITSTATS RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3285,16 +3285,16 @@ Please be patient...</source>
         <translation>금&amp;액:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DEXERGI network.</source>
-        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: DEXERGI 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: BITSTATS 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>받기</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DEXERGI network.</source>
-        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: DEXERGI 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: BITSTATS 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3526,8 +3526,8 @@ Please be patient...</source>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 BTT</source>
+        <translation>0 BTT</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3582,16 +3582,16 @@ Please be patient...</source>
         <translation>자동으로 선택됩니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uDXRs로 설정되고,&lt;br /&gt;1000 uDXRs 안에는 최소 "킬로바이트당" 250 uDXRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uBTTs로 설정되고,&lt;br /&gt;1000 uBTTs 안에는 최소 "킬로바이트당" 250 uBTTs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "total at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uDXRs로 설정되고,&lt;br /&gt;1000 uDXRs 안에는 전체에서 최소 "킬로바이트당" 250 uDXRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uBTTs로 설정되고,&lt;br /&gt;1000 uBTTs 안에는 전체에서 최소 "킬로바이트당" 250 uBTTs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
-        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 DEXERGI 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
+        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 BITSTATS 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3638,8 +3638,8 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-        <source>Anonymized DXR</source>
-        <translation>익명화된 DXR</translation>
+        <source>Anonymized BTT</source>
+        <translation>익명화된 BTT</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3686,8 +3686,8 @@ Please be patient...</source>
         <translation>분할 블록 도구는 여러 주소에서 작동하지 않습니다. 다시 시도하십시오.</translation>
     </message>
     <message>
-        <source>Warning: Invalid DEXERGI address</source>
-        <translation>경고: 잘못된 DEXERGI 주소</translation>
+        <source>Warning: Invalid BITSTATS address</source>
+        <translation>경고: 잘못된 BITSTATS 주소</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3785,8 +3785,8 @@ Please be patient...</source>
         <translation>지불 &amp;대상:</translation>
     </message>
     <message>
-        <source>The DEXERGI address to send the payment to</source>
-        <translation>보낼 DEXERGI 주소</translation>
+        <source>The BITSTATS address to send the payment to</source>
+        <translation>보낼 BITSTATS 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3825,8 +3825,8 @@ Please be patient...</source>
         <translation>메세지:</translation>
     </message>
     <message>
-        <source>A message that was attached to the DEXERGI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DEXERGI network.</source>
-        <translation>참조용으로 트랜잭션과 함께 기록되는 DEXERGI : URI에 첨부된 메세지입니다. 참고: 이 메세지는 DEXERGI 네트워크를 통해 전송되지 않습니다.</translation>
+        <source>A message that was attached to the BITSTATS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BITSTATS network.</source>
+        <translation>참조용으로 트랜잭션과 함께 기록되는 BITSTATS : URI에 첨부된 메세지입니다. 참고: 이 메세지는 BITSTATS 네트워크를 통해 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3852,8 +3852,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DEXERGI Core is shutting down...</source>
-        <translation>DEXERGI Core가 종료됩니다...</translation>
+        <source>BITSTATS Core is shutting down...</source>
+        <translation>BITSTATS Core가 종료됩니다...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3875,8 +3875,8 @@ Please be patient...</source>
         <translation>자신의 주소로 메세지에 서명할 수 있습니다. 피싱 공격으로 사용자를 속일 수 있으므로 서명에 주의해주세요. 동의하는 바에 한하여 서명하십시오.</translation>
     </message>
     <message>
-        <source>The DEXERGI address to sign the message with</source>
-        <translation>메세지를 서명하기 위한 DEXERGI 주소</translation>
+        <source>The BITSTATS address to sign the message with</source>
+        <translation>메세지를 서명하기 위한 BITSTATS 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3907,16 +3907,16 @@ Please be patient...</source>
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DEXERGI address</source>
-        <translation>이 DEXERGI 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
+        <source>Sign the message to prove you own this BITSTATS address</source>
+        <translation>이 BITSTATS 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
-        <source>The DEXERGI address the message was signed with</source>
-        <translation>메세지에 서명된 DEXERGI 주소</translation>
+        <source>The BITSTATS address the message was signed with</source>
+        <translation>메세지에 서명된 BITSTATS 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
-        <translation>메세지가 지정된 DEXERGI 주소로 서명되었는지 확인해주세요</translation>
+        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
+        <translation>메세지가 지정된 BITSTATS 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4002,8 +4002,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DEXERGI Core</source>
-        <translation>DEXERGI Core</translation>
+        <source>BITSTATS Core</source>
+        <translation>BITSTATS Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4018,8 +4018,8 @@ Please be patient...</source>
         <translation>Dash Core 개발자</translation>
     </message>
     <message>
-        <source>The DEXERGI Core developers</source>
-        <translation>DEXERGI Core 개발자</translation>
+        <source>The BITSTATS Core developers</source>
+        <translation>BITSTATS Core 개발자</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4283,12 +4283,12 @@ Please be patient...</source>
         <translation>난독화를 통해 수신 됨</translation>
     </message>
     <message>
-        <source>DXR Stake</source>
-        <translation>DXR stake</translation>
+        <source>BTT Stake</source>
+        <translation>BTT stake</translation>
     </message>
     <message>
-        <source>zDXR Stake</source>
-        <translation>zDXR stake</translation>
+        <source>zBTT Stake</source>
+        <translation>zBTT stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4307,32 +4307,32 @@ Please be patient...</source>
         <translation>난독화 표시 만들기</translation>
     </message>
     <message>
-        <source>Converted DXR to zDXR</source>
-        <translation>DXR를 zDXR로 변환</translation>
+        <source>Converted BTT to zBTT</source>
+        <translation>BTT를 zBTT로 변환</translation>
     </message>
     <message>
-        <source>Spent zDXR</source>
-        <translation>zDXR 사용</translation>
+        <source>Spent zBTT</source>
+        <translation>zBTT 사용</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
-        <translation>zDXR를 DXR로 받음</translation>
+        <source>Received BTT from zBTT</source>
+        <translation>zBTT를 BTT로 받음</translation>
     </message>
     <message>
-        <source>Minted Change as zDXR from zDXR Spend</source>
-        <translation>zDXR 전송후 남은 zDXR로 잔돈 생성</translation>
+        <source>Minted Change as zBTT from zBTT Spend</source>
+        <translation>zBTT 전송후 남은 zBTT로 잔돈 생성</translation>
     </message>
     <message>
-        <source>Converted zDXR to DXR</source>
-        <translation>zDXR를 DXR로 변환</translation>
+        <source>Converted zBTT to BTT</source>
+        <translation>zBTT를 BTT로 변환</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Transaction)</source>
-        <translation>Anonymous (zDXR 거래)</translation>
+        <source>Anonymous (zBTT Transaction)</source>
+        <translation>Anonymous (zBTT 거래)</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Stake)</source>
-        <translation>Anonymous (zDXR 스테이킹)</translation>
+        <source>Anonymous (zBTT Stake)</source>
+        <translation>Anonymous (zBTT 스테이킹)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4542,12 +4542,12 @@ Please be patient...</source>
         <translation>내보내기 성공</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
-        <translation>zDXR를 DXR로 받음</translation>
+        <source>Received BTT from zBTT</source>
+        <translation>zBTT를 BTT로 받음</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zDXR</source>
-        <translation>제로코인 전송, 잔돈은 zDXR</translation>
+        <source>Zerocoin Spend, Change in zBTT</source>
+        <translation>제로코인 전송, 잔돈은 zBTT</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4583,8 +4583,8 @@ Please be patient...</source>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 DXR로 제한됩니다.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 BTT로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4617,8 +4617,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zDXR to Spend</source>
-        <translation>사용할 zDXR 선택</translation>
+        <source>Select zBTT to Spend</source>
+        <translation>사용할 zBTT 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4629,8 +4629,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zBTT</source>
+        <translation>zBTT</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4638,7 +4638,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx 메타 데이터 유지 예 : 계정 소유자 및 지불 요청 정보, 2 = tx 메타 데이터 삭제)</translation>
@@ -4664,8 +4664,8 @@ Please be patient...</source>
         <translation>계산된 누산기 체크포인트는 블록 인덱스에 의해 기록되는 것이 아닙니다.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. DEXERGI Core is probably already running.</source>
-        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. DEXERGI Core는 이미 실행 중입니다.</translation>
+        <source>Cannot obtain a lock on data directory %s. BITSTATS Core is probably already running.</source>
+        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. BITSTATS Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4692,16 +4692,16 @@ Please be patient...</source>
         <translation>MIT 소프트웨어 라이센스에 따라 배포, 첨부 파일 COPYING 또는 &lt;http://www.opensource.org/licenses/mit-license.php&gt; 를 참조하십시오.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</source>
-        <translation>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</source>
+        <translation>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4736,12 +4736,12 @@ Please be patient...</source>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (DXR/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (BTT/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (DXR/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (BTT/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4836,20 +4836,20 @@ Please be patient...</source>
         <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. DEXERGI Core is probably already running.</source>
-        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. DEXERGI Core는 이미 실행 중입니다.</translation>
+        <source>Unable to bind to %s on this computer. BITSTATS Core is probably already running.</source>
+        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. BITSTATS Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 DXR과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 BTT과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 DXR와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 BTT와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4864,8 +4864,8 @@ Please be patient...</source>
         <translation>경고 : -paytxfee가 매우 높게 설정되었습니다! 이것은 전송할 경우 지불 할 트랜잭션 수수료입니다.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DEXERGI Core will not work properly.</source>
-        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 DEXERGI 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BITSTATS Core will not work properly.</source>
+        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 BITSTATS 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4996,8 +4996,8 @@ Please be patient...</source>
         <translation>Copyright (C) 2014-%i The Dash Core 개발자들</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DEXERGI Core Developers</source>
-        <translation>Copyright (C) 2015-%i The DEXERGI Core 개발자</translation>
+        <source>Copyright (C) 2015-%i The BITSTATS Core Developers</source>
+        <translation>Copyright (C) 2015-%i The BITSTATS Core 개발자</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5076,8 +5076,8 @@ Please be patient...</source>
         <translation>wallet.dat을 불러오는 중 오류가 발생했습니다: 지갑 손상됨</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DEXERGI Core</source>
-        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 DEXERGI 코어가 필요합니다.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BITSTATS Core</source>
+        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 BITSTATS 코어가 필요합니다.</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5132,8 +5132,8 @@ Please be patient...</source>
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in DXR/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (DXR/kB) (기본값: %s)</translation>
+        <source>Fee (in BTT/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (BTT/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5172,8 +5172,8 @@ Please be patient...</source>
         <translation>정보</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. DEXERGI Core is shutting down.</source>
-        <translation>초기화 정확성 검사에 실패 했습니다. DEXERGI Core가 종료됩니다.</translation>
+        <source>Initialization sanity check failed. BITSTATS Core is shutting down.</source>
+        <translation>초기화 정확성 검사에 실패 했습니다. BITSTATS Core가 종료됩니다.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5233,11 +5233,11 @@ Please be patient...</source>
     </message>
     <message>
         <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>자동생성 zDXR 비율  (1-100, default: %u)</translation>
+        <translation>자동생성 zBTT 비율  (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the DXR and zDXR money supply statistics</source>
-        <translation>DXR 및 zDXR 공급량 다시 색인</translation>
+        <source>Reindex the BTT and zBTT money supply statistics</source>
+        <translation>BTT 및 zBTT 공급량 다시 색인</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5276,8 +5276,8 @@ Please be patient...</source>
 </translation>
     </message>
     <message>
-        <source>Disable all DEXERGI specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>DEXERGI의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
+        <source>Disable all BITSTATS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>BITSTATS의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5312,8 +5312,8 @@ Please be patient...</source>
         <translation>자동생성 제로코인 선호 디노미네이션 (1/5/10/50/100/500/1000/5000) 0사용안됨, 기본값 : %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5724,8 +5724,8 @@ Please be patient...</source>
         <translation>sporks와 동기화 중입니다...</translation>
     </message>
     <message>
-        <source>Syncing zDXR wallet...</source>
-        <translation>zDXR 지갑 동기화중...</translation>
+        <source>Syncing zBTT wallet...</source>
+        <translation>zBTT 지갑 동기화중...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5832,8 +5832,8 @@ Please be patient...</source>
         <translation>JSON-RPC 연결 사용자 이름</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zDXR</source>
-        <translation>Value is below the smallest available denomination (= 1) of zDXR</translation>
+        <source>Value is below the smallest available denomination (= 1) of zBTT</source>
+        <translation>Value is below the smallest available denomination (= 1) of zBTT</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5848,8 +5848,8 @@ Please be patient...</source>
         <translation>지갑 %s 가 데이터 디렉토리 외부에 존재합니다 %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DEXERGI Core to complete</source>
-        <translation>지갑을 다시 작성해야 합니다: 완료하려면 DEXERGI 코어를 재시작해야 합니다</translation>
+        <source>Wallet needed to be rewritten: restart BITSTATS Core to complete</source>
+        <translation>지갑을 다시 작성해야 합니다: 완료하려면 BITSTATS 코어를 재시작해야 합니다</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -5877,7 +5877,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>지갑에 zDXR 가 부족합니다.</translation>
+        <translation>지갑에 zBTT 가 부족합니다.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>

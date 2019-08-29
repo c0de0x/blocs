@@ -1,12 +1,12 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_SERIALIZE_H
-#define DEXERGI_SERIALIZE_H
+#ifndef BITSTATS_SERIALIZE_H
+#define BITSTATS_SERIALIZE_H
 
 #include <algorithm>
 #include <assert.h>
@@ -938,4 +938,4 @@ public:
     }
 };
 
-#endif // DEXERGI_SERIALIZE_H
+#endif // BITSTATS_SERIALIZE_H

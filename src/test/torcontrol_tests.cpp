@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2017 The Zcash developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
@@ -23,8 +23,8 @@ BOOST_AUTO_TEST_CASE(util_SplitTorReplyLine)
 {
     // Data we should receive during normal usage
     CheckSplitTorReplyLine(
-        "PROTOCOLINFO DXRERSION",
-        "PROTOCOLINFO", "DXRERSION");
+        "PROTOCOLINFO BTTERSION",
+        "PROTOCOLINFO", "BTTERSION");
     CheckSplitTorReplyLine(
         "AUTH METHODS=COOKIE,SAFECOOKIE COOKIEFILE=\"/home/x/.tor/control_auth_cookie\"",
         "AUTH", "METHODS=COOKIE,SAFECOOKIE COOKIEFILE=\"/home/x/.tor/control_auth_cookie\"");

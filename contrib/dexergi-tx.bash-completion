@@ -1,15 +1,15 @@
-# bash programmable completion for dexergi-tx(1)
+# bash programmable completion for bitstats-tx(1)
 # Copyright (c) 2016 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-_dexergi_tx() {
+_bitstats_tx() {
     local cur prev words=() cword
-    local dexergi_tx
+    local bitstats_tx
 
-    # save and use original argument to invoke dexergi-tx for -help
+    # save and use original argument to invoke bitstats-tx for -help
     # it might not be in $PATH
-    dexergi_tx="$1"
+    bitstats_tx="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n =: cur prev words cword
@@ -27,15 +27,15 @@ _dexergi_tx() {
 
     if [[ "$cword" == 1 || ( "$prev" != "-create" && "$prev" == -* ) ]]; then
         # only options (or an uncompletable hex-string) allowed
-        # parse dexergi-tx -help for options
+        # parse bitstats-tx -help for options
         local helpopts
-        helpopts=$($dexergi_tx -help | sed -e '/^  -/ p' -e d )
+        helpopts=$($bitstats_tx -help | sed -e '/^  -/ p' -e d )
         COMPREPLY=( $( compgen -W "$helpopts" -- "$cur" ) )
     else
         # only commands are allowed
         # parse -help for commands
         local helpcmds
-        helpcmds=$($dexergi_tx -help | sed -e '1,/Commands:/d' -e 's/=.*/=/' -e '/^  [a-z]/ p' -e d )
+        helpcmds=$($bitstats_tx -help | sed -e '1,/Commands:/d' -e 's/=.*/=/' -e '/^  [a-z]/ p' -e d )
         COMPREPLY=( $( compgen -W "$helpcmds" -- "$cur" ) )
     fi
 
@@ -46,7 +46,7 @@ _dexergi_tx() {
 
     return 0
 } &&
-complete -F _dexergi_tx dexergi-tx
+complete -F _bitstats_tx bitstats-tx
 
 # Local variables:
 # mode: shell-script

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "DEXERGI"
-            VALUE "FileDescription",    "DEXERGI-cli (OSS RPC client for DEXERGI)"
+            VALUE "CompanyName",        "BITSTATS"
+            VALUE "FileDescription",    "BITSTATS-cli (OSS RPC client for BITSTATS)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "dexergi-cli"
+            VALUE "InternalName",       "bitstats-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "dexergi-cli.exe"
-            VALUE "ProductName",        "DEXERGI-cli"
+            VALUE "OriginalFilename",   "bitstats-cli.exe"
+            VALUE "ProductName",        "BITSTATS-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

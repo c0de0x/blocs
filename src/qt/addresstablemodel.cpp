@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
@@ -348,7 +348,7 @@ void AddressTableModel::updateEntry(const QString& address,
     const QString& purpose,
     int status)
 {
-    // Update address book model from DEXERGI core
+    // Update address book model from BITSTATS core
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
@@ -21,7 +21,7 @@
 using namespace std;
 
 /**
- * JSON-RPC protocol.  DEXERGI speaks version 1.0 for maximum compatibility,
+ * JSON-RPC protocol.  BITSTATS speaks version 1.0 for maximum compatibility,
  * but uses JSON-RPC 1.1/2.0 standards for parts of the 1.0 standard that were
  * unspecified (HTTP errors and contents of 'error').
  *

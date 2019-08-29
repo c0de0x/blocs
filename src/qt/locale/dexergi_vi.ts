@@ -58,12 +58,12 @@
         <translation>Địa chỉ gửi </translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là địa chỉ ví DEXERGI của bạn để gửi đi. Luôn luôn kiểm tra số lượng và địa chỉ ví nhận trước khi gửi.</translation>
+        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Đây là địa chỉ ví BITSTATS của bạn để gửi đi. Luôn luôn kiểm tra số lượng và địa chỉ ví nhận trước khi gửi.</translation>
     </message>
     <message>
-        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là địa chỉ ví DEXERGI của bạn để nhận. Bạn nên sử dụng địa chỉ ví nhận mới cho mỗi giao dịch</translation>
+        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Đây là địa chỉ ví BITSTATS của bạn để nhận. Bạn nên sử dụng địa chỉ ví nhận mới cho mỗi giao dịch</translation>
     </message>
     </context>
 <context>
@@ -215,6 +215,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>dexergi-core</name>
+    <name>bitstats-core</name>
     </context>
 </TS>

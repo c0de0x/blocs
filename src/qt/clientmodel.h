@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
@@ -38,7 +38,7 @@ enum NumConnections {
     CONNECTIONS_ALL = (CONNECTIONS_IN | CONNECTIONS_OUT),
 };
 
-/** Model for DEXERGI network client. */
+/** Model for BITSTATS network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT

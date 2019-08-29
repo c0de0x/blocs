@@ -13,7 +13,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dexergi-config.h"
+#include "config/bitstats-config.h"
 #endif
 
 #include "compat.h"
@@ -30,7 +30,7 @@
 #include <boost/thread/exceptions.hpp>
 #include <boost/thread/condition_variable.hpp> // for boost::thread_interrupted
 
-//DEXERGI only features
+//BITSTATS only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
@@ -228,7 +228,7 @@ void RenameThread(const char* name);
 template <typename Callable>
 void TraceThread(const char* name, Callable func)
 {
-    std::string s = strprintf("dexergi-%s", name);
+    std::string s = strprintf("bitstats-%s", name);
     RenameThread(s.c_str());
     try {
         LogPrintf("%s thread start\n", name);

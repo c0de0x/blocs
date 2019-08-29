@@ -1,10 +1,10 @@
-# bash programmable completion for dexergi-cli(1)
+# bash programmable completion for bitstats-cli(1)
 # Copyright (c) 2012-2016 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-# call $dexergi-cli for RPC
-_dexergi_rpc() {
+# call $bitstats-cli for RPC
+_bitstats_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -14,23 +14,23 @@ _dexergi_rpc() {
                 ;;
         esac
     done
-    $dexergi_cli "${rpcargs[@]}" "$@"
+    $bitstats_cli "${rpcargs[@]}" "$@"
 }
 
 # Add wallet accounts to COMPREPLY
-_dexergi_accounts() {
+_bitstats_accounts() {
     local accounts
-    accounts=$(_dexergi_rpc listaccounts | awk -F '"' '{ print $2 }')
+    accounts=$(_bitstats_rpc listaccounts | awk -F '"' '{ print $2 }')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_dexergi_cli() {
+_bitstats_cli() {
     local cur prev words=() cword
-    local dexergi_cli
+    local bitstats_cli
 
-    # save and use original argument to invoke dexergi-cli for -help, help and RPC
-    # as dexergi-cli might not be in $PATH
-    dexergi_cli="$1"
+    # save and use original argument to invoke bitstats-cli for -help, help and RPC
+    # as bitstats-cli might not be in $PATH
+    bitstats_cli="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -60,7 +60,7 @@ _dexergi_cli() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _dexergi_accounts
+                _bitstats_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importpubkey|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -85,7 +85,7 @@ _dexergi_cli() {
                 return 0
                 ;;
             move|setaccount)
-                _dexergi_accounts
+                _bitstats_accounts
                 return 0
                 ;;
         esac
@@ -101,7 +101,7 @@ _dexergi_cli() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _dexergi_accounts
+            _bitstats_accounts
             return 0
             ;;
     esac
@@ -125,12 +125,12 @@ _dexergi_cli() {
 
             # only parse -help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($dexergi_cli -help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($bitstats_cli -help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_dexergi_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_bitstats_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -143,7 +143,7 @@ _dexergi_cli() {
             ;;
     esac
 } &&
-complete -F _dexergi_cli dexergi-cli
+complete -F _bitstats_cli bitstats-cli
 
 # Local variables:
 # mode: shell-script

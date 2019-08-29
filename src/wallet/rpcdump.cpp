@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
@@ -83,12 +83,12 @@ UniValue importprivkey(const UniValue& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 3)
         throw runtime_error(
-            "importprivkey \"dexergiprivkey\" ( \"label\" rescan )\n"
+            "importprivkey \"bitstatsprivkey\" ( \"label\" rescan )\n"
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"dexergiprivkey\"   (string, required) The private key (see dumpprivkey)\n"
+            "1. \"bitstatsprivkey\"   (string, required) The private key (see dumpprivkey)\n"
             "2. \"label\"            (string, optional, default=\"\") An optional label\n"
             "3. rescan               (boolean, optional, default=true) Rescan the wallet for transactions\n"
 
@@ -186,7 +186,7 @@ UniValue importaddress(const UniValue& params, bool fHelp)
         std::vector<unsigned char> data(ParseHex(params[0].get_str()));
         script = CScript(data.begin(), data.end());
     } else {
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid DEXERGI address or script");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid BITSTATS address or script");
     }
 
     string strLabel = "";
@@ -331,13 +331,13 @@ UniValue dumpprivkey(const UniValue& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "dumpprivkey \"dexergiaddress\"\n"
-            "\nReveals the private key corresponding to 'dexergiaddress'.\n"
+            "dumpprivkey \"bitstatsaddress\"\n"
+            "\nReveals the private key corresponding to 'bitstatsaddress'.\n"
             "Then the importprivkey can be used with this output\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"dexergiaddress\"   (string, required) The dexergi address for the private key\n"
+            "1. \"bitstatsaddress\"   (string, required) The bitstats address for the private key\n"
 
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
@@ -352,7 +352,7 @@ UniValue dumpprivkey(const UniValue& params, bool fHelp)
     string strAddress = params[0].get_str();
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid DEXERGI address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid BITSTATS address");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))
         throw JSONRPCError(RPC_TYPE_ERROR, "Address does not refer to a key");
@@ -403,7 +403,7 @@ UniValue dumpwallet(const UniValue& params, bool fHelp)
     std::sort(vKeyBirth.begin(), vKeyBirth.end());
 
     // produce output
-    file << strprintf("# Wallet dump created by DEXERGI %s (%s)\n", CLIENT_BUILD, CLIENT_DATE);
+    file << strprintf("# Wallet dump created by BITSTATS %s (%s)\n", CLIENT_BUILD, CLIENT_DATE);
     file << strprintf("# * Created on %s\n", EncodeDumpTime(GetTime()));
     file << strprintf("# * Best block at time of backup was %i (%s),\n", chainActive.Height(), chainActive.Tip()->GetBlockHash().ToString());
     file << strprintf("#   mined on %s\n", EncodeDumpTime(chainActive.Tip()->GetBlockTime()));
@@ -437,12 +437,12 @@ UniValue bip38encrypt(const UniValue& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "bip38encrypt \"dexergiaddress\" \"passphrase\"\n"
-            "\nEncrypts a private key corresponding to 'dexergiaddress'.\n" +
+            "bip38encrypt \"bitstatsaddress\" \"passphrase\"\n"
+            "\nEncrypts a private key corresponding to 'bitstatsaddress'.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"dexergiaddress\"   (string, required) The dexergi address for the private key (you must hold the key already)\n"
+            "1. \"bitstatsaddress\"   (string, required) The bitstats address for the private key (you must hold the key already)\n"
             "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with - Valid special chars: !#$%&'()*+,-./:;<=>?`{|}~ \n"
 
             "\nResult:\n"
@@ -461,7 +461,7 @@ UniValue bip38encrypt(const UniValue& params, bool fHelp)
 
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid DEXERGI address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid BITSTATS address");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))
         throw JSONRPCError(RPC_TYPE_ERROR, "Address does not refer to a key");
@@ -483,7 +483,7 @@ UniValue bip38decrypt(const UniValue& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "bip38decrypt \"dexergiaddress\" \"passphrase\"\n"
+            "bip38decrypt \"bitstatsaddress\" \"passphrase\"\n"
             "\nDecrypts and then imports password protected private key.\n" +
             HelpRequiringPassphrase() + "\n"
 

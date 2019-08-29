@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
@@ -51,7 +51,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
             libzerocoin::ZerocoinParams* params = Params().Zerocoin_Params(false);
             PublicCoinSpend publicSpend(params);
             CValidationState state;
-            if (!ZDXRModule::ParseZerocoinPublicSpend(wtx.vin[0], wtx, state, publicSpend)){
+            if (!ZBTTModule::ParseZerocoinPublicSpend(wtx.vin[0], wtx, state, publicSpend)){
                 throw std::runtime_error("Error parsing zc public spend");
             }
             fZSpendFromMe = wallet->IsMyZerocoinSpend(publicSpend.getCoinSerialNumber());
@@ -68,9 +68,9 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
             return parts;
 
         if (wtx.HasZerocoinSpendInputs() && (fZSpendFromMe || wallet->zpivTracker->HasMintTx(hash))) {
-            //zDXR stake reward
+            //zBTT stake reward
             sub.involvesWatchAddress = false;
-            sub.type = TransactionRecord::StakeZDXR;
+            sub.type = TransactionRecord::StakeZBTT;
             sub.address = mapValue["zerocoinmint"];
             sub.credit = 0;
             for (const CTxOut& out : wtx.vout) {
@@ -79,7 +79,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
             }
             sub.debit -= wtx.vin[0].nSequence * COIN;
         } else if (isminetype mine = wallet->IsMine(wtx.vout[1])) {
-            // DXR stake reward
+            // BTT stake reward
             sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
             sub.type = TransactionRecord::StakeMint;
             sub.address = CBitcoinAddress(address).ToString();
@@ -174,7 +174,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.credit = txout.nValue;
                 sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address)) {
-                    // Received by DEXERGI Address
+                    // Received by BITSTATS Address
                     sub.type = TransactionRecord::RecvWithAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
@@ -235,7 +235,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.type = TransactionRecord::Obfuscated;
                 CTxDestination address;
                 if (ExtractDestination(wtx.vout[0].scriptPubKey, address)) {
-                    // Sent to DEXERGI Address
+                    // Sent to BITSTATS Address
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
                     // Sent to IP, or other non-address transaction like OP_EVAL
@@ -282,7 +282,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                     //private keys that the change was sent to. Do not display a "sent to" here.
                     if (wtx.HasZerocoinMintOutputs())
                         continue;
-                    // Sent to DEXERGI Address
+                    // Sent to BITSTATS Address
                     sub.type = TransactionRecord::SendToAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else if (txout.IsZerocoinMint()){
@@ -321,10 +321,10 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
     return parts;
 }
 
-bool IsZDXRType(TransactionRecord::Type type)
+bool IsZBTTType(TransactionRecord::Type type)
 {
     switch (type) {
-        case TransactionRecord::StakeZDXR:
+        case TransactionRecord::StakeZBTT:
         case TransactionRecord::ZerocoinMint:
         case TransactionRecord::ZerocoinSpend:
         case TransactionRecord::RecvFromZerocoinSpend:
@@ -373,7 +373,7 @@ void TransactionRecord::updateStatus(const CWalletTx& wtx)
         }
     }
     // For generated transactions, determine maturity
-    else if (type == TransactionRecord::Generated || type == TransactionRecord::StakeMint || type == TransactionRecord::StakeZDXR || type == TransactionRecord::MNReward) {
+    else if (type == TransactionRecord::Generated || type == TransactionRecord::StakeMint || type == TransactionRecord::StakeZBTT || type == TransactionRecord::MNReward) {
         if (nBlocksToMaturity > 0) {
             status.status = TransactionStatus::Immature;
             status.matures_in = nBlocksToMaturity;

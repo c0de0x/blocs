@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
@@ -76,7 +76,7 @@ extern double NSAppKitVersionNumber;
 #endif
 #endif
 
-#define URI_SCHEME "dexergi"
+#define URI_SCHEME "bitstats"
 
 namespace GUIUtil
 {
@@ -104,7 +104,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
     widget->setFont(bitcoinAddressFont());
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a DEXERGI address (e.g. %1)").arg("D7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
+    widget->setPlaceholderText(QObject::tr("Enter a BITSTATS address (e.g. %1)").arg("D7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
 }
@@ -120,7 +120,7 @@ void setupAmountWidget(QLineEdit* widget, QWidget* parent)
 
 bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 {
-    // return if URI is not valid or is no DEXERGI: URI
+    // return if URI is not valid or is no BITSTATS: URI
     if (!uri.isValid() || uri.scheme() != QString(URI_SCHEME))
         return false;
 
@@ -151,7 +151,7 @@ bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
             fShouldReturnFalse = false;
         } else if (i->first == "amount") {
             if (!i->second.isEmpty()) {
-                if (!BitcoinUnits::parse(BitcoinUnits::DXR, i->second, &rv.amount)) {
+                if (!BitcoinUnits::parse(BitcoinUnits::BTT, i->second, &rv.amount)) {
                     return false;
                 }
             }
@@ -169,9 +169,9 @@ bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient* out)
 {
-    // Convert dexergi:// to dexergi:
+    // Convert bitstats:// to bitstats:
     //
-    //    Cannot handle this later, because dexergi:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because bitstats:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
     if (uri.startsWith(URI_SCHEME "://", Qt::CaseInsensitive)) {
         uri.replace(0, std::strlen(URI_SCHEME) + 3, URI_SCHEME ":");
@@ -186,7 +186,7 @@ QString formatBitcoinURI(const SendCoinsRecipient& info)
     int paramCount = 0;
 
     if (info.amount) {
-        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::DXR, info.amount, false, BitcoinUnits::separatorNever));
+        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::BTT, info.amount, false, BitcoinUnits::separatorNever));
         paramCount++;
     }
 
@@ -355,7 +355,7 @@ void openConfigfile()
     bool res = false;
     boost::filesystem::path pathConfig = GetConfigFile();
 
-    /* Open dexergi.conf with the associated application */
+    /* Open bitstats.conf with the associated application */
     if (boost::filesystem::exists(pathConfig)) {
         res = QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 #ifdef Q_OS_MAC
@@ -376,7 +376,7 @@ void openMNConfigfile()
     bool res = false;
     boost::filesystem::path mnConfigPath = GetMasternodeConfigFile();
 
-    /* Open dexergi.conf with the associated application */
+    /* Open bitstats.conf with the associated application */
     if (boost::filesystem::exists(mnConfigPath)) {
         res = QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(mnConfigPath)));
 #ifdef Q_OS_MAC
@@ -596,12 +596,12 @@ bool DHMSTableWidgetItem::operator<(QTableWidgetItem const& item) const
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "DEXERGI.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "BITSTATS.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for DEXERGI.lnk
+    // check for BITSTATS.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -675,7 +675,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "dexergi.desktop";
+    return GetAutostartDir() / "bitstats.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -711,10 +711,10 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         boost::filesystem::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out | std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a dexergi.desktop file to the autostart directory:
+        // Write a bitstats.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=DEXERGI\n";
+        optionFile << "Name=BITSTATS\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -735,7 +735,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the dexergi app
+    // loop through the list of startup items and try to find the bitstats app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for (int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -780,7 +780,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if (fAutoStart && !foundItem) {
-        // add dexergi app to startup item list
+        // add bitstats app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitcoinAppUrl, NULL, NULL);
     } else if (!fAutoStart && foundItem) {
         // remove item

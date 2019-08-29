@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2012-2014 The Bitcoin Core developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -6,7 +6,7 @@
 
 #include "libzerocoin/bignum.h"
 #include "script/script.h"
-#include "test/test_dexergi.h"
+#include "test/test_bitstats.h"
 
 #include <boost/test/unit_test.hpp>
 #include <limits.h>

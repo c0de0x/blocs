@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/dexergi-config.h \
+           src/bitstats-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/dexergi-config.h \
+           src/config/bitstats-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -332,7 +332,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/dexergi.moc \
+           src/qt/bitstats.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -373,9 +373,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/dexergi-cli.cpp \
-           src/dexergi-tx.cpp \
-           src/dexergi.cpp \
+           src/bitstats-cli.cpp \
+           src/bitstats-tx.cpp \
+           src/bitstats.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -470,8 +470,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/dexergi.cpp \
-           src/qt/dexergistrings.cpp \
+           src/qt/bitstats.cpp \
+           src/qt/bitstatsstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -549,7 +549,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_dexergi.cpp \
+           src/test/test_bitstats.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -640,21 +640,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/dexergi.qrc src/qt/dexergi_locale.qrc
+RESOURCES += src/qt/bitstats.qrc src/qt/bitstats_locale.qrc
 
-TRANSLATIONS += src/qt/locale/dexergi_bg.ts \
-                src/qt/locale/dexergi_de.ts \
-                src/qt/locale/dexergi_en.ts \
-                src/qt/locale/dexergi_es.ts \
-                src/qt/locale/dexergi_fi.ts \
-                src/qt/locale/dexergi_fr.ts \
-                src/qt/locale/dexergi_it.ts \
-                src/qt/locale/dexergi_ja.ts \
-                src/qt/locale/dexergi_pl.ts \
-                src/qt/locale/dexergi_pt.ts \
-                src/qt/locale/dexergi_ru.ts \
-                src/qt/locale/dexergi_sk.ts \
-                src/qt/locale/dexergi_sv.ts \
-                src/qt/locale/dexergi_vi.ts \
-                src/qt/locale/dexergi_zh_CN.ts \
-                src/qt/locale/dexergi_zh_TW.ts
+TRANSLATIONS += src/qt/locale/bitstats_bg.ts \
+                src/qt/locale/bitstats_de.ts \
+                src/qt/locale/bitstats_en.ts \
+                src/qt/locale/bitstats_es.ts \
+                src/qt/locale/bitstats_fi.ts \
+                src/qt/locale/bitstats_fr.ts \
+                src/qt/locale/bitstats_it.ts \
+                src/qt/locale/bitstats_ja.ts \
+                src/qt/locale/bitstats_pl.ts \
+                src/qt/locale/bitstats_pt.ts \
+                src/qt/locale/bitstats_ru.ts \
+                src/qt/locale/bitstats_sk.ts \
+                src/qt/locale/bitstats_sv.ts \
+                src/qt/locale/bitstats_vi.ts \
+                src/qt/locale/bitstats_zh_CN.ts \
+                src/qt/locale/bitstats_zh_TW.ts

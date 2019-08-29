@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_ACCUMULATORCHECKPOINTS_H
-#define DEXERGI_ACCUMULATORCHECKPOINTS_H
+#ifndef BITSTATS_ACCUMULATORCHECKPOINTS_H
+#define BITSTATS_ACCUMULATORCHECKPOINTS_H
 
 #include <libzerocoin/bignum.h>
 #include <univalue/include/univalue.h>
@@ -19,4 +19,4 @@ namespace AccumulatorCheckpoints
     Checkpoint GetClosestCheckpoint(const int& nHeight, int& nHeightCheckpoint);
 }
 
-#endif //DEXERGI_ACCUMULATORCHECKPOINTS_H
+#endif //BITSTATS_ACCUMULATORCHECKPOINTS_H

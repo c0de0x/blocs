@@ -66,15 +66,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += dexergid
+  bin_PROGRAMS += bitstatsd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += dexergi-cli dexergi-tx
+  bin_PROGRAMS += bitstats-cli bitstats-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# dexergi core #
+# bitstats core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addressindex.h \
@@ -201,7 +201,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between dexergid and dexergi-qt
+# server: shared between bitstatsd and bitstats-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -249,7 +249,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between dexergid and dexergi-qt, but only linked
+# wallet: shared between bitstatsd and bitstats-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -356,7 +356,7 @@ if USE_NUM_OPENSSL
   libzerocoin_libbitcoin_zerocoin_a_SOURCES += libzerocoin/bignum_openssl.cpp
 endif
 
-# common: shared between dexergid, and dexergi-qt and non-server tools
+# common: shared between bitstatsd, and bitstats-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -421,7 +421,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between dexergi-cli and dexergi-qt
+# cli: shared between bitstats-cli and bitstats-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -431,16 +431,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# dexergid binary #
-dexergid_SOURCES = dexergid.cpp
-dexergid_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-dexergid_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-dexergid_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# bitstatsd binary #
+bitstatsd_SOURCES = bitstatsd.cpp
+bitstatsd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+bitstatsd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bitstatsd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-dexergid_SOURCES += dexergid-res.rc
+bitstatsd_SOURCES += bitstatsd-res.rc
 endif
-dexergid_LDADD = \
+bitstatsd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -454,38 +454,38 @@ dexergid_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-dexergid_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+bitstatsd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# dexergi-cli binary #
-dexergi_cli_SOURCES = dexergi-cli.cpp
-dexergi_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-dexergi_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-dexergi_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# bitstats-cli binary #
+bitstats_cli_SOURCES = bitstats-cli.cpp
+bitstats_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+bitstats_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bitstats_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-dexergi_cli_SOURCES += dexergi-cli-res.rc
+bitstats_cli_SOURCES += bitstats-cli-res.rc
 endif
 
-dexergi_cli_LDADD = \
+bitstats_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-dexergi_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+bitstats_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# dexergi-tx binary #
-dexergi_tx_SOURCES = dexergi-tx.cpp
-dexergi_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-dexergi_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-dexergi_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# bitstats-tx binary #
+bitstats_tx_SOURCES = bitstats-tx.cpp
+bitstats_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+bitstats_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bitstats_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-dexergi_tx_SOURCES += dexergi-tx-res.rc
+bitstats_tx_SOURCES += bitstats-tx-res.rc
 endif
 
-dexergi_tx_LDADD = \
+bitstats_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -493,7 +493,7 @@ dexergi_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-dexergi_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+bitstats_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
@@ -548,12 +548,12 @@ CLEANFILES += obj/build.h
 EXTRA_DIST =
 
 
-config/dexergi-config.h: config/stamp-h1
+config/bitstats-config.h: config/stamp-h1
 	@$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-config/stamp-h1: $(top_srcdir)/$(subdir)/config/dexergi-config.h.in $(top_builddir)/config.status
+config/stamp-h1: $(top_srcdir)/$(subdir)/config/bitstats-config.h.in $(top_builddir)/config.status
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-$(top_srcdir)/$(subdir)/config/dexergi-config.h.in:  $(am__configure_deps)
-	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/dexergi-config.h.in
+$(top_srcdir)/$(subdir)/config/bitstats-config.h.in:  $(am__configure_deps)
+	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/bitstats-config.h.in
 
 clean-local:
 	-$(MAKE) -C secp256k1 clean

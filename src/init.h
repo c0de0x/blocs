@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
@@ -12,7 +12,7 @@
 
 class CScheduler;
 class CWallet;
-class CzDXRWallet;
+class CzBTTWallet;
 
 namespace boost
 {
@@ -20,7 +20,7 @@ class thread_group;
 } // namespace boost
 
 extern CWallet* pwalletMain;
-extern CzDXRWallet* zwalletMain;
+extern CzBTTWallet* zwalletMain;
 
 void StartShutdown();
 bool ShutdownRequested();

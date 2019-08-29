@@ -1,10 +1,10 @@
-/* Copyright (c) 2019-2020 The Dexergi Developers */
+/* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_WITNESS_H
-#define DEXERGI_WITNESS_H
+#ifndef BITSTATS_WITNESS_H
+#define BITSTATS_WITNESS_H
 
 
 #include <libzerocoin/Accumulator.h>
@@ -80,4 +80,4 @@ public:
         READWRITE(accumulatorDenom);
     };
 };
-#endif //DEXERGI_WITNESS_H
+#endif //BITSTATS_WITNESS_H

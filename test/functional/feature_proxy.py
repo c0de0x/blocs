@@ -5,10 +5,10 @@
 """Test bitcoind with different proxy configuration.
 
 Test plan:
-- Start dexergid's with different proxy configurations
+- Start bitstatsd's with different proxy configurations
 - Use addnode to initiate connections
 - Verify that proxies are connected to, and the right connection command is given
-- Proxy configurations to test on dexergid side:
+- Proxy configurations to test on bitstatsd side:
     - `-proxy` (proxy everything)
     - `-onion` (proxy just onions)
     - `-proxyrandomize` Circuit randomization
@@ -18,8 +18,8 @@ Test plan:
     - proxy on IPv6
 
 - Create various proxies (as threads)
-- Create dexergids that connect to them
-- Manipulate the dexergids using addnode (onetry) an observe effects
+- Create bitstatsds that connect to them
+- Manipulate the bitstatsds using addnode (onetry) an observe effects
 
 addnode connect to IPv4
 addnode connect to IPv6

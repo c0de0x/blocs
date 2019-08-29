@@ -13,29 +13,29 @@
 %endif
 %endif
 
-Name:		dexergi
+Name:		bitstats
 Version:	0.12.0
 Release:	2%{?dist}
 Summary:	Peer to Peer Cryptographic Currency
 
 Group:		Applications/System
 License:	MIT
-URL:		https://dexergi.org/
-Source0:	https://dexergi.org/bin/dexergi-core-%{version}/dexergi-%{version}.tar.gz
+URL:		https://bitstats.org/
+Source0:	https://bitstats.org/bin/bitstats-core-%{version}/bitstats-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
-Source10:	https://raw.githubusercontent.com/dexergi-project/dexergi/v%{version}/contrib/debian/examples/dexergi.conf
+Source10:	https://raw.githubusercontent.com/bitstats-project/bitstats/v%{version}/contrib/debian/examples/bitstats.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/dexergi-project/dexergi/v%{version}/doc/man/dexergid.1
-Source21:	https://raw.githubusercontent.com/dexergi-project/dexergi/v%{version}/doc/man/dexergi-cli.1
-Source22:	https://raw.githubusercontent.com/dexergi-project/dexergi/v%{version}/doc/man/dexergi-qt.1
+Source20:	https://raw.githubusercontent.com/bitstats-project/bitstats/v%{version}/doc/man/bitstatsd.1
+Source21:	https://raw.githubusercontent.com/bitstats-project/bitstats/v%{version}/doc/man/bitstats-cli.1
+Source22:	https://raw.githubusercontent.com/bitstats-project/bitstats/v%{version}/doc/man/bitstats-qt.1
 
 #selinux
-Source30:	https://raw.githubusercontent.com/dexergi-project/dexergi/v%{version}/contrib/rpm/dexergi.te
-# Source31 - what about dexergi-tx and bench_dexergi ???
-Source31:	https://raw.githubusercontent.com/dexergi-project/dexergi/v%{version}/contrib/rpm/dexergi.fc
-Source32:	https://raw.githubusercontent.com/dexergi-project/dexergi/v%{version}/contrib/rpm/dexergi.if
+Source30:	https://raw.githubusercontent.com/bitstats-project/bitstats/v%{version}/contrib/rpm/bitstats.te
+# Source31 - what about bitstats-tx and bench_bitstats ???
+Source31:	https://raw.githubusercontent.com/bitstats-project/bitstats/v%{version}/contrib/rpm/bitstats.fc
+Source32:	https://raw.githubusercontent.com/bitstats-project/bitstats/v%{version}/contrib/rpm/bitstats.if
 
 Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
 
@@ -50,13 +50,13 @@ BuildRequires:	autoconf automake libtool
 BuildRequires:	libevent-devel
 
 
-Patch0:		dexergi-0.12.0-libressl.patch
+Patch0:		bitstats-0.12.0-libressl.patch
 
 
 %description
 Bitcoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
-issuing of dexergis is carried out collectively by the network.
+issuing of bitstatss is carried out collectively by the network.
 
 %if %{_buildqt}
 %package core
@@ -81,7 +81,7 @@ BuildRequires:	%{_bindir}/convert
 %description core
 Bitcoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
-issuing of dexergis is carried out collectively by the network.
+issuing of bitstatss is carried out collectively by the network.
 
 This package contains the Qt based graphical client and node. If you are looking
 to run a Bitcoin wallet, this is probably the package you want.
@@ -93,28 +93,28 @@ Summary:	Bitcoin shared libraries
 Group:		System Environment/Libraries
 
 %description libs
-This package provides the dexergiconsensus shared libraries. These libraries
+This package provides the bitstatsconsensus shared libraries. These libraries
 may be used by third party software to provide consensus verification
 functionality.
 
 Unless you know need this package, you probably do not.
 
 %package devel
-Summary:	Development files for dexergi
+Summary:	Development files for bitstats
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
 %description devel
 This package contains the header files and static library for the
-dexergiconsensus shared library. If you are developing or compiling software
+bitstatsconsensus shared library. If you are developing or compiling software
 that wants to link against that library, then you need this package installed.
 
 Most people do not need this package installed.
 
 %package server
-Summary:	The dexergi daemon
+Summary:	The bitstats daemon
 Group:		System Environment/Daemons
-Requires:	dexergi-utils = %{version}-%{release}
+Requires:	bitstats-utils = %{version}-%{release}
 Requires:	selinux-policy policycoreutils-python
 Requires(pre):	shadow-utils
 Requires(post):	%{_sbindir}/semodule %{_sbindir}/restorecon %{_sbindir}/fixfiles %{_sbindir}/sestatus
@@ -124,13 +124,13 @@ BuildRequires:	checkpolicy
 BuildRequires:	%{_datadir}/selinux/devel/Makefile
 
 %description server
-This package provides a stand-alone dexergi-core daemon. For most users, this
+This package provides a stand-alone bitstats-core daemon. For most users, this
 package is only needed if they need a full-node without the graphical client.
 
 Some third party wallet software will want this package to provide the actual
-dexergi-core node they use to connect to the network.
+bitstats-core node they use to connect to the network.
 
-If you use the graphical dexergi-core client then you almost certainly do not
+If you use the graphical bitstats-core client then you almost certainly do not
 need this package.
 
 %package utils
@@ -139,19 +139,19 @@ Group:		Applications/System
 
 %description utils
 This package provides several command line utilities for interacting with a
-dexergi-core daemon.
+bitstats-core daemon.
 
-The dexergi-cli utility allows you to communicate and control a dexergi daemon
-over RPC, the dexergi-tx utility allows you to create a custom transaction, and
-the bench_dexergi utility can be used to perform some benchmarks.
+The bitstats-cli utility allows you to communicate and control a bitstats daemon
+over RPC, the bitstats-tx utility allows you to create a custom transaction, and
+the bench_bitstats utility can be used to perform some benchmarks.
 
-This package contains utilities needed by the dexergi-server package.
+This package contains utilities needed by the bitstats-server package.
 
 
 %prep
 %setup -q
 %patch0 -p1 -b .libressl
-cp -p %{SOURCE10} ./dexergi.conf.example
+cp -p %{SOURCE10} ./bitstats.conf.example
 tar -zxf %{SOURCE1}
 cp -p db-%{bdbv}.NC/LICENSE ./db-%{bdbv}.NC-LICENSE
 mkdir db4 SELinux
@@ -172,7 +172,7 @@ make %{?_smp_mflags}
 pushd SELinux
 for selinuxvariant in %{selinux_variants}; do
 	make NAME=${selinuxvariant} -f %{_datadir}/selinux/devel/Makefile
-	mv dexergi.pp dexergi.pp.${selinuxvariant}
+	mv bitstats.pp bitstats.pp.${selinuxvariant}
 	make NAME=${selinuxvariant} -f %{_datadir}/selinux/devel/Makefile clean
 done
 popd
@@ -182,42 +182,42 @@ popd
 make install DESTDIR=%{buildroot}
 
 mkdir -p -m755 %{buildroot}%{_sbindir}
-mv %{buildroot}%{_bindir}/dexergid %{buildroot}%{_sbindir}/dexergid
+mv %{buildroot}%{_bindir}/bitstatsd %{buildroot}%{_sbindir}/bitstatsd
 
 # systemd stuff
 mkdir -p %{buildroot}%{_tmpfilesdir}
-cat <<EOF > %{buildroot}%{_tmpfilesdir}/dexergi.conf
-d /run/dexergid 0750 dexergi dexergi -
+cat <<EOF > %{buildroot}%{_tmpfilesdir}/bitstats.conf
+d /run/bitstatsd 0750 bitstats bitstats -
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_tmpfilesdir}/dexergi.conf
+touch -a -m -t 201504280000 %{buildroot}%{_tmpfilesdir}/bitstats.conf
 
 mkdir -p %{buildroot}%{_sysconfdir}/sysconfig
-cat <<EOF > %{buildroot}%{_sysconfdir}/sysconfig/dexergi
-# Provide options to the dexergi daemon here, for example
+cat <<EOF > %{buildroot}%{_sysconfdir}/sysconfig/bitstats
+# Provide options to the bitstats daemon here, for example
 # OPTIONS="-testnet -disable-wallet"
 
 OPTIONS=""
 
 # System service defaults.
 # Don't change these unless you know what you're doing.
-CONFIG_FILE="%{_sysconfdir}/dexergi/dexergi.conf"
-DATA_DIR="%{_localstatedir}/lib/dexergi"
-PID_FILE="/run/dexergid/dexergid.pid"
+CONFIG_FILE="%{_sysconfdir}/bitstats/bitstats.conf"
+DATA_DIR="%{_localstatedir}/lib/bitstats"
+PID_FILE="/run/bitstatsd/bitstatsd.pid"
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_sysconfdir}/sysconfig/dexergi
+touch -a -m -t 201504280000 %{buildroot}%{_sysconfdir}/sysconfig/bitstats
 
 mkdir -p %{buildroot}%{_unitdir}
-cat <<EOF > %{buildroot}%{_unitdir}/dexergi.service
+cat <<EOF > %{buildroot}%{_unitdir}/bitstats.service
 [Unit]
 Description=Bitcoin daemon
 After=syslog.target network.target
 
 [Service]
 Type=forking
-ExecStart=%{_sbindir}/dexergid -daemon -conf=\${CONFIG_FILE} -datadir=\${DATA_DIR} -pid=\${PID_FILE} \$OPTIONS
-EnvironmentFile=%{_sysconfdir}/sysconfig/dexergi
-User=dexergi
-Group=dexergi
+ExecStart=%{_sbindir}/bitstatsd -daemon -conf=\${CONFIG_FILE} -datadir=\${DATA_DIR} -pid=\${PID_FILE} \$OPTIONS
+EnvironmentFile=%{_sysconfdir}/sysconfig/bitstats
+User=bitstats
+Group=bitstats
 
 Restart=on-failure
 PrivateTmp=true
@@ -229,63 +229,63 @@ StartLimitBurst=5
 [Install]
 WantedBy=multi-user.target
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_unitdir}/dexergi.service
+touch -a -m -t 201504280000 %{buildroot}%{_unitdir}/bitstats.service
 #end systemd stuff
 
-mkdir %{buildroot}%{_sysconfdir}/dexergi
-mkdir -p %{buildroot}%{_localstatedir}/lib/dexergi
+mkdir %{buildroot}%{_sysconfdir}/bitstats
+mkdir -p %{buildroot}%{_localstatedir}/lib/bitstats
 
 #SELinux
 for selinuxvariant in %{selinux_variants}; do
 	install -d %{buildroot}%{_datadir}/selinux/${selinuxvariant}
-	install -p -m 644 SELinux/dexergi.pp.${selinuxvariant} %{buildroot}%{_datadir}/selinux/${selinuxvariant}/dexergi.pp
+	install -p -m 644 SELinux/bitstats.pp.${selinuxvariant} %{buildroot}%{_datadir}/selinux/${selinuxvariant}/bitstats.pp
 done
 
 %if %{_buildqt}
 # qt icons
-install -D -p share/pixmaps/dexergi.ico %{buildroot}%{_datadir}/pixmaps/dexergi.ico
+install -D -p share/pixmaps/bitstats.ico %{buildroot}%{_datadir}/pixmaps/bitstats.ico
 install -p share/pixmaps/nsis-header.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p share/pixmaps/nsis-wizard.bmp %{buildroot}%{_datadir}/pixmaps/
-install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/dexergi.svg
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/dexergi16.png -w16 -h16
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/dexergi32.png -w32 -h32
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/dexergi64.png -w64 -h64
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/dexergi128.png -w128 -h128
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/dexergi256.png -w256 -h256
-%{_bindir}/convert -resize 16x16 %{buildroot}%{_datadir}/pixmaps/dexergi256.png %{buildroot}%{_datadir}/pixmaps/dexergi16.xpm
-%{_bindir}/convert -resize 32x32 %{buildroot}%{_datadir}/pixmaps/dexergi256.png %{buildroot}%{_datadir}/pixmaps/dexergi32.xpm
-%{_bindir}/convert -resize 64x64 %{buildroot}%{_datadir}/pixmaps/dexergi256.png %{buildroot}%{_datadir}/pixmaps/dexergi64.xpm
-%{_bindir}/convert -resize 128x128 %{buildroot}%{_datadir}/pixmaps/dexergi256.png %{buildroot}%{_datadir}/pixmaps/dexergi128.xpm
-%{_bindir}/convert %{buildroot}%{_datadir}/pixmaps/dexergi256.png %{buildroot}%{_datadir}/pixmaps/dexergi256.xpm
+install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/bitstats.svg
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitstats16.png -w16 -h16
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitstats32.png -w32 -h32
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitstats64.png -w64 -h64
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitstats128.png -w128 -h128
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitstats256.png -w256 -h256
+%{_bindir}/convert -resize 16x16 %{buildroot}%{_datadir}/pixmaps/bitstats256.png %{buildroot}%{_datadir}/pixmaps/bitstats16.xpm
+%{_bindir}/convert -resize 32x32 %{buildroot}%{_datadir}/pixmaps/bitstats256.png %{buildroot}%{_datadir}/pixmaps/bitstats32.xpm
+%{_bindir}/convert -resize 64x64 %{buildroot}%{_datadir}/pixmaps/bitstats256.png %{buildroot}%{_datadir}/pixmaps/bitstats64.xpm
+%{_bindir}/convert -resize 128x128 %{buildroot}%{_datadir}/pixmaps/bitstats256.png %{buildroot}%{_datadir}/pixmaps/bitstats128.xpm
+%{_bindir}/convert %{buildroot}%{_datadir}/pixmaps/bitstats256.png %{buildroot}%{_datadir}/pixmaps/bitstats256.xpm
 touch %{buildroot}%{_datadir}/pixmaps/*.png -r %{SOURCE100}
 touch %{buildroot}%{_datadir}/pixmaps/*.xpm -r %{SOURCE100}
 
 # Desktop File - change the touch timestamp if modifying
 mkdir -p %{buildroot}%{_datadir}/applications
-cat <<EOF > %{buildroot}%{_datadir}/applications/dexergi-core.desktop
+cat <<EOF > %{buildroot}%{_datadir}/applications/bitstats-core.desktop
 [Desktop Entry]
 Encoding=UTF-8
 Name=Bitcoin
 Comment=Bitcoin P2P Cryptocurrency
 Comment[fr]=Bitcoin, monnaie virtuelle cryptographique pair à pair
 Comment[tr]=Bitcoin, eşten eşe kriptografik sanal para birimi
-Exec=dexergi-qt %u
+Exec=bitstats-qt %u
 Terminal=false
 Type=Application
-Icon=dexergi128
-MimeType=x-scheme-handler/dexergi;
+Icon=bitstats128
+MimeType=x-scheme-handler/bitstats;
 Categories=Office;Finance;
 EOF
 # change touch date when modifying desktop
-touch -a -m -t 201511100546 %{buildroot}%{_datadir}/applications/dexergi-core.desktop
-%{_bindir}/desktop-file-validate %{buildroot}%{_datadir}/applications/dexergi-core.desktop
+touch -a -m -t 201511100546 %{buildroot}%{_datadir}/applications/bitstats-core.desktop
+%{_bindir}/desktop-file-validate %{buildroot}%{_datadir}/applications/bitstats-core.desktop
 
 # KDE protocol - change the touch timestamp if modifying
 mkdir -p %{buildroot}%{_datadir}/kde4/services
-cat <<EOF > %{buildroot}%{_datadir}/kde4/services/dexergi-core.protocol
+cat <<EOF > %{buildroot}%{_datadir}/kde4/services/bitstats-core.protocol
 [Protocol]
-exec=dexergi-qt '%u'
-protocol=dexergi
+exec=bitstats-qt '%u'
+protocol=bitstats
 input=none
 output=none
 helper=true
@@ -296,14 +296,14 @@ makedir=false
 deleting=false
 EOF
 # change touch date when modifying protocol
-touch -a -m -t 201511100546 %{buildroot}%{_datadir}/kde4/services/dexergi-core.protocol
+touch -a -m -t 201511100546 %{buildroot}%{_datadir}/kde4/services/bitstats-core.protocol
 %endif
 
 # man pages
-install -D -p %{SOURCE20} %{buildroot}%{_mandir}/man1/dexergid.1
-install -p %{SOURCE21} %{buildroot}%{_mandir}/man1/dexergi-cli.1
+install -D -p %{SOURCE20} %{buildroot}%{_mandir}/man1/bitstatsd.1
+install -p %{SOURCE21} %{buildroot}%{_mandir}/man1/bitstats-cli.1
 %if %{_buildqt}
-install -p %{SOURCE22} %{buildroot}%{_mandir}/man1/dexergi-qt.1
+install -p %{SOURCE22} %{buildroot}%{_mandir}/man1/bitstats-qt.1
 %endif
 
 # nuke these, we do extensive testing of binaries in %%check before packaging
@@ -311,7 +311,7 @@ rm -f %{buildroot}%{_bindir}/test_*
 
 %check
 make check
-srcdir=src test/dexergi-util-test.py
+srcdir=src test/bitstats-util-test.py
 test/functional/test_runner.py --extended
 
 %post libs -p /sbin/ldconfig
@@ -319,37 +319,37 @@ test/functional/test_runner.py --extended
 %postun libs -p /sbin/ldconfig
 
 %pre server
-getent group dexergi >/dev/null || groupadd -r dexergi
-getent passwd dexergi >/dev/null ||
-	useradd -r -g dexergi -d /var/lib/dexergi -s /sbin/nologin \
-	-c "Bitcoin wallet server" dexergi
+getent group bitstats >/dev/null || groupadd -r bitstats
+getent passwd bitstats >/dev/null ||
+	useradd -r -g bitstats -d /var/lib/bitstats -s /sbin/nologin \
+	-c "Bitcoin wallet server" bitstats
 exit 0
 
 %post server
-%systemd_post dexergi.service
+%systemd_post bitstats.service
 # SELinux
 if [ `%{_sbindir}/sestatus |grep -c "disabled"` -eq 0 ]; then
 for selinuxvariant in %{selinux_variants}; do
-	%{_sbindir}/semodule -s ${selinuxvariant} -i %{_datadir}/selinux/${selinuxvariant}/dexergi.pp &> /dev/null || :
+	%{_sbindir}/semodule -s ${selinuxvariant} -i %{_datadir}/selinux/${selinuxvariant}/bitstats.pp &> /dev/null || :
 done
-%{_sbindir}/semanage port -a -t dexergi_port_t -p tcp 8332
-%{_sbindir}/semanage port -a -t dexergi_port_t -p tcp 8333
-%{_sbindir}/semanage port -a -t dexergi_port_t -p tcp 18332
-%{_sbindir}/semanage port -a -t dexergi_port_t -p tcp 18333
-%{_sbindir}/semanage port -a -t dexergi_port_t -p tcp 18443
-%{_sbindir}/semanage port -a -t dexergi_port_t -p tcp 18444
-%{_sbindir}/fixfiles -R dexergi-server restore &> /dev/null || :
-%{_sbindir}/restorecon -R %{_localstatedir}/lib/dexergi || :
+%{_sbindir}/semanage port -a -t bitstats_port_t -p tcp 8332
+%{_sbindir}/semanage port -a -t bitstats_port_t -p tcp 8333
+%{_sbindir}/semanage port -a -t bitstats_port_t -p tcp 18332
+%{_sbindir}/semanage port -a -t bitstats_port_t -p tcp 18333
+%{_sbindir}/semanage port -a -t bitstats_port_t -p tcp 18443
+%{_sbindir}/semanage port -a -t bitstats_port_t -p tcp 18444
+%{_sbindir}/fixfiles -R bitstats-server restore &> /dev/null || :
+%{_sbindir}/restorecon -R %{_localstatedir}/lib/bitstats || :
 fi
 
 %posttrans server
 %{_bindir}/systemd-tmpfiles --create
 
 %preun server
-%systemd_preun dexergi.service
+%systemd_preun bitstats.service
 
 %postun server
-%systemd_postun dexergi.service
+%systemd_postun bitstats.service
 # SELinux
 if [ $1 -eq 0 ]; then
 	if [ `%{_sbindir}/sestatus |grep -c "disabled"` -eq 0 ]; then
@@ -360,11 +360,11 @@ if [ $1 -eq 0 ]; then
 	%{_sbindir}/semanage port -d -p tcp 18443
 	%{_sbindir}/semanage port -d -p tcp 18444
 	for selinuxvariant in %{selinux_variants}; do
-		%{_sbindir}/semodule -s ${selinuxvariant} -r dexergi &> /dev/null || :
+		%{_sbindir}/semodule -s ${selinuxvariant} -r bitstats &> /dev/null || :
 	done
-	%{_sbindir}/fixfiles -R dexergi-server restore &> /dev/null || :
-	[ -d %{_localstatedir}/lib/dexergi ] && \
-		%{_sbindir}/restorecon -R %{_localstatedir}/lib/dexergi &> /dev/null || :
+	%{_sbindir}/fixfiles -R bitstats-server restore &> /dev/null || :
+	[ -d %{_localstatedir}/lib/bitstats ] && \
+		%{_sbindir}/restorecon -R %{_localstatedir}/lib/bitstats &> /dev/null || :
 	fi
 fi
 
@@ -375,16 +375,16 @@ rm -rf %{buildroot}
 %files core
 %defattr(-,root,root,-)
 %license COPYING db-%{bdbv}.NC-LICENSE
-%doc COPYING dexergi.conf.example doc/README.md doc/bips.md doc/files.md doc/multiwallet-qt.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
-%attr(0755,root,root) %{_bindir}/dexergi-qt
-%attr(0644,root,root) %{_datadir}/applications/dexergi-core.desktop
-%attr(0644,root,root) %{_datadir}/kde4/services/dexergi-core.protocol
+%doc COPYING bitstats.conf.example doc/README.md doc/bips.md doc/files.md doc/multiwallet-qt.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
+%attr(0755,root,root) %{_bindir}/bitstats-qt
+%attr(0644,root,root) %{_datadir}/applications/bitstats-core.desktop
+%attr(0644,root,root) %{_datadir}/kde4/services/bitstats-core.protocol
 %attr(0644,root,root) %{_datadir}/pixmaps/*.ico
 %attr(0644,root,root) %{_datadir}/pixmaps/*.bmp
 %attr(0644,root,root) %{_datadir}/pixmaps/*.svg
 %attr(0644,root,root) %{_datadir}/pixmaps/*.png
 %attr(0644,root,root) %{_datadir}/pixmaps/*.xpm
-%attr(0644,root,root) %{_mandir}/man1/dexergi-qt.1*
+%attr(0644,root,root) %{_mandir}/man1/bitstats-qt.1*
 %endif
 
 %files libs
@@ -406,30 +406,30 @@ rm -rf %{buildroot}
 %files server
 %defattr(-,root,root,-)
 %license COPYING db-%{bdbv}.NC-LICENSE
-%doc COPYING dexergi.conf.example doc/README.md doc/REST-interface.md doc/bips.md doc/dnsseed-policy.md doc/files.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
-%attr(0755,root,root) %{_sbindir}/dexergid
-%attr(0644,root,root) %{_tmpfilesdir}/dexergi.conf
-%attr(0644,root,root) %{_unitdir}/dexergi.service
-%dir %attr(0750,dexergi,dexergi) %{_sysconfdir}/dexergi
-%dir %attr(0750,dexergi,dexergi) %{_localstatedir}/lib/dexergi
-%config(noreplace) %attr(0600,root,root) %{_sysconfdir}/sysconfig/dexergi
+%doc COPYING bitstats.conf.example doc/README.md doc/REST-interface.md doc/bips.md doc/dnsseed-policy.md doc/files.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
+%attr(0755,root,root) %{_sbindir}/bitstatsd
+%attr(0644,root,root) %{_tmpfilesdir}/bitstats.conf
+%attr(0644,root,root) %{_unitdir}/bitstats.service
+%dir %attr(0750,bitstats,bitstats) %{_sysconfdir}/bitstats
+%dir %attr(0750,bitstats,bitstats) %{_localstatedir}/lib/bitstats
+%config(noreplace) %attr(0600,root,root) %{_sysconfdir}/sysconfig/bitstats
 %attr(0644,root,root) %{_datadir}/selinux/*/*.pp
-%attr(0644,root,root) %{_mandir}/man1/dexergid.1*
+%attr(0644,root,root) %{_mandir}/man1/bitstatsd.1*
 
 %files utils
 %defattr(-,root,root,-)
 %license COPYING
-%doc COPYING dexergi.conf.example doc/README.md
-%attr(0755,root,root) %{_bindir}/dexergi-cli
-%attr(0755,root,root) %{_bindir}/dexergi-tx
-%attr(0755,root,root) %{_bindir}/bench_dexergi
-%attr(0644,root,root) %{_mandir}/man1/dexergi-cli.1*
+%doc COPYING bitstats.conf.example doc/README.md
+%attr(0755,root,root) %{_bindir}/bitstats-cli
+%attr(0755,root,root) %{_bindir}/bitstats-tx
+%attr(0755,root,root) %{_bindir}/bench_bitstats
+%attr(0644,root,root) %{_mandir}/man1/bitstats-cli.1*
 
 
 
 %changelog
 * Fri Feb 26 2016 Alice Wonder <buildmaster@librelamp.com> - 0.12.0-2
-- Rename Qt package from dexergi to dexergi-core
+- Rename Qt package from bitstats to bitstats-core
 - Make building of the Qt package optional
 - When building the Qt package, default to Qt5 but allow building
 -  against Qt4
@@ -439,4 +439,4 @@ rm -rf %{buildroot}
 - Initial spec file for 0.12.0 release
 
 # This spec file is written from scratch but a lot of the packaging decisions are directly
-# based upon the 0.11.2 package spec file from https://www.ringingliberty.com/dexergi/
+# based upon the 0.11.2 package spec file from https://www.ringingliberty.com/bitstats/
