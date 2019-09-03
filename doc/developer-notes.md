@@ -215,7 +215,7 @@ to see it.
 
 ### Testnet and Regtest modes
 
-Run with the `-testnet` option to run with "play BTTs (tBTT)" on the test network, if you
+Run with the `-testnet` option to run with "play BTSTs (tBTST)" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the `-regtest` option.
@@ -305,7 +305,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 8332 for connections and services them.
 
-- BitcoinMiner : Generates BTTs (if wallet is enabled).
+- BitcoinMiner : Generates BTSTs (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 

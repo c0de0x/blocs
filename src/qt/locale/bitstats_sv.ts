@@ -176,16 +176,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina BTTs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina BTSTs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA BTT&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA BTST&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Bläddra i transaktions historiken</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTT</source>
-        <translation>Integritets funktioner för zBTT</translation>
+        <source>Privacy Actions for zBTST</source>
+        <translation>Integritets funktioner för zBTST</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -1146,8 +1146,8 @@ MultiSend: %1</translation>
         <translation>Den här etiketten blir röd, ifall någon mottagare får en mängd som är mindre än %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTT per input.</source>
-        <translation>Kan variera med +/- %1 uBTT per inmatning.</translation>
+        <source>Can vary +/- %1 uBTST per input.</source>
+        <translation>Kan variera med +/- %1 uBTST per inmatning.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1770,8 +1770,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Adress / Mängd:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTT to</source>
-        <translation>Lägg till destination att skicka BTT till</translation>
+        <source>Add destinations to send BTST to</source>
+        <translation>Lägg till destination att skicka BTST till</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1970,36 +1970,36 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Kartlägg port med &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTT units to zBTT</source>
-        <translation>Tillåt automatisk prägling med BTT enheter till zBTT</translation>
+        <source>Enable automatic minting of BTST units to zBTST</source>
+        <translation>Tillåt automatisk prägling med BTST enheter till zBTST</translation>
     </message>
     <message>
-        <source>Enable zBTT Automint</source>
-        <translation>Tillåt zBTT Autoprägling</translation>
+        <source>Enable zBTST Automint</source>
+        <translation>Tillåt zBTST Autoprägling</translation>
     </message>
     <message>
-        <source>Enable automatic zBTT minting from specific addresses</source>
-        <translation>Aktivera automatisk zBTT prägling från specifika adresser</translation>
+        <source>Enable automatic zBTST minting from specific addresses</source>
+        <translation>Aktivera automatisk zBTST prägling från specifika adresser</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Aktivera autopräglingsadresser</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent av inkommande BTT som automatiskt konverteras till zBTT via Zerocoin Protokollet (min: 10%)</translation>
+        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent av inkommande BTST som automatiskt konverteras till zBTST via Zerocoin Protokollet (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTT</source>
-        <translation>Procent av autopräglade zBTT</translation>
+        <source>Percentage of autominted zBTST</source>
+        <translation>Procent av autopräglade zBTST</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
-        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många BTT för denna valör är tillgängliga</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</source>
+        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många BTST för denna valör är tillgängliga</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTT Denomination</source>
-        <translation>Preferens på zBTT valör i autoprägling</translation>
+        <source>Preferred Automint zBTST Denomination</source>
+        <translation>Preferens på zBTST valör i autoprägling</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2165,8 +2165,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Totalt saldo, inkluderar alla otillgängliga mynt.</translation>
     </message>
     <message>
-        <source>BTT Balance</source>
-        <translation>BTT Saldo</translation>
+        <source>BTST Balance</source>
+        <translation>BTST Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2193,14 +2193,14 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Ditt nuvarande BITSTATS saldo, obekräftade och omogna transaktioner är inkluderade</translation>
     </message>
     <message>
-        <source>zBTT Balance</source>
-        <translation>zBTT Saldo</translation>
+        <source>zBTST Balance</source>
+        <translation>zBTST Saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTT are spendable.</source>
+These zBTST are spendable.</source>
         <translation>Mogna: över 20 bekräftelser och över 1 prägling av samma valör efter den blev myntad.
-Dessa zBTT kan spenderas.</translation>
+Dessa zBTST kan spenderas.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2253,8 +2253,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Spenderbar:</translation>
     </message>
     <message>
-        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
-        <translation>Låsta BTT eller masternode som säkerhet. Dessa är uteslutna från zBTT minting.</translation>
+        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
+        <translation>Låsta BTST eller masternode som säkerhet. Dessa är uteslutna från zBTST minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2265,8 +2265,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Obekräftade:</translation>
     </message>
     <message>
-        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
-        <translation>Ditt nuvarande zBTT saldo, obekräftade och omogna zBTT inräknade.</translation>
+        <source>Your current zBTST balance, unconfirmed and immature zBTST included.</source>
+        <translation>Ditt nuvarande zBTST saldo, obekräftade och omogna zBTST inräknade.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2277,10 +2277,10 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>osynkroniserad</translation>
     </message>
     <message>
-        <source>Current percentage of zBTT.
+        <source>Current percentage of zBTST.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuvarande procent zBTT.
+        <translation>Nuvarande procent zBTST.
 Om AutoMint är tillåten så kommer denna procent att vara som den konfigurerade AutoMint procenten (standard = 10%).
 </translation>
     </message>
@@ -2424,8 +2424,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2452,12 +2452,12 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>SEKRETESS</translation>
     </message>
     <message>
-        <source>zBTT Control</source>
-        <translation>zBTT Kontroll</translation>
+        <source>zBTST Control</source>
+        <translation>zBTST Kontroll</translation>
     </message>
     <message>
-        <source>zBTT Selected:</source>
-        <translation>Valda zBTT:</translation>
+        <source>zBTST Selected:</source>
+        <translation>Valda zBTST:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2472,24 +2472,24 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>Spendera Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending</source>
-        <translation>Tillgängliga (mogna och spenderbara) zBTT att spendera</translation>
+        <source>Available (mature and spendable) zBTST for spending</source>
+        <translation>Tillgängliga (mogna och spenderbara) zBTST att spendera</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Tillgängligt Saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending
+        <source>Available (mature and spendable) zBTST for spending
 
-zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tillgängliga (mogna och spenderbara) zBTT att spendera
+zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tillgängliga (mogna och spenderbara) zBTST att spendera
 
-zBTT är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
+zBTST är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
     </message>
     <message>
-        <source>0 zBTT</source>
-        <translation>0 zBTT</translation>
+        <source>0 zBTST</source>
+        <translation>0 zBTST</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2548,8 +2548,8 @@ zBTT är mogna när de har över 20 bekräftelser OCH över 2 präglingar av sam
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTT</source>
-        <translation>Totalt Saldo, obekräftade och omogna zBTT inkluderade</translation>
+        <source>Total Balance including unconfirmed and immature zBTST</source>
+        <translation>Totalt Saldo, obekräftade och omogna zBTST inkluderade</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2570,24 +2570,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBTT minting.
+        <source>Show the current status of automatic zBTST minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to bitstats.conf
 - disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTST
 
 </source>
-        <translation>Visa den nuvarande statusen av automatisk zBTT minting.
+        <translation>Visa den nuvarande statusen av automatisk zBTST minting.
 
 För att ändra statusen (omstart krävs):
 -aktivera: lägg till 'enablezeromint=1' i bitstats.conf
 -inaktivera: lägg till 'enablezeromint=0' i bitstats.conf
 
 För att ändra procenten (ingen omstart krävs):
--meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zBTT
+-meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zBTST
 
 </translation>
     </message>
@@ -2636,20 +2636,20 @@ För att ändra procenten (ingen omstart krävs):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zBTT denominations list</source>
-        <translation>Visa zBTT valör lista</translation>
+        <source>Show zBTST denominations list</source>
+        <translation>Visa zBTST valör lista</translation>
     </message>
     <message>
         <source>Show Denominations</source>
         <translation>Visa Valörer</translation>
     </message>
     <message>
-        <source>zBTT minting is DISABLED</source>
-        <translation>zBTT prägling är inaktiverad</translation>
+        <source>zBTST minting is DISABLED</source>
+        <translation>zBTST prägling är inaktiverad</translation>
     </message>
     <message>
-        <source>zBTT spending is NOT private (links back to the mint transaction)</source>
-        <translation>Att spendera zBTT är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
+        <source>zBTST spending is NOT private (links back to the mint transaction)</source>
+        <translation>Att spendera zBTST är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
     </message>
     <message>
         <source>Denominations with value 5:</source>
@@ -2782,12 +2782,12 @@ Please be patient...</source>
 Ha lite tålamod...</translation>
     </message>
     <message>
-        <source>zBTT Spend #: </source>
-        <translation>zBTT spendering #:</translation>
+        <source>zBTST Spend #: </source>
+        <translation>zBTST spendering #:</translation>
     </message>
     <message>
-        <source>zBTT Mint</source>
-        <translation>zBTT Prägling</translation>
+        <source>zBTST Mint</source>
+        <translation>zBTST Prägling</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2802,12 +2802,12 @@ Ha lite tålamod...</translation>
         <translation>Konfigurerat procent mål: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBTT is currently disabled due to maintenance.</source>
-        <translation>zBTT är för nuvarande inaktiverat p.g.a. underhåll.</translation>
+        <source>zBTST is currently disabled due to maintenance.</source>
+        <translation>zBTST är för nuvarande inaktiverat p.g.a. underhåll.</translation>
     </message>
     <message>
-        <source>zBTT is currently undergoing maintenance.</source>
-        <translation>zBTT genomgår för tillfället underhåll.</translation>
+        <source>zBTST is currently undergoing maintenance.</source>
+        <translation>zBTST genomgår för tillfället underhåll.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3336,8 +3336,8 @@ Var tålmodig...</translation>
         <translation>Vanlig Backup Sökväg:</translation>
     </message>
     <message>
-        <source>Custom zBTT Backup Path:</source>
-        <translation>Vanlig zBTT Backup Sökväg:</translation>
+        <source>Custom zBTST Backup Path:</source>
+        <translation>Vanlig zBTST Backup Sökväg:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3804,12 +3804,12 @@ Var tålmodig...</translation>
         <translation>UTXO Storlek:</translation>
     </message>
     <message>
-        <source>0 BTT</source>
-        <translation>0 BTT</translation>
+        <source>0 BTST</source>
+        <translation>0 BTST</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BTT applies</source>
-        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01BTT tillkommer</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BTST applies</source>
+        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01BTST tillkommer</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3864,12 +3864,12 @@ Var tålmodig...</translation>
         <translation>Mynt automatiskt valda</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uBTTs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBTTs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uBTTs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uBTSTs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBTSTs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uBTSTs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uBTTs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBTTs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uBTTs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uBTSTs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBTSTs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uBTSTs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
@@ -3920,8 +3920,8 @@ Var tålmodig...</translation>
         <translation>Lägg till &amp;Mottagare</translation>
     </message>
     <message>
-        <source>Anonymized BTT</source>
-        <translation>Anonymiserade BTT</translation>
+        <source>Anonymized BTST</source>
+        <translation>Anonymiserade BTST</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4580,12 +4580,12 @@ Var tålmodig...</translation>
         <translation>Mottaget via Fördunkling</translation>
     </message>
     <message>
-        <source>BTT Stake</source>
-        <translation>BTT staking</translation>
+        <source>BTST Stake</source>
+        <translation>BTST staking</translation>
     </message>
     <message>
-        <source>zBTT Stake</source>
-        <translation>zBTT Staking</translation>
+        <source>zBTST Stake</source>
+        <translation>zBTST Staking</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4604,32 +4604,32 @@ Var tålmodig...</translation>
         <translation>Obfuscation Skapa tecken</translation>
     </message>
     <message>
-        <source>Converted BTT to zBTT</source>
-        <translation>Konvertera BTT till zBTT</translation>
+        <source>Converted BTST to zBTST</source>
+        <translation>Konvertera BTST till zBTST</translation>
     </message>
     <message>
-        <source>Spent zBTT</source>
-        <translation>Spendera zBTT</translation>
+        <source>Spent zBTST</source>
+        <translation>Spendera zBTST</translation>
     </message>
     <message>
-        <source>Received BTT from zBTT</source>
-        <translation>Mottog BTT från zBTT</translation>
+        <source>Received BTST from zBTST</source>
+        <translation>Mottog BTST från zBTST</translation>
     </message>
     <message>
-        <source>Minted Change as zBTT from zBTT Spend</source>
-        <translation>Myntad Växel som zBTT från zBTT Spendering</translation>
+        <source>Minted Change as zBTST from zBTST Spend</source>
+        <translation>Myntad Växel som zBTST från zBTST Spendering</translation>
     </message>
     <message>
-        <source>Converted zBTT to BTT</source>
-        <translation>Konverterad zBTT till BTT</translation>
+        <source>Converted zBTST to BTST</source>
+        <translation>Konverterad zBTST till BTST</translation>
     </message>
     <message>
-        <source>Anonymous (zBTT Transaction)</source>
-        <translation>Anonym (zBTT Transaktion)</translation>
+        <source>Anonymous (zBTST Transaction)</source>
+        <translation>Anonym (zBTST Transaktion)</translation>
     </message>
     <message>
-        <source>Anonymous (zBTT Stake)</source>
-        <translation>Anonym (zBTT Stake)</translation>
+        <source>Anonymous (zBTST Stake)</source>
+        <translation>Anonym (zBTST Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4843,12 +4843,12 @@ Var tålmodig...</translation>
         <translation>Exportering Lyckat</translation>
     </message>
     <message>
-        <source>Received BTT from zBTT</source>
-        <translation>Mottog BTT från zBTT</translation>
+        <source>Received BTST from zBTST</source>
+        <translation>Mottog BTST från zBTST</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBTT</source>
-        <translation>Zerocoin spendera, Växel i zBTT</translation>
+        <source>Zerocoin Spend, Change in zBTST</source>
+        <translation>Zerocoin spendera, Växel i zBTST</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4884,8 +4884,8 @@ Var tålmodig...</translation>
         <translation>Skicka Mynt</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
-        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 BTT.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTST.</source>
+        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 BTST.</translation>
     </message>
 </context>
 <context>
@@ -4918,8 +4918,8 @@ Var tålmodig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBTT to Spend</source>
-        <translation>Välj zBTT att Spendera</translation>
+        <source>Select zBTST to Spend</source>
+        <translation>Välj zBTST att Spendera</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4930,8 +4930,8 @@ Var tålmodig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4993,16 +4993,16 @@ Var tålmodig...</translation>
         <translation>Distribuerad under MIT mjukvarulicensen, se medföljande fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</source>
-        <translation>Aktivera automatisk plånboksbackup efter varje zBTT minting (0-1, standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zBTST minting (0-1, default: %u)</source>
+        <translation>Aktivera automatisk plånboksbackup efter varje zBTST minting (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för BTT inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for BTST inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för BTST inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för zBTT inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zBTST inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för zBTST inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5037,12 +5037,12 @@ Var tålmodig...</translation>
         <translation>Exekvera kommando när den bästa block ändras (%s i cmd är utbytt mot block hash)</translation>
     </message>
     <message>
-        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i BTT/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
+        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i BTST/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i BTT/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
+        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i BTST/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5149,12 +5149,12 @@ Var tålmodig...</translation>
         <translation>Kan ej lokalisera tillräckligt Fördunklingsdenominationerade pengar för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</source>
-        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 BTT.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTST.</source>
+        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 BTST.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</source>
-        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 BTT.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTST.</source>
+        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 BTST.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5441,8 +5441,8 @@ Var tålmodig...</translation>
         <translation>Misslyckades läsa block</translation>
     </message>
     <message>
-        <source>Fee (in BTT/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i BTT/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
+        <source>Fee (in BTST/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i BTST/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5545,8 +5545,8 @@ Var tålmodig...</translation>
         <translation>Procent automatiskt mintad Zerocoin (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the BTT and zBTT money supply statistics</source>
-        <translation>Indexera BTT och zBTT pengarna tillgång statistik på nytt</translation>
+        <source>Reindex the BTST and zBTST money supply statistics</source>
+        <translation>Indexera BTST och zBTST pengarna tillgång statistik på nytt</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5625,8 +5625,8 @@ Var tålmodig...</translation>
         <translation>Valör aatt föredra för automatiskt mintad Zerocoin (1/5/10/50/100/500/1000/5000), 0 för ingen preface. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zBTT backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBTST backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zBTST backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6041,8 +6041,8 @@ Var tålmodig...</translation>
         <translation>Synkroniserar sporks...</translation>
     </message>
     <message>
-        <source>Syncing zBTT wallet...</source>
-        <translation>Synkroniserar zBTT plånbok...</translation>
+        <source>Syncing zBTST wallet...</source>
+        <translation>Synkroniserar zBTST plånbok...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6153,8 +6153,8 @@ Var tålmodig...</translation>
         <translation>Användarnamn för JSON-RPC anslutningar</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBTT</source>
-        <translation>Värde är under den minsta tillgängliga valören (=1) av zBTT</translation>
+        <source>Value is below the smallest available denomination (= 1) of zBTST</source>
+        <translation>Värde är under den minsta tillgängliga valören (=1) av zBTST</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

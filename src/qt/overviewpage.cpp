@@ -35,7 +35,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::BTT)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::BTST)
     {
     }
 
@@ -147,7 +147,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sBTTPercentage, QString& szBTTPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sBTSTPercentage, QString& szBTSTPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -166,8 +166,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
 
-    szBTTPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sBTTPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szBTSTPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sBTSTPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -192,16 +192,16 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
 
-    // BTT Balance
+    // BTST Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
     CAmount pivAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
 
-    // BTT Watch-Only Balance
+    // BTST Watch-Only Balance
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
 
-    // zBTT Balance
+    // zBTST Balance
     CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
 
     // Percentages
@@ -212,7 +212,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     CAmount availableTotalBalance = pivAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // BTT labels
+    // BTST labels
     ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, pivAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
@@ -226,7 +226,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchLocked->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nWatchOnlyLockedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
-    // zBTT labels
+    // zBTST labels
     ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -237,11 +237,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelBTTPercent->setText(sPercentage);
-    ui->labelzBTTPercent->setText(szPercentage);
+    ui->labelBTSTPercent->setText(sPercentage);
+    ui->labelzBTSTPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-    QString automintHelp = tr("Current percentage of zBTT.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+    QString automintHelp = tr("Current percentage of zBTST.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
     bool fEnableZeromint = GetBoolArg("-enablezeromint", true);
     int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
     if (fEnableZeromint) {
@@ -262,49 +262,49 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
-    // BTT Available
-    bool showBTTAvailable = settingShowAllBalances || pivAvailableBalance != nTotalBalance;
-    bool showWatchOnlyBTTAvailable = showBTTAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showBTTAvailable || showWatchOnlyBTTAvailable);
-    ui->labelBalance->setVisible(showBTTAvailable || showWatchOnlyBTTAvailable);
-    ui->labelWatchAvailable->setVisible(showWatchOnlyBTTAvailable && showWatchOnly);
+    // BTST Available
+    bool showBTSTAvailable = settingShowAllBalances || pivAvailableBalance != nTotalBalance;
+    bool showWatchOnlyBTSTAvailable = showBTSTAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showBTSTAvailable || showWatchOnlyBTSTAvailable);
+    ui->labelBalance->setVisible(showBTSTAvailable || showWatchOnlyBTSTAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlyBTSTAvailable && showWatchOnly);
 
-    // BTT Pending
-    bool showBTTPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyBTTPending = showBTTPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showBTTPending || showWatchOnlyBTTPending);
-    ui->labelUnconfirmed->setVisible(showBTTPending || showWatchOnlyBTTPending);
-    ui->labelWatchPending->setVisible(showWatchOnlyBTTPending && showWatchOnly);
+    // BTST Pending
+    bool showBTSTPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyBTSTPending = showBTSTPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showBTSTPending || showWatchOnlyBTSTPending);
+    ui->labelUnconfirmed->setVisible(showBTSTPending || showWatchOnlyBTSTPending);
+    ui->labelWatchPending->setVisible(showWatchOnlyBTSTPending && showWatchOnly);
 
-    // BTT Immature
-    bool showBTTImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = showBTTImmature || watchImmatureBalance != 0;
-    ui->labelImmatureText->setVisible(showBTTImmature || showWatchOnlyImmature);
-    ui->labelImmature->setVisible(showBTTImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    // BTST Immature
+    bool showBTSTImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showBTSTImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showBTSTImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showBTSTImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
-    // BTT Locked
-    bool showBTTLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyBTTLocked = showBTTLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showBTTLocked || showWatchOnlyBTTLocked);
-    ui->labelLockedBalance->setVisible(showBTTLocked || showWatchOnlyBTTLocked);
-    ui->labelWatchLocked->setVisible(showWatchOnlyBTTLocked && showWatchOnly);
+    // BTST Locked
+    bool showBTSTLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyBTSTLocked = showBTSTLocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showBTSTLocked || showWatchOnlyBTSTLocked);
+    ui->labelLockedBalance->setVisible(showBTSTLocked || showWatchOnlyBTSTLocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlyBTSTLocked && showWatchOnly);
 
-    // zBTT
-    bool showzBTTAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-    bool showzBTTUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-    bool showzBTTImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
-    ui->labelzBalanceMature->setVisible(showzBTTAvailable);
-    ui->labelzBalanceMatureText->setVisible(showzBTTAvailable);
-    ui->labelzBalanceUnconfirmed->setVisible(showzBTTUnconfirmed);
-    ui->labelzBalanceUnconfirmedText->setVisible(showzBTTUnconfirmed);
-    ui->labelzBalanceImmature->setVisible(showzBTTImmature);
-    ui->labelzBalanceImmatureText->setVisible(showzBTTImmature);
+    // zBTST
+    bool showzBTSTAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+    bool showzBTSTUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+    bool showzBTSTImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+    ui->labelzBalanceMature->setVisible(showzBTSTAvailable);
+    ui->labelzBalanceMatureText->setVisible(showzBTSTAvailable);
+    ui->labelzBalanceUnconfirmed->setVisible(showzBTSTUnconfirmed);
+    ui->labelzBalanceUnconfirmedText->setVisible(showzBTSTUnconfirmed);
+    ui->labelzBalanceImmature->setVisible(showzBTSTImmature);
+    ui->labelzBalanceImmatureText->setVisible(showzBTSTImmature);
 
     // Percent split
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelBTTPercent->setVisible(showPercentages);
-    ui->labelzBTTPercent->setVisible(showPercentages);
+    ui->labelBTSTPercent->setVisible(showPercentages);
+    ui->labelzBTSTPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;
 
@@ -376,7 +376,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("BTT")
+    // update the display unit, to not use the default ("BTST")
     updateDisplayUnit();
 
     // Hide orphans

@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi BTT dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi BTST dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI BTT&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI BTST&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTT</source>
-        <translation>Operazioni di privacy per zBTT</translation>
+        <source>Privacy Actions for zBTST</source>
+        <translation>Operazioni di privacy per zBTST</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1102,8 +1102,8 @@ MultiSend: %1</translation>
         <translation>Questa etichetta diventa rossa se uno dei destinatari riceve un importo inferiore a %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTT per input.</source>
-        <translation>Può variare di +/- %1 uBTT per input.</translation>
+        <source>Can vary +/- %1 uBTST per input.</source>
+        <translation>Può variare di +/- %1 uBTST per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1262,7 +1262,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Welcome to BITSTATS Core.</source>
-        <translation>Benvenuto in BTTIX Core.</translation>
+        <translation>Benvenuto in BTSTIX Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
@@ -1638,24 +1638,24 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTT units to zBTT</source>
-        <translation>Attiva il conio automatico di unità BTT in zBTT</translation>
+        <source>Enable automatic minting of BTST units to zBTST</source>
+        <translation>Attiva il conio automatico di unità BTST in zBTST</translation>
     </message>
     <message>
-        <source>Enable zBTT Automint</source>
-        <translation>Attiva Conio automatico zBTT</translation>
+        <source>Enable zBTST Automint</source>
+        <translation>Attiva Conio automatico zBTST</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentuale di BTT in entrata che viene automaticamente convertita in zBTT attraverso il protocollo Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentuale di BTST in entrata che viene automaticamente convertita in zBTST attraverso il protocollo Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTT</source>
-        <translation>Percentuale di zBTT Percentuale di zBTT da coniare automaticamente</translation>
+        <source>Percentage of autominted zBTST</source>
+        <translation>Percentuale di zBTST Percentuale di zBTST da coniare automaticamente</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTT Denomination</source>
-        <translation>Denominazione preferita conio automatico zBTT</translation>
+        <source>Preferred Automint zBTST Denomination</source>
+        <translation>Denominazione preferita conio automatico zBTST</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1717,8 +1717,8 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Saldo totale, inclusi tutte le monete non disponibili.</translation>
     </message>
     <message>
-        <source>BTT Balance</source>
-        <translation>Bilancio BTT</translation>
+        <source>BTST Balance</source>
+        <translation>Bilancio BTST</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1733,14 +1733,14 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Il tuo saldo BITSTATS corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
-        <source>zBTT Balance</source>
-        <translation>Bilancio zBTT</translation>
+        <source>zBTST Balance</source>
+        <translation>Bilancio zBTST</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTT are spendable.</source>
+These zBTST are spendable.</source>
         <translation>Maturi: più di 20 conferme e più di 1 conio della stessa denominazione dopo il conio.
-Questi zBTT sono spendibili.</translation>
+Questi zBTST sono spendibili.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1771,8 +1771,8 @@ Questi zBTT sono spendibili.</translation>
         <translation>Spendibili:</translation>
     </message>
     <message>
-        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
-        <translation>BTT bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zBTT.</translation>
+        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
+        <translation>BTST bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zBTST.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1783,18 +1783,18 @@ Questi zBTT sono spendibili.</translation>
         <translation>Non confermati:</translation>
     </message>
     <message>
-        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
-        <translation>Il tuo saldo zBTT corrente, inclusi zBTT non confermati e non maturi</translation>
+        <source>Your current zBTST balance, unconfirmed and immature zBTST included.</source>
+        <translation>Il tuo saldo zBTST corrente, inclusi zBTST non confermati e non maturi</translation>
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Transazioni recenti</translation>
     </message>
     <message>
-        <source>Current percentage of zBTT.
+        <source>Current percentage of zBTST.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Percentuale corrente di zBTT.
+        <translation>Percentuale corrente di zBTST.
 Se il conio automatico è attivato questa percentuale si stabilizzerà all'incirca sulla percentuale stabilita per il conio automatico (percentuale prestabilita = 10%).
 </translation>
     </message>
@@ -1858,8 +1858,8 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1870,12 +1870,12 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>zBTT Control</source>
-        <translation>Controllo zBTT</translation>
+        <source>zBTST Control</source>
+        <translation>Controllo zBTST</translation>
     </message>
     <message>
-        <source>zBTT Selected:</source>
-        <translation>zBTT selezionati:</translation>
+        <source>zBTST Selected:</source>
+        <translation>zBTST selezionati:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1886,23 +1886,23 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>Spendi Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending</source>
-        <translation>zBTT disponibili disponibili per essere spesi (maturi e spendibili)</translation>
+        <source>Available (mature and spendable) zBTST for spending</source>
+        <translation>zBTST disponibili disponibili per essere spesi (maturi e spendibili)</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Bilancio Disponibile:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending
+        <source>Available (mature and spendable) zBTST for spending
 
-zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zBTT disponibili disponibili per essere spesi (maturi e spendibili)
-Gli zBTT sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
+zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zBTST disponibili disponibili per essere spesi (maturi e spendibili)
+Gli zBTST sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
     </message>
     <message>
-        <source>0 zBTT</source>
-        <translation>0 zBTT</translation>
+        <source>0 zBTST</source>
+        <translation>0 zBTST</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -1945,31 +1945,31 @@ Gli zBTT sono maturi quando hanno più di 20 conferme E più di 2 conii della st
         <translation>Statistiche Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTT</source>
-        <translation>Saldo totale inclusi zBTT non confermati e non maturi</translation>
+        <source>Total Balance including unconfirmed and immature zBTST</source>
+        <translation>Saldo totale inclusi zBTST non confermati e non maturi</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
         <translation>Saldo totale Zerocoin:</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBTT minting.
+        <source>Show the current status of automatic zBTST minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to bitstats.conf
 - disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTST
 
 </source>
-        <translation>Mostra lo stato corrente del conio automatico zBTT.
+        <translation>Mostra lo stato corrente del conio automatico zBTST.
 Per cambiare lo stato (riavvio necessario):
 - attivato: aggiungi 'enablezeromint=1' a bitstats.conf
 - disattivato: aggiungi 'enablezeromint=0' a bitstats.conf
 
 Per cambiare la percentuale (riavvio non necessario):
-- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zBTT da coniare automaticamente
+- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zBTST da coniare automaticamente
 
 </translation>
     </message>
@@ -2110,8 +2110,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Differenza:</translation>
     </message>
     <message>
-        <source>zBTT Mint</source>
-        <translation>Conio zBTT</translation>
+        <source>zBTST Mint</source>
+        <translation>Conio zBTST</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2600,8 +2600,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     </context>
 <context>

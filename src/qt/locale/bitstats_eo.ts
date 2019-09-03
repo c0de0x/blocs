@@ -176,15 +176,15 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn BTTs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn BTSTs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ĉu vi certas ke vi volas ĉifri vian monujon?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
         <translation>Averto: se vi ĉifras vian monujo kaj perdi vian pasfrazon, vi &lt;b&gt;PERDOS VIAN TUTAN MONON&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -433,8 +433,8 @@
         <translation>&amp;Foliumi transakcio historio</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTT</source>
-        <translation>Privataj agoj por zBTT</translation>
+        <source>Privacy Actions for zBTST</source>
+        <translation>Privataj agoj por zBTST</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1098,8 +1098,8 @@ Muktisendi: %1</translation>
         <translation>Ĉi tiun etikedo ruĝiĝas se iu ajna ricevanto ricevas totalo pli malgranda ol %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTT per input.</source>
-        <translation>Povas varii +/- %1 uBTT per enigo.</translation>
+        <source>Can vary +/- %1 uBTST per input.</source>
+        <translation>Povas varii +/- %1 uBTST per enigo.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1514,8 +1514,8 @@ Muktisendi: %1</translation>
         <translation>Adreso / Kvanto:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTT to</source>
-        <translation>Aldonu destinoj por sendi BTT al</translation>
+        <source>Add destinations to send BTST to</source>
+        <translation>Aldonu destinoj por sendi BTST al</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1705,8 +1705,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Via aktuala elspezebla saldo</translation>
     </message>
     <message>
-        <source>BTT Balance</source>
-        <translation>BTT kvanto</translation>
+        <source>BTST Balance</source>
+        <translation>BTST kvanto</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1717,8 +1717,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Via aktuala BITSTATS totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
-        <source>zBTT Balance</source>
-        <translation>zBTT kvanto</translation>
+        <source>zBTST Balance</source>
+        <translation>zBTST kvanto</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -1788,20 +1788,20 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Reset</source>
         <translation>Restarigi</translation>
     </message>
     <message>
-        <source>zBTT Control</source>
-        <translation>zBTT kontrolu</translation>
+        <source>zBTST Control</source>
+        <translation>zBTST kontrolu</translation>
     </message>
     <message>
-        <source>zBTT Selected:</source>
-        <translation>Elektita zBTT</translation>
+        <source>zBTST Selected:</source>
+        <translation>Elektita zBTST</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1812,12 +1812,12 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Elspezi zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending</source>
-        <translation>Havebla (matura kaj elspezebla) zBTT por elspezi</translation>
+        <source>Available (mature and spendable) zBTST for spending</source>
+        <translation>Havebla (matura kaj elspezebla) zBTST por elspezi</translation>
     </message>
     <message>
-        <source>0 zBTT</source>
-        <translation>0 zBTT</translation>
+        <source>0 zBTST</source>
+        <translation>0 zBTST</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2194,8 +2194,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Se estas aktiva sed ŝanĝo-adreso estas malpleniĝa au nevalida, ŝanĝo sendos al nova generita adreson.</translation>
     </message>
     <message>
-        <source>0 BTT</source>
-        <translation>0 BTT</translation>
+        <source>0 BTST</source>
+        <translation>0 BTST</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
@@ -2270,7 +2270,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     <message>
         <source>The BITSTATS address to send the payment to</source>
-        <translation>BTTC adreso por sendi la pago al</translation>
+        <translation>BTSTC adreso por sendi la pago al</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2552,8 +2552,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     </context>
 <context>

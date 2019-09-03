@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar BITSTATS išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų BTT nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar BITSTATS išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų BTST nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO BTT&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO BTST&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTT</source>
-        <translation>zBTT Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zBTST</source>
+        <translation>zBTST Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1098,8 +1098,8 @@ MultiSend: %1</translation>
         <translation>Ši etiketė taps raudona, jei gavėjas gaus sumą mažesnę už %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTT per input.</source>
-        <translation>Gali skirtis +/- %1 uBTT kiekvienoje įvestyje.</translation>
+        <source>Can vary +/- %1 uBTST per input.</source>
+        <translation>Gali skirtis +/- %1 uBTST kiekvienoje įvestyje.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1604,8 +1604,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTT to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti BTT</translation>
+        <source>Add destinations to send BTST to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti BTST</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1776,24 +1776,24 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTT units to zBTT</source>
-        <translation>Įgalinti automatinį konvertavimą iš BTT į zBTT</translation>
+        <source>Enable automatic minting of BTST units to zBTST</source>
+        <translation>Įgalinti automatinį konvertavimą iš BTST į zBTST</translation>
     </message>
     <message>
-        <source>Enable zBTT Automint</source>
-        <translation>Įgalinti zBTT Automatinį nukaldinima</translation>
+        <source>Enable zBTST Automint</source>
+        <translation>Įgalinti zBTST Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto BTT, kuris automatiškai bus konvertuotas į zBTT naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto BTST, kuris automatiškai bus konvertuotas į zBTST naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTT</source>
-        <translation>Automatiškai sukurtų zBTT procentas</translation>
+        <source>Percentage of autominted zBTST</source>
+        <translation>Automatiškai sukurtų zBTST procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTT Denomination</source>
-        <translation>Pageidautinas zBTT Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zBTST Denomination</source>
+        <translation>Pageidautinas zBTST Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
         <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
@@ -1915,8 +1915,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>BTT Balance</source>
-        <translation>BTT Balansas</translation>
+        <source>BTST Balance</source>
+        <translation>BTST Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1943,14 +1943,14 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Jūsų dabartinis BITSTATS balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zBTT Balance</source>
-        <translation>zBTT Balansas</translation>
+        <source>zBTST Balance</source>
+        <translation>zBTST Balansas</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTT are spendable.</source>
+These zBTST are spendable.</source>
         <translation>Subrendę: daugiau nei 20 patvirtinimų ir daugiau nei 1 konvertacija to pačio nominalo, kai jis jau buvo konvertuotas.
-Šiuos zBTT galima išleisti.</translation>
+Šiuos zBTST galima išleisti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2003,8 +2003,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
-        <translation>Užrakinti BTT arba Masternode užstatai. Jie yra neįtraukti į zBTT kalimą.</translation>
+        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
+        <translation>Užrakinti BTST arba Masternode užstatai. Jie yra neįtraukti į zBTST kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2108,8 +2108,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2128,12 +2128,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>PRIVATUMAS</translation>
     </message>
     <message>
-        <source>zBTT Control</source>
+        <source>zBTST Control</source>
         <translation>zPiv Kontrolė</translation>
     </message>
     <message>
-        <source>zBTT Selected:</source>
-        <translation>Pasirinkta zBTT:</translation>
+        <source>zBTST Selected:</source>
+        <translation>Pasirinkta zBTST:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2152,8 +2152,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zBTT</source>
-        <translation>0 zBTT</translation>
+        <source>0 zBTST</source>
+        <translation>0 zBTST</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2192,8 +2192,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Statistika:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTT</source>
-        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zBTT</translation>
+        <source>Total Balance including unconfirmed and immature zBTST</source>
+        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zBTST</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2362,12 +2362,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Konvertavimo Statusas: Geras</translation>
     </message>
     <message>
-        <source>zBTT Spend #: </source>
-        <translation>zBTT Išleidimas #:</translation>
+        <source>zBTST Spend #: </source>
+        <translation>zBTST Išleidimas #:</translation>
     </message>
     <message>
-        <source>zBTT Mint</source>
-        <translation>zBTT Konvertavimas</translation>
+        <source>zBTST Mint</source>
+        <translation>zBTST Konvertavimas</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2850,8 +2850,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 BTT</source>
-        <translation>0 BTT</translation>
+        <source>0 BTST</source>
+        <translation>0 BTST</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3304,8 +3304,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     </context>
 <context>

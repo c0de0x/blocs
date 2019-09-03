@@ -34,21 +34,21 @@ More information at [bitstats.io](http://www.bitstats.io) Visit our ANN thread a
 <tbody>
 <tr>
 <th scope="row">1-1051200</th>
-<th scope="row">6 BTT</th>
-<td>0.6 BTT (10%)</td>
-<td>5.4 BTT (90%)</td> 
+<th scope="row">6 BTST</th>
+<td>0.6 BTST (10%)</td>
+<td>5.4 BTST (90%)</td> 
 </tr>
 <tr>
 <th scope="row">1051201-2102400</th>
-<th scope="row">4 BTT</th>
-<td>0.8 BTT (20%)</td>
-<td>3.2 BTT (80%)</td>
+<th scope="row">4 BTST</th>
+<td>0.8 BTST (20%)</td>
+<td>3.2 BTST (80%)</td>
 </tr>
 <tr>
 <th scope="row">2102401-2628000</th>
-<th scope="row">2 BTT</th>
-<td>0.3 BTT (15%)</td>
-<td>1.7 BTT (85%)</td>
+<th scope="row">2 BTST</th>
+<td>0.3 BTST (15%)</td>
+<td>1.7 BTST (85%)</td>
 </tr>
 <tr>				
 <th scope="row" colspan=4>After 5 years, each year, the reward will be reduced with 10%</th>

@@ -141,20 +141,20 @@
             <item>
              <widget class="QCheckBox" name="checkBoxZeromintEnable">
               <property name="toolTip">
-               <string>Enable automatic minting of BTT units to zBTT</string>
+               <string>Enable automatic minting of BTST units to zBTST</string>
               </property>
               <property name="layoutDirection">
                <enum>Qt::LeftToRight</enum>
               </property>
               <property name="text">
-               <string>Enable zBTT Automint</string>
+               <string>Enable zBTST Automint</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QCheckBox" name="checkBoxZeromintAddresses">
               <property name="toolTip">
-               <string>Enable automatic zBTT minting from specific addresses</string>
+               <string>Enable automatic zBTST minting from specific addresses</string>
               </property>
               <property name="layoutDirection">
                <enum>Qt::LeftToRight</enum>
@@ -171,10 +171,10 @@
             <item>
              <widget class="QLabel" name="percentage_label">
               <property name="toolTip">
-               <string>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</string>
+               <string>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</string>
               </property>
               <property name="text">
-               <string>Percentage of autominted zBTT</string>
+               <string>Percentage of autominted zBTST</string>
               </property>
              </widget>
             </item>
@@ -204,10 +204,10 @@
                </size>
               </property>
               <property name="toolTip">
-               <string>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</string>
+               <string>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</string>
               </property>
               <property name="text">
-               <string>Preferred Automint zBTT Denomination</string>
+               <string>Preferred Automint zBTST Denomination</string>
               </property>
              </widget>
             </item>
@@ -220,7 +220,7 @@
                </size>
               </property>
               <property name="toolTip">
-               <string>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</string>
+               <string>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</string>
               </property>
               <property name="maxVisibleItems">
                <number>9</number>

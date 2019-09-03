@@ -176,16 +176,16 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Browse transaction history</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTT</source>
-        <translation>Privacy Actions for zBTT</translation>
+        <source>Privacy Actions for zBTST</source>
+        <translation>Privacy Actions for zBTST</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1110,8 +1110,8 @@ Address: %4
         <translation>This label turns red if any recipient receives an amount smaller than %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTT per input.</source>
-        <translation>Can vary +/- %1 uBTT per input.</translation>
+        <source>Can vary +/- %1 uBTST per input.</source>
+        <translation>Can vary +/- %1 uBTST per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1702,8 +1702,8 @@ Please be patient after clicking import.</translation>
         <translation>Address / Amount:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTT to</source>
-        <translation>Add destinations to send BTT to</translation>
+        <source>Add destinations to send BTST to</source>
+        <translation>Add destinations to send BTST to</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1902,28 +1902,28 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTT units to zBTT</source>
-        <translation>Enable automatic minting of BTT units to zBTT</translation>
+        <source>Enable automatic minting of BTST units to zBTST</source>
+        <translation>Enable automatic minting of BTST units to zBTST</translation>
     </message>
     <message>
-        <source>Enable zBTT Automint</source>
-        <translation>Enable zBTT Automint</translation>
+        <source>Enable zBTST Automint</source>
+        <translation>Enable zBTST Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTT</source>
-        <translation>Percentage of autominted zBTT</translation>
+        <source>Percentage of autominted zBTST</source>
+        <translation>Percentage of autominted zBTST</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
-        <translation>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</source>
+        <translation>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTT Denomination</source>
-        <translation>Preferred Automint zBTT Denomination</translation>
+        <source>Preferred Automint zBTST Denomination</source>
+        <translation>Preferred Automint zBTST Denomination</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2089,8 +2089,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Total Balance, including all unavailable coins.</translation>
     </message>
     <message>
-        <source>BTT Balance</source>
-        <translation>BTT Balance</translation>
+        <source>BTST Balance</source>
+        <translation>BTST Balance</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2117,14 +2117,14 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Your current BITSTATS balance, unconfirmed and immature transactions included</translation>
     </message>
     <message>
-        <source>zBTT Balance</source>
-        <translation>zBTT Balance</translation>
+        <source>zBTST Balance</source>
+        <translation>zBTST Balance</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTT are spendable.</source>
+These zBTST are spendable.</source>
         <translation>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTT are spendable.</translation>
+These zBTST are spendable.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2177,8 +2177,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Spendable:</translation>
     </message>
     <message>
-        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
-        <translation>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</translation>
+        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
+        <translation>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2189,8 +2189,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Unconfirmed:</translation>
     </message>
     <message>
-        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
-        <translation>Your current zBTT balance, unconfirmed and immature zBTT included.</translation>
+        <source>Your current zBTST balance, unconfirmed and immature zBTST included.</source>
+        <translation>Your current zBTST balance, unconfirmed and immature zBTST included.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2201,10 +2201,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>out of sync</translation>
     </message>
     <message>
-        <source>Current percentage of zBTT.
+        <source>Current percentage of zBTST.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Current percentage of zBTT.
+        <translation>Current percentage of zBTST.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </translation>
     </message>
@@ -2348,8 +2348,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2376,12 +2376,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>zBTT Control</source>
-        <translation>zBTT Control</translation>
+        <source>zBTST Control</source>
+        <translation>zBTST Control</translation>
     </message>
     <message>
-        <source>zBTT Selected:</source>
-        <translation>zBTT Selected:</translation>
+        <source>zBTST Selected:</source>
+        <translation>zBTST Selected:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2396,24 +2396,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>Spend Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending</source>
-        <translation>Available (mature and spendable) zBTT for spending</translation>
+        <source>Available (mature and spendable) zBTST for spending</source>
+        <translation>Available (mature and spendable) zBTST for spending</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Available Balance:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending
+        <source>Available (mature and spendable) zBTST for spending
 
-zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Available (mature and spendable) zBTT for spending
+zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Available (mature and spendable) zBTST for spending
 
-zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
+zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
     </message>
     <message>
-        <source>0 zBTT</source>
-        <translation>0 zBTT</translation>
+        <source>0 zBTST</source>
+        <translation>0 zBTST</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2472,8 +2472,8 @@ zBTT are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTT</source>
-        <translation>Total Balance including unconfirmed and immature zBTT</translation>
+        <source>Total Balance including unconfirmed and immature zBTST</source>
+        <translation>Total Balance including unconfirmed and immature zBTST</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2494,24 +2494,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Immature: confirmed, but less than 1 mint of the same denomination after it was minted</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBTT minting.
+        <source>Show the current status of automatic zBTST minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to bitstats.conf
 - disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTST
 
 </source>
-        <translation>Show the current status of automatic zBTT minting.
+        <translation>Show the current status of automatic zBTST minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to bitstats.conf
 - disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTST
 
 </translation>
     </message>
@@ -2560,8 +2560,8 @@ To change the percentage (no restart required):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zBTT denominations list</source>
-        <translation>Show zBTT denominations list</translation>
+        <source>Show zBTST denominations list</source>
+        <translation>Show zBTST denominations list</translation>
     </message>
     <message>
         <source>Show Denominations</source>
@@ -2698,12 +2698,12 @@ Please be patient...</source>
 Please be patient...</translation>
     </message>
     <message>
-        <source>zBTT Spend #: </source>
-        <translation>zBTT Spend #: </translation>
+        <source>zBTST Spend #: </source>
+        <translation>zBTST Spend #: </translation>
     </message>
     <message>
-        <source>zBTT Mint</source>
-        <translation>zBTT Mint</translation>
+        <source>zBTST Mint</source>
+        <translation>zBTST Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2718,12 +2718,12 @@ Please be patient...</translation>
         <translation> Configured target percentage: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBTT is currently disabled due to maintenance.</source>
-        <translation>zBTT is currently disabled due to maintenance.</translation>
+        <source>zBTST is currently disabled due to maintenance.</source>
+        <translation>zBTST is currently disabled due to maintenance.</translation>
     </message>
     <message>
-        <source>zBTT is currently undergoing maintenance.</source>
-        <translation>zBTT is currently undergoing maintenance.</translation>
+        <source>zBTST is currently undergoing maintenance.</source>
+        <translation>zBTST is currently undergoing maintenance.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3168,8 +3168,8 @@ Please be patient...</translation>
         <translation>Custom Backup Path:</translation>
     </message>
     <message>
-        <source>Custom zBTT Backup Path:</source>
-        <translation>Custom zBTT Backup Path:</translation>
+        <source>Custom zBTST Backup Path:</source>
+        <translation>Custom zBTST Backup Path:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3636,12 +3636,12 @@ Please be patient...</translation>
         <translation>UTXO Size:</translation>
     </message>
     <message>
-        <source>0 BTT</source>
-        <translation>0 BTT</translation>
+        <source>0 BTST</source>
+        <translation>0 BTST</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BTT applies</source>
-        <translation>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BTT applies</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BTST applies</source>
+        <translation>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BTST applies</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3696,12 +3696,12 @@ Please be patient...</translation>
         <translation>Coins automatically selected</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
@@ -3752,8 +3752,8 @@ Please be patient...</translation>
         <translation>Add &amp;Recipient</translation>
     </message>
     <message>
-        <source>Anonymized BTT</source>
-        <translation>Anonymised BTT</translation>
+        <source>Anonymized BTST</source>
+        <translation>Anonymised BTST</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4400,12 +4400,12 @@ Please be patient...</translation>
         <translation>Received via Obfuscation</translation>
     </message>
     <message>
-        <source>BTT Stake</source>
-        <translation>BTT Stake</translation>
+        <source>BTST Stake</source>
+        <translation>BTST Stake</translation>
     </message>
     <message>
-        <source>zBTT Stake</source>
-        <translation>zBTT Stake</translation>
+        <source>zBTST Stake</source>
+        <translation>zBTST Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4424,32 +4424,32 @@ Please be patient...</translation>
         <translation>Obfuscation Create Denominations</translation>
     </message>
     <message>
-        <source>Converted BTT to zBTT</source>
-        <translation>Converted BTT to zBTT</translation>
+        <source>Converted BTST to zBTST</source>
+        <translation>Converted BTST to zBTST</translation>
     </message>
     <message>
-        <source>Spent zBTT</source>
-        <translation>Spent zBTT</translation>
+        <source>Spent zBTST</source>
+        <translation>Spent zBTST</translation>
     </message>
     <message>
-        <source>Received BTT from zBTT</source>
-        <translation>Received BTT from zBTT</translation>
+        <source>Received BTST from zBTST</source>
+        <translation>Received BTST from zBTST</translation>
     </message>
     <message>
-        <source>Minted Change as zBTT from zBTT Spend</source>
-        <translation>Minted Change as zBTT from zBTT Spend</translation>
+        <source>Minted Change as zBTST from zBTST Spend</source>
+        <translation>Minted Change as zBTST from zBTST Spend</translation>
     </message>
     <message>
-        <source>Converted zBTT to BTT</source>
-        <translation>Converted zBTT to BTT</translation>
+        <source>Converted zBTST to BTST</source>
+        <translation>Converted zBTST to BTST</translation>
     </message>
     <message>
-        <source>Anonymous (zBTT Transaction)</source>
-        <translation>Anonymous (zBTT Transaction)</translation>
+        <source>Anonymous (zBTST Transaction)</source>
+        <translation>Anonymous (zBTST Transaction)</translation>
     </message>
     <message>
-        <source>Anonymous (zBTT Stake)</source>
-        <translation>Anonymous (zBTT Stake)</translation>
+        <source>Anonymous (zBTST Stake)</source>
+        <translation>Anonymous (zBTST Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4663,12 +4663,12 @@ Please be patient...</translation>
         <translation>Exporting Successful</translation>
     </message>
     <message>
-        <source>Received BTT from zBTT</source>
-        <translation>Received BTT from zBTT</translation>
+        <source>Received BTST from zBTST</source>
+        <translation>Received BTST from zBTST</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBTT</source>
-        <translation>Zerocoin Spend, Change in zBTT</translation>
+        <source>Zerocoin Spend, Change in zBTST</source>
+        <translation>Zerocoin Spend, Change in zBTST</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4704,8 +4704,8 @@ Please be patient...</translation>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
-        <translation>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTST.</source>
+        <translation>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTST.</translation>
     </message>
 </context>
 <context>
@@ -4738,8 +4738,8 @@ Please be patient...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBTT to Spend</source>
-        <translation>Select zBTT to Spend</translation>
+        <source>Select zBTST to Spend</source>
+        <translation>Select zBTST to Spend</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4750,8 +4750,8 @@ Please be patient...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4813,16 +4813,16 @@ Please be patient...</translation>
         <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</source>
-        <translation>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zBTST minting (0-1, default: %u)</source>
+        <translation>Enable automatic wallet backups triggered after each zBTST minting (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for BTST inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for BTST inputs (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zBTST inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for zBTST inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4857,12 +4857,12 @@ Please be patient...</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4969,12 +4969,12 @@ Please be patient...</translation>
         <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</source>
-        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTST.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTST.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTST.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 BTST.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5261,8 +5261,8 @@ Please be patient...</translation>
         <translation>Failed to read block</translation>
     </message>
     <message>
-        <source>Fee (in BTT/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in BTT/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in BTST/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in BTST/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5365,8 +5365,8 @@ Please be patient...</translation>
         <translation>Percentage of automatically minted Zerocoin  (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the BTT and zBTT money supply statistics</source>
-        <translation>Reindex the BTT and zBTT money supply statistics</translation>
+        <source>Reindex the BTST and zBTST money supply statistics</source>
+        <translation>Reindex the BTST and zBTST money supply statistics</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5441,8 +5441,8 @@ Please be patient...</translation>
         <translation>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBTST backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specify custom backup path to add a copy of any automatic zBTST backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5853,8 +5853,8 @@ Please be patient...</translation>
         <translation>Synchronising sporks...</translation>
     </message>
     <message>
-        <source>Syncing zBTT wallet...</source>
-        <translation>Syncing zBTT wallet...</translation>
+        <source>Syncing zBTST wallet...</source>
+        <translation>Syncing zBTST wallet...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5965,8 +5965,8 @@ Please be patient...</translation>
         <translation>Username for JSON-RPC connections</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBTT</source>
-        <translation>Value is below the smallest available denomination (= 1) of zBTT</translation>
+        <source>Value is below the smallest available denomination (= 1) of zBTST</source>
+        <translation>Value is below the smallest available denomination (= 1) of zBTST</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

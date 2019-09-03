@@ -176,16 +176,16 @@
         <translation>Potvrdi šifriranje novčanika</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše BTT od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše BTST od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše BTTove 1 !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše BTSTove 1 !</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Pregled povijesti transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTT</source>
-        <translation>Postavke privatnosti za zBTT</translation>
+        <source>Privacy Actions for zBTST</source>
+        <translation>Postavke privatnosti za zBTST</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -730,7 +730,7 @@
     </message>
     <message>
         <source>BITSTATS Core client</source>
-        <translation>BTTIX Core Klijent</translation>
+        <translation>BTSTIX Core Klijent</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1106,8 +1106,8 @@ Višestruko slanje: %1</translation>
         <translation>Ova oznaka postaje crvena ako neki primatelj prima iznos manji od %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTT per input.</source>
-        <translation>Može varirati +/- %1 uBTT po unosu.</translation>
+        <source>Can vary +/- %1 uBTST per input.</source>
+        <translation>Može varirati +/- %1 uBTST po unosu.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1629,8 +1629,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Adresa / iznos:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTT to</source>
-        <translation>Dodajte odredišta za slanje BTT
+        <source>Add destinations to send BTST to</source>
+        <translation>Dodajte odredišta za slanje BTST
 </translation>
     </message>
     <message>
@@ -1831,28 +1831,28 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
 </translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTT units to zBTT</source>
-        <translation>Omogućite automint BTT jedinica na zBTT</translation>
+        <source>Enable automatic minting of BTST units to zBTST</source>
+        <translation>Omogućite automint BTST jedinica na zBTST</translation>
     </message>
     <message>
-        <source>Enable zBTT Automint</source>
-        <translation>Omogući zBTT Automint</translation>
+        <source>Enable zBTST Automint</source>
+        <translation>Omogući zBTST Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih BTT koji se automatski pretvara u zBTT putem protokola Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih BTST koji se automatski pretvara u zBTST putem protokola Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTT</source>
-        <translation>Postotak automatiziranog zBTT</translation>
+        <source>Percentage of autominted zBTST</source>
+        <translation>Postotak automatiziranog zBTST</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno BTT za apoen</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</source>
+        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno BTST za apoen</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTT Denomination</source>
-        <translation>Preferirana Automint zBTT denominacijad</translation>
+        <source>Preferred Automint zBTST Denomination</source>
+        <translation>Preferirana Automint zBTST denominacijad</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2010,8 +2010,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Ukupni saldo, uključujući sve nedostupne kovanice.</translation>
     </message>
     <message>
-        <source>BTT Balance</source>
-        <translation>BTT Saldo</translation>
+        <source>BTST Balance</source>
+        <translation>BTST Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2038,14 +2038,14 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Uključena je vaša trenutna bilanca BITSTATS, nepotvrđene i nezrele transakcije</translation>
     </message>
     <message>
-        <source>zBTT Balance</source>
-        <translation>zBTT Bilanca</translation>
+        <source>zBTST Balance</source>
+        <translation>zBTST Bilanca</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTT are spendable.</source>
+These zBTST are spendable.</source>
         <translation>Mature: više od 20 potvrda i više od 1 mint od iste denominacije nakon što je mintan.
-Ti zBTTs se mogu potrošiti.</translation>
+Ti zBTSTs se mogu potrošiti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2098,8 +2098,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Po potrošiti:</translation>
     </message>
     <message>
-        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
-        <translation>Zaključani BTT ili Masternode kolateral. Oni su isključeni iz zBTT kovanja.</translation>
+        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
+        <translation>Zaključani BTST ili Masternode kolateral. Oni su isključeni iz zBTST kovanja.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2110,8 +2110,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Nepotvrđeno:</translation>
     </message>
     <message>
-        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
-        <translation>Vaša trenutačna zBTT bilanca, nepotvrđena i nezrela zBTT.</translation>
+        <source>Your current zBTST balance, unconfirmed and immature zBTST included.</source>
+        <translation>Vaša trenutačna zBTST bilanca, nepotvrđena i nezrela zBTST.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2122,10 +2122,10 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>nije sinkronizirano</translation>
     </message>
     <message>
-        <source>Current percentage of zBTT.
+        <source>Current percentage of zBTST.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Trenutni postotak zBTT.
+        <translation>Trenutni postotak zBTST.
 Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konfiguriranog postotka automatskog navođenja (zadano = 10%).
 </translation>
     </message>
@@ -2269,8 +2269,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>PRIVATNOST</translation>
     </message>
     <message>
-        <source>zBTT Control</source>
-        <translation>Upravljanje zBTT</translation>
+        <source>zBTST Control</source>
+        <translation>Upravljanje zBTST</translation>
     </message>
     <message>
-        <source>zBTT Selected:</source>
-        <translation>zBTT Odabrani:</translation>
+        <source>zBTST Selected:</source>
+        <translation>zBTST Odabrani:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,24 +2317,24 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Potroši Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending</source>
-        <translation>Dostupni (zreli) zBTT za potrošnju</translation>
+        <source>Available (mature and spendable) zBTST for spending</source>
+        <translation>Dostupni (zreli) zBTST za potrošnju</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Dostupna Bilanca:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending
+        <source>Available (mature and spendable) zBTST for spending
 
-zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Dostupni (zreli) zBTT za potrošnju
+zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Dostupni (zreli) zBTST za potrošnju
 
-zBTT su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
+zBTST su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
     </message>
     <message>
-        <source>0 zBTT</source>
-        <translation>0 zBTT</translation>
+        <source>0 zBTST</source>
+        <translation>0 zBTST</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2393,8 +2393,8 @@ zBTT su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominac
         <translation>Statistike Zerocoina:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTT</source>
-        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zBTT</translation>
+        <source>Total Balance including unconfirmed and immature zBTST</source>
+        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zBTST</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBTT minting.
+        <source>Show the current status of automatic zBTST minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to bitstats.conf
 - disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTST
 
 </source>
-        <translation>Pokažite trenutačni status automatskog zBTT mintanja.
+        <translation>Pokažite trenutačni status automatskog zBTST mintanja.
 
 Da biste promijenili status (potrebno je ponovno pokretanje):
 - omogući: dodajte 'enablezeromint = 1' u bitstats.conf
 - onemogućiti: dodajte 'enablezeromint = 0' na bitstats.conf
 
 Promjena postotka (nije potrebno ponovno pokretanje):
-- izbornik Postavke-&gt; Opcije-&gt; Postotak zBTT</translation>
+- izbornik Postavke-&gt; Opcije-&gt; Postotak zBTST</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2604,12 +2604,12 @@ Please be patient...</source>
         <translation>Pokretanje ResetMintZerocoin: ponovno skeniranje potpunog blockchain, to će trajati i do 30 minuta, ovisno o vašem hardveru.</translation>
     </message>
     <message>
-        <source>zBTT Spend #: </source>
-        <translation>zBTT utrošeno #: </translation>
+        <source>zBTST Spend #: </source>
+        <translation>zBTST utrošeno #: </translation>
     </message>
     <message>
-        <source>zBTT Mint</source>
-        <translation>zBTT Mint</translation>
+        <source>zBTST Mint</source>
+        <translation>zBTST Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2624,12 +2624,12 @@ Please be patient...</source>
         <translation> Konfigirani ciljani postotak: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBTT is currently disabled due to maintenance.</source>
-        <translation>Zbog održavanja zBTT je trenutačno onemogućen.</translation>
+        <source>zBTST is currently disabled due to maintenance.</source>
+        <translation>Zbog održavanja zBTST je trenutačno onemogućen.</translation>
     </message>
     <message>
-        <source>zBTT is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zBTT.</translation>
+        <source>zBTST is currently undergoing maintenance.</source>
+        <translation>Radovi u tijeku na zBTST.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3075,8 +3075,8 @@ Please be patient...</source>
         <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
     </message>
     <message>
-        <source>Custom zBTT Backup Path:</source>
-        <translation>Prilagođeni put zBTT sigurnosne kopije:</translation>
+        <source>Custom zBTST Backup Path:</source>
+        <translation>Prilagođeni put zBTST sigurnosne kopije:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3524,8 +3524,8 @@ Please be patient...</source>
         <translation>Veličina UTXO:</translation>
     </message>
     <message>
-        <source>0 BTT</source>
-        <translation>0 BTT</translation>
+        <source>0 BTST</source>
+        <translation>0 BTST</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3582,12 +3582,12 @@ Please be patient...</source>
         <translation>Kovanice se automatski odabiru</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uBTT-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uBTT-a, dok se "barem" plaća 1000 uBTT-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uBTST-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uBTST-a, dok se "barem" plaća 1000 uBTST-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uBTT, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uBTT-ova, a "ukupno barem" plaća 1000 uBTT-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uBTST, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uBTST-ova, a "ukupno barem" plaća 1000 uBTST-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
@@ -3638,8 +3638,8 @@ Please be patient...</source>
         <translation>Dodaj primatelja</translation>
     </message>
     <message>
-        <source>Anonymized BTT</source>
-        <translation>Anonimiziran BTT</translation>
+        <source>Anonymized BTST</source>
+        <translation>Anonimiziran BTST</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4283,12 +4283,12 @@ Please be patient...</source>
         <translation>Zaprimljeno preko Zametanja</translation>
     </message>
     <message>
-        <source>BTT Stake</source>
-        <translation>BTT Stake</translation>
+        <source>BTST Stake</source>
+        <translation>BTST Stake</translation>
     </message>
     <message>
-        <source>zBTT Stake</source>
-        <translation>zBTT Stake</translation>
+        <source>zBTST Stake</source>
+        <translation>zBTST Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4307,32 +4307,32 @@ Please be patient...</source>
         <translation>Prikrivanje Stvara Denominacije</translation>
     </message>
     <message>
-        <source>Converted BTT to zBTT</source>
-        <translation>Pretvoreni BTT u zBTT</translation>
+        <source>Converted BTST to zBTST</source>
+        <translation>Pretvoreni BTST u zBTST</translation>
     </message>
     <message>
-        <source>Spent zBTT</source>
-        <translation>Utrošeni zBTT</translation>
+        <source>Spent zBTST</source>
+        <translation>Utrošeni zBTST</translation>
     </message>
     <message>
-        <source>Received BTT from zBTT</source>
-        <translation>Primljeni BTT od zBTT</translation>
+        <source>Received BTST from zBTST</source>
+        <translation>Primljeni BTST od zBTST</translation>
     </message>
     <message>
-        <source>Minted Change as zBTT from zBTT Spend</source>
-        <translation>Mintana razlika zBTT od zBTT Utroška</translation>
+        <source>Minted Change as zBTST from zBTST Spend</source>
+        <translation>Mintana razlika zBTST od zBTST Utroška</translation>
     </message>
     <message>
-        <source>Converted zBTT to BTT</source>
-        <translation>Pretvoreni zBTT u BTT</translation>
+        <source>Converted zBTST to BTST</source>
+        <translation>Pretvoreni zBTST u BTST</translation>
     </message>
     <message>
-        <source>Anonymous (zBTT Transaction)</source>
-        <translation>Anonimno (zBTT Transakcija)</translation>
+        <source>Anonymous (zBTST Transaction)</source>
+        <translation>Anonimno (zBTST Transakcija)</translation>
     </message>
     <message>
-        <source>Anonymous (zBTT Stake)</source>
-        <translation>Anonimno (zBTT Stake)</translation>
+        <source>Anonymous (zBTST Stake)</source>
+        <translation>Anonimno (zBTST Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4542,12 +4542,12 @@ Please be patient...</source>
         <translation>Izvoz uspješan</translation>
     </message>
     <message>
-        <source>Received BTT from zBTT</source>
-        <translation>Primljeni BTT od zBTT</translation>
+        <source>Received BTST from zBTST</source>
+        <translation>Primljeni BTST od zBTST</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBTT</source>
-        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zBTT</translation>
+        <source>Zerocoin Spend, Change in zBTST</source>
+        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zBTST</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4583,8 +4583,8 @@ Please be patient...</source>
         <translation>Salji novac</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 BTT.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTST.</source>
+        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 BTST.</translation>
     </message>
 </context>
 <context>
@@ -4617,8 +4617,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBTT to Spend</source>
-        <translation>Odabrani zBTT za utrošiti</translation>
+        <source>Select zBTST to Spend</source>
+        <translation>Odabrani zBTST za utrošiti</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4629,8 +4629,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4692,16 +4692,16 @@ Please be patient...</source>
         <translation>Distribuirano pod MIT softverskom licencom, pogledajte priloženu datoteku COPYING ili &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</source>
-        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zBTT mintanja (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zBTST minting (0-1, default: %u)</source>
+        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zBTST mintanja (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za BTT unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for BTST inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za BTST unose (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zBTT unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zBTST inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za zBTST unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4736,12 +4736,12 @@ Please be patient...</source>
         <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
     </message>
     <message>
-        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u BTT / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Naknade (u BTST / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u BTT / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Naknade (u BTST / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4844,12 +4844,12 @@ Please be patient...</source>
         <translation>Nije moguće locirati dovoljno sredstava s domenom Prikrivanja za tu transakciju.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</source>
-        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 BTT.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTST.</source>
+        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 BTST.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</source>
-        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 BTT.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTST.</source>
+        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 BTST.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5129,8 +5129,8 @@ Please be patient...</source>
         <translation>Greška čitanja bloka</translation>
     </message>
     <message>
-        <source>Fee (in BTT/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u BTT / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <source>Fee (in BTST/kB) to add to transactions you send (default: %s)</source>
+        <translation>Naknada (u BTST / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5233,8 +5233,8 @@ Please be patient...</source>
         <translation>Postotak automatskog kovanog Zerocoina (1-100, zadano: %u)</translation>
     </message>
     <message>
-        <source>Reindex the BTT and zBTT money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku BTT i zBTT ponude novca</translation>
+        <source>Reindex the BTST and zBTST money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku BTST i zBTST ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5308,8 +5308,8 @@ Please be patient...</source>
         <translation>Preferirana denominacija za automatski ovjereni Zerocoin (1/5/10/50/100/500/1000/5000), 0 bez preferencije. zadana vrijednost: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zBTT sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBTST backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zBTST sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5720,8 +5720,8 @@ Please be patient...</source>
         <translation>Sinkronizacija sporka...</translation>
     </message>
     <message>
-        <source>Syncing zBTT wallet...</source>
-        <translation>Sinkronizacija zBTT novčanika...</translation>
+        <source>Syncing zBTST wallet...</source>
+        <translation>Sinkronizacija zBTST novčanika...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5828,8 +5828,8 @@ Please be patient...</source>
         <translation>Korisničko ime za JSON-RPC veze</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBTT</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zBTT-a</translation>
+        <source>Value is below the smallest available denomination (= 1) of zBTST</source>
+        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zBTST-a</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

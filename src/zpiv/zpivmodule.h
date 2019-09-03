@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
-#ifndef BITSTATS_ZBTTMODULE_H
-#define BITSTATS_ZBTTMODULE_H
+#ifndef BITSTATS_ZBTSTMODULE_H
+#define BITSTATS_ZBTSTMODULE_H
 
 #include "libzerocoin/bignum.h"
 #include "libzerocoin/Denominations.h"
@@ -73,7 +73,7 @@ public:
 
 class CValidationState;
 
-namespace ZBTTModule {
+namespace ZBTSTModule {
     bool createInput(CTxIn &in, CZerocoinMint& mint, uint256 hashTxOut);
     bool parseCoinSpend(const CTxIn &in, const CTransaction& tx, const CTxOut &prevOut, PublicCoinSpend& publicCoinSpend);
     bool validateInput(const CTxIn &in, const CTxOut &prevOut, const CTransaction& tx, PublicCoinSpend& ret);
@@ -90,4 +90,4 @@ namespace ZBTTModule {
 };
 
 
-#endif //BITSTATS_ZBTTMODULE_H
+#endif //BITSTATS_ZBTSTMODULE_H

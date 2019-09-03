@@ -9,7 +9,7 @@
 #include "main.h"
 
 /****** Thread ********/
-void CLightWorker::ThreadLightZBTTSimplified() {
+void CLightWorker::ThreadLightZBTSTSimplified() {
     RenameThread("bitstats-light-thread");
     isWorkerRunning = true;
     while (true) {
@@ -61,7 +61,7 @@ void CLightWorker::ThreadLightZBTTSimplified() {
                         );
 
                     } catch (NotEnoughMintsException e) {
-                        LogPrintStr(std::string("ThreadLightZBTTSimplified: ") + e.message + "\n");
+                        LogPrintStr(std::string("ThreadLightZBTSTSimplified: ") + e.message + "\n");
                         rejectWork(genWit, blockHeight, NOT_ENOUGH_MINTS);
                         continue;
                     }

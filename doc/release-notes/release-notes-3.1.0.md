@@ -40,48 +40,48 @@ frequently tested on them.
 Notable Changes
 ==============
 
-zBTT Updates
+zBTST Updates
 --------------
 
-### zBTT Staking
+### zBTST Staking
 
-zBTT Staking is here! zBTT staking will be activated on the morning of the 8th of May 2018. With the release of zBTT staking, there are effectively 2 versions of zBTT, zBTT minted on the 3.0.6 BITSTATS wallet or lower, and zBTT minted on BITSTATS wallet version or higher. New features in this release will require the use of zBTT v2, zBTT minted on this wallet release 3.1.0 or later. If you currently hold zBTT v1 and wish to take advantage of zBTT staking and deterministic zBTT, you will need to spend the zBTT v1 to yourself and remint zBTT v2.
-Note: To find your zBTT version, click the privacy tab, then the zBTT Control button then expand the arrows next to the desired denomination.
-
-
-### Deterministic zBTT Seed Keys
-
-zBTT is now associated with a deterministic seed key. With this seed key, users are able to securely backup their zBTT outside of the wallet that the zBTT had been minted on. zBTT can also be transferred from wallet to wallet without the need of transferring the wallet data file.
+zBTST Staking is here! zBTST staking will be activated on the morning of the 8th of May 2018. With the release of zBTST staking, there are effectively 2 versions of zBTST, zBTST minted on the 3.0.6 BITSTATS wallet or lower, and zBTST minted on BITSTATS wallet version or higher. New features in this release will require the use of zBTST v2, zBTST minted on this wallet release 3.1.0 or later. If you currently hold zBTST v1 and wish to take advantage of zBTST staking and deterministic zBTST, you will need to spend the zBTST v1 to yourself and remint zBTST v2.
+Note: To find your zBTST version, click the privacy tab, then the zBTST Control button then expand the arrows next to the desired denomination.
 
 
-### Updated zBTT minting
+### Deterministic zBTST Seed Keys
 
-zBTT minting now only requires 1 further mint (down from 2) to mature. zBTT mints still require 20 confirmations.  Mints also require that the 'second' mint is at least two checkpoints deep in the chain (this was already the case, but the logic was not as precise).
-
-
-### zBTT Search
-
-Users will now have the ability to search the blockchain for a specific serial # to see if a zBTT denomination has been spent or not.
+zBTST is now associated with a deterministic seed key. With this seed key, users are able to securely backup their zBTST outside of the wallet that the zBTST had been minted on. zBTST can also be transferred from wallet to wallet without the need of transferring the wallet data file.
 
 
+### Updated zBTST minting
 
-BTT/zBTT Staking and Masternode Rewards
+zBTST minting now only requires 1 further mint (down from 2) to mature. zBTST mints still require 20 confirmations.  Mints also require that the 'second' mint is at least two checkpoints deep in the chain (this was already the case, but the logic was not as precise).
+
+
+### zBTST Search
+
+Users will now have the ability to search the blockchain for a specific serial # to see if a zBTST denomination has been spent or not.
+
+
+
+BTST/zBTST Staking and Masternode Rewards
 --------------
 
-### BTT, zBTT and Masternode Payment Schedule
+### BTST, zBTST and Masternode Payment Schedule
 
-To encourage the use of zBTT and increase the BITSTATS zerocoin anonymity set, the BITSTATS payment schedule has been changed to the following:
+To encourage the use of zBTST and increase the BITSTATS zerocoin anonymity set, the BITSTATS payment schedule has been changed to the following:
 
-If a user staking zBTT wins the reward for their block, the following zBTT reward will be: 
-- 3 zBTT (3 x 1 denominations) rewarded to the staker, 2 BTT rewarded to the masternode owner and 1 BTT available for the budget. This is a total block reward of 6 BTT, up from 5.
+If a user staking zBTST wins the reward for their block, the following zBTST reward will be: 
+- 3 zBTST (3 x 1 denominations) rewarded to the staker, 2 BTST rewarded to the masternode owner and 1 BTST available for the budget. This is a total block reward of 6 BTST, up from 5.
 
-If a user staking BTT wins the reward, the following amounts will be rewarded: 
-- 2 BTT to the BTT staker, 3 BTT to the Masternode owner and 1 BTT available for the budget. This is a total block reward of 6 BTT, up from 5.
+If a user staking BTST wins the reward, the following amounts will be rewarded: 
+- 2 BTST to the BTST staker, 3 BTST to the Masternode owner and 1 BTST available for the budget. This is a total block reward of 6 BTST, up from 5.
 
 
-### Return change to sender when minting zBTT
+### Return change to sender when minting zBTST
 
-Previously, zBTT minting would send any change to a newly generated "change address". This has caused confusion among some users, and in some cases insufficient backups of the wallet. The wallet will now find the contributing address which contained the most BTT and return the change from a zBTT mint to that address.
+Previously, zBTST minting would send any change to a newly generated "change address". This has caused confusion among some users, and in some cases insufficient backups of the wallet. The wallet will now find the contributing address which contained the most BTST and return the change from a zBTST mint to that address.
 
 
 User Experience
@@ -97,9 +97,9 @@ The overview tab has been simplified greatly to display only balances that are a
 ### Wallet Options
 
 There have been a number of changes to the tasks that you are able to perform from the wallet options. Users will now have the ability to do the following: 
--	Enable and disable the auto zBTT minting feature. This is enabled by default and the enablezeromint=0 setting in the bitstats.conf file will overwrite the GUI option.
--	The percentage of autominted zBTT can now be set from 1 to 100, changed from 10 – 100.
--	The stake split threshold can now be set VIA the wallet options. This setting is an advanced feature for those wishing to remain staking regular BTT.
+-	Enable and disable the auto zBTST minting feature. This is enabled by default and the enablezeromint=0 setting in the bitstats.conf file will overwrite the GUI option.
+-	The percentage of autominted zBTST can now be set from 1 to 100, changed from 10 – 100.
+-	The stake split threshold can now be set VIA the wallet options. This setting is an advanced feature for those wishing to remain staking regular BTST.
 -	“Unlock for staking and anonymization only” is now selected by default when unlocking the wallet from the User Interface
 
 
@@ -127,7 +127,7 @@ Note: System write permissions must be appropriate for the location the wallet i
 ### Details:
 
 * If path is set to directory, the backup will be named `wallet.dat-<year>-<month>-<day>-<hour>-<minute>-<second>`
-* If zBTT backup, auto generated name is `wallet-autozpivbackup.dat-<year>-<month>-<day>-<hour>-<minute>-<second>`
+* If zBTST backup, auto generated name is `wallet-autozpivbackup.dat-<year>-<month>-<day>-<hour>-<minute>-<second>`
 * If path set to file, backup will be named `<filename>.dat`
 * walletbackupthreshold enables the user to select the maximum count of backup files to be written before overwriting existing backups.
 
@@ -188,7 +188,7 @@ This allows for a user (such as a third party integration) to query the blockcha
 ### New RPC command 
 `findserial`
 
-Search the zerocoin database for a zerocoinspend transaction that contains the given serial. This will be a helpful tool for the BITSTATS support group, which often times sees users say "I didn't spend that zBTT". This RPC call allows for support to grab the serial, and then find the spend tx on the chain.
+Search the zerocoin database for a zerocoinspend transaction that contains the given serial. This will be a helpful tool for the BITSTATS support group, which often times sees users say "I didn't spend that zBTST". This RPC call allows for support to grab the serial, and then find the spend tx on the chain.
 
 
 ### New RPC commands 
@@ -206,11 +206,11 @@ Network Layer 2 Changes (Proposals / Budgets / SwiftX)
 
 ### Monthly Budget Increase
 
-As voted on by the BITSTATS masternodes, the monthly budget available to be utilised has been increased to 42,000 BTT / month. This BTT only has the opportunity to be raised once per month (paid to winning proposals) with any unused BTT not created by the blockchain.
+As voted on by the BITSTATS masternodes, the monthly budget available to be utilised has been increased to 42,000 BTST / month. This BTST only has the opportunity to be raised once per month (paid to winning proposals) with any unused BTST not created by the blockchain.
 
 ### Budget Finalization Fee
 
-The BITSTATS finalization fee for successful proposals has now been reduced, this fee is now 5 BTT down from 50 BTT. The total fee outlay for a successful proposal is now a total of 55 BTT.
+The BITSTATS finalization fee for successful proposals has now been reduced, this fee is now 5 BTST down from 50 BTST. The total fee outlay for a successful proposal is now a total of 55 BTST.
 
 
 ### SwiftX Raw Transactions
@@ -248,8 +248,8 @@ When inputting wrong data into the GUI for a SOCKS5 proxy, the wallet would cras
 Minor Enhancements
 --------------
 
--	Enforced v1 zBTT spends to require a security level of 100
--	Updates to zBTT spends to avoid segfaults
+-	Enforced v1 zBTST spends to require a security level of 100
+-	Updates to zBTST spends to avoid segfaults
 -	Updates to configuration will now reflect on the privacy tab
 -	Fixed a  bug that would not start masternodes from the BITSTATS-Qt masternodes tab
 -	Updated BITSTATS-Qt tooltips
@@ -263,12 +263,12 @@ Minor Enhancements
 Further Reading: Version 2 Zerocoins
 ==============
 
-Several critical security flaws in the zerocoin protocol and BITSTATS's zerocoin implementation have been patched. Enough has changed that new zerocoins are distinct from old zerocoins, and have been labelled as *version 2*. When using the zBTT Control dialog in the QT wallet, a user is able to see zBTT marked as version 1 or 2.
+Several critical security flaws in the zerocoin protocol and BITSTATS's zerocoin implementation have been patched. Enough has changed that new zerocoins are distinct from old zerocoins, and have been labelled as *version 2*. When using the zBTST Control dialog in the QT wallet, a user is able to see zBTST marked as version 1 or 2.
 
-zPoS (zBTT staking)
+zPoS (zBTST staking)
 --------------
 
-Once a zBTT has over 200 confirmations it becomes available to stake. Staking zBTT will consume the exact zerocoin that is staked and replace it with a freshly minted zerocoin of the same denomination as well as a reward of three 1 denomination zBTT. So for example if a 1,000 zBTT denomination is staked, the protocol replaces that with a fresh 1,000 denomination and three1 denomination zBTTs.
+Once a zBTST has over 200 confirmations it becomes available to stake. Staking zBTST will consume the exact zerocoin that is staked and replace it with a freshly minted zerocoin of the same denomination as well as a reward of three 1 denomination zBTST. So for example if a 1,000 zBTST denomination is staked, the protocol replaces that with a fresh 1,000 denomination and three1 denomination zBTSTs.
 
 Secure Spending
 --------------
@@ -280,7 +280,7 @@ The serial troll situation is mitigated in version 2 by requiring that the seria
 Deterministic Zerocoin Generation
 --------------
 
-Zerocoins, or zBTT, are now deterministically generated using a unique 256 bit seed. Each wallet will generate a new seed on its first run. The deterministic seed is used to generate a string of zBTT that can be recalculated at any time using the seed. Deterministic zBTT allows for users to backup all of their future zBTT by simply recording their seed and keeping it in a safe place (similar to backing up a private key for BTT). The zBTT seed needs to remain in the wallet in order to spend the zBTT after it is generated, if the seed is changed then the coins will not be spendable because the wallet will not have the ability to regenerate all of the private zBTT data from the seed. It is important that users record & backup their seed after their first run of the wallet. If the wallet is locked during the first run, then the seed will be generated the first time the wallet is unlocked.
+Zerocoins, or zBTST, are now deterministically generated using a unique 256 bit seed. Each wallet will generate a new seed on its first run. The deterministic seed is used to generate a string of zBTST that can be recalculated at any time using the seed. Deterministic zBTST allows for users to backup all of their future zBTST by simply recording their seed and keeping it in a safe place (similar to backing up a private key for BTST). The zBTST seed needs to remain in the wallet in order to spend the zBTST after it is generated, if the seed is changed then the coins will not be spendable because the wallet will not have the ability to regenerate all of the private zBTST data from the seed. It is important that users record & backup their seed after their first run of the wallet. If the wallet is locked during the first run, then the seed will be generated the first time the wallet is unlocked.
 
 Zerocoin Modulus
 --------------
@@ -294,7 +294,7 @@ BITSTATS's zerocoin implementation used the same code from the ZCoin project to 
 Detailed release notes follow. This overview includes changes that affect behavior, not code moves, refactors and string updates. For convenience in locating the code changes and accompanying discussion, both the pull request and git merge commit are mentioned.
 
 ### Core Features
- - #582 `cb1632520` [Core] zBTT v2: zPoS dzBTT ezBTT external backup and budget fixes (too many to list)
+ - #582 `cb1632520` [Core] zBTST v2: zPoS dzBTST ezBTST external backup and budget fixes (too many to list)
  - #558 `c7e6f0f7f` [Core] Remove Gitan-OSX warning for High Sierra builds (Mrs-X)
  - #523 `926c073ea` [Core] Give high priority to zerocoinspends to make it into the next block. (presstab)
  - #535 `5e8875feb` [Core] Minor refacturing + unused variable removed (Mrs-X)
@@ -318,7 +318,7 @@ Detailed release notes follow. This overview includes changes that affect behavi
  - #542 `61156def7` [Network] Remove vfReachable and modify IsReachable to only use vfLimited. (Patrick Strateman)
 
 ### GUI
- - #572 `d9b23fe60` [Qt] Refresh zBTT balance after resetting mints or spends (warrows)
+ - #572 `d9b23fe60` [Qt] Refresh zBTST balance after resetting mints or spends (warrows)
  - #571 `1c8e7cb7b` [Qt] Update privacy tab info about zeromint on config change (warrows)
  - #568 `f226de09e` [Qt] Connect automint icon to the UI automint setting change (warrows)
  - #566 `84f43857c` [Qt] Add automint status bar icon (Fuzzbawls)
@@ -329,7 +329,7 @@ Detailed release notes follow. This overview includes changes that affect behavi
  - #521 `fbb105a00` [Qt] Make "For anonymization and staking only" checked by default (Mrs-X)
  - #508 `2cf3be6bb` [Qt] Fix crash when inputting wrong port for network proxy (warrows)
  - #500 `4c01ba65d` [Qt] Remove duplicate code for updating address book labels. (blondfrogs)
- - #506 `ae72bf4e2` [Qt] Autoscroll to end of zBTT status output (Mrs-X)
+ - #506 `ae72bf4e2` [Qt] Autoscroll to end of zBTST status output (Mrs-X)
  - #499 `6305264f2` [Qt] Send popup simplified + SwiftTX -> SwiftX (Mrs-X)
  - #490 `ba777e4ef` [Qt] Update MultiSend GUI to allow address labels (blondfrogs)
  - #483 `5b1070365` [Qt] Fixed Dynamic Screen Elements Issue for Multisig (blondfrogs)
@@ -361,15 +361,15 @@ Detailed release notes follow. This overview includes changes that affect behavi
  - #170 `027f16c64` [RPC] Convert source tree from json_spirit to UniValue (Fuzzbawls)
 
 ### Wallet
- - #570 `8c8350b59` [Wallet] Add a check on zBTT spend to avoid a segfault (warrows)
+ - #570 `8c8350b59` [Wallet] Add a check on zBTST spend to avoid a segfault (warrows)
  - #565 `80b803201` [Wallet] Increase valid range for automint percentage (Fuzzbawls)
  - #518 `9f6449a70` [Wallet] Combine fees when possible and fix autocombine insufficient funds (warrows)
  - #497 `f21e4456b` [Wallet] Call AutocombineDust less often (warrows)
  - #498 `bfad2a1df` [Wallet] Change the way transaction list is handled (warrows)
  - #477 `93c5f9ff5` [Wallet] Remove potential memory leak (blondfrogs)
  - #488 `d09cf916a` [Wallet] Fixes an autocombinerewards bug with above max size TXs (warrows)
- - #448 `222ef6e6b` [Wallet] Return change to sender when minting zBTT. (presstab)
- - #445 `fc570fc1e` [Wallet] Only require 1 mint to be added before spending zBTT. (presstab)
+ - #448 `222ef6e6b` [Wallet] Return change to sender when minting zBTST. (presstab)
+ - #445 `fc570fc1e` [Wallet] Only require 1 mint to be added before spending zBTST. (presstab)
  
 ### Miscellaneous
  - #559 `d2b017217` [Bug] Segfault with -enableswifttx=0 / -enableswifttx=false (Mrs-X)

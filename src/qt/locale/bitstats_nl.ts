@@ -176,16 +176,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw BTT's kunnen stelen.</translation>
+        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
+        <translation>BITSTATS zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw BTST's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTT&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BTT VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BTST VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Blader door transactiegescheidenis</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTT</source>
-        <translation>Privacy Acties voor zBTT</translation>
+        <source>Privacy Actions for zBTST</source>
+        <translation>Privacy Acties voor zBTST</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -1118,8 +1118,8 @@ MultiSend: %1</translation>
         <translation>Dit label wordt rood, als een ontvanger een hoeveelheid kleiner dan %1 ontvangt.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTT per input.</source>
-        <translation>Kan +/-%1 uBTT per invoer variëren.</translation>
+        <source>Can vary +/- %1 uBTST per input.</source>
+        <translation>Kan +/-%1 uBTST per invoer variëren.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1734,8 +1734,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Adres / Bedrag:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTT to</source>
-        <translation>Voeg bestemmingen toe om BTT naar te verzenden</translation>
+        <source>Add destinations to send BTST to</source>
+        <translation>Voeg bestemmingen toe om BTST naar te verzenden</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1934,32 +1934,32 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTT units to zBTT</source>
-        <translation>Schakel automatisch slaan van BTT-eenheden in op zBTT</translation>
+        <source>Enable automatic minting of BTST units to zBTST</source>
+        <translation>Schakel automatisch slaan van BTST-eenheden in op zBTST</translation>
     </message>
     <message>
-        <source>Enable zBTT Automint</source>
-        <translation>Schakel zBTT Automint in</translation>
+        <source>Enable zBTST Automint</source>
+        <translation>Schakel zBTST Automint in</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint Adressen Inschakelen</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTT which get automatically converted to zBTT via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende BTT die automatisch wordt omgezet naar zBTT via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende BTST die automatisch wordt omgezet naar zBTST via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTT</source>
-        <translation>Percentage autominted zBTT</translation>
+        <source>Percentage of autominted zBTST</source>
+        <translation>Percentage autominted zBTST</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BTT for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg BTT voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg BTST voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTT Denomination</source>
-        <translation>Gewenste Automint zBTT denominatie</translation>
+        <source>Preferred Automint zBTST Denomination</source>
+        <translation>Gewenste Automint zBTST denominatie</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2125,8 +2125,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Totaal saldo, inclusief alle niet-beschikbare munten.</translation>
     </message>
     <message>
-        <source>BTT Balance</source>
-        <translation>BTT Saldi</translation>
+        <source>BTST Balance</source>
+        <translation>BTST Saldi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2153,12 +2153,12 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Uw huidige BITSTATS-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
     </message>
     <message>
-        <source>zBTT Balance</source>
-        <translation>zBTT-saldo</translation>
+        <source>zBTST Balance</source>
+        <translation>zBTST-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTT are spendable.</source>
+These zBTST are spendable.</source>
         <translation>Volwassen: meer dan 20 bevestigingen en meer dan 1 mint van dezelfde denominatie nadat het gemint was.
 Deze zPIB zijn besteedbaar.</translation>
     </message>
@@ -2213,8 +2213,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Uitgeefbaar:</translation>
     </message>
     <message>
-        <source>Locked BTT or Masternode collaterals. These are excluded from zBTT minting.</source>
-        <translation>Vergrendelde BTT of Masternode onderpanden. Deze zijn uitgesloten van de zBTT muntage.</translation>
+        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
+        <translation>Vergrendelde BTST of Masternode onderpanden. Deze zijn uitgesloten van de zBTST muntage.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2225,8 +2225,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Onbevestigd:</translation>
     </message>
     <message>
-        <source>Your current zBTT balance, unconfirmed and immature zBTT included.</source>
-        <translation>Uw huidige zBTT-saldo, onbevestigde en onvolgroeide zBTT inbegrepen.</translation>
+        <source>Your current zBTST balance, unconfirmed and immature zBTST included.</source>
+        <translation>Uw huidige zBTST-saldo, onbevestigde en onvolgroeide zBTST inbegrepen.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2237,10 +2237,10 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>niet gesynchroniseerd</translation>
     </message>
     <message>
-        <source>Current percentage of zBTT.
+        <source>Current percentage of zBTST.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Huidige percentage van zBTT
+        <translation>Huidige percentage van zBTST
 Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde AutoMint percentage (standaard = 10%).
 </translation>
     </message>
@@ -2384,8 +2384,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2412,12 +2412,12 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>zBTT Control</source>
-        <translation>zBTT Control</translation>
+        <source>zBTST Control</source>
+        <translation>zBTST Control</translation>
     </message>
     <message>
-        <source>zBTT Selected:</source>
-        <translation>zBTT geselecteerd:</translation>
+        <source>zBTST Selected:</source>
+        <translation>zBTST geselecteerd:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2432,24 +2432,24 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Besteed Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending</source>
-        <translation>Beschikbare (volwassen en uitgeefbaar) zBTT voor besteding</translation>
+        <source>Available (mature and spendable) zBTST for spending</source>
+        <translation>Beschikbare (volwassen en uitgeefbaar) zBTST voor besteding</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Beschikbaar saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTT for spending
+        <source>Available (mature and spendable) zBTST for spending
 
-zBTT are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Beschikbare (volwwassen en uitgeefbaar) zBTT voor besteding
+zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Beschikbare (volwwassen en uitgeefbaar) zBTST voor besteding
 
 zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
     </message>
     <message>
-        <source>0 zBTT</source>
-        <translation>0 zBTT</translation>
+        <source>0 zBTST</source>
+        <translation>0 zBTST</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2508,8 +2508,8 @@ zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 m
         <translation>Zerocoin Statistieken:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTT</source>
-        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zBTT</translation>
+        <source>Total Balance including unconfirmed and immature zBTST</source>
+        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zBTST</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2530,24 +2530,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBTT minting.
+        <source>Show the current status of automatic zBTST minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to bitstats.conf
 - disable: add 'enablezeromint=0' to bitstats.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBTT
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBTST
 
 </source>
-        <translation>Toon de huidige status van automatische zBTT-markering.
+        <translation>Toon de huidige status van automatische zBTST-markering.
 
 Om de status te wijzigen (opnieuw opstarten vereist): 
 - enable: voeg 'enablezeromint = 1' toe aan bitstats.conf
 - uitschakelen: voeg 'enablezeromint = 0' toe aan bitstats.conf
 
 Om het percentage te wijzigen (geen herstart vereist): 
-- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zBTT
+- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zBTST
 </translation>
     </message>
     <message>
@@ -2595,8 +2595,8 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation> 0 x</translation>
     </message>
     <message>
-        <source>Show zBTT denominations list</source>
-        <translation>Toon zBTT denominatielijst</translation>
+        <source>Show zBTST denominations list</source>
+        <translation>Toon zBTST denominatielijst</translation>
     </message>
     <message>
         <source>Show Denominations</source>
@@ -2733,12 +2733,12 @@ Please be patient...</source>
 Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
-        <source>zBTT Spend #: </source>
-        <translation>zBTT besteed #:</translation>
+        <source>zBTST Spend #: </source>
+        <translation>zBTST besteed #:</translation>
     </message>
     <message>
-        <source>zBTT Mint</source>
-        <translation>zBTT mint</translation>
+        <source>zBTST Mint</source>
+        <translation>zBTST mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2753,12 +2753,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Geconfigureerd doelpercentage:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBTT is currently disabled due to maintenance.</source>
-        <translation>zBTT is momenteel uitgeschakeld vanwege onderhoud.</translation>
+        <source>zBTST is currently disabled due to maintenance.</source>
+        <translation>zBTST is momenteel uitgeschakeld vanwege onderhoud.</translation>
     </message>
     <message>
-        <source>zBTT is currently undergoing maintenance.</source>
-        <translation>zBTT wordt momenteel onderhouden.</translation>
+        <source>zBTST is currently undergoing maintenance.</source>
+        <translation>zBTST wordt momenteel onderhouden.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3255,8 +3255,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Aangepast back-up pad:</translation>
     </message>
     <message>
-        <source>Custom zBTT Backup Path:</source>
-        <translation>Aangepast zBTT back-up pad:</translation>
+        <source>Custom zBTST Backup Path:</source>
+        <translation>Aangepast zBTST back-up pad:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3715,8 +3715,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 BTT</source>
-        <translation>0 BTT</translation>
+        <source>0 BTST</source>
+        <translation>0 BTST</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3771,12 +3771,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uBTTs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uBTT's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uBTT's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uBTSTs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uBTST's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uBTST's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uBTTs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uBTT's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uBTT's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uBTSTs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uBTST's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uBTST's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
@@ -3827,8 +3827,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized BTT</source>
-        <translation>Geanonimiseerde BTT</translation>
+        <source>Anonymized BTST</source>
+        <translation>Geanonimiseerde BTST</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4471,12 +4471,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verkregen via verduistering</translation>
     </message>
     <message>
-        <source>BTT Stake</source>
-        <translation>BTT Stake</translation>
+        <source>BTST Stake</source>
+        <translation>BTST Stake</translation>
     </message>
     <message>
-        <source>zBTT Stake</source>
-        <translation>zBTT Stake</translation>
+        <source>zBTST Stake</source>
+        <translation>zBTST Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4495,32 +4495,32 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verduistering creëert denominaties</translation>
     </message>
     <message>
-        <source>Converted BTT to zBTT</source>
-        <translation>Geconverteerde BTT naar zBTT</translation>
+        <source>Converted BTST to zBTST</source>
+        <translation>Geconverteerde BTST naar zBTST</translation>
     </message>
     <message>
-        <source>Spent zBTT</source>
-        <translation>Bestede zBTT</translation>
+        <source>Spent zBTST</source>
+        <translation>Bestede zBTST</translation>
     </message>
     <message>
-        <source>Received BTT from zBTT</source>
-        <translation>Ontvangen BTT van zBTT</translation>
+        <source>Received BTST from zBTST</source>
+        <translation>Ontvangen BTST van zBTST</translation>
     </message>
     <message>
-        <source>Minted Change as zBTT from zBTT Spend</source>
-        <translation>Gemint wisselgeld als zBTT van bestede zBTT</translation>
+        <source>Minted Change as zBTST from zBTST Spend</source>
+        <translation>Gemint wisselgeld als zBTST van bestede zBTST</translation>
     </message>
     <message>
-        <source>Converted zBTT to BTT</source>
-        <translation>Geconverteerde zBTT naar BTT</translation>
+        <source>Converted zBTST to BTST</source>
+        <translation>Geconverteerde zBTST naar BTST</translation>
     </message>
     <message>
-        <source>Anonymous (zBTT Transaction)</source>
-        <translation>Anonieme (zBTT transactie)</translation>
+        <source>Anonymous (zBTST Transaction)</source>
+        <translation>Anonieme (zBTST transactie)</translation>
     </message>
     <message>
-        <source>Anonymous (zBTT Stake)</source>
-        <translation>Anonieme (zBTT stake)</translation>
+        <source>Anonymous (zBTST Stake)</source>
+        <translation>Anonieme (zBTST stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4734,12 +4734,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Exporteren succesvol</translation>
     </message>
     <message>
-        <source>Received BTT from zBTT</source>
-        <translation>Ontvangen BTT van zBTT</translation>
+        <source>Received BTST from zBTST</source>
+        <translation>Ontvangen BTST van zBTST</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBTT</source>
-        <translation>Zerocoin besteed, wisselgeld in zBTT</translation>
+        <source>Zerocoin Spend, Change in zBTST</source>
+        <translation>Zerocoin besteed, wisselgeld in zBTST</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4775,8 +4775,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTT.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 BTT.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTST.</source>
+        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 BTST.</translation>
     </message>
 </context>
 <context>
@@ -4809,8 +4809,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBTT to Spend</source>
-        <translation>Selecteer zBTT om te besteden</translation>
+        <source>Select zBTST to Spend</source>
+        <translation>Selecteer zBTST om te besteden</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4821,8 +4821,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTT</source>
-        <translation>zBTT</translation>
+        <source>zBTST</source>
+        <translation>zBTST</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4888,16 +4888,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBTT minting (0-1, default: %u)</source>
-        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zBTT (0-1, standaard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zBTST minting (0-1, default: %u)</source>
+        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zBTST (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BTT inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor BTT inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for BTST inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor BTST inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBTT inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor zBTT inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for zBTST inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor zBTST inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4932,12 +4932,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in BTT/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in BTST/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in BTT/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in BTST/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5040,12 +5040,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTT.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 BTT.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTST.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 BTST.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTT.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 BTT.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTST.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 BTST.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5332,8 +5332,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in BTT/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in BTT/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in BTST/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in BTST/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5436,8 +5436,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the BTT and zBTT money supply statistics</source>
-        <translation>Indexeer de BTT- en zBTT-geldvoorraadstatistieken opnieuw</translation>
+        <source>Reindex the BTST and zBTST money supply statistics</source>
+        <translation>Indexeer de BTST- en zBTST-geldvoorraadstatistieken opnieuw</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5512,8 +5512,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBTT backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zBTT back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBTST backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zBTST back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5924,8 +5924,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Synchroniseren sporks...</translation>
     </message>
     <message>
-        <source>Syncing zBTT wallet...</source>
-        <translation>Synchroniseren zBTT portemonnee...</translation>
+        <source>Syncing zBTST wallet...</source>
+        <translation>Synchroniseren zBTST portemonnee...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6036,8 +6036,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Gebruikersnaam voor JSON-RPC verbindingen</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBTT</source>
-        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zBTT</translation>
+        <source>Value is below the smallest available denomination (= 1) of zBTST</source>
+        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zBTST</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

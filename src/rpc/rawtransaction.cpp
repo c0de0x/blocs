@@ -918,7 +918,7 @@ UniValue createrawzerocoinstake(const UniValue& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "createrawzerocoinstake mint_input \n"
-            "\nCreates raw zBTT coinstakes (without MN output).\n" +
+            "\nCreates raw zBTST coinstakes (without MN output).\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
@@ -939,7 +939,7 @@ UniValue createrawzerocoinstake(const UniValue& params, bool fHelp)
     LOCK2(cs_main, pwalletMain->cs_wallet);
 
     if(GetAdjustedTime() > GetSporkValue(SPORK_16_ZEROCOIN_MAINTENANCE_MODE))
-        throw JSONRPCError(RPC_WALLET_ERROR, "zBTT is currently disabled due to maintenance.");
+        throw JSONRPCError(RPC_WALLET_ERROR, "zBTST is currently disabled due to maintenance.");
 
     std::string serial_hash = params[0].get_str();
     if (!IsHex(serial_hash))
@@ -956,7 +956,7 @@ UniValue createrawzerocoinstake(const UniValue& params, bool fHelp)
 
     CMutableTransaction coinstake_tx;
 
-    // create the zerocoinmint output (one spent denom + three 1-zBTT denom)
+    // create the zerocoinmint output (one spent denom + three 1-zBTST denom)
     libzerocoin::CoinDenomination staked_denom = input_mint.GetDenomination();
     std::vector<CTxOut> vOutMint(5);
     // Mark coin stake transaction
@@ -964,11 +964,11 @@ UniValue createrawzerocoinstake(const UniValue& params, bool fHelp)
     scriptEmpty.clear();
     vOutMint[0] = CTxOut(0, scriptEmpty);
     CDeterministicMint dMint;
-    if (!pwalletMain->CreateZBTTOutPut(staked_denom, vOutMint[1], dMint))
+    if (!pwalletMain->CreateZBTSTOutPut(staked_denom, vOutMint[1], dMint))
         throw JSONRPCError(RPC_WALLET_ERROR, "failed to create new zpiv output");
 
     for (int i=2; i<5; i++) {
-        if (!pwalletMain->CreateZBTTOutPut(libzerocoin::ZQ_ONE, vOutMint[i], dMint))
+        if (!pwalletMain->CreateZBTSTOutPut(libzerocoin::ZQ_ONE, vOutMint[i], dMint))
             throw JSONRPCError(RPC_WALLET_ERROR, "failed to create new zpiv output");
     }
     coinstake_tx.vout = vOutMint;
@@ -1000,7 +1000,7 @@ UniValue createrawzerocoinpublicspend(const UniValue& params, bool fHelp)
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
             "createrawzerocoinpublicspend mint_input \n"
-            "\nCreates raw zBTT public spend.\n" +
+            "\nCreates raw zBTST public spend.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
