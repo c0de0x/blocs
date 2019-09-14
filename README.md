@@ -15,8 +15,8 @@ More information at [bitstats.io](http://www.bitstats.io) Visit our ANN thread a
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply</td><td>21000000</td></tr>
-<tr><td>Premine</td><td>10%*</td></tr>
+<tr><td>Max Coin Supply</td><td>100000000</td></tr>
+<tr><td>Premine</td><td>5%*</td></tr>
 </table>
 
 ### Reward Distribution
@@ -33,25 +33,37 @@ More information at [bitstats.io](http://www.bitstats.io) Visit our ANN thread a
 </thead>
 <tbody>
 <tr>
-<th scope="row">1-1051200</th>
-<th scope="row">6 BTST</th>
-<td>0.6 BTST (10%)</td>
-<td>5.4 BTST (90%)</td> 
+<th scope="row">1-525600</th>
+<th scope="row">28.5000 BTST</th>
+<td>2.8500 BTST (10%)</td>
+<td>25.6500 BTST (90%)</td> 
+</tr>
+<tr>    
+<th scope="row">525601-1051200</th>
+<th scope="row">23.6550 BTST</th>
+<td>2.3655 BTST (10%)</td>
+<td>21.2895 BTST (90%)</td> 
+</tr>
+<tr>    
+<th scope="row">1051201-1576800</th>
+<th scope="row">21.5000 BTST</th>
+<td>4.3000 BTST (20%)</td>
+<td>17.2000 BTST (80%)</td>
 </tr>
 <tr>
-<th scope="row">1051201-2102400</th>
-<th scope="row">4 BTST</th>
-<td>0.8 BTST (20%)</td>
-<td>3.2 BTST (80%)</td>
+<th scope="row">1576801-2102400</th>
+<th scope="row">17.2000 BTST</th>
+<td>3.4400 BTST (20%)</td>
+<td>13.7600 BTST (80%)</td>
 </tr>
 <tr>
 <th scope="row">2102401-2628000</th>
-<th scope="row">2 BTST</th>
-<td>0.3 BTST (15%)</td>
-<td>1.7 BTST (85%)</td>
+<th scope="row">16.7000 BTST</th>
+<td>2.5050 BTST (15%)</td>
+<td>14.1950 BTST (85%)</td>
 </tr>
 <tr>				
-<th scope="row" colspan=4>After 5 years, each year, the reward will be reduced with 10%</th>
+<th scope="row" colspan=4>After 5 years, each year, the reward will be reduced with 16%</th>
 </tr>
 </tbody>
 </table>
