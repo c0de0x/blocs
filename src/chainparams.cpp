@@ -54,20 +54,20 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0000006ce0e729428b7103ae2dd0962fc8912329d4fe07563dd38b0b002d575d"));
-  //  (100, uint256("00000009ff0b88d0668250a87475415d24e088aedd9c9acff96b3baa4c81877a"))
-  //  (200, uint256("00000361ff04412fd2c5338d3d0c764708df918b3c466039ee6ddaa05563ef78"))
-  //  (1500, uint256("ad900dbc9b23f985c01cf441dd545855f016846931729fb1119c4f37417efe7a"))
-  //  (2925, uint256("2bdd15aed1a6f5b8784303e384c9bc986f0d25f65ec3b54efc7295ee2cf16ca5"))
-  //  (10000, uint256("54e49f11a74740ca4f7514e8097fe3129e42e2f40a958881dbb78bc5a3adaca7"))
-  //  (15000, uint256("65c2109648c58543507acbcb55220296c1554e75016835823ca8d60e8d011c46"))
+    (0, uint256("0000006ce0e729428b7103ae2dd0962fc8912329d4fe07563dd38b0b002d575d"))
+    (100, uint256("00000004900fc5ded60919618ffe936d3c338c40b6182cc927a61142798bb680"))
+    (200, uint256("00000001669dfcb1f96e6b90678b59483b8105668f3a9ffc898864f383bf16fc"))
+    (500, uint256("908aac78ae28c702406a4a632b7cadd5b557ec86dbd2791558b181fc32fc4063"))
+    (1000, uint256("f61d30822b5f6bb06babe39284b6ec313bfc7f241f285dd7d562508104070c36"))
+    (1500, uint256("87c4fdba4dfabed54bc8537c4ea2e5ffa2eeb361bcc55c15706480ae1c57e584"))
+    (2000, uint256("7d821189d62a4571c6b35b6383d6f8332dcef799772070768ba9c5a605949657"));
   //  (15348, uint256("b4771a04eaae912f056c3eacdb6e50aa6965ce944df13207a53f96b07badaadf"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    0, // * UNIX timestamp of last checkpoint block
-    0,    // * total number of transactions between genesis and last checkpoint
+    1570096864, // * UNIX timestamp of last checkpoint block
+    3811,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    0        // * estimated number of transactions per day after checkpoint
+    2800        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -184,19 +184,14 @@ public:
         genesis.nNonce = 682615;
     
         hashGenesisBlock = genesis.GetHash();
-        /*
-        cout<<"Mainnet\n";
-        uint256 hash;
-        CBlockHeader genesisHeader = genesis.GetBlockHeader();
-        GenerateGenesisBlock(genesisHeader, hash);
-        */
+        
 
         assert(hashGenesisBlock == uint256("0x0000006ce0e729428b7103ae2dd0962fc8912329d4fe07563dd38b0b002d575d"));
         assert(genesis.hashMerkleRoot == uint256("0x1cef028bc4ed71d9842708d166c5f2c95aaa054a4ce826ba61ece2554929b7ff"));
 
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("bitstats.io", "seed1.bitstats.io"));     // Primary DNS Seeder from bitstats
-        //vSeeds.push_back(CDNSSeedData("bitstats.io", "seed2.bitstats.io"));    // Secondary DNS Seeder from bitstats
+        vSeeds.push_back(CDNSSeedData("bitstats.io", "seed1.bitstats.io"));     // Primary DNS Seeder from bitstats
+        vSeeds.push_back(CDNSSeedData("bitstats.io", "seed2.bitstats.io"));    // Secondary DNS Seeder from bitstats
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 65);
@@ -207,7 +202,7 @@ public:
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds.clear();
-        //convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
+        convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         fMiningRequiresPeers = true;
         fAllowMinDifficultyBlocks = false;
