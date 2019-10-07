@@ -145,7 +145,7 @@ UniValue blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool tx
         zpivObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
     zpivObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.push_back(Pair("zBTSTsupply", zpivObj));
+    result.push_back(Pair("zBLOCSsupply", zpivObj));
 
     return result;
 }
@@ -183,17 +183,17 @@ UniValue getchecksumblock(const UniValue& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zBTSTsupply\" :\n"
+            "  \"zBLOCSsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zBTST denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zBTST denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zBTST denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zBTST denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zBTST denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zBTST denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zBTST denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zBTST denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zBTST denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zBLOCS denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zBLOCS denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zBLOCS denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zBLOCS denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zBLOCS denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zBLOCS denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zBLOCS denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zBLOCS denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zBLOCS denominations\n"
             "  }\n"
             "}\n"
 
@@ -493,7 +493,7 @@ UniValue getrawmempool(const UniValue& params, bool fHelp)
             "{                           (json object)\n"
             "  \"transactionid\" : {       (json object)\n"
             "    \"size\" : n,             (numeric) transaction size in bytes\n"
-            "    \"fee\" : n,              (numeric) transaction fee in bitstats\n"
+            "    \"fee\" : n,              (numeric) transaction fee in blocs\n"
             "    \"time\" : n,             (numeric) local time transaction entered pool in seconds since 1 Jan 1970 GMT\n"
             "    \"height\" : n,           (numeric) block height when transaction entered pool\n"
             "    \"startingpriority\" : n, (numeric) priority when transaction entered pool\n"
@@ -574,17 +574,17 @@ UniValue getblock(const UniValue& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zBTSTsupply\" :\n"
+            "  \"zBLOCSsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zBTST denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zBTST denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zBTST denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zBTST denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zBTST denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zBTST denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zBTST denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zBTST denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zBTST denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zBLOCS denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zBLOCS denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zBLOCS denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zBLOCS denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zBLOCS denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zBLOCS denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zBLOCS denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zBLOCS denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zBLOCS denominations\n"
             "  }\n"
             "}\n"
 
@@ -737,8 +737,8 @@ UniValue gettxout(const UniValue& params, bool fHelp)
             "     \"hex\" : \"hex\",        (string) \n"
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
-            "     \"addresses\" : [          (array of string) array of bitstats addresses\n"
-            "     \"bitstatsaddress\"   	 	(string) bitstats address\n"
+            "     \"addresses\" : [          (array of string) array of blocs addresses\n"
+            "     \"blocsaddress\"   	 	(string) blocs address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"
@@ -1261,7 +1261,7 @@ UniValue getaccumulatorwitness(const UniValue& params, bool fHelp)
     CZerocoinSpendReceipt receipt;
 
     if (!GenerateAccumulatorWitness(pubCoin, accumulator, witness, nMintsAdded, strFailReason)) {
-        receipt.SetStatus(_(strFailReason.c_str()), ZBTST_FAILED_ACCUMULATOR_INITIALIZATION);
+        receipt.SetStatus(_(strFailReason.c_str()), ZBLOCS_FAILED_ACCUMULATOR_INITIALIZATION);
         throw JSONRPCError(RPC_DATABASE_ERROR, receipt.GetStatusMessage());
     }
 
@@ -1437,7 +1437,7 @@ UniValue getserials(const UniValue& params, bool fHelp) {
                         }
                         libzerocoin::ZerocoinParams *params = Params().Zerocoin_Params(false);
                         PublicCoinSpend publicSpend(params);
-                        if (!ZBTSTModule::parseCoinSpend(txin, tx, prevOut, publicSpend)) {
+                        if (!ZBLOCSModule::parseCoinSpend(txin, tx, prevOut, publicSpend)) {
                             throw JSONRPCError(RPC_INTERNAL_ERROR, "public zerocoin spend parse failed");
                         }
                         serial_str = publicSpend.getCoinSerialNumber().ToString(16);
@@ -1511,9 +1511,9 @@ UniValue getblockindexstats(const UniValue& params, bool fHelp) {
                 "        \"denom_5\": xxxx           (numeric) number of PUBLIC spends of denom_5 occurred over the block range\n"
                 "         ...                    ... number of PUBLIC spends of other denominations: ..., 10, 50, 100, 500, 1000, 5000\n"
                 "  }\n"
-                "  \"txbytes\": xxxxx                (numeric) Sum of the size of all txes (zBTST excluded) over block range\n"
-                "  \"ttlfee\": xxxxx                 (numeric) Sum of the fee amount of all txes (zBTST mints excluded) over block range\n"
-                "  \"ttlfee_all\": xxxxx             (numeric) Sum of the fee amount of all txes (zBTST mints included) over block range\n"
+                "  \"txbytes\": xxxxx                (numeric) Sum of the size of all txes (zBLOCS excluded) over block range\n"
+                "  \"ttlfee\": xxxxx                 (numeric) Sum of the fee amount of all txes (zBLOCS mints excluded) over block range\n"
+                "  \"ttlfee_all\": xxxxx             (numeric) Sum of the fee amount of all txes (zBLOCS mints included) over block range\n"
                 "  \"feeperkb\": xxxxx               (numeric) Average fee per kb (excluding zc txes)\n"
                 "}\n"
 

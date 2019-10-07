@@ -12,7 +12,7 @@
 #include "sync.h"
 #include "utilstrencodings.h"
 #include "utilmoneystr.h"
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 
 #include <stdint.h>
 #include <vector>

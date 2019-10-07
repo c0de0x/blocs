@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_QT_MULTISENDDIALOG_H
-#define BITSTATS_QT_MULTISENDDIALOG_H
+#ifndef BLOCS_QT_MULTISENDDIALOG_H
+#define BLOCS_QT_MULTISENDDIALOG_H
 
 #include <QDialog>
 
@@ -39,4 +39,4 @@ private:
     WalletModel* model;
 };
 
-#endif // BITSTATS_QT_MULTISENDDIALOG_H
+#endif // BLOCS_QT_MULTISENDDIALOG_H

@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun BITSTATS osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your BLOCS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun BLOCS osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun BITSTATS osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your BLOCS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun BLOCS osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella BTSTien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>BLOCS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BLOCSs from being stolen by malware infecting your computer.</source>
+        <translation>BLOCS sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella BLOCSien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki BTSTisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BLOCS&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki BLOCSisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -565,16 +565,16 @@
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ydin</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a BITSTATS address</source>
-        <translation>Lähetä kolikkoja BITSTATS osoitteeseen</translation>
+        <source>Send coins to a BLOCS address</source>
+        <translation>Lähetä kolikkoja BLOCS osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitstats: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja bitstats: URIja)</translation>
+        <source>Request payments (generates QR codes and blocs: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja blocs: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -585,24 +585,24 @@
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About BITSTATS Core</source>
-        <translation>BITSTATS Core &amp;ytimestä</translation>
+        <source>&amp;About BLOCS Core</source>
+        <translation>BLOCS Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about BITSTATS Core</source>
-        <translation>Näytä tietoja BITSTATS Ytimestä</translation>
+        <source>Show information about BLOCS Core</source>
+        <translation>Näytä tietoja BLOCS Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for BITSTATS</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja BITSTATS:lle</translation>
+        <source>Modify configuration options for BLOCS</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja BLOCS:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
+        <source>Sign messages with your BLOCS addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä BITSTATS osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified BLOCS addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä BLOCS osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -633,8 +633,8 @@
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a BITSTATS: URI or payment request</source>
-        <translation>Avaa BITSTATS: URI tai pyydä maksua</translation>
+        <source>Open a BLOCS: URI or payment request</source>
+        <translation>Avaa BLOCS: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -645,12 +645,12 @@
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
-        <translation>Näytä BITSTATS Ydin apuviesti saadaksesi lista mahdollisista BITSTATS komentolinja komennoista.</translation>
+        <source>Show the BLOCS Core help message to get a list with possible BLOCS command-line options</source>
+        <translation>Näytä BLOCS Ydin apuviesti saadaksesi lista mahdollisista BLOCS komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>BITSTATS Core client</source>
-        <translation>BITSTATS Ydin asiakasohjelma</translation>
+        <source>BLOCS Core client</source>
+        <translation>BLOCS Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -919,8 +919,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ydin</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -938,12 +938,12 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to BITSTATS Core.</source>
-        <translation>Tervetuloa BITSTATS Ytimeen.</translation>
+        <source>Welcome to BLOCS Core.</source>
+        <translation>Tervetuloa BLOCS Ytimeen.</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ydin</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1129,12 +1129,12 @@
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start BITSTATS after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä BITSTATS kun kirjaudut sisään.</translation>
+        <source>Automatically start BLOCS after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä BLOCS kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start BITSTATS on system login</source>
-        <translation>&amp;Aloita BITSTATS järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start BLOCS on system login</source>
+        <translation>&amp;Aloita BLOCS järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1153,12 +1153,12 @@
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting BLOCS.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä BITSTATS verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the BLOCS network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä BLOCS verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1391,8 +1391,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ydin</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ydin</translation>
     </message>
     </context>
 <context>
@@ -1449,8 +1449,8 @@
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa BITSTATS debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the BLOCS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa BLOCS debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1561,8 +1561,8 @@
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the BITSTATS RPC console.</source>
-        <translation>Tervetuloa BITSTATS RPC konsoliin.</translation>
+        <source>Welcome to the BLOCS RPC console.</source>
+        <translation>Tervetuloa BLOCS RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1604,12 +1604,12 @@
         <translation>M&amp;äärä:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana BITSTATS verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BLOCS network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana BLOCS verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana BITSTATS  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BLOCS network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana BLOCS  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1809,8 +1809,8 @@
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 BTST</source>
-        <translation>0 BTST</translation>
+        <source>0 BLOCS</source>
+        <translation>0 BLOCS</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1885,8 +1885,8 @@
         <translation>Kopioi taksa</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITSTATS address</source>
-        <translation>Varoitus: Virheellinen BITSTATS osoite</translation>
+        <source>Warning: Invalid BLOCS address</source>
+        <translation>Varoitus: Virheellinen BLOCS osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1936,8 +1936,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to</source>
-        <translation>BITSTATS osoite johon maksu lähetetään</translation>
+        <source>The BLOCS address to send the payment to</source>
+        <translation>BLOCS osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1979,8 +1979,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BITSTATS Core is shutting down...</source>
-        <translation>BITSTATS core sammuu...</translation>
+        <source>BLOCS Core is shutting down...</source>
+        <translation>BLOCS core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1998,8 +1998,8 @@
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The BITSTATS address to sign the message with</source>
-        <translation>BITSTATS osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The BLOCS address to sign the message with</source>
+        <translation>BLOCS osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2030,16 +2030,16 @@
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITSTATS address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän BITSTATS osoitteen</translation>
+        <source>Sign the message to prove you own this BLOCS address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän BLOCS osoitteen</translation>
     </message>
     <message>
-        <source>The BITSTATS address the message was signed with</source>
-        <translation>BITSTATS osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The BLOCS address the message was signed with</source>
+        <translation>BLOCS osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla BITSTATS osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified BLOCS address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla BLOCS osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2121,8 +2121,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ydin</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2137,8 +2137,8 @@
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The BITSTATS Core developers</source>
-        <translation>BITSTATS core kehittäjät</translation>
+        <source>The BLOCS Core developers</source>
+        <translation>BLOCS core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2440,7 +2440,7 @@
     </message>
     </context>
 <context>
-    <name>bitstats-core</name>
+    <name>blocs-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2486,8 +2486,8 @@
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BITSTATS Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version BITSTATS Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BLOCS Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version BLOCS Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

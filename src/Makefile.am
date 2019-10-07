@@ -66,15 +66,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bitstatsd
+  bin_PROGRAMS += blocsd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += bitstats-cli bitstats-tx
+  bin_PROGRAMS += blocs-cli blocs-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# bitstats core #
+# blocs core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addressindex.h \
@@ -201,7 +201,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between bitstatsd and bitstats-qt
+# server: shared between blocsd and blocs-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -249,7 +249,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between bitstatsd and bitstats-qt, but only linked
+# wallet: shared between blocsd and blocs-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -356,7 +356,7 @@ if USE_NUM_OPENSSL
   libzerocoin_libbitcoin_zerocoin_a_SOURCES += libzerocoin/bignum_openssl.cpp
 endif
 
-# common: shared between bitstatsd, and bitstats-qt and non-server tools
+# common: shared between blocsd, and blocs-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -421,7 +421,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between bitstats-cli and bitstats-qt
+# cli: shared between blocs-cli and blocs-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -431,16 +431,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# bitstatsd binary #
-bitstatsd_SOURCES = bitstatsd.cpp
-bitstatsd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitstatsd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitstatsd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# blocsd binary #
+blocsd_SOURCES = blocsd.cpp
+blocsd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+blocsd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+blocsd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitstatsd_SOURCES += bitstatsd-res.rc
+blocsd_SOURCES += blocsd-res.rc
 endif
-bitstatsd_LDADD = \
+blocsd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -454,38 +454,38 @@ bitstatsd_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-bitstatsd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+blocsd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# bitstats-cli binary #
-bitstats_cli_SOURCES = bitstats-cli.cpp
-bitstats_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-bitstats_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitstats_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# blocs-cli binary #
+blocs_cli_SOURCES = blocs-cli.cpp
+blocs_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+blocs_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+blocs_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitstats_cli_SOURCES += bitstats-cli-res.rc
+blocs_cli_SOURCES += blocs-cli-res.rc
 endif
 
-bitstats_cli_LDADD = \
+blocs_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-bitstats_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+blocs_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# bitstats-tx binary #
-bitstats_tx_SOURCES = bitstats-tx.cpp
-bitstats_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitstats_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitstats_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# blocs-tx binary #
+blocs_tx_SOURCES = blocs-tx.cpp
+blocs_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+blocs_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+blocs_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitstats_tx_SOURCES += bitstats-tx-res.rc
+blocs_tx_SOURCES += blocs-tx-res.rc
 endif
 
-bitstats_tx_LDADD = \
+blocs_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -493,7 +493,7 @@ bitstats_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-bitstats_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+blocs_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
@@ -548,12 +548,12 @@ CLEANFILES += obj/build.h
 EXTRA_DIST =
 
 
-config/bitstats-config.h: config/stamp-h1
+config/blocs-config.h: config/stamp-h1
 	@$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-config/stamp-h1: $(top_srcdir)/$(subdir)/config/bitstats-config.h.in $(top_builddir)/config.status
+config/stamp-h1: $(top_srcdir)/$(subdir)/config/blocs-config.h.in $(top_builddir)/config.status
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-$(top_srcdir)/$(subdir)/config/bitstats-config.h.in:  $(am__configure_deps)
-	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/bitstats-config.h.in
+$(top_srcdir)/$(subdir)/config/blocs-config.h.in:  $(am__configure_deps)
+	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/blocs-config.h.in
 
 clean-local:
 	-$(MAKE) -C secp256k1 clean

@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите BITSTATS адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your BLOCS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите BLOCS адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите BITSTATS адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your BLOCS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите BLOCS адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия BITSTATS от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>BLOCS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BLOCSs from being stolen by malware infecting your computer.</source>
+        <translation>BLOCS сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия BLOCS от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ BTST&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BLOCS&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ BLOCS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете BITSTATS адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
+        <source>Enter a BLOCS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете BLOCS адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
     </message>
     <message>
-        <source>The BITSTATS address to encrypt</source>
-        <translation>BITSTATS Адреса за криптиране</translation>
+        <source>The BLOCS address to encrypt</source>
+        <translation>BLOCS Адреса за криптиране</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BITSTATS address</source>
-        <translation>Криптирай тайния ключ за този BITSTATS адрес</translation>
+        <source>Encrypt the private key for this BLOCS address</source>
+        <translation>Криптирай тайния ключ за този BLOCS адрес</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>История на транзакциите</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTST</source>
-        <translation>Поверителни Действия за ZBTST</translation>
+        <source>Privacy Actions for zBLOCS</source>
+        <translation>Поверителни Действия за ZBLOCS</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -641,16 +641,16 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ядро</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a BITSTATS address</source>
-        <translation>Изпратете монети до BITSTATS адрес</translation>
+        <source>Send coins to a BLOCS address</source>
+        <translation>Изпратете монети до BLOCS адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitstats: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  BITSTATS:URI)</translation>
+        <source>Request payments (generates QR codes and blocs: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  BLOCS:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,24 +665,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About BITSTATS Core</source>
-        <translation>&amp;Относно BITSTATS Ядрото</translation>
+        <source>&amp;About BLOCS Core</source>
+        <translation>&amp;Относно BLOCS Ядрото</translation>
     </message>
     <message>
-        <source>Show information about BITSTATS Core</source>
-        <translation>Информациза за BITSTATS Ядрото</translation>
+        <source>Show information about BLOCS Core</source>
+        <translation>Информациза за BLOCS Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for BITSTATS</source>
-        <translation>Промени BITSTATS конфигурацията</translation>
+        <source>Modify configuration options for BLOCS</source>
+        <translation>Промени BLOCS конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте BITSTATS адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your BLOCS addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте BLOCS адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните BITSTATS адреси</translation>
+        <source>Verify messages to ensure they were signed with specified BLOCS addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните BLOCS адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a BITSTATS: URI or payment request</source>
-        <translation>Отвори BITSTATS:URI платежно нареждане</translation>
+        <source>Open a BLOCS: URI or payment request</source>
+        <translation>Отвори BLOCS:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
-        <translation>Разкрийте Помощ за BITSTATS Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the BLOCS Core help message to get a list with possible BLOCS command-line options</source>
+        <translation>Разкрийте Помощ за BLOCS Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>BITSTATS Core client</source>
-        <translation>Клиент BITSTATS Ядро</translation>
+        <source>BLOCS Core client</source>
+        <translation>Клиент BLOCS Ядро</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -868,8 +868,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (bitstats.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (blocs.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (blocs.conf).</translation>
     </message>
 </context>
 <context>
@@ -1106,8 +1106,8 @@ Address: %4
         <translation>Етикета става червен, когато получателя ще получи сума по-малка от %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTST per input.</source>
-        <translation>Може да има разлика от +/- %1 uBTST на вх.</translation>
+        <source>Can vary +/- %1 uBLOCS per input.</source>
+        <translation>Може да има разлика от +/- %1 uBLOCS на вх.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1161,8 +1161,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BITSTATS address.</source>
-        <translation>Зададения адрес "%1"не е валиден BITSTATS адрес.</translation>
+        <source>The entered address "%1" is not a valid BLOCS address.</source>
+        <translation>Зададения адрес "%1"не е валиден BLOCS адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1218,16 +1218,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ядро</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About BITSTATS Core</source>
-        <translation>Относно BITSTATS Ядрото</translation>
+        <source>About BLOCS Core</source>
+        <translation>Относно BLOCS Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1273,16 +1273,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to BITSTATS Core.</source>
-        <translation>Добре Дошли в BITSTATS Ядрото</translation>
+        <source>Welcome to BLOCS Core.</source>
+        <translation>Добре Дошли в BLOCS Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде BITSTATS Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where BLOCS Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде BLOCS Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BITSTATS Ядрото ще изтегли и запише копие на целия BITSTATS блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>BLOCS Core will download and store a copy of the BLOCS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BLOCS Ядрото ще изтегли и запише копие на целия BLOCS блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1293,8 +1293,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ядро</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1435,12 +1435,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITSTATS addresses after it matures.
-To Add: enter percentage to give and BITSTATS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BLOCS addresses after it matures.
+To Add: enter percentage to give and BLOCS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други BITSTATS адреси.
-Да Добавите: въведете процент и задайте BITSTATS адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други BLOCS адреси.
+Да Добавите: въведете процент и задайте BLOCS адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1628,8 +1628,8 @@ Please be patient after clicking import.</source>
         <translation>Адрес / Сума:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTST to</source>
-        <translation>Добави получател на BTST</translation>
+        <source>Add destinations to send BLOCS to</source>
+        <translation>Добави получател на BLOCS</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1762,8 +1762,8 @@ Please be patient after clicking import.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори BITSTATS порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the BLOCS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори BLOCS порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1782,12 +1782,12 @@ Please be patient after clicking import.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start BITSTATS after logging in to the system.</source>
-        <translation>Стартирай BITSTATS автоматично след влизане в системата.</translation>
+        <source>Automatically start BLOCS after logging in to the system.</source>
+        <translation>Стартирай BLOCS автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start BITSTATS on system login</source>
-        <translation>&amp;Стартирай BITSTATS заедно с операционната система</translation>
+        <source>&amp;Start BLOCS on system login</source>
+        <translation>&amp;Стартирай BLOCS заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1814,50 +1814,50 @@ Please be patient after clicking import.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting BLOCS.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
+https://www.transifex.com/blocs-project/blocs-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
+https://www.transifex.com/blocs-project/blocs-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Картографирай портовете използвайки &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTST units to zBTST</source>
-        <translation>Включи автоматичното емитиране на BTST единици в zBTST</translation>
+        <source>Enable automatic minting of BLOCS units to zBLOCS</source>
+        <translation>Включи автоматичното емитиране на BLOCS единици в zBLOCS</translation>
     </message>
     <message>
-        <source>Enable zBTST Automint</source>
-        <translation>Включи Автоматично емитиране на zBTST</translation>
+        <source>Enable zBLOCS Automint</source>
+        <translation>Включи Автоматично емитиране на zBLOCS</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите BTST, който автоматично да се конвертира в zBTST посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming BLOCS which get automatically converted to zBLOCS via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите BLOCS, който автоматично да се конвертира в zBLOCS посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTST</source>
-        <translation>Процент автоматично сечени zBTST</translation>
+        <source>Percentage of autominted zBLOCS</source>
+        <translation>Процент автоматично сечени zBLOCS</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zBTST докато не се съберат достатъчно BTST за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BLOCS for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zBLOCS докато не се съберат достатъчно BLOCS за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTST Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zBTST</translation>
+        <source>Preferred Automint zBLOCS Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zBLOCS</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Праг на споделеното съхранение:</translation>
     </message>
     <message>
-        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с BITSTATS мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the BLOCS network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с BLOCS мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2007,8 +2007,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Обща Наличност, включително и неналичните монети.</translation>
     </message>
     <message>
-        <source>BTST Balance</source>
-        <translation>BTST Наличности</translation>
+        <source>BLOCS Balance</source>
+        <translation>BLOCS Наличности</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2031,18 +2031,18 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Сегашния баланс по портфейли в режим на наблюдение само</translation>
     </message>
     <message>
-        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
-        <translation>Вашите BITSTATS наличности, включително непотвърдените и неузрели преводи</translation>
+        <source>Your current BLOCS balance, unconfirmed and immature transactions included</source>
+        <translation>Вашите BLOCS наличности, включително непотвърдените и неузрели преводи</translation>
     </message>
     <message>
-        <source>zBTST Balance</source>
-        <translation>zBTST Наличности</translation>
+        <source>zBLOCS Balance</source>
+        <translation>zBLOCS Наличности</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTST are spendable.</source>
+These zBLOCS are spendable.</source>
         <translation>Узрели: повече от 20 потвърждения и повече от 1 емисии от същата деноминация след като е била емитирана.
-Тези zBTST могат да се похарчат.</translation>
+Тези zBLOCS могат да се похарчат.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2051,8 +2051,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с BITSTATS мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BLOCS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с BLOCS мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2095,8 +2095,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Налични за харчене:</translation>
     </message>
     <message>
-        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
-        <translation>Заключен BTST или допълнителни гаранции в Главни Възли. Тези не са включени в zBTST емитирането.</translation>
+        <source>Locked BLOCS or Masternode collaterals. These are excluded from zBLOCS minting.</source>
+        <translation>Заключен BLOCS или допълнителни гаранции в Главни Възли. Тези не са включени в zBLOCS емитирането.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2107,8 +2107,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Непотвърден</translation>
     </message>
     <message>
-        <source>Your current zBTST balance, unconfirmed and immature zBTST included.</source>
-        <translation>Вашите zBTST наличности, включеително непотвърдените и неузрелите zBTST.</translation>
+        <source>Your current zBLOCS balance, unconfirmed and immature zBLOCS included.</source>
+        <translation>Вашите zBLOCS наличности, включеително непотвърдените и неузрелите zBLOCS.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2123,14 +2123,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>АвтоЕмисията е включена и настроена на</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</source>
-        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в bitstats.conf файла.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in blocs.conf.</source>
+        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в blocs.conf файла.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in blocs.conf</source>
         <translation>АвтоЕмисия е изключено.
-За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в bitstats.conf файла.</translation>
+За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в blocs.conf файла.</translation>
     </message>
 </context>
 <context>
@@ -2156,12 +2156,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start bitstats: click-to-pay handler</source>
-        <translation>Провал при стартирането на bitstats: click-to-pay обработвател</translation>
+        <source>Cannot start blocs: click-to-pay handler</source>
+        <translation>Провал при стартирането на blocs: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid BITSTATS address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден BITSTATS адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BLOCS address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден BLOCS адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2246,8 +2246,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с BITSTATS мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BLOCS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с BLOCS мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2258,8 +2258,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTST</source>
-        <translation>zBTST</translation>
+        <source>zBLOCS</source>
+        <translation>zBLOCS</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2286,12 +2286,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>КОНФИДЕНЦИАЛНОСТ</translation>
     </message>
     <message>
-        <source>zBTST Control</source>
-        <translation>zBTST Контрол</translation>
+        <source>zBLOCS Control</source>
+        <translation>zBLOCS Контрол</translation>
     </message>
     <message>
-        <source>zBTST Selected:</source>
-        <translation>Избрани zBTST:</translation>
+        <source>zBLOCS Selected:</source>
+        <translation>Избрани zBLOCS:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2306,31 +2306,31 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>Похарчи Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTST for spending</source>
-        <translation>Налични (узрели и готови за харчене) zBTST за употреба</translation>
+        <source>Available (mature and spendable) zBLOCS for spending</source>
+        <translation>Налични (узрели и готови за харчене) zBLOCS за употреба</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTST for spending
+        <source>Available (mature and spendable) zBLOCS for spending
 
-zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Налични (узрели и готови за харчене) zBTST за употреба
+zBLOCS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Налични (узрели и готови за харчене) zBLOCS за употреба
 
-zBTST са узрели, тогава когато имат повече от 20 потвърждения И повече от 2 емисии от същата деноминация след като са биле емитирани</translation>
+zBLOCS са узрели, тогава когато имат повече от 20 потвърждения И повече от 2 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>0 zBTST</source>
-        <translation>0 zBTST</translation>
+        <source>0 zBLOCS</source>
+        <translation>0 zBLOCS</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The BLOCS address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2363,7 +2363,7 @@ zBTST са узрели, тогава когато имат повече от 20
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zBTST от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zBLOCS от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2382,8 +2382,8 @@ zBTST са узрели, тогава когато имат повече от 20
         <translation>Zerocoin статистика:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTST</source>
-        <translation>Обща Наличност включеително непотвърдените и неузрели zBTST</translation>
+        <source>Total Balance including unconfirmed and immature zBLOCS</source>
+        <translation>Обща Наличност включеително непотвърдените и неузрели zBLOCS</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2404,24 +2404,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBTST minting.
+        <source>Show the current status of automatic zBLOCS minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to bitstats.conf
-- disable: add 'enablezeromint=0' to bitstats.conf
+- enable: add 'enablezeromint=1' to blocs.conf
+- disable: add 'enablezeromint=0' to blocs.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBTST
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBLOCS
 
 </source>
-        <translation>Покажи състоянието на автоматичното zBTST емитиране.
+        <translation>Покажи състоянието на автоматичното zBLOCS емитиране.
 
 За да пормените състоянието (изисква рестарт):
-- вклчване: добавете 'enablezeromint=1' в bitstats.conf
-- изключване: добавете 'enablezeromint=0' в bitstats.conf
+- вклчване: добавете 'enablezeromint=1' в blocs.conf
+- изключване: добавете 'enablezeromint=0' в blocs.conf
 
 За промяна в процентите (не изисква рестарт):
-- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zBTST
+- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zBLOCS
 </translation>
     </message>
     <message>
@@ -2595,12 +2595,12 @@ Please be patient...</source>
 Моля изчакате...</translation>
     </message>
     <message>
-        <source>zBTST Spend #: </source>
-        <translation>zBTST Похарчени #:</translation>
+        <source>zBLOCS Spend #: </source>
+        <translation>zBLOCS Похарчени #:</translation>
     </message>
     <message>
-        <source>zBTST Mint</source>
-        <translation>Сечене на zBTST</translation>
+        <source>zBLOCS Mint</source>
+        <translation>Сечене на zBLOCS</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2615,12 +2615,12 @@ Please be patient...</source>
         <translation>Конфигуриран целеви процент: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBTST is currently disabled due to maintenance.</source>
-        <translation>В момента zBTST не работи поради ремонт.</translation>
+        <source>zBLOCS is currently disabled due to maintenance.</source>
+        <translation>В момента zBLOCS не работи поради ремонт.</translation>
     </message>
     <message>
-        <source>zBTST is currently undergoing maintenance.</source>
-        <translation>В момента zBTST е в ремонт.</translation>
+        <source>zBLOCS is currently undergoing maintenance.</source>
+        <translation>В момента zBLOCS е в ремонт.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2709,8 +2709,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid BITSTATS Address</source>
-        <translation>Невалиден BITSTATS адрес</translation>
+        <source>Invalid BLOCS Address</source>
+        <translation>Невалиден BLOCS адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2787,8 +2787,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a BITSTATS address (e.g. %1)</source>
-        <translation>Задайте BITSTATS адрес (например %1)</translation>
+        <source>Enter a BLOCS address (e.g. %1)</source>
+        <translation>Задайте BLOCS адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2831,8 +2831,8 @@ Please be patient...</source>
         <translation>%1 милисек.</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ядро</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ядро</translation>
     </message>
     </context>
 <context>
@@ -2929,8 +2929,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори BITSTATS дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the BLOCS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори BLOCS дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3065,8 +3065,8 @@ Please be patient...</source>
         <translation>Персонален резервен път:</translation>
     </message>
     <message>
-        <source>Custom zBTST Backup Path:</source>
-        <translation>Персонализиран zBTST резервен път:</translation>
+        <source>Custom zBLOCS Backup Path:</source>
+        <translation>Персонализиран zBLOCS резервен път:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3145,8 +3145,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the BITSTATS RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на BITSTATS.</translation>
+        <source>Welcome to the BLOCS RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на BLOCS.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3272,16 +3272,16 @@ Please be patient...</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по BITSTATS мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BLOCS network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по BLOCS мрежата.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ПОЛУЧИ</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по BITSTATS мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BLOCS network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по BLOCS мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3513,8 +3513,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 BTST</source>
-        <translation>0 BTST</translation>
+        <source>0 BLOCS</source>
+        <translation>0 BLOCS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3569,15 +3569,15 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uBTST и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uBTST входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uBTST. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uBLOCSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBLOCSs in fee,&lt;br /&gt;while "at least" pays 1000 uBLOCSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uBLOCS и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uBLOCS входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uBLOCS. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uBTST и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uBTST входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uBTST. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uBLOCSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBLOCSs in fee,&lt;br /&gt;while "total at least" pays 1000 uBLOCSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uBLOCS и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uBLOCS входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uBLOCS. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BLOCS transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3625,8 +3625,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized BTST</source>
-        <translation>Анонимизиран BTST</translation>
+        <source>Anonymized BLOCS</source>
+        <translation>Анонимизиран BLOCS</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3673,8 +3673,8 @@ Please be patient...</source>
         <translation>Инструмента за разделяне на блока не работи, когато се изпраща до няколко адреса едновременно. Опитайте пак.</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITSTATS address</source>
-        <translation>Предупреждение: Невалиден BTST адрес</translation>
+        <source>Warning: Invalid BLOCS address</source>
+        <translation>Предупреждение: Невалиден BLOCS адрес</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3772,8 +3772,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to</source>
-        <translation>BITSTATS адреса - получател на плащането</translation>
+        <source>The BLOCS address to send the payment to</source>
+        <translation>BLOCS адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3812,8 +3812,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the BITSTATS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BITSTATS network.</source>
-        <translation>Съобщение, което е било прикачено към BITSTATS:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по BITSTATS мрежата.</translation>
+        <source>A message that was attached to the BLOCS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BLOCS network.</source>
+        <translation>Съобщение, което е било прикачено към BLOCS:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по BLOCS мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3839,8 +3839,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BITSTATS Core is shutting down...</source>
-        <translation>Изключване на BITSTATS Ядрото...</translation>
+        <source>BLOCS Core is shutting down...</source>
+        <translation>Изключване на BLOCS Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3862,8 +3862,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The BITSTATS address to sign the message with</source>
-        <translation>BITSTATS адреса, с който да подпишете съобщението</translation>
+        <source>The BLOCS address to sign the message with</source>
+        <translation>BLOCS адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3894,16 +3894,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITSTATS address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този BITSTATS адрес</translation>
+        <source>Sign the message to prove you own this BLOCS address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този BLOCS адрес</translation>
     </message>
     <message>
-        <source>The BITSTATS address the message was signed with</source>
-        <translation>BITSTATS адреса, който е подписано съобщението</translation>
+        <source>The BLOCS address the message was signed with</source>
+        <translation>BLOCS адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения BITSTATS адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified BLOCS address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения BLOCS адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3989,8 +3989,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Ядро</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4005,8 +4005,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The BITSTATS Core developers</source>
-        <translation>BITSTATS Core разработчици</translation>
+        <source>The BLOCS Core developers</source>
+        <translation>BLOCS Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4269,12 +4269,12 @@ Please be patient...</source>
         <translation>Получен посредством обфускация</translation>
     </message>
     <message>
-        <source>BTST Stake</source>
-        <translation>BTST Stake</translation>
+        <source>BLOCS Stake</source>
+        <translation>BLOCS Stake</translation>
     </message>
     <message>
-        <source>zBTST Stake</source>
-        <translation>zBTST Stake</translation>
+        <source>zBLOCS Stake</source>
+        <translation>zBLOCS Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4293,32 +4293,32 @@ Please be patient...</source>
         <translation>Обфускация и направа на Деноминации</translation>
     </message>
     <message>
-        <source>Converted BTST to zBTST</source>
-        <translation>Конвертиран BTST във zBTST</translation>
+        <source>Converted BLOCS to zBLOCS</source>
+        <translation>Конвертиран BLOCS във zBLOCS</translation>
     </message>
     <message>
-        <source>Spent zBTST</source>
-        <translation>Похарчени zBTST</translation>
+        <source>Spent zBLOCS</source>
+        <translation>Похарчени zBLOCS</translation>
     </message>
     <message>
-        <source>Received BTST from zBTST</source>
-        <translation>Получен BTST от zBTST</translation>
+        <source>Received BLOCS from zBLOCS</source>
+        <translation>Получен BLOCS от zBLOCS</translation>
     </message>
     <message>
-        <source>Minted Change as zBTST from zBTST Spend</source>
-        <translation>Исечено ресто като zBTST от похарчените zBTST</translation>
+        <source>Minted Change as zBLOCS from zBLOCS Spend</source>
+        <translation>Исечено ресто като zBLOCS от похарчените zBLOCS</translation>
     </message>
     <message>
-        <source>Converted zBTST to BTST</source>
-        <translation>Конвертиран zBTST във BTST</translation>
+        <source>Converted zBLOCS to BLOCS</source>
+        <translation>Конвертиран zBLOCS във BLOCS</translation>
     </message>
     <message>
-        <source>Anonymous (zBTST Transaction)</source>
-        <translation>Анонимен (транзакция zBTST)</translation>
+        <source>Anonymous (zBLOCS Transaction)</source>
+        <translation>Анонимен (транзакция zBLOCS)</translation>
     </message>
     <message>
-        <source>Anonymous (zBTST Stake)</source>
-        <translation>Анонимен (zBTST Stake)</translation>
+        <source>Anonymous (zBLOCS Stake)</source>
+        <translation>Анонимен (zBLOCS Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4528,12 +4528,12 @@ Please be patient...</source>
         <translation>Експортирането Успешно</translation>
     </message>
     <message>
-        <source>Received BTST from zBTST</source>
-        <translation>Получен BTST от zBTST</translation>
+        <source>Received BLOCS from zBLOCS</source>
+        <translation>Получен BLOCS от zBLOCS</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBTST</source>
-        <translation>Харчене на Zerocoin, Ресто в zBTST</translation>
+        <source>Zerocoin Spend, Change in zBLOCS</source>
+        <translation>Харчене на Zerocoin, Ресто в zBLOCS</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4569,8 +4569,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTST.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 BTST.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BLOCS.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 BLOCS.</translation>
     </message>
 </context>
 <context>
@@ -4603,8 +4603,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBTST to Spend</source>
-        <translation>Изберете zBTST за Изпращане</translation>
+        <source>Select zBLOCS to Spend</source>
+        <translation>Изберете zBLOCS за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4615,8 +4615,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTST</source>
-        <translation>zBTST</translation>
+        <source>zBLOCS</source>
+        <translation>zBLOCS</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4624,7 +4624,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>bitstats-core</name>
+    <name>blocs-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = пази мета данните от преводи, например собственик на акаунта и ифнормация за изисквани плащания, 2 = изхръвли мета данните от преводи)</translation>
@@ -4650,8 +4650,8 @@ Please be patient...</source>
         <translation>Изчисления чекпойнт на акумулатора не е същия като записания в блок индекса.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. BITSTATS Core is probably already running.</source>
-        <translation>Не може да заключи папката с данни %s. BITSTATS Портфейла вероятно вече е стартиран.</translation>
+        <source>Cannot obtain a lock on data directory %s. BLOCS Core is probably already running.</source>
+        <translation>Не може да заключи папката с данни %s. BLOCS Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4678,16 +4678,16 @@ Please be patient...</source>
         <translation>Разпространява се пот MIT софтуерен лиценз, виж съпровождащия файл от &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBTST minting (0-1, default: %u)</source>
-        <translation>Включи автоматичните бекъпи на портфейла след всяко zBTST емитиране (0-1, по подразбиране: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zBLOCS minting (0-1, default: %u)</source>
+        <translation>Включи автоматичните бекъпи на портфейла след всяко zBLOCS емитиране (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BTST inputs (0-1, default: %u)</source>
-        <translation>Активиране или деактивиране на функцията за зареждане за BTST входове (0-1, по подразбиране: %u)</translation>
+        <source>Enable or disable staking functionality for BLOCS inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за BLOCS входове (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBTST inputs (0-1, default: %u)</source>
-        <translation>Активиране или деактивиране на функцията за зареждане за zBTST входове (0-1, по подразбиране: %u)</translation>
+        <source>Enable or disable staking functionality for zBLOCS inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за zBLOCS входове (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4722,12 +4722,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в BTST/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in BLOCS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в BLOCS/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в BTST/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in BLOCS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в BLOCS/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4822,20 +4822,20 @@ Please be patient...</source>
         <translation>Този продукт включва софтуер разработен от OpenSSL Project &lt;https://www.openssl.org/&gt; и крипто софтуер написан от Ерик Юнг и UPnP софтуер от Томас Бернард.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. BITSTATS Core is probably already running.</source>
-        <translation>Не може да се прикачи към %s на този компютър. BITSTATS Портфейла вероятно вече е стартиран.</translation>
+        <source>Unable to bind to %s on this computer. BLOCS Core is probably already running.</source>
+        <translation>Не може да се прикачи към %s на този компютър. BLOCS Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Не намираме достатъчно Обфускационно деноминирани средства за този превод.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTST.</source>
-        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 BTST.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BLOCS.</source>
+        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 BLOCS.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTST.</source>
-        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 BTST.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BLOCS.</source>
+        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 BLOCS.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4850,8 +4850,8 @@ Please be patient...</source>
         <translation>Внимание: -paytxfee е зададена твърде голяма! Това е преводната такса, която ще платите ако изпратите този превод.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BITSTATS Core will not work properly.</source>
-        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, BITSTATS Портфейла няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BLOCS Core will not work properly.</source>
+        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, BLOCS Портфейла няма да работи правилно.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4982,8 +4982,8 @@ Please be patient...</source>
         <translation>Всички права запазени (c) 2014-%i Dash Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The BITSTATS Core Developers</source>
-        <translation>Всички права запазени (c) 2015-%i BITSTATS Core разработчици</translation>
+        <source>Copyright (C) 2015-%i The BLOCS Core Developers</source>
+        <translation>Всички права запазени (c) 2015-%i BLOCS Core разработчици</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5062,7 +5062,7 @@ Please be patient...</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла е повреден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BITSTATS Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of BLOCS Core</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла изисква по-нова версия</translation>
     </message>
     <message>
@@ -5110,8 +5110,8 @@ Please be patient...</source>
         <translation>Неуспешно четене на блок</translation>
     </message>
     <message>
-        <source>Fee (in BTST/kB) to add to transactions you send (default: %s)</source>
-        <translation>Такса (в BTST/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
+        <source>Fee (in BLOCS/kB) to add to transactions you send (default: %s)</source>
+        <translation>Такса (в BLOCS/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5150,7 +5150,7 @@ Please be patient...</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. BITSTATS Core is shutting down.</source>
+        <source>Initialization sanity check failed. BLOCS Core is shutting down.</source>
         <translation>Стартирането на проверка на здравословното състояние на портфейла се провали. Изключваме Портфейла.</translation>
     </message>
     <message>
@@ -5214,8 +5214,8 @@ Please be patient...</source>
         <translation>Процент автоматично емитирани Zerocoin (1-100, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Reindex the BTST and zBTST money supply statistics</source>
-        <translation>Индексирай наново BTST и zBTST данните по наличности</translation>
+        <source>Reindex the BLOCS and zBLOCS money supply statistics</source>
+        <translation>Индексирай наново BLOCS и zBLOCS данните по наличности</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5254,8 +5254,8 @@ Please be patient...</source>
 </translation>
     </message>
     <message>
-        <source>Disable all BITSTATS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи BITSTATS специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
+        <source>Disable all BLOCS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи BLOCS специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5290,8 +5290,8 @@ Please be patient...</source>
         <translation>Предпочитани деноминации за автоматично изсечените Zerocoin (1/5/10/50/100/500/1000/5000), 0 за каквито и да е. (По подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBTST backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Посочете персонализиран път за архивиране, за да добавите копие на всяко автоматично архивиране zBTST. Ако е зададено като реж., Всеки архив генерира файл с времева маркировка. Ако е зададен като файл, ще пренапише към този файл всеки архив. Ако е зададено и резервно копие, ще се случат 4 архиви</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBLOCS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Посочете персонализиран път за архивиране, за да добавите копие на всяко автоматично архивиране zBLOCS. Ако е зададено като реж., Всеки архив генерира файл с времева маркировка. Ако е зададен като файл, ще пренапише към този файл всеки архив. Ако е зададено и резервно копие, ще се случат 4 архиви</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5702,8 +5702,8 @@ Please be patient...</source>
         <translation>Синхронизиране на вилицо-лъжиците...</translation>
     </message>
     <message>
-        <source>Syncing zBTST wallet...</source>
-        <translation>Синхронизиране на zBTST портфейла ...</translation>
+        <source>Syncing zBLOCS wallet...</source>
+        <translation>Синхронизиране на zBLOCS портфейла ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5810,8 +5810,8 @@ Please be patient...</source>
         <translation>Потребителско име за JSON-RPC свръзките</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBTST</source>
-        <translation>Стойността е под най-малката налична деноминация (= 1) в zBTST</translation>
+        <source>Value is below the smallest available denomination (= 1) of zBLOCS</source>
+        <translation>Стойността е под най-малката налична деноминация (= 1) в zBLOCS</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5826,7 +5826,7 @@ Please be patient...</source>
         <translation>Портфейла %s е извън папката с данни %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart BITSTATS Core to complete</source>
+        <source>Wallet needed to be rewritten: restart BLOCS Core to complete</source>
         <translation>Портфейла трябва да се пренапише: рестартирайте програмата за завършване на процеса</translation>
     </message>
     <message>

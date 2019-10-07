@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "BITSTATS"
-            VALUE "FileDescription",    "BITSTATS-cli (OSS RPC client for BITSTATS)"
+            VALUE "CompanyName",        "BLOCS"
+            VALUE "FileDescription",    "BLOCS-cli (OSS RPC client for BLOCS)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "bitstats-cli"
+            VALUE "InternalName",       "blocs-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "bitstats-cli.exe"
-            VALUE "ProductName",        "BITSTATS-cli"
+            VALUE "OriginalFilename",   "blocs-cli.exe"
+            VALUE "ProductName",        "BLOCS-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

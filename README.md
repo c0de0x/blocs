@@ -34,33 +34,33 @@ More information at [bitstats.io](http://www.bitstats.io) Visit our ANN thread a
 <tbody>
 <tr>
 <th scope="row">1-525600</th>
-<th scope="row">28.5000 BTST</th>
-<td>2.8500 BTST (10%)</td>
-<td>25.6500 BTST (90%)</td> 
+<th scope="row">28.5000 BLOCS</th>
+<td>2.8500 BLOCS (10%)</td>
+<td>25.6500 BLOCS (90%)</td> 
 </tr>
 <tr>    
 <th scope="row">525601-1051200</th>
-<th scope="row">23.6550 BTST</th>
-<td>2.3655 BTST (10%)</td>
-<td>21.2895 BTST (90%)</td> 
+<th scope="row">23.6550 BLOCS</th>
+<td>2.3655 BLOCS (10%)</td>
+<td>21.2895 BLOCS (90%)</td> 
 </tr>
 <tr>    
 <th scope="row">1051201-1576800</th>
-<th scope="row">21.5000 BTST</th>
-<td>4.3000 BTST (20%)</td>
-<td>17.2000 BTST (80%)</td>
+<th scope="row">21.5000 BLOCS</th>
+<td>4.3000 BLOCS (20%)</td>
+<td>17.2000 BLOCS (80%)</td>
 </tr>
 <tr>
 <th scope="row">1576801-2102400</th>
-<th scope="row">17.2000 BTST</th>
-<td>3.4400 BTST (20%)</td>
-<td>13.7600 BTST (80%)</td>
+<th scope="row">17.2000 BLOCS</th>
+<td>3.4400 BLOCS (20%)</td>
+<td>13.7600 BLOCS (80%)</td>
 </tr>
 <tr>
 <th scope="row">2102401-2628000</th>
-<th scope="row">16.7000 BTST</th>
-<td>2.5050 BTST (15%)</td>
-<td>14.1950 BTST (85%)</td>
+<th scope="row">16.7000 BLOCS</th>
+<td>2.5050 BLOCS (15%)</td>
+<td>14.1950 BLOCS (85%)</td>
 </tr>
 <tr>				
 <th scope="row" colspan=4>After 5 years, each year, the reward will be reduced with 16%</th>

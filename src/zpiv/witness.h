@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_WITNESS_H
-#define BITSTATS_WITNESS_H
+#ifndef BLOCS_WITNESS_H
+#define BLOCS_WITNESS_H
 
 
 #include <libzerocoin/Accumulator.h>
@@ -80,4 +80,4 @@ public:
         READWRITE(accumulatorDenom);
     };
 };
-#endif //BITSTATS_WITNESS_H
+#endif //BLOCS_WITNESS_H

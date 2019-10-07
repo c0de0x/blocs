@@ -1,6 +1,6 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin Core developers
-// Copyright (c) 2017-2019 The BITSTATS developers
+// Copyright (c) 2017-2019 The BLOCS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,7 +15,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 
 #include <boost/test/unit_test.hpp>
 

@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše BITSTATS adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your BLOCS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše BLOCS adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše BITSTATS adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your BLOCS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše BLOCS adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše BTSTy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>BLOCS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BLOCSs from being stolen by malware infecting your computer.</source>
+        <translation>BLOCS se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše BLOCSy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE BTSTy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BLOCS&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE BLOCSy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTST</source>
-        <translation>Řešení soukromí pro zBTST</translation>
+        <source>Privacy Actions for zBLOCS</source>
+        <translation>Řešení soukromí pro zBLOCS</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -601,16 +601,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
-        <source>Send coins to a BITSTATS address</source>
-        <translation>Odeslat platbuna BITSTATS adresu</translation>
+        <source>Send coins to a BLOCS address</source>
+        <translation>Odeslat platbuna BLOCS adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitstats: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a bitstats: URIs)</translation>
+        <source>Request payments (generates QR codes and blocs: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a blocs: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -625,24 +625,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About BITSTATS Core</source>
-        <translation>&amp;O BITSTATS Core</translation>
+        <source>&amp;About BLOCS Core</source>
+        <translation>&amp;O BLOCS Core</translation>
     </message>
     <message>
-        <source>Show information about BITSTATS Core</source>
-        <translation>Zobraz informace o BITSTATS Core</translation>
+        <source>Show information about BLOCS Core</source>
+        <translation>Zobraz informace o BLOCS Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for BITSTATS</source>
-        <translation>Upravit možnosti konfigurace pro BITSTATS</translation>
+        <source>Modify configuration options for BLOCS</source>
+        <translation>Upravit možnosti konfigurace pro BLOCS</translation>
     </message>
     <message>
-        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší BITSTATS adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your BLOCS addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší BLOCS adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými BITSTATS adresami</translation>
+        <source>Verify messages to ensure they were signed with specified BLOCS addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými BLOCS adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -673,8 +673,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a BITSTATS: URI or payment request</source>
-        <translation>Otevřít BITSTATS: URI nebo platební žádost</translation>
+        <source>Open a BLOCS: URI or payment request</source>
+        <translation>Otevřít BLOCS: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -685,12 +685,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
-        <translation>Zobrazit BITSTATS Core pomocnou zpráv pro získání seznamu možných parametrů BITSTATS pro příkazy do příkazové řádky</translation>
+        <source>Show the BLOCS Core help message to get a list with possible BLOCS command-line options</source>
+        <translation>Zobrazit BLOCS Core pomocnou zpráv pro získání seznamu možných parametrů BLOCS pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>BITSTATS Core client</source>
-        <translation>BITSTATS Core klient</translation>
+        <source>BLOCS Core client</source>
+        <translation>BLOCS Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -820,8 +820,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (bitstats.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (blocs.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (blocs.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1081,8 +1081,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BITSTATS address.</source>
-        <translation>Zadaná adresa "%1" není validní BITSTATS adresa.</translation>
+        <source>The entered address "%1" is not a valid BLOCS address.</source>
+        <translation>Zadaná adresa "%1" není validní BLOCS adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1138,12 +1138,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
-        <source>About BITSTATS Core</source>
-        <translation>O BITSTATS Core</translation>
+        <source>About BLOCS Core</source>
+        <translation>O BLOCS Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1177,16 +1177,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to BITSTATS Core.</source>
-        <translation>Vítejte v BITSTATS Core.</translation>
+        <source>Welcome to BLOCS Core.</source>
+        <translation>Vítejte v BLOCS Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude BITSTATS Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where BLOCS Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude BLOCS Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BITSTATS Core stáhne a uloží kopii BITSTATS blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>BLOCS Core will download and store a copy of the BLOCS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BLOCS Core stáhne a uloží kopii BLOCS blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1197,8 +1197,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1480,12 +1480,12 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start BITSTATS after logging in to the system.</source>
-        <translation>Automaticky spustit BITSTATS po přihlášení do systému</translation>
+        <source>Automatically start BLOCS after logging in to the system.</source>
+        <translation>Automaticky spustit BLOCS po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start BITSTATS on system login</source>
-        <translation>&amp;Spusti BITSTATS při přihlášení do systému</translation>
+        <source>&amp;Start BLOCS on system login</source>
+        <translation>&amp;Spusti BLOCS při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1690,8 +1690,8 @@ MultiSend: %1</translation>
         <translation>N/A</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     </context>
 <context>
@@ -2016,8 +2016,8 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 BTST</source>
-        <translation>0 BTST</translation>
+        <source>0 BLOCS</source>
+        <translation>0 BLOCS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2141,8 +2141,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BITSTATS address to sign the message with</source>
-        <translation>BITSTATS adresa pro podepsání zprávy</translation>
+        <source>The BLOCS address to sign the message with</source>
+        <translation>BLOCS adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2169,16 +2169,16 @@ MultiSend: %1</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITSTATS address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto BITSTATS adresu</translation>
+        <source>Sign the message to prove you own this BLOCS address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto BLOCS adresu</translation>
     </message>
     <message>
-        <source>The BITSTATS address the message was signed with</source>
-        <translation>BITSTATS adresa zprávy byla podpsána</translation>
+        <source>The BLOCS address the message was signed with</source>
+        <translation>BLOCS adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou BITSTATS adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified BLOCS address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou BLOCS adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2220,8 +2220,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     </context>
 <context>
@@ -2331,7 +2331,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>bitstats-core</name>
+    <name>blocs-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

@@ -62,12 +62,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina BITSTATS adresser för att skicka betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your BLOCS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina BLOCS adresser för att skicka betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina BITSTATS adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your BLOCS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina BLOCS adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina BTSTs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>BLOCS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BLOCSs from being stolen by malware infecting your computer.</source>
+        <translation>BLOCS kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina BLOCSs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA BTST&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BLOCS&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA BLOCS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Fyll i en BITSTATS Adress som du skulle vilja kryptera med BIP 38. Skriv in en lösenfras i den mittersta raden. Tryck kryptera för att beräkna fram den krypterade privata nyckeln.</translation>
+        <source>Enter a BLOCS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Fyll i en BLOCS Adress som du skulle vilja kryptera med BIP 38. Skriv in en lösenfras i den mittersta raden. Tryck kryptera för att beräkna fram den krypterade privata nyckeln.</translation>
     </message>
     <message>
-        <source>The BITSTATS address to encrypt</source>
-        <translation>BITSTATS adressen som ska krypteras</translation>
+        <source>The BLOCS address to encrypt</source>
+        <translation>BLOCS adressen som ska krypteras</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BITSTATS address</source>
-        <translation>Kryptera den privata nyckeln för denna BITSTATS adressen</translation>
+        <source>Encrypt the private key for this BLOCS address</source>
+        <translation>Kryptera den privata nyckeln för denna BLOCS adressen</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Bläddra i transaktions historiken</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTST</source>
-        <translation>Integritets funktioner för zBTST</translation>
+        <source>Privacy Actions for zBLOCS</source>
+        <translation>Integritets funktioner för zBLOCS</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -657,16 +657,16 @@
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
-        <source>Send coins to a BITSTATS address</source>
-        <translation>Skicka mynt till en BITSTATS adress</translation>
+        <source>Send coins to a BLOCS address</source>
+        <translation>Skicka mynt till en BLOCS adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitstats: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och bitstats: URls)</translation>
+        <source>Request payments (generates QR codes and blocs: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och blocs: URls)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -681,24 +681,24 @@
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About BITSTATS Core</source>
-        <translation>Om BITSTATS Kärnan</translation>
+        <source>&amp;About BLOCS Core</source>
+        <translation>Om BLOCS Kärnan</translation>
     </message>
     <message>
-        <source>Show information about BITSTATS Core</source>
-        <translation>Visa information om BITSTATS Kärnan</translation>
+        <source>Show information about BLOCS Core</source>
+        <translation>Visa information om BLOCS Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for BITSTATS</source>
-        <translation>Ändra konfigurationsval för BITSTATS</translation>
+        <source>Modify configuration options for BLOCS</source>
+        <translation>Ändra konfigurationsval för BLOCS</translation>
     </message>
     <message>
-        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
-        <translation>Signera meddelanden med din BITSTATS adress för att visa att du äger dem</translation>
+        <source>Sign messages with your BLOCS addresses to prove you own them</source>
+        <translation>Signera meddelanden med din BLOCS adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BITSTATS adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified BLOCS addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BLOCS adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -729,8 +729,8 @@
         <translation>Öppna Huvudnodens konfigurations fil </translation>
     </message>
     <message>
-        <source>Open a BITSTATS: URI or payment request</source>
-        <translation>Öppna en BITSTATS: URI eller betalningsförfrågan</translation>
+        <source>Open a BLOCS: URI or payment request</source>
+        <translation>Öppna en BLOCS: URI eller betalningsförfrågan</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -741,16 +741,16 @@
         <translation>Blockera utforskarfönstret</translation>
     </message>
     <message>
-        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
-        <translation>Visa BITSTATS Core hjälp meddelande för att få en lista med möjliga BITSTATS kommandorad alternativ</translation>
+        <source>Show the BLOCS Core help message to get a list with possible BLOCS command-line options</source>
+        <translation>Visa BLOCS Core hjälp meddelande för att få en lista med möjliga BLOCS kommandorad alternativ</translation>
     </message>
     <message>
-        <source>BITSTATS Core client</source>
-        <translation>BITSTATS kärn klient</translation>
+        <source>BLOCS Core client</source>
+        <translation>BLOCS kärn klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to BITSTATS network</source>
-        <translation><numerusform>%n aktiva anslutningar till BITSTATS nätverket</numerusform><numerusform>%n aktiva  anslutningar till BITSTATS nätverket</numerusform></translation>
+        <source>%n active connection(s) to BLOCS network</source>
+        <translation><numerusform>%n aktiva anslutningar till BLOCS nätverket</numerusform><numerusform>%n aktiva  anslutningar till BLOCS nätverket</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -877,8 +877,8 @@ MultiSend: %1</translation>
         <translation>Plånbok är &lt;b&gt;krypterad&lt;/b&gt; och tillfälligt &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. BITSTATS can no longer continue safely and will quit.</source>
-        <translation>Ett fel inträffade. BITSTATS kan inte längre köras säkert och kommer att stängas ned för tillfället.</translation>
+        <source>A fatal error occurred. BLOCS can no longer continue safely and will quit.</source>
+        <translation>Ett fel inträffade. BLOCS kan inte längre köras säkert och kommer att stängas ned för tillfället.</translation>
     </message>
 </context>
 <context>
@@ -908,8 +908,8 @@ MultiSend: %1</translation>
         <translation>text etikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
-        <translation>Alla transaktioner kommer inte visas. För att visa alla transaktioner behöver du sätta txindex=1 i konfigurationsfilen (bitstats.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (blocs.conf).</source>
+        <translation>Alla transaktioner kommer inte visas. För att visa alla transaktioner behöver du sätta txindex=1 i konfigurationsfilen (blocs.conf).</translation>
     </message>
 </context>
 <context>
@@ -1146,8 +1146,8 @@ MultiSend: %1</translation>
         <translation>Den här etiketten blir röd, ifall någon mottagare får en mängd som är mindre än %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uBTST per input.</source>
-        <translation>Kan variera med +/- %1 uBTST per inmatning.</translation>
+        <source>Can vary +/- %1 uBLOCS per input.</source>
+        <translation>Kan variera med +/- %1 uBLOCS per inmatning.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1201,8 +1201,8 @@ MultiSend: %1</translation>
         <translation>Redigera skickande adress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BITSTATS address.</source>
-        <translation>Den inmatade adressen "%1" är ej en giltig BITSTATS adress.</translation>
+        <source>The entered address "%1" is not a valid BLOCS address.</source>
+        <translation>Den inmatade adressen "%1" är ej en giltig BLOCS adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1290,16 +1290,16 @@ MultiSend: %1</translation>
         <translation>version</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About BITSTATS Core</source>
-        <translation>Om BITSTATS Kärna</translation>
+        <source>About BLOCS Core</source>
+        <translation>Om BLOCS Kärna</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1345,16 +1345,16 @@ MultiSend: %1</translation>
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to BITSTATS Core.</source>
-        <translation>Välkommen till BITSTATS Core.</translation>
+        <source>Welcome to BLOCS Core.</source>
+        <translation>Välkommen till BLOCS Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
-        <translation>Eftersom detta är första gången programmet körs så kan du välja var BITSTATS Core ska spara sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where BLOCS Core will store its data.</source>
+        <translation>Eftersom detta är första gången programmet körs så kan du välja var BLOCS Core ska spara sin data.</translation>
     </message>
     <message>
-        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BITSTATS Kärnan kommer ladda ner och spara en kopia av BITSTATS block chain. Minst %1GB data kommer sparas i denna katalog och den kommer växa med tiden. Plånboken kommer också sparas i denna katalog.</translation>
+        <source>BLOCS Core will download and store a copy of the BLOCS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BLOCS Kärnan kommer ladda ner och spara en kopia av BLOCS block chain. Minst %1GB data kommer sparas i denna katalog och den kommer växa med tiden. Plånboken kommer också sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1365,8 +1365,8 @@ MultiSend: %1</translation>
         <translation>Använd en skräddarsydd data katalog</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1507,12 +1507,12 @@ MultiSend: %1</translation>
         <translation>Mata in Adress att Skicka till</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITSTATS addresses after it matures.
-To Add: enter percentage to give and BITSTATS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BLOCS addresses after it matures.
+To Add: enter percentage to give and BLOCS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend tillåter dig att automatiskt skicka upp till 100% av dina staking eller huvudnod belöningar till en lista av andra BITSTATS adresser efter att belöningarna har mognat.
-För att Lägga till: Ange procent att ge och BITSTATS adress för att lägga till i MultiSend vektorn.
+        <translation>MultiSend tillåter dig att automatiskt skicka upp till 100% av dina staking eller huvudnod belöningar till en lista av andra BLOCS adresser efter att belöningarna har mognat.
+För att Lägga till: Ange procent att ge och BLOCS adress för att lägga till i MultiSend vektorn.
 För att Ta Bort: Ange adressen som ska tas bort och tryck ta bort.
 MultiSend kommer inte aktiveras om du inte tryckt på Aktivera</translation>
     </message>
@@ -1770,8 +1770,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Adress / Mängd:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTST to</source>
-        <translation>Lägg till destination att skicka BTST till</translation>
+        <source>Add destinations to send BLOCS to</source>
+        <translation>Lägg till destination att skicka BLOCS till</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1904,8 +1904,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Om du avaktiverar spenderandet av okonfirmerad växel så kommer växeln från en transaktion &lt;br/&gt;ej kunna användas föräns transaktionen har minst en bekräftelse. &lt;br/&gt; Detta påverkar även hur ditt saldo beräknas.</translation>
     </message>
     <message>
-        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt BITSTATS klient porten på denna router. Detta funkar endast om din router stödjer UPnP och är påslaget.</translation>
+        <source>Automatically open the BLOCS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt BLOCS klient porten på denna router. Detta funkar endast om din router stödjer UPnP och är påslaget.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1924,12 +1924,12 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start BITSTATS after logging in to the system.</source>
-        <translation>Starta BITSTATS automatiskt efter inloggning på systemet.</translation>
+        <source>Automatically start BLOCS after logging in to the system.</source>
+        <translation>Starta BLOCS automatiskt efter inloggning på systemet.</translation>
     </message>
     <message>
-        <source>&amp;Start BITSTATS on system login</source>
-        <translation>&amp;Starta BITSTATS vid systeminloggning</translation>
+        <source>&amp;Start BLOCS on system login</source>
+        <translation>&amp;Starta BLOCS vid systeminloggning</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1956,58 +1956,58 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
-        <translation>Användargränssnittets språk kan väljas här. Denna inställning börjar gälla efter att man startat om BITSTATS.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BLOCS.</source>
+        <translation>Användargränssnittets språk kan väljas här. Denna inställning börjar gälla efter att man startat om BLOCS.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
+https://www.transifex.com/blocs-project/blocs-project-translations</source>
         <translation>Fattas språk eller är översättningen ofullständig? Hjälp till att bidra med översättning här:
-https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
+https://www.transifex.com/blocs-project/blocs-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Kartlägg port med &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTST units to zBTST</source>
-        <translation>Tillåt automatisk prägling med BTST enheter till zBTST</translation>
+        <source>Enable automatic minting of BLOCS units to zBLOCS</source>
+        <translation>Tillåt automatisk prägling med BLOCS enheter till zBLOCS</translation>
     </message>
     <message>
-        <source>Enable zBTST Automint</source>
-        <translation>Tillåt zBTST Autoprägling</translation>
+        <source>Enable zBLOCS Automint</source>
+        <translation>Tillåt zBLOCS Autoprägling</translation>
     </message>
     <message>
-        <source>Enable automatic zBTST minting from specific addresses</source>
-        <translation>Aktivera automatisk zBTST prägling från specifika adresser</translation>
+        <source>Enable automatic zBLOCS minting from specific addresses</source>
+        <translation>Aktivera automatisk zBLOCS prägling från specifika adresser</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Aktivera autopräglingsadresser</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent av inkommande BTST som automatiskt konverteras till zBTST via Zerocoin Protokollet (min: 10%)</translation>
+        <source>Percentage of incoming BLOCS which get automatically converted to zBLOCS via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent av inkommande BLOCS som automatiskt konverteras till zBLOCS via Zerocoin Protokollet (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTST</source>
-        <translation>Procent av autopräglade zBTST</translation>
+        <source>Percentage of autominted zBLOCS</source>
+        <translation>Procent av autopräglade zBLOCS</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</source>
-        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många BTST för denna valör är tillgängliga</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BLOCS for this denomination is available</source>
+        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många BLOCS för denna valör är tillgängliga</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTST Denomination</source>
-        <translation>Preferens på zBTST valör i autoprägling</translation>
+        <source>Preferred Automint zBLOCS Denomination</source>
+        <translation>Preferens på zBLOCS valör i autoprägling</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Staking delnings tröskel:</translation>
     </message>
     <message>
-        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
-        <translation>Anslut till BITSTATS nätverket via en SOCKS5 proxy.</translation>
+        <source>Connect to the BLOCS network through a SOCKS5 proxy.</source>
+        <translation>Anslut till BLOCS nätverket via en SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2165,8 +2165,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Totalt saldo, inkluderar alla otillgängliga mynt.</translation>
     </message>
     <message>
-        <source>BTST Balance</source>
-        <translation>BTST Saldo</translation>
+        <source>BLOCS Balance</source>
+        <translation>BLOCS Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2189,18 +2189,18 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Nuvarande låst saldo endast i "watch only" adresser</translation>
     </message>
     <message>
-        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
-        <translation>Ditt nuvarande BITSTATS saldo, obekräftade och omogna transaktioner är inkluderade</translation>
+        <source>Your current BLOCS balance, unconfirmed and immature transactions included</source>
+        <translation>Ditt nuvarande BLOCS saldo, obekräftade och omogna transaktioner är inkluderade</translation>
     </message>
     <message>
-        <source>zBTST Balance</source>
-        <translation>zBTST Saldo</translation>
+        <source>zBLOCS Balance</source>
+        <translation>zBLOCS Saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTST are spendable.</source>
+These zBLOCS are spendable.</source>
         <translation>Mogna: över 20 bekräftelser och över 1 prägling av samma valör efter den blev myntad.
-Dessa zBTST kan spenderas.</translation>
+Dessa zBLOCS kan spenderas.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2209,8 +2209,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
-        <translation>nformationen kan vara föråldrad. Din plånbok synkroniserar automatiskt med BITSTATS nätverket efter att en anslutning är etablerad, men denna process har inte blivit klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BLOCS network after a connection is established, but this process has not completed yet.</source>
+        <translation>nformationen kan vara föråldrad. Din plånbok synkroniserar automatiskt med BLOCS nätverket efter att en anslutning är etablerad, men denna process har inte blivit klar än.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2253,8 +2253,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Spenderbar:</translation>
     </message>
     <message>
-        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
-        <translation>Låsta BTST eller masternode som säkerhet. Dessa är uteslutna från zBTST minting.</translation>
+        <source>Locked BLOCS or Masternode collaterals. These are excluded from zBLOCS minting.</source>
+        <translation>Låsta BLOCS eller masternode som säkerhet. Dessa är uteslutna från zBLOCS minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2265,8 +2265,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Obekräftade:</translation>
     </message>
     <message>
-        <source>Your current zBTST balance, unconfirmed and immature zBTST included.</source>
-        <translation>Ditt nuvarande zBTST saldo, obekräftade och omogna zBTST inräknade.</translation>
+        <source>Your current zBLOCS balance, unconfirmed and immature zBLOCS included.</source>
+        <translation>Ditt nuvarande zBLOCS saldo, obekräftade och omogna zBLOCS inräknade.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2277,10 +2277,10 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>osynkroniserad</translation>
     </message>
     <message>
-        <source>Current percentage of zBTST.
+        <source>Current percentage of zBLOCS.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuvarande procent zBTST.
+        <translation>Nuvarande procent zBLOCS.
 Om AutoMint är tillåten så kommer denna procent att vara som den konfigurerade AutoMint procenten (standard = 10%).
 </translation>
     </message>
@@ -2289,14 +2289,14 @@ Om AutoMint är tillåten så kommer denna procent att vara som den konfigurerad
         <translation>AutoMint är för tillfället aktiverat och inställt på</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</source>
-        <translation>För att inaktivera AutoMint, lägg till 'enablezeromint=0' i bitstats.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in blocs.conf.</source>
+        <translation>För att inaktivera AutoMint, lägg till 'enablezeromint=0' i blocs.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in blocs.conf</source>
         <translation>AutoMint är för närvarande inaktiverat.
-För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i bitstats.conf</translation>
+För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i blocs.conf</translation>
     </message>
 </context>
 <context>
@@ -2322,12 +2322,12 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>Cannot start bitstats: click-to-pay handler</source>
-        <translation>Kan ej starta bitstats: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start blocs: click-to-pay handler</source>
+        <translation>Kan ej starta blocs: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid BITSTATS address or malformed URI parameters.</source>
-        <translation>URI kunde ej analyseras! Detta kan orsakas av en ogiltig BITSTATS adress eller felproducerade URI parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BLOCS address or malformed URI parameters.</source>
+        <translation>URI kunde ej analyseras! Detta kan orsakas av en ogiltig BLOCS adress eller felproducerade URI parametrar.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2412,8 +2412,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>Zerocoin Handlingar:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
-        <translation>nformationen kan vara föråldrad. Din plånbok synkroniserar automatiskt med BITSTATS nätverket efter att en anslutning är etablerad, men denna process har inte blivit klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BLOCS network after a connection is established, but this process has not completed yet.</source>
+        <translation>nformationen kan vara föråldrad. Din plånbok synkroniserar automatiskt med BLOCS nätverket efter att en anslutning är etablerad, men denna process har inte blivit klar än.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2424,8 +2424,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTST</source>
-        <translation>zBTST</translation>
+        <source>zBLOCS</source>
+        <translation>zBLOCS</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2452,12 +2452,12 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>SEKRETESS</translation>
     </message>
     <message>
-        <source>zBTST Control</source>
-        <translation>zBTST Kontroll</translation>
+        <source>zBLOCS Control</source>
+        <translation>zBLOCS Kontroll</translation>
     </message>
     <message>
-        <source>zBTST Selected:</source>
-        <translation>Valda zBTST:</translation>
+        <source>zBLOCS Selected:</source>
+        <translation>Valda zBLOCS:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2472,32 +2472,32 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>Spendera Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTST for spending</source>
-        <translation>Tillgängliga (mogna och spenderbara) zBTST att spendera</translation>
+        <source>Available (mature and spendable) zBLOCS for spending</source>
+        <translation>Tillgängliga (mogna och spenderbara) zBLOCS att spendera</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Tillgängligt Saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTST for spending
+        <source>Available (mature and spendable) zBLOCS for spending
 
-zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tillgängliga (mogna och spenderbara) zBTST att spendera
+zBLOCS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tillgängliga (mogna och spenderbara) zBLOCS att spendera
 
-zBTST är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
+zBLOCS är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
     </message>
     <message>
-        <source>0 zBTST</source>
-        <translation>0 zBTST</translation>
+        <source>0 zBLOCS</source>
+        <translation>0 zBLOCS</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>Betala &amp;Till:</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>BITSTATS adress att skicka betalningen till. Skapar betalning till dig själv när den är tom.</translation>
+        <source>The BLOCS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>BLOCS adress att skicka betalningen till. Skapar betalning till dig själv när den är tom.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2548,8 +2548,8 @@ zBTST är mogna när de har över 20 bekräftelser OCH över 2 präglingar av sa
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTST</source>
-        <translation>Totalt Saldo, obekräftade och omogna zBTST inkluderade</translation>
+        <source>Total Balance including unconfirmed and immature zBLOCS</source>
+        <translation>Totalt Saldo, obekräftade och omogna zBLOCS inkluderade</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2570,24 +2570,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBTST minting.
+        <source>Show the current status of automatic zBLOCS minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to bitstats.conf
-- disable: add 'enablezeromint=0' to bitstats.conf
+- enable: add 'enablezeromint=1' to blocs.conf
+- disable: add 'enablezeromint=0' to blocs.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBTST
+- menu Settings-&gt;Options-&gt;Percentage of autominted zBLOCS
 
 </source>
-        <translation>Visa den nuvarande statusen av automatisk zBTST minting.
+        <translation>Visa den nuvarande statusen av automatisk zBLOCS minting.
 
 För att ändra statusen (omstart krävs):
--aktivera: lägg till 'enablezeromint=1' i bitstats.conf
--inaktivera: lägg till 'enablezeromint=0' i bitstats.conf
+-aktivera: lägg till 'enablezeromint=1' i blocs.conf
+-inaktivera: lägg till 'enablezeromint=0' i blocs.conf
 
 För att ändra procenten (ingen omstart krävs):
--meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zBTST
+-meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zBLOCS
 
 </translation>
     </message>
@@ -2636,20 +2636,20 @@ För att ändra procenten (ingen omstart krävs):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zBTST denominations list</source>
-        <translation>Visa zBTST valör lista</translation>
+        <source>Show zBLOCS denominations list</source>
+        <translation>Visa zBLOCS valör lista</translation>
     </message>
     <message>
         <source>Show Denominations</source>
         <translation>Visa Valörer</translation>
     </message>
     <message>
-        <source>zBTST minting is DISABLED</source>
-        <translation>zBTST prägling är inaktiverad</translation>
+        <source>zBLOCS minting is DISABLED</source>
+        <translation>zBLOCS prägling är inaktiverad</translation>
     </message>
     <message>
-        <source>zBTST spending is NOT private (links back to the mint transaction)</source>
-        <translation>Att spendera zBTST är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
+        <source>zBLOCS spending is NOT private (links back to the mint transaction)</source>
+        <translation>Att spendera zBLOCS är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
     </message>
     <message>
         <source>Denominations with value 5:</source>
@@ -2782,12 +2782,12 @@ Please be patient...</source>
 Ha lite tålamod...</translation>
     </message>
     <message>
-        <source>zBTST Spend #: </source>
-        <translation>zBTST spendering #:</translation>
+        <source>zBLOCS Spend #: </source>
+        <translation>zBLOCS spendering #:</translation>
     </message>
     <message>
-        <source>zBTST Mint</source>
-        <translation>zBTST Prägling</translation>
+        <source>zBLOCS Mint</source>
+        <translation>zBLOCS Prägling</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2802,12 +2802,12 @@ Ha lite tålamod...</translation>
         <translation>Konfigurerat procent mål: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBTST is currently disabled due to maintenance.</source>
-        <translation>zBTST är för nuvarande inaktiverat p.g.a. underhåll.</translation>
+        <source>zBLOCS is currently disabled due to maintenance.</source>
+        <translation>zBLOCS är för nuvarande inaktiverat p.g.a. underhåll.</translation>
     </message>
     <message>
-        <source>zBTST is currently undergoing maintenance.</source>
-        <translation>zBTST genomgår för tillfället underhåll.</translation>
+        <source>zBLOCS is currently undergoing maintenance.</source>
+        <translation>zBLOCS genomgår för tillfället underhåll.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2896,8 +2896,8 @@ Ha lite tålamod...</translation>
         <translation>Ingen 'Betala Till' adress inmatad, skapar lokal betalning</translation>
     </message>
     <message>
-        <source>Invalid BITSTATS Address</source>
-        <translation>Ogiltig BITSTATS Adress</translation>
+        <source>Invalid BLOCS Address</source>
+        <translation>Ogiltig BLOCS Adress</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -3042,8 +3042,8 @@ Var tålmodig...</translation>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a BITSTATS address (e.g. %1)</source>
-        <translation>Mata in en BITSTATS adress (e.g. %1)</translation>
+        <source>Enter a BLOCS address (e.g. %1)</source>
+        <translation>Mata in en BLOCS adress (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3090,8 +3090,8 @@ Var tålmodig...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -3102,8 +3102,8 @@ Var tålmodig...</translation>
         <translation>Fel vid inläsning av masternodens konfigurationsfil: %1</translation>
     </message>
     <message>
-        <source>BITSTATS Core didn't yet exit safely...</source>
-        <translation>BITSTATS Core avslutades ännu inte säkert...</translation>
+        <source>BLOCS Core didn't yet exit safely...</source>
+        <translation>BLOCS Core avslutades ännu inte säkert...</translation>
     </message>
 </context>
 <context>
@@ -3200,8 +3200,8 @@ Var tålmodig...</translation>
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna BITSTATS felsökningslogg från den nuvarande data katalogen. Detta kan ta några sekunder för stora logg filer.</translation>
+        <source>Open the BLOCS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna BLOCS felsökningslogg från den nuvarande data katalogen. Detta kan ta några sekunder för stora logg filer.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3336,8 +3336,8 @@ Var tålmodig...</translation>
         <translation>Vanlig Backup Sökväg:</translation>
     </message>
     <message>
-        <source>Custom zBTST Backup Path:</source>
-        <translation>Vanlig zBTST Backup Sökväg:</translation>
+        <source>Custom zBLOCS Backup Path:</source>
+        <translation>Vanlig zBLOCS Backup Sökväg:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3416,8 +3416,8 @@ Var tålmodig...</translation>
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the BITSTATS RPC console.</source>
-        <translation>Välkommen till BITSTATS RPC konsol.</translation>
+        <source>Welcome to the BLOCS RPC console.</source>
+        <translation>Välkommen till BLOCS RPC konsol.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3559,16 +3559,16 @@ Var tålmodig...</translation>
         <translation>&amp;Mängd:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
-        <translation>Ett frivilligt meddelande att bifoga till betalningsförfrågan, som kommer visas när förfrågan öppnas. Observera: Medelandet kommer inte skickas med betalningen över BITSTATS nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BLOCS network.</source>
+        <translation>Ett frivilligt meddelande att bifoga till betalningsförfrågan, som kommer visas när förfrågan öppnas. Observera: Medelandet kommer inte skickas med betalningen över BLOCS nätverket.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ERHÅLLA</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
-        <translation>Ett frivilligt meddelande att bifoga till betalningsförfrågan, vilket kommer visas när förfrågan öppnas.&lt;br&gt;Observera: Medelandet kommer inte skickas med betalningen över BITSTATS nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BLOCS network.</source>
+        <translation>Ett frivilligt meddelande att bifoga till betalningsförfrågan, vilket kommer visas när förfrågan öppnas.&lt;br&gt;Observera: Medelandet kommer inte skickas med betalningen över BLOCS nätverket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3804,12 +3804,12 @@ Var tålmodig...</translation>
         <translation>UTXO Storlek:</translation>
     </message>
     <message>
-        <source>0 BTST</source>
-        <translation>0 BTST</translation>
+        <source>0 BLOCS</source>
+        <translation>0 BLOCS</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BTST applies</source>
-        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01BTST tillkommer</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BLOCS applies</source>
+        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01BLOCS tillkommer</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3864,16 +3864,16 @@ Var tålmodig...</translation>
         <translation>Mynt automatiskt valda</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uBTSTs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBTSTs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uBTSTs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBLOCSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBLOCSs in fee,&lt;br /&gt;while "at least" pays 1000 uBLOCSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uBLOCSs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBLOCSs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uBLOCSs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uBTSTs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBTSTs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uBTSTs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBLOCSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBLOCSs in fee,&lt;br /&gt;while "total at least" pays 1000 uBLOCSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uBLOCSs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBLOCSs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uBLOCSs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
-        <translation>Att endast betala minimum avgift är okej så länge som transaktionsvolymen är mindre än rummet i blocken.&lt;br /&gt;Men var medveten om att detta kan sluta som en transaktion som aldrig blir bekräftad när det finns ett större behov av BITSTATS transaktioner än nätverket kan bearbeta.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BLOCS transactions than the network can process.</source>
+        <translation>Att endast betala minimum avgift är okej så länge som transaktionsvolymen är mindre än rummet i blocken.&lt;br /&gt;Men var medveten om att detta kan sluta som en transaktion som aldrig blir bekräftad när det finns ett större behov av BLOCS transaktioner än nätverket kan bearbeta.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3920,8 +3920,8 @@ Var tålmodig...</translation>
         <translation>Lägg till &amp;Mottagare</translation>
     </message>
     <message>
-        <source>Anonymized BTST</source>
-        <translation>Anonymiserade BTST</translation>
+        <source>Anonymized BLOCS</source>
+        <translation>Anonymiserade BLOCS</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3968,8 +3968,8 @@ Var tålmodig...</translation>
         <translation>Split block verktyget fungerar inte med flera adresser. Försök igen.</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITSTATS address</source>
-        <translation>Varning: Ogiltig BITSTATS adress</translation>
+        <source>Warning: Invalid BLOCS address</source>
+        <translation>Varning: Ogiltig BLOCS adress</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4071,8 +4071,8 @@ Var tålmodig...</translation>
         <translation>Betala &amp;Till:</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to</source>
-        <translation>BITSTATS adressen att skicka betalningen till</translation>
+        <source>The BLOCS address to send the payment to</source>
+        <translation>BLOCS adressen att skicka betalningen till</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4111,8 +4111,8 @@ Var tålmodig...</translation>
         <translation>Medelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the BITSTATS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BITSTATS network.</source>
-        <translation>Ett medelande som var bifogat till BITSTATS: URI som kommer sparas med transaktionen som din referens. Lägg märke till: Detta meddelande kommer inte skickas genom BITSTATS nätverket.</translation>
+        <source>A message that was attached to the BLOCS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BLOCS network.</source>
+        <translation>Ett medelande som var bifogat till BLOCS: URI som kommer sparas med transaktionen som din referens. Lägg märke till: Detta meddelande kommer inte skickas genom BLOCS nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4138,8 +4138,8 @@ Var tålmodig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BITSTATS Core is shutting down...</source>
-        <translation>BITSTATS Core stängs ner...</translation>
+        <source>BLOCS Core is shutting down...</source>
+        <translation>BLOCS Core stängs ner...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4161,8 +4161,8 @@ Var tålmodig...</translation>
         <translation>Du kan signera meddelanden med din egna adress för att bevisa att du äger dem. Se upp för att signera något vagt, då phishing-attacker kan försöka lura dig att signera din identitet åt dom. Signera endast fullt detaljerade påståenden du går med på.</translation>
     </message>
     <message>
-        <source>The BITSTATS address to sign the message with</source>
-        <translation>BITSTATS adressen för signera meddelandet med</translation>
+        <source>The BLOCS address to sign the message with</source>
+        <translation>BLOCS adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4193,16 +4193,16 @@ Var tålmodig...</translation>
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITSTATS address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna BITSTATS adress</translation>
+        <source>Sign the message to prove you own this BLOCS address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna BLOCS adress</translation>
     </message>
     <message>
-        <source>The BITSTATS address the message was signed with</source>
-        <translation>BITSTATS adressen meddelandet blev signerat med</translation>
+        <source>The BLOCS address the message was signed with</source>
+        <translation>BLOCS adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BITSTATS adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified BLOCS address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BLOCS adressen.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4288,8 +4288,8 @@ Var tålmodig...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4304,8 +4304,8 @@ Var tålmodig...</translation>
         <translation>Dash Core utvecklarna</translation>
     </message>
     <message>
-        <source>The BITSTATS Core developers</source>
-        <translation>BITSTATS Core utvecklarna</translation>
+        <source>The BLOCS Core developers</source>
+        <translation>BLOCS Core utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4580,12 +4580,12 @@ Var tålmodig...</translation>
         <translation>Mottaget via Fördunkling</translation>
     </message>
     <message>
-        <source>BTST Stake</source>
-        <translation>BTST staking</translation>
+        <source>BLOCS Stake</source>
+        <translation>BLOCS staking</translation>
     </message>
     <message>
-        <source>zBTST Stake</source>
-        <translation>zBTST Staking</translation>
+        <source>zBLOCS Stake</source>
+        <translation>zBLOCS Staking</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4604,32 +4604,32 @@ Var tålmodig...</translation>
         <translation>Obfuscation Skapa tecken</translation>
     </message>
     <message>
-        <source>Converted BTST to zBTST</source>
-        <translation>Konvertera BTST till zBTST</translation>
+        <source>Converted BLOCS to zBLOCS</source>
+        <translation>Konvertera BLOCS till zBLOCS</translation>
     </message>
     <message>
-        <source>Spent zBTST</source>
-        <translation>Spendera zBTST</translation>
+        <source>Spent zBLOCS</source>
+        <translation>Spendera zBLOCS</translation>
     </message>
     <message>
-        <source>Received BTST from zBTST</source>
-        <translation>Mottog BTST från zBTST</translation>
+        <source>Received BLOCS from zBLOCS</source>
+        <translation>Mottog BLOCS från zBLOCS</translation>
     </message>
     <message>
-        <source>Minted Change as zBTST from zBTST Spend</source>
-        <translation>Myntad Växel som zBTST från zBTST Spendering</translation>
+        <source>Minted Change as zBLOCS from zBLOCS Spend</source>
+        <translation>Myntad Växel som zBLOCS från zBLOCS Spendering</translation>
     </message>
     <message>
-        <source>Converted zBTST to BTST</source>
-        <translation>Konverterad zBTST till BTST</translation>
+        <source>Converted zBLOCS to BLOCS</source>
+        <translation>Konverterad zBLOCS till BLOCS</translation>
     </message>
     <message>
-        <source>Anonymous (zBTST Transaction)</source>
-        <translation>Anonym (zBTST Transaktion)</translation>
+        <source>Anonymous (zBLOCS Transaction)</source>
+        <translation>Anonym (zBLOCS Transaktion)</translation>
     </message>
     <message>
-        <source>Anonymous (zBTST Stake)</source>
-        <translation>Anonym (zBTST Stake)</translation>
+        <source>Anonymous (zBLOCS Stake)</source>
+        <translation>Anonym (zBLOCS Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4843,12 +4843,12 @@ Var tålmodig...</translation>
         <translation>Exportering Lyckat</translation>
     </message>
     <message>
-        <source>Received BTST from zBTST</source>
-        <translation>Mottog BTST från zBTST</translation>
+        <source>Received BLOCS from zBLOCS</source>
+        <translation>Mottog BLOCS från zBLOCS</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBTST</source>
-        <translation>Zerocoin spendera, Växel i zBTST</translation>
+        <source>Zerocoin Spend, Change in zBLOCS</source>
+        <translation>Zerocoin spendera, Växel i zBLOCS</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4884,8 +4884,8 @@ Var tålmodig...</translation>
         <translation>Skicka Mynt</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTST.</source>
-        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 BTST.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BLOCS.</source>
+        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 BLOCS.</translation>
     </message>
 </context>
 <context>
@@ -4918,8 +4918,8 @@ Var tålmodig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBTST to Spend</source>
-        <translation>Välj zBTST att Spendera</translation>
+        <source>Select zBLOCS to Spend</source>
+        <translation>Välj zBLOCS att Spendera</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4930,8 +4930,8 @@ Var tålmodig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTST</source>
-        <translation>zBTST</translation>
+        <source>zBLOCS</source>
+        <translation>zBLOCS</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4939,7 +4939,7 @@ Var tålmodig...</translation>
     </message>
     </context>
 <context>
-    <name>bitstats-core</name>
+    <name>blocs-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behåll tx meta data t.ex. kontoägare och information om betalningsförfråga, 2 = släpp tx meta data)</translation>
@@ -4965,8 +4965,8 @@ Var tålmodig...</translation>
         <translation>Beräknade ackumulator kontrollstation är inte vad som sparats av block index</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. BITSTATS Core is probably already running.</source>
-        <translation>Kan ej låsa in på data katalog %s. BITSTATS Kärna körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. BLOCS Core is probably already running.</source>
+        <translation>Kan ej låsa in på data katalog %s. BLOCS Kärna körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4993,16 +4993,16 @@ Var tålmodig...</translation>
         <translation>Distribuerad under MIT mjukvarulicensen, se medföljande fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBTST minting (0-1, default: %u)</source>
-        <translation>Aktivera automatisk plånboksbackup efter varje zBTST minting (0-1, standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zBLOCS minting (0-1, default: %u)</source>
+        <translation>Aktivera automatisk plånboksbackup efter varje zBLOCS minting (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BTST inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för BTST inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for BLOCS inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för BLOCS inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBTST inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för zBTST inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zBLOCS inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för zBLOCS inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5037,12 +5037,12 @@ Var tålmodig...</translation>
         <translation>Exekvera kommando när den bästa block ändras (%s i cmd är utbytt mot block hash)</translation>
     </message>
     <message>
-        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i BTST/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
+        <source>Fees (in BLOCS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i BLOCS/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i BTST/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
+        <source>Fees (in BLOCS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i BLOCS/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5141,20 +5141,20 @@ Var tålmodig...</translation>
         <translation>Totala längden av nätverks verisionens sträng (%i) överskrider maximala längd (%i). Minska mängden eller storleken av uakommentarer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. BITSTATS Core is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. BITSTATS Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. BLOCS Core is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. BLOCS Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Kan ej lokalisera tillräckligt Fördunklingsdenominationerade pengar för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BTST.</source>
-        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 BTST.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BLOCS.</source>
+        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 BLOCS.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTST.</source>
-        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 BTST.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BLOCS.</source>
+        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 BLOCS.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5169,8 +5169,8 @@ Var tålmodig...</translation>
         <translation>Varning: -maxtxfee är sätt väldigt högt! Detta är transaktionsavgiften du kommer betala om du skickar en transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BITSTATS Core will not work properly.</source>
-        <translation>Varning: Var vänlig kontrollera att din dators tid och datum är korrekt! Om din klocka är fel så kommer BITSTATS Core inte att fungera korrekt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BLOCS Core will not work properly.</source>
+        <translation>Varning: Var vänlig kontrollera att din dators tid och datum är korrekt! Om din klocka är fel så kommer BLOCS Core inte att fungera korrekt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5305,8 +5305,8 @@ Var tålmodig...</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The BITSTATS Core Developers</source>
-        <translation>Copyright (C) 2015-%i The BITSTATS Core Developers</translation>
+        <source>Copyright (C) 2015-%i The BLOCS Core Developers</source>
+        <translation>Copyright (C) 2015-%i The BLOCS Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5385,8 +5385,8 @@ Var tålmodig...</translation>
         <translation>Fel vid laddning av wallet.dat: Plånbok korrupterad</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BITSTATS Core</source>
-        <translation>Fel vid laddning av wallet.dat: Plånbok  kräver nyare BITSTATS Kärna version</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BLOCS Core</source>
+        <translation>Fel vid laddning av wallet.dat: Plånbok  kräver nyare BLOCS Kärna version</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5441,8 +5441,8 @@ Var tålmodig...</translation>
         <translation>Misslyckades läsa block</translation>
     </message>
     <message>
-        <source>Fee (in BTST/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i BTST/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
+        <source>Fee (in BLOCS/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i BLOCS/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5481,8 +5481,8 @@ Var tålmodig...</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. BITSTATS Core is shutting down.</source>
-        <translation>Initierings renlighetscheck misslyckades. BITSTATS Kärna stängs ner.</translation>
+        <source>Initialization sanity check failed. BLOCS Core is shutting down.</source>
+        <translation>Initierings renlighetscheck misslyckades. BLOCS Kärna stängs ner.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5545,8 +5545,8 @@ Var tålmodig...</translation>
         <translation>Procent automatiskt mintad Zerocoin (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the BTST and zBTST money supply statistics</source>
-        <translation>Indexera BTST och zBTST pengarna tillgång statistik på nytt</translation>
+        <source>Reindex the BLOCS and zBLOCS money supply statistics</source>
+        <translation>Indexera BLOCS och zBLOCS pengarna tillgång statistik på nytt</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5589,8 +5589,8 @@ Var tålmodig...</translation>
 </translation>
     </message>
     <message>
-        <source>Disable all BITSTATS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Avaktivera all BITSTATS funktionalitet (Huvudnoder, Zerocoin, SwiftX, Budgeting) (0-1, standard: %u)</translation>
+        <source>Disable all BLOCS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Avaktivera all BLOCS funktionalitet (Huvudnoder, Zerocoin, SwiftX, Budgeting) (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5625,8 +5625,8 @@ Var tålmodig...</translation>
         <translation>Valör aatt föredra för automatiskt mintad Zerocoin (1/5/10/50/100/500/1000/5000), 0 för ingen preface. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBTST backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zBTST backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
+        <source>Specify custom backup path to add a copy of any automatic zBLOCS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zBLOCS backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6041,8 +6041,8 @@ Var tålmodig...</translation>
         <translation>Synkroniserar sporks...</translation>
     </message>
     <message>
-        <source>Syncing zBTST wallet...</source>
-        <translation>Synkroniserar zBTST plånbok...</translation>
+        <source>Syncing zBLOCS wallet...</source>
+        <translation>Synkroniserar zBLOCS plånbok...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6153,8 +6153,8 @@ Var tålmodig...</translation>
         <translation>Användarnamn för JSON-RPC anslutningar</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBTST</source>
-        <translation>Värde är under den minsta tillgängliga valören (=1) av zBTST</translation>
+        <source>Value is below the smallest available denomination (= 1) of zBLOCS</source>
+        <translation>Värde är under den minsta tillgängliga valören (=1) av zBLOCS</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -6169,8 +6169,8 @@ Var tålmodig...</translation>
         <translation>Plånbok %s finns utanför data katalog %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart BITSTATS Core to complete</source>
-        <translation>Plånbok behöver skrivas om: starta om BITSTATS Kärna för att göra klart</translation>
+        <source>Wallet needed to be rewritten: restart BLOCS Core to complete</source>
+        <translation>Plånbok behöver skrivas om: starta om BLOCS Kärna för att göra klart</translation>
     </message>
     <message>
         <source>Wallet options:</source>

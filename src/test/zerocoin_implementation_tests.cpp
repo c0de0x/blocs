@@ -1,5 +1,5 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
-// Copyright (c) 2017-2019 The BITSTATS developers
+// Copyright (c) 2017-2019 The BLOCS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -18,7 +18,7 @@
 #include "wallet/wallet.h"
 #include "zpiv/zpivwallet.h"
 #include "zpivchain.h"
-#include "test_bitstats.h"
+#include "test_blocs.h"
 
 using namespace libzerocoin;
 
@@ -476,7 +476,7 @@ BOOST_AUTO_TEST_CASE(deterministic_tests)
     CWalletDB walletdb(strWalletFile, "cr+");
 
     CWallet wallet(strWalletFile);
-    CzBTSTWallet zWallet(wallet.strWalletFile);
+    CzBLOCSWallet zWallet(wallet.strWalletFile);
     zWallet.SetMasterSeed(seedMaster);
     wallet.setZWallet(&zWallet);
 
@@ -488,7 +488,7 @@ BOOST_AUTO_TEST_CASE(deterministic_tests)
     for (int i = 0; i < nTests; i++) {
         PrivateCoin coin(Params().Zerocoin_Params(false), denom, false);
         CDeterministicMint dMint;
-        zWallet.GenerateDeterministicZBTST(denom, coin, dMint);
+        zWallet.GenerateDeterministicZBLOCS(denom, coin, dMint);
         vCoins.emplace_back(coin);
     }
 

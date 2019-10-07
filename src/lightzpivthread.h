@@ -4,8 +4,8 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
 
-#ifndef BITSTATS_LIGHTZBTSTTHREAD_H
-#define BITSTATS_LIGHTZBTSTTHREAD_H
+#ifndef BLOCS_LIGHTZBLOCSTHREAD_H
+#define BLOCS_LIGHTZBLOCSTHREAD_H
 
 #include <atomic>
 #include "genwit.h"
@@ -43,7 +43,7 @@ public:
 
     bool addWitWork(CGenWit wit) {
         if (!isWorkerRunning) {
-            LogPrintf("%s not running trying to add wit work \n", "bitstats-light-thread");
+            LogPrintf("%s not running trying to add wit work \n", "blocs-light-thread");
             return false;
         }
         requestsQueue.push(wit);
@@ -51,21 +51,21 @@ public:
     }
 
     void StartLightZpivThread(boost::thread_group& threadGroup) {
-        LogPrintf("%s thread start\n", "bitstats-light-thread");
-        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZBTSTSimplified, this));
+        LogPrintf("%s thread start\n", "blocs-light-thread");
+        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZBLOCSSimplified, this));
     }
 
     void StopLightZpivThread() {
         threadIns.interrupt();
-        LogPrintf("%s thread interrupted\n", "bitstats-light-thread");
+        LogPrintf("%s thread interrupted\n", "blocs-light-thread");
     }
 
 private:
 
-    void ThreadLightZBTSTSimplified();
+    void ThreadLightZBLOCSSimplified();
 
     void rejectWork(CGenWit& wit, int blockHeight, uint32_t errorNumber);
 
 };
 
-#endif //BITSTATS_LIGHTZBTSTTHREAD_H
+#endif //BLOCS_LIGHTZBLOCSTHREAD_H

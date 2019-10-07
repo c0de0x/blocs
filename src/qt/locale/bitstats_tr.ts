@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan BITSTATS adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your BLOCS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan BLOCS adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan BITSTATS adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your BLOCS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan BLOCS adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, BTST'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>BLOCS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BLOCSs from being stolen by malware infecting your computer.</source>
+        <translation>BLOCS şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, BLOCS'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BLOCS&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -254,12 +254,12 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38 ile şifrelemek isteğiniz BITSTATS Adresini giriniz. Ortadaki kutucuğa bir parola giriniz. Şifrelenmiş özel anahtarı hesaplamak için şifrele tuşuna basınız. </translation>
+        <source>Enter a BLOCS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38 ile şifrelemek isteğiniz BLOCS Adresini giriniz. Ortadaki kutucuğa bir parola giriniz. Şifrelenmiş özel anahtarı hesaplamak için şifrele tuşuna basınız. </translation>
     </message>
     <message>
-        <source>The BITSTATS address to encrypt</source>
-        <translation>Şifrelenecek BITSTATS adresi</translation>
+        <source>The BLOCS address to encrypt</source>
+        <translation>Şifrelenecek BLOCS adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Geçerli imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BITSTATS address</source>
-        <translation>Bu BITSTATS adresinin özel anahtarını şifreleyin</translation>
+        <source>Encrypt the private key for this BLOCS address</source>
+        <translation>Bu BLOCS adresinin özel anahtarını şifreleyin</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>İşlem geçmişini ara</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTST</source>
-        <translation>Gizlilik Aksiyonları zBTST</translation>
+        <source>Privacy Actions for zBLOCS</source>
+        <translation>Gizlilik Aksiyonları zBLOCS</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS CORE</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS CORE</translation>
     </message>
     <message>
-        <source>Send coins to a BITSTATS address</source>
-        <translation>Koinleri BITSTATS adresine gönder</translation>
+        <source>Send coins to a BLOCS address</source>
+        <translation>Koinleri BLOCS adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitstats: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve bitstats üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and blocs: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve blocs üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About BITSTATS Core</source>
+        <source>&amp;About BLOCS Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about BITSTATS Core</source>
+        <source>Show information about BLOCS Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for BITSTATS</source>
-        <translation>BITSTATS için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for BLOCS</source>
+        <translation>BLOCS için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı BITSTATS adresleriyle imzalayın</translation>
+        <source>Sign messages with your BLOCS addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı BLOCS adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
-        <translation>Belirtilen BITSTATS adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified BLOCS addresses</source>
+        <translation>Belirtilen BLOCS adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a BITSTATS: URI or payment request</source>
-        <translation>Bir BITSTATS: URI veya ödeme isteği açın</translation>
+        <source>Open a BLOCS: URI or payment request</source>
+        <translation>Bir BLOCS: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,12 +729,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
-        <translation>Olası BITSTATS komut satırı seçeneklerine sahip bir liste almak için BITSTATS Core yardım mesajını gösterin</translation>
+        <source>Show the BLOCS Core help message to get a list with possible BLOCS command-line options</source>
+        <translation>Olası BLOCS komut satırı seçeneklerine sahip bir liste almak için BLOCS Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>BITSTATS Core client</source>
-        <translation>BITSTATS Core istemci</translation>
+        <source>BLOCS Core client</source>
+        <translation>BLOCS Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -872,8 +872,8 @@ Adres: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (bitstats.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (blocs.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (blocs.conf).
 </translation>
     </message>
 </context>
@@ -1162,8 +1162,8 @@ Adres: %4
         <translation>Gönderen adresini düzenle</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BITSTATS address.</source>
-        <translation>Girilen "%1" adresi geçerli bir BITSTATS adresi değil.</translation>
+        <source>The entered address "%1" is not a valid BLOCS address.</source>
+        <translation>Girilen "%1" adresi geçerli bir BLOCS adresi değil.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1219,16 +1219,16 @@ Adres: %4
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS CORE</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS CORE</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About BITSTATS Core</source>
-        <translation>hakkında BITSTATS Core</translation>
+        <source>About BLOCS Core</source>
+        <translation>hakkında BLOCS Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ Adres: %4
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to BITSTATS Core.</source>
-        <translation>BITSTATS Core'a hoşgeldiniz.</translation>
+        <source>Welcome to BLOCS Core.</source>
+        <translation>BLOCS Core'a hoşgeldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
-        <translation>Program ilk başlatıldığında BITSTATS Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where BLOCS Core will store its data.</source>
+        <translation>Program ilk başlatıldığında BLOCS Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BITSTATS Core, BITSTATS blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecek. Cüzdan ayrıca bu dizinde saklanır.</translation>
+        <source>BLOCS Core will download and store a copy of the BLOCS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BLOCS Core, BLOCS blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecek. Cüzdan ayrıca bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,8 +1294,8 @@ Adres: %4
         <translation>Özel bir veri dizini kullanın:</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS CORE</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS CORE</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1436,12 +1436,12 @@ Adres: %4
         <translation>Gönderim adresi girin</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BITSTATS addresses after it matures.
-To Add: enter percentage to give and BITSTATS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BLOCS addresses after it matures.
+To Add: enter percentage to give and BLOCS address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>ÇokluGönderi, olgunlaştıktan sonra diğer BITSTATS adreslerinin bir listesine staking ya da masternode ödülünüzün 100% 'ünü otomatik olarak göndermenize olanak tanır.
-Eklemek için: Verilecek yüzdeyi ve ÇokluGönderi vektörüne eklemek için BITSTATS adresi girin.
+        <translation>ÇokluGönderi, olgunlaştıktan sonra diğer BLOCS adreslerinin bir listesine staking ya da masternode ödülünüzün 100% 'ünü otomatik olarak göndermenize olanak tanır.
+Eklemek için: Verilecek yüzdeyi ve ÇokluGönderi vektörüne eklemek için BLOCS adresi girin.
 Silme: Silinecek adresi girin ve silmek için basın.
 ÇokluGönderi, Etkinleştir'i tıklamadığınız sürece etkinleştirilmeyecektir</translation>
     </message>
@@ -1663,8 +1663,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Address /miktar:</translation>
     </message>
     <message>
-        <source>Add destinations to send BTST to</source>
-        <translation>BTST göndermek için varış yerleri ekleyin</translation>
+        <source>Add destinations to send BLOCS to</source>
+        <translation>BLOCS göndermek için varış yerleri ekleyin</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1797,8 +1797,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Doğrulanmamış değişikliğin harcamasını devre dışı bırakırsanız, bir işlemdeki değişiklik&lt;br/&gt;Bu işlem en az bir onay alıncaya kadar kullanılamaz.&lt;br/&gt;Bu aynı zamanda bakiyenizin nasıl hesaplandığını etkiler.</translation>
     </message>
     <message>
-        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticideki BITSTATS istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
+        <source>Automatically open the BLOCS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticideki BLOCS istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1817,12 +1817,12 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Uzman</translation>
     </message>
     <message>
-        <source>Automatically start BITSTATS after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra otomatik olarak BITSTATS'i başlatın.</translation>
+        <source>Automatically start BLOCS after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra otomatik olarak BLOCS'i başlatın.</translation>
     </message>
     <message>
-        <source>&amp;Start BITSTATS on system login</source>
-        <translation>&amp; Sistem oturum açma işleminde BITSTATS'i başlat</translation>
+        <source>&amp;Start BLOCS on system login</source>
+        <translation>&amp; Sistem oturum açma işleminde BLOCS'i başlat</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1849,46 +1849,46 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>&amp;ağ</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
-        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, BITSTATS yeniden başlatıldıktan sonra geçerli olur.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BLOCS.</source>
+        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, BLOCS yeniden başlatıldıktan sonra geçerli olur.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
+https://www.transifex.com/blocs-project/blocs-project-translations</source>
         <translation>Dil eksik veya çeviri tamamlanmamış mı? Katkıda bulunan çevirilere yardımcı olun:
-https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
+https://www.transifex.com/blocs-project/blocs-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BTST units to zBTST</source>
-        <translation>BTST birimlerinin zBTST'e otomatik basımını ektinleştir</translation>
+        <source>Enable automatic minting of BLOCS units to zBLOCS</source>
+        <translation>BLOCS birimlerinin zBLOCS'e otomatik basımını ektinleştir</translation>
     </message>
     <message>
-        <source>Enable zBTST Automint</source>
-        <translation>zBTST Otomatik basımı etkinleştir</translation>
+        <source>Enable zBLOCS Automint</source>
+        <translation>zBLOCS Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming BTST which get automatically converted to zBTST via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zBTST'ye dönüştürülen gelen BTST yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming BLOCS which get automatically converted to zBLOCS via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zBLOCS'ye dönüştürülen gelen BLOCS yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBTST</source>
-        <translation>Otomatikleştirilmiş zBTST yüzdesi</translation>
+        <source>Percentage of autominted zBLOCS</source>
+        <translation>Otomatikleştirilmiş zBLOCS yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BTST for this denomination is available</source>
-        <translation>Bu mezhebi için yeterli BTST bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BLOCS for this denomination is available</source>
+        <translation>Bu mezhebi için yeterli BLOCS bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
     </message>
     <message>
-        <source>Preferred Automint zBTST Denomination</source>
-        <translation>Tercih edilen Automint zBTST Nominal değeri</translation>
+        <source>Preferred Automint zBLOCS Denomination</source>
+        <translation>Tercih edilen Automint zBLOCS Nominal değeri</translation>
     </message>
     <message>
-        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
-        <translation>Bir SOCKS5 proxy vasıtasıyla BITSTATS ağına bağlanın.</translation>
+        <source>Connect to the BLOCS network through a SOCKS5 proxy.</source>
+        <translation>Bir SOCKS5 proxy vasıtasıyla BLOCS ağına bağlanın.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2038,8 +2038,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Toplam Bakiye, mevcut olmayan tüm paralar dahil.</translation>
     </message>
     <message>
-        <source>BTST Balance</source>
-        <translation>BTST Bakiyesi</translation>
+        <source>BLOCS Balance</source>
+        <translation>BLOCS Bakiyesi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2062,18 +2062,18 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Mevcut kilitli bakiye sadece görüntülenebilir adreslerde.</translation>
     </message>
     <message>
-        <source>Your current BITSTATS balance, unconfirmed and immature transactions included</source>
-        <translation>Güncel BITSTATS bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
+        <source>Your current BLOCS balance, unconfirmed and immature transactions included</source>
+        <translation>Güncel BLOCS bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
     </message>
     <message>
-        <source>zBTST Balance</source>
-        <translation>zBTST Bakiyesi</translation>
+        <source>zBLOCS Balance</source>
+        <translation>zBLOCS Bakiyesi</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBTST are spendable.</source>
+These zBLOCS are spendable.</source>
         <translation>Olgun: basılmış olduktan sonra 20'den fazla onay alınmış ve aynı ölçü biriminden 1 kereden fazla basılmış.
-Bu zBTST ler harcanabilir.</translation>
+Bu zBLOCS ler harcanabilir.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2082,8 +2082,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden 1 taneden daha az basım bulunmakta.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak BITSTATS şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BLOCS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak BLOCS şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2126,8 +2126,8 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>Harcanabilir:</translation>
     </message>
     <message>
-        <source>Locked BTST or Masternode collaterals. These are excluded from zBTST minting.</source>
-        <translation>Kilitli BTST veya Masternode teminatları. Bunlar zBTST matlaştırmadan çıkarılır.</translation>
+        <source>Locked BLOCS or Masternode collaterals. These are excluded from zBLOCS minting.</source>
+        <translation>Kilitli BLOCS veya Masternode teminatları. Bunlar zBLOCS matlaştırmadan çıkarılır.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2138,8 +2138,8 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>onaylanmamış:</translation>
     </message>
     <message>
-        <source>Your current zBTST balance, unconfirmed and immature zBTST included.</source>
-        <translation>Güncel zBTST bakiyeniz, onaylanmamış ve olgunlaşmamış zBTST'ler dahil.</translation>
+        <source>Your current zBLOCS balance, unconfirmed and immature zBLOCS included.</source>
+        <translation>Güncel zBLOCS bakiyeniz, onaylanmamış ve olgunlaşmamış zBLOCS'ler dahil.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2150,10 +2150,10 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>senkronizasyon dışı</translation>
     </message>
     <message>
-        <source>Current percentage of zBTST.
+        <source>Current percentage of zBLOCS.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Mevcut zBTST yüzdesi.
+        <translation>Mevcut zBLOCS yüzdesi.
 AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi etrafında düzelir (varsayılan = 10%).
 </translation>
     </message>
@@ -2162,14 +2162,14 @@ AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi e
         <translation>AutoMint şu anda etkinleştirilmiş ve</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in bitstats.conf.</source>
-        <translation>AutoMint kapatmak için ekle  'enablezeromint=0'  bitstats.conf. dosyasına</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in blocs.conf.</source>
+        <translation>AutoMint kapatmak için ekle  'enablezeromint=0'  blocs.conf. dosyasına</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in blocs.conf</source>
         <translation>AutoMint şu anda aktif değil.
- AutoMint aktive etmek için  değiştir 'enablezeromint=0' yazan kısmı 'enablezeromint=1' şeklinde bitstats.conf dosyasında</translation>
+ AutoMint aktive etmek için  değiştir 'enablezeromint=0' yazan kısmı 'enablezeromint=1' şeklinde blocs.conf dosyasında</translation>
     </message>
 </context>
 <context>
@@ -2195,12 +2195,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>Geçersiz ödeme adresi %1</translation>
     </message>
     <message>
-        <source>Cannot start bitstats: click-to-pay handler</source>
-        <translation>BITSTATS başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <source>Cannot start blocs: click-to-pay handler</source>
+        <translation>BLOCS başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid BITSTATS address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir BITSTATS adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BLOCS address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir BLOCS adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2285,8 +2285,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>Zerocoin Actions:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak BITSTATS şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BLOCS network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak BLOCS şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2297,8 +2297,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTST</source>
-        <translation>zBTST</translation>
+        <source>zBLOCS</source>
+        <translation>zBLOCS</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2325,11 +2325,11 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>GİZLİLİK</translation>
     </message>
     <message>
-        <source>zBTST Control</source>
-        <translation>zBTST Kontrolü</translation>
+        <source>zBLOCS Control</source>
+        <translation>zBLOCS Kontrolü</translation>
     </message>
     <message>
-        <source>zBTST Selected:</source>
+        <source>zBLOCS Selected:</source>
         <translation>zPiv Seçildi:</translation>
     </message>
     <message>
@@ -2345,32 +2345,32 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitstats.c
         <translation>Harca Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTST for spending</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zBTST</translation>
+        <source>Available (mature and spendable) zBLOCS for spending</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zBLOCS</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Kullanılabilir Bakiye:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBTST for spending
+        <source>Available (mature and spendable) zBLOCS for spending
 
-zBTST are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zBTST
+zBLOCS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zBLOCS
 
-zBTST, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
+zBLOCS, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
     </message>
     <message>
-        <source>0 zBTST</source>
-        <translation>0 zBTST</translation>
+        <source>0 zBLOCS</source>
+        <translation>0 zBLOCS</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
         <translation>şuna öde:</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Ödemeyi göndermek için BITSTATS adresi. Boş olduğunda kendinize yerel ödeme oluşturur.</translation>
+        <source>The BLOCS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Ödemeyi göndermek için BLOCS adresi. Boş olduğunda kendinize yerel ödeme oluşturur.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2421,8 +2421,8 @@ zBTST, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhe
         <translation>Zerocoin durumu:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTST</source>
-        <translation>Doğrulanmamış ve olgunlaşmamış zBTST dahil toplam bakiye</translation>
+        <source>Total Balance including unconfirmed and immature zBLOCS</source>
+        <translation>Doğrulanmamış ve olgunlaşmamış zBLOCS dahil toplam bakiye</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2581,12 +2581,12 @@ Please be patient...</source>
 Lütfen sabırlı olun...</translation>
     </message>
     <message>
-        <source>zBTST is currently disabled due to maintenance.</source>
-        <translation>zBTST bakım nedeniyle şu an kullanıma kapalı.</translation>
+        <source>zBLOCS is currently disabled due to maintenance.</source>
+        <translation>zBLOCS bakım nedeniyle şu an kullanıma kapalı.</translation>
     </message>
     <message>
-        <source>zBTST is currently undergoing maintenance.</source>
-        <translation>zBTST halen bakım alıyor.</translation>
+        <source>zBLOCS is currently undergoing maintenance.</source>
+        <translation>zBLOCS halen bakım alıyor.</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2611,8 +2611,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Sağlanan 'Ödeme Yapmak İçin' adresi yok, yerel ödeme oluşturun</translation>
     </message>
     <message>
-        <source>Invalid BITSTATS Address</source>
-        <translation>Geçersiz BITSTATS Adresi</translation>
+        <source>Invalid BLOCS Address</source>
+        <translation>Geçersiz BLOCS Adresi</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2685,8 +2685,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>Enter a BITSTATS address (e.g. %1)</source>
-        <translation>Gir bir BITSTATS addres (e.g. %1)</translation>
+        <source>Enter a BLOCS address (e.g. %1)</source>
+        <translation>Gir bir BLOCS addres (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2729,8 +2729,8 @@ Lütfen sabırlı olun...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS CORE</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS CORE</translation>
     </message>
     </context>
 <context>
@@ -2827,8 +2827,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the BITSTATS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Geçerli veri dizininden BITSTATS hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the BLOCS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Geçerli veri dizininden BLOCS hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3011,8 +3011,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Dışa:</translation>
     </message>
     <message>
-        <source>Welcome to the BITSTATS RPC console.</source>
-        <translation>BITSTATS RPC konsola hoşgeldiniz</translation>
+        <source>Welcome to the BLOCS RPC console.</source>
+        <translation>BLOCS RPC konsola hoşgeldiniz</translation>
     </message>
     <message>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
@@ -3098,12 +3098,12 @@ Lütfen sabırlı olun...</translation>
         <translation>Miktar:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BITSTATS network.</source>
-        <translation>Talep açıldığında görüntülenecek ödeme isteğine eklemek için isteğe bağlı bir mesaj. Not: Mesaj, ödemenin BITSTATS şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BLOCS network.</source>
+        <translation>Talep açıldığında görüntülenecek ödeme isteğine eklemek için isteğe bağlı bir mesaj. Not: Mesaj, ödemenin BLOCS şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BITSTATS network.</source>
-        <translation>Talep açıldığında görüntülenecek, ödeme isteğine eklemek için isteğe bağlı bir mesaj.&lt;br&gt;Not: Mesaj, ödemenin BITSTATS şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BLOCS network.</source>
+        <translation>Talep açıldığında görüntülenecek, ödeme isteğine eklemek için isteğe bağlı bir mesaj.&lt;br&gt;Not: Mesaj, ödemenin BLOCS şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3331,8 +3331,8 @@ Lütfen sabırlı olun...</translation>
         <translation>UTXO Boyutu:</translation>
     </message>
     <message>
-        <source>0 BTST</source>
-        <translation>0 BTST</translation>
+        <source>0 BLOCS</source>
+        <translation>0 BLOCS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3387,16 +3387,16 @@ Lütfen sabırlı olun...</translation>
         <translation>Koinler otomatik seçildi</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uBTST olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uBTST öder,&lt;br /&gt;"en az" ise 1000 uBTST öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uBLOCSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBLOCSs in fee,&lt;br /&gt;while "at least" pays 1000 uBLOCSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uBLOCS olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uBLOCS öder,&lt;br /&gt;"en az" ise 1000 uBLOCS öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "total at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uBTST olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uBTST ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uBTST ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uBLOCSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBLOCSs in fee,&lt;br /&gt;while "total at least" pays 1000 uBLOCSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uBLOCS olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uBLOCS ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uBLOCS ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
-        <translation>Yalnızca minimum ücreti ödemek, işlem hacmi bloklardaki alana göre daha az olduğu sürece iyidir.&lt;br /&gt;Ancak, bunun, BITSTATS işlemleri için ağın işleyebileceğinden daha fazla talep olması durumunda, onaylama işleminde asla sonuçlanamayacağına dikkat edin.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BLOCS transactions than the network can process.</source>
+        <translation>Yalnızca minimum ücreti ödemek, işlem hacmi bloklardaki alana göre daha az olduğu sürece iyidir.&lt;br /&gt;Ancak, bunun, BLOCS işlemleri için ağın işleyebileceğinden daha fazla talep olması durumunda, onaylama işleminde asla sonuçlanamayacağına dikkat edin.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3443,8 +3443,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Alıcı ekle</translation>
     </message>
     <message>
-        <source>Anonymized BTST</source>
-        <translation>anonim edilmiş BTST</translation>
+        <source>Anonymized BLOCS</source>
+        <translation>anonim edilmiş BLOCS</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3491,8 +3491,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Bloğu böl aygıtı multipl adresle çalışmaz Tekrar deneyin</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITSTATS address</source>
-        <translation>Uyarı: Geçersiz BITSTATS adresi</translation>
+        <source>Warning: Invalid BLOCS address</source>
+        <translation>Uyarı: Geçersiz BLOCS adresi</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3586,8 +3586,8 @@ Lütfen sabırlı olun...</translation>
         <translation>şuna öde:</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to</source>
-        <translation>Ödemeyi göndermek için BITSTATS adresi</translation>
+        <source>The BLOCS address to send the payment to</source>
+        <translation>Ödemeyi göndermek için BLOCS adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3626,8 +3626,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Mesaj:</translation>
     </message>
     <message>
-        <source>A message that was attached to the BITSTATS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BITSTATS network.</source>
-        <translation>BITSTATS e eklenmiş olan bir mesaj: İşleminizle beraber saklanacak olan URI hatırlamanız için. Not: Bu mesaj BITSTATS ağında yayınlanmayacak.</translation>
+        <source>A message that was attached to the BLOCS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BLOCS network.</source>
+        <translation>BLOCS e eklenmiş olan bir mesaj: İşleminizle beraber saklanacak olan URI hatırlamanız için. Not: Bu mesaj BLOCS ağında yayınlanmayacak.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3653,8 +3653,8 @@ Lütfen sabırlı olun...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BITSTATS Core is shutting down...</source>
-        <translation>BITSTATS Core kapanıyor ...</translation>
+        <source>BLOCS Core is shutting down...</source>
+        <translation>BLOCS Core kapanıyor ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3676,8 +3676,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Sahip olduğunuzu kanıtlamak için adreslerinizle mesaj imzalayabilirsiniz. Kimlik avı saldırıları sizi kimliğini onlara yazmaya kandırmaya çalışabilir, çünkü belirsiz bir şey imzalamamaya dikkat edin. Kabul ettiğiniz tamamen ayrıntılı ifadeleri yalnızca imzalayın.</translation>
     </message>
     <message>
-        <source>The BITSTATS address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için BITSTATS adresi</translation>
+        <source>The BLOCS address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için BLOCS adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3708,16 +3708,16 @@ Lütfen sabırlı olun...</translation>
         <translation>Geçerli imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITSTATS address</source>
-        <translation>Bu BITSTATS adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this BLOCS address</source>
+        <translation>Bu BLOCS adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala</translation>
     </message>
     <message>
-        <source>The BITSTATS address the message was signed with</source>
-        <translation>Mesajın imzalandığı BITSTATS adresi</translation>
+        <source>The BLOCS address the message was signed with</source>
+        <translation>Mesajın imzalandığı BLOCS adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
-        <translation>Belirtilen BITSTATS adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified BLOCS address</source>
+        <translation>Belirtilen BLOCS adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3803,8 +3803,8 @@ Lütfen sabırlı olun...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS CORE</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS CORE</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3819,8 +3819,8 @@ Lütfen sabırlı olun...</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The BITSTATS Core developers</source>
-        <translation>The BITSTATS Core developers</translation>
+        <source>The BLOCS Core developers</source>
+        <translation>The BLOCS Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4339,8 +4339,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Koinleri göder</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BTST.</source>
-        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 BTST ile sınırlıdır.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BLOCS.</source>
+        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 BLOCS ile sınırlıdır.</translation>
     </message>
 </context>
 <context>
@@ -4377,8 +4377,8 @@ Lütfen sabırlı olun...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTST</source>
-        <translation>zBTST</translation>
+        <source>zBLOCS</source>
+        <translation>zBLOCS</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4386,7 +4386,7 @@ Lütfen sabırlı olun...</translation>
     </message>
     </context>
 <context>
-    <name>bitstats-core</name>
+    <name>blocs-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx meta verileri, örneğin hesap sahibi ve ödeme talebi bilgileri, 2 = tx meta verileri bırak)</translation>
@@ -4412,8 +4412,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Hesaplanan akümülatör kontrol noktası, blok indeksiyle kaydedilen kontrol noktası değildir.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. BITSTATS Core is probably already running.</source>
-        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. BITSTATS Core muhtemelen zaten çalışıyor.</translation>
+        <source>Cannot obtain a lock on data directory %s. BLOCS Core is probably already running.</source>
+        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. BLOCS Core muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4464,12 +4464,12 @@ Lütfen sabırlı olun...</translation>
         <translation>En iyi blok değiştirildiğinde komutu yürütün (cmd'deki %s yerine blok karması verilir)</translation>
     </message>
     <message>
-        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (BTST / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in BLOCS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (BLOCS / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (BTST / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in BLOCS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (BLOCS / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

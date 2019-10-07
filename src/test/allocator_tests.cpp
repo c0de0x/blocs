@@ -6,7 +6,7 @@
 #include "util.h"
 
 #include "allocators.h"
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 
 #include <boost/test/unit_test.hpp>
 

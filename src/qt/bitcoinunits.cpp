@@ -1,7 +1,7 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The BITSTATS developers
+// Copyright (c) 2015-2017 The BLOCS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(BTST);
-    unitlist.append(mBTST);
-    unitlist.append(uBTST);
+    unitlist.append(BLOCS);
+    unitlist.append(mBLOCS);
+    unitlist.append(uBLOCS);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case BTST:
-    case mBTST:
-    case uBTST:
+    case BLOCS:
+    case mBLOCS:
+    case uBLOCS:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case BTST:
-        return QString("bitstats");
-    case mBTST:
-        return QString("mbitstats");
-    case uBTST:
-        return QString::fromUtf8("ubitstats");
+    case BLOCS:
+        return QString("blocs");
+    case mBLOCS:
+        return QString("mblocs");
+    case uBLOCS:
+        return QString::fromUtf8("ublocs");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case BTST:
-            return QString("BTST");
-        case mBTST:
-            return QString("mBTST");
-        case uBTST:
-            return QString::fromUtf8("μBTST");
+        case BLOCS:
+            return QString("BLOCS");
+        case mBLOCS:
+            return QString("mBLOCS");
+        case uBLOCS:
+            return QString::fromUtf8("μBLOCS");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case BTST:
-            return QString("tBTST");
-        case mBTST:
-            return QString("mtBTST");
-        case uBTST:
-            return QString::fromUtf8("μtBTST");
+        case BLOCS:
+            return QString("tBLOCS");
+        case mBLOCS:
+            return QString("mtBLOCS");
+        case uBLOCS:
+            return QString::fromUtf8("μtBLOCS");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case BTST:
-            return QString("BTST");
-        case mBTST:
-            return QString("Milli-BTST (1 / 1" THIN_SP_UTF8 "000)");
-        case uBTST:
-            return QString("Micro-BTST (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case BLOCS:
+            return QString("BLOCS");
+        case mBLOCS:
+            return QString("Milli-BLOCS (1 / 1" THIN_SP_UTF8 "000)");
+        case uBLOCS:
+            return QString("Micro-BLOCS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case BTST:
-            return QString("TestBTSTs");
-        case mBTST:
-            return QString("Milli-TestBTST (1 / 1" THIN_SP_UTF8 "000)");
-        case uBTST:
-            return QString("Micro-TestBTST (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case BLOCS:
+            return QString("TestBLOCSs");
+        case mBLOCS:
+            return QString("Milli-TestBLOCS (1 / 1" THIN_SP_UTF8 "000)");
+        case uBLOCS:
+            return QString("Micro-TestBLOCS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case BTST:
+    case BLOCS:
         return 100000000;
-    case mBTST:
+    case mBLOCS:
         return 100000;
-    case uBTST:
+    case uBLOCS:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case BTST:
+    case BLOCS:
         return 8;
-    case mBTST:
+    case mBLOCS:
         return 5;
-    case uBTST:
+    case uBLOCS:
         return 2;
     default:
         return 0;

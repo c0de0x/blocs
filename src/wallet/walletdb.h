@@ -1,7 +1,7 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
-// Copyright (c) 2016-2019 The BITSTATS developers
+// Copyright (c) 2016-2019 The BLOCS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -180,14 +180,14 @@ public:
     bool ReadZerocoinSpendSerialEntry(const CBigNum& bnSerial);
     bool WriteCurrentSeedHash(const uint256& hashSeed);
     bool ReadCurrentSeedHash(uint256& hashSeed);
-    bool WriteZBTSTSeed(const uint256& hashSeed, const vector<unsigned char>& seed);
-    bool ReadZBTSTSeed(const uint256& hashSeed, vector<unsigned char>& seed);
-    bool ReadZBTSTSeed_deprecated(uint256& seed);
-    bool EraseZBTSTSeed();
-    bool EraseZBTSTSeed_deprecated();
+    bool WriteZBLOCSSeed(const uint256& hashSeed, const vector<unsigned char>& seed);
+    bool ReadZBLOCSSeed(const uint256& hashSeed, vector<unsigned char>& seed);
+    bool ReadZBLOCSSeed_deprecated(uint256& seed);
+    bool EraseZBLOCSSeed();
+    bool EraseZBLOCSSeed_deprecated();
 
-    bool WriteZBTSTCount(const uint32_t& nCount);
-    bool ReadZBTSTCount(uint32_t& nCount);
+    bool WriteZBLOCSCount(const uint32_t& nCount);
+    bool ReadZBLOCSCount(uint32_t& nCount);
     std::map<uint256, std::vector<pair<uint256, uint32_t> > > MapMintPool();
     bool WriteMintPoolPair(const uint256& hashMasterSeed, const uint256& hashPubcoin, const uint32_t& nCount);
 

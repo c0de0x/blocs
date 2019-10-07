@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "BITSTATS"
-            VALUE "FileDescription",    "bitstats-tx (CLI BITSTATS transaction editor utility)"
+            VALUE "CompanyName",        "BLOCS"
+            VALUE "FileDescription",    "blocs-tx (CLI BLOCS transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "bitstats-tx"
+            VALUE "InternalName",       "blocs-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "bitstats-tx.exe"
-            VALUE "ProductName",        "bitstats-tx"
+            VALUE "OriginalFilename",   "blocs-tx.exe"
+            VALUE "ProductName",        "blocs-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

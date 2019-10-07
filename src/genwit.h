@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_GENWIT_H
-#define BITSTATS_GENWIT_H
+#ifndef BLOCS_GENWIT_H
+#define BLOCS_GENWIT_H
 
 
 #include <iostream>
@@ -59,4 +59,4 @@ private:
 };
 
 
-#endif //BITSTATS_GENWIT_H
+#endif //BLOCS_GENWIT_H

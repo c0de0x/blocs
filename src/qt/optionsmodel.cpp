@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitstats-config.h"
+#include "config/blocs-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -63,7 +63,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::BTST);
+        settings.setValue("nDisplayUnit", BitcoinUnits::BLOCS);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -172,8 +172,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeBITSTATSAmount"))
-        SoftSetArg("-anonymizebitstatsamount", settings.value("nAnonymizeBITSTATSAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeBLOCSAmount"))
+        SoftSetArg("-anonymizeblocsamount", settings.value("nAnonymizeBLOCSAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -184,7 +184,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in bitstats.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in blocs.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

@@ -11,8 +11,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between bitstats-cli and bitstatsd)
- * of a given instance of the BITSTATS system.
+ * CBaseChainParams defines the base parameters (shared between blocs-cli and blocsd)
+ * of a given instance of the BLOCS system.
  */
 class CBaseChainParams
 {

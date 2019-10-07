@@ -12,7 +12,7 @@
 #include "clientversion.h"
 #include "main.h"
 #include "utiltime.h"
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 
 #include <cstdio>
 

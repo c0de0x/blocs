@@ -1,6 +1,6 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2014-2016 The Dash Developers
-// Copyright (c) 2016-2019 The BITSTATS developers
+// Copyright (c) 2016-2019 The BLOCS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

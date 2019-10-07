@@ -348,7 +348,7 @@ void AddressTableModel::updateEntry(const QString& address,
     const QString& purpose,
     int status)
 {
-    // Update address book model from BITSTATS core
+    // Update address book model from BLOCS core
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 

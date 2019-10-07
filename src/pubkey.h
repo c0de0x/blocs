@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_PUBKEY_H
-#define BITSTATS_PUBKEY_H
+#ifndef BLOCS_PUBKEY_H
+#define BLOCS_PUBKEY_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -264,4 +264,4 @@ public:
     ~ECCVerifyHandle();
 };
 
-#endif // BITSTATS_PUBKEY_H
+#endif // BLOCS_PUBKEY_H

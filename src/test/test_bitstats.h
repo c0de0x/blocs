@@ -1,10 +1,10 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
-// Copyright (c) 2015 The BITSTATS developers
+// Copyright (c) 2015 The BLOCS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_TEST_TEST_BITSTATS_H
-#define BITSTATS_TEST_TEST_BITSTATS_H
+#ifndef BLOCS_TEST_TEST_BLOCS_H
+#define BLOCS_TEST_TEST_BLOCS_H
 
 #include "txdb.h"
 

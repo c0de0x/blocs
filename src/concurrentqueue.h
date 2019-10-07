@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_CONCURRENTQUEUE_H
-#define BITSTATS_CONCURRENTQUEUE_H
+#ifndef BLOCS_CONCURRENTQUEUE_H
+#define BLOCS_CONCURRENTQUEUE_H
 
 
 #include <mutex>
@@ -49,4 +49,4 @@ public:
     }
 };
 
-#endif //BITSTATS_CONCURRENTQUEUE_H
+#endif //BLOCS_CONCURRENTQUEUE_H

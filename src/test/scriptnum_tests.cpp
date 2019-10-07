@@ -6,7 +6,7 @@
 
 #include "libzerocoin/bignum.h"
 #include "script/script.h"
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 
 #include <boost/test/unit_test.hpp>
 #include <limits.h>

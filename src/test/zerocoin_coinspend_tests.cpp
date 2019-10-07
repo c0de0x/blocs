@@ -1,5 +1,5 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
-// Copyright (c) 2017-2019 The BITSTATS developers
+// Copyright (c) 2017-2019 The BLOCS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,7 +17,7 @@
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
 #include "txdb.h"
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
 
@@ -42,7 +42,7 @@ BOOST_AUTO_TEST_CASE(zerocoin_wrapped_serial_spend_test)
     string strWalletFile = "unittestwallet.dat";
     CWalletDB walletdb(strWalletFile, "cr+");
     CWallet wallet(strWalletFile);
-    CzBTSTWallet *czBTSTWallet = new CzBTSTWallet(wallet.strWalletFile);
+    CzBLOCSWallet *czBLOCSWallet = new CzBLOCSWallet(wallet.strWalletFile);
 
     // Get the 5 created mints.
     CoinDenomination denom = CoinDenomination::ZQ_FIFTY;
@@ -50,8 +50,8 @@ BOOST_AUTO_TEST_CASE(zerocoin_wrapped_serial_spend_test)
     for (unsigned int i = 0; i < TESTS_COINS_TO_ACCUMULATE; i++) {
         PrivateCoin coin(ZCParams, denom, false);
         CDeterministicMint dMint;
-        czBTSTWallet->GenerateDeterministicZBTST(denom, coin, dMint, true);
-        czBTSTWallet->UpdateCount();
+        czBLOCSWallet->GenerateDeterministicZBLOCS(denom, coin, dMint, true);
+        czBLOCSWallet->UpdateCount();
         vCoins.emplace_back(coin);
     }
 

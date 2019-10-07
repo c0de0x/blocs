@@ -1,10 +1,10 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
-// Copyright (c) 2017-2019 The BITSTATS developers
+// Copyright (c) 2017-2019 The BLOCS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_ZEROCOIN_H
-#define BITSTATS_ZEROCOIN_H
+#ifndef BLOCS_ZEROCOIN_H
+#define BLOCS_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -264,4 +264,4 @@ int GetWrapppedSerialInflation(libzerocoin::CoinDenomination denom);
 
 int64_t GetWrapppedSerialInflationAmount();
 
-#endif //BITSTATS_ZEROCOIN_H
+#endif //BLOCS_ZEROCOIN_H

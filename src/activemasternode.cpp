@@ -13,7 +13,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 1000 BITSTATS input and register on the network
+// Bootup the Masternode, look for a 1000 BLOCS input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {

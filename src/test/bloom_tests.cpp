@@ -15,7 +15,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 
 #include <vector>
 

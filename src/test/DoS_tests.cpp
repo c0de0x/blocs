@@ -17,7 +17,7 @@
 #include "serialize.h"
 #include "util.h"
 
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 
 #include <stdint.h>
 

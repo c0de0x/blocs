@@ -130,7 +130,7 @@ public:
 };
 
 /**
- * BITSTATS RPC command dispatcher.
+ * BLOCS RPC command dispatcher.
  */
 class CRPCTable
 {

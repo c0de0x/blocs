@@ -1,7 +1,7 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2016 The Dash developers
-// Copyright (c) 2016-2019 The BITSTATS developers
+// Copyright (c) 2016-2019 The BLOCS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -345,9 +345,9 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::SendToSelf:
         return tr("Payment to yourself");
     case TransactionRecord::StakeMint:
-        return tr("BTST Stake");
-    case TransactionRecord::StakeZBTST:
-        return tr("zBTST Stake");
+        return tr("BLOCS Stake");
+    case TransactionRecord::StakeZBLOCS:
+        return tr("zBLOCS Stake");
     case TransactionRecord::Generated:
         return tr("Mined");
     case TransactionRecord::ObfuscationDenominate:
@@ -361,15 +361,15 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::Obfuscated:
         return tr("Obfuscated");
     case TransactionRecord::ZerocoinMint:
-        return tr("Converted BTST to zBTST");
+        return tr("Converted BLOCS to zBLOCS");
     case TransactionRecord::ZerocoinSpend:
-        return tr("Spent zBTST");
+        return tr("Spent zBLOCS");
     case TransactionRecord::RecvFromZerocoinSpend:
-        return tr("Received BTST from zBTST");
+        return tr("Received BLOCS from zBLOCS");
     case TransactionRecord::ZerocoinSpend_Change_zPiv:
-        return tr("Minted Change as zBTST from zBTST Spend");
+        return tr("Minted Change as zBLOCS from zBLOCS Spend");
     case TransactionRecord::ZerocoinSpend_FromMe:
-        return tr("Converted zBTST to BTST");
+        return tr("Converted zBLOCS to BLOCS");
 
     default:
         return QString();
@@ -381,7 +381,7 @@ QVariant TransactionTableModel::txAddressDecoration(const TransactionRecord* wtx
     switch (wtx->type) {
     case TransactionRecord::Generated:
     case TransactionRecord::StakeMint:
-    case TransactionRecord::StakeZBTST:
+    case TransactionRecord::StakeZBLOCS:
     case TransactionRecord::MNReward:
         return QIcon(":/icons/tx_mined");
     case TransactionRecord::RecvWithObfuscation:
@@ -425,9 +425,9 @@ QString TransactionTableModel::formatTxToAddress(const TransactionRecord* wtx, b
         return QString::fromStdString(wtx->address) + watchAddress;
     case TransactionRecord::ZerocoinMint:
     case TransactionRecord::ZerocoinSpend_Change_zPiv:
-        return tr("Anonymous (zBTST Transaction)");
-    case TransactionRecord::StakeZBTST:
-        return tr("Anonymous (zBTST Stake)");
+        return tr("Anonymous (zBLOCS Transaction)");
+    case TransactionRecord::StakeZBLOCS:
+        return tr("Anonymous (zBLOCS Stake)");
     case TransactionRecord::SendToSelf:
     default:
         return tr("(n/a)") + watchAddress;
@@ -576,7 +576,7 @@ QVariant TransactionTableModel::data(const QModelIndex& index, int role) const
     case Qt::ForegroundRole:
         // Minted
         if (rec->type == TransactionRecord::Generated || rec->type == TransactionRecord::StakeMint ||
-                rec->type == TransactionRecord::StakeZBTST || rec->type == TransactionRecord::MNReward) {
+                rec->type == TransactionRecord::StakeZBLOCS || rec->type == TransactionRecord::MNReward) {
             if (rec->status.status == TransactionStatus::Conflicted || rec->status.status == TransactionStatus::NotAccepted)
                 return COLOR_ORPHAN;
             else

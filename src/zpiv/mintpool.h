@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_MINTPOOL_H
-#define BITSTATS_MINTPOOL_H
+#ifndef BLOCS_MINTPOOL_H
+#define BLOCS_MINTPOOL_H
 
 #include <map>
 #include <list>
@@ -51,4 +51,4 @@ public:
 };
 
 
-#endif //BITSTATS_MINTPOOL_H
+#endif //BLOCS_MINTPOOL_H

@@ -6,7 +6,7 @@
 #include "serialize.h"
 #include "streams.h"
 #include "hash.h"
-#include "test/test_bitstats.h"
+#include "test/test_blocs.h"
 
 #include <stdint.h>
 

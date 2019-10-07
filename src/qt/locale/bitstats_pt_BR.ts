@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços BITSTATS para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your BLOCS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços BLOCS para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your BITSTATS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços BITSTATS para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your BLOCS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços BLOCS para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>BITSTATS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTSTs from being stolen by malware infecting your computer.</source>
-        <translation>BITSTATS vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas BTSTs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>BLOCS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BLOCSs from being stolen by malware infecting your computer.</source>
+        <translation>BLOCS vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas BLOCSs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTST&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS BTST&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BLOCS&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS BLOCS&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,7 +254,7 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>Enter a BITSTATS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a BLOCS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -409,8 +409,8 @@
         <translation>Olhar histórico de transação</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBTST</source>
-        <translation>Ações privadas para zBTST</translation>
+        <source>Privacy Actions for zBLOCS</source>
+        <translation>Ações privadas para zBLOCS</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -613,16 +613,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
-        <source>Send coins to a BITSTATS address</source>
-        <translation>Enviar moedas para um endereço BITSTATS</translation>
+        <source>Send coins to a BLOCS address</source>
+        <translation>Enviar moedas para um endereço BLOCS</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitstats: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e bitstats: URIs)</translation>
+        <source>Request payments (generates QR codes and blocs: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e blocs: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About BITSTATS Core</source>
-        <translation>&amp;Sobre o BITSTATS Core</translation>
+        <source>&amp;About BLOCS Core</source>
+        <translation>&amp;Sobre o BLOCS Core</translation>
     </message>
     <message>
-        <source>Show information about BITSTATS Core</source>
-        <translation>Mostra informação sobre o BITSTATS Core</translation>
+        <source>Show information about BLOCS Core</source>
+        <translation>Mostra informação sobre o BLOCS Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for BITSTATS</source>
-        <translation>Modificar opções de configuração para BITSTATS</translation>
+        <source>Modify configuration options for BLOCS</source>
+        <translation>Modificar opções de configuração para BLOCS</translation>
     </message>
     <message>
-        <source>Sign messages with your BITSTATS addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços BITSTATS para provar que você os detém</translation>
+        <source>Sign messages with your BLOCS addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços BLOCS para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITSTATS addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços BITSTATS especificados</translation>
+        <source>Verify messages to ensure they were signed with specified BLOCS addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços BLOCS especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -685,8 +685,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a BITSTATS: URI or payment request</source>
-        <translation>Abrir um BITSTATS: URI ou requisição de pagamento</translation>
+        <source>Open a BLOCS: URI or payment request</source>
+        <translation>Abrir um BLOCS: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -697,12 +697,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the BITSTATS Core help message to get a list with possible BITSTATS command-line options</source>
-        <translation>Mostra a ajuda da BITSTATS Core para receber uma lista com possíveis opções de linha de comando BITSTATS</translation>
+        <source>Show the BLOCS Core help message to get a list with possible BLOCS command-line options</source>
+        <translation>Mostra a ajuda da BLOCS Core para receber uma lista com possíveis opções de linha de comando BLOCS</translation>
     </message>
     <message>
-        <source>BITSTATS Core client</source>
-        <translation>Cliente Core BITSTATS</translation>
+        <source>BLOCS Core client</source>
+        <translation>Cliente Core BLOCS</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitstats.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (bitstats.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (blocs.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (blocs.conf). </translation>
     </message>
 </context>
 <context>
@@ -1118,8 +1118,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BITSTATS address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de BITSTATS</translation>
+        <source>The entered address "%1" is not a valid BLOCS address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de BLOCS</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1175,16 +1175,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About BITSTATS Core</source>
-        <translation>Sobre o BITSTATS Core</translation>
+        <source>About BLOCS Core</source>
+        <translation>Sobre o BLOCS Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1226,16 +1226,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to BITSTATS Core.</source>
-        <translation>Bem-vindo ao BITSTATS Core.</translation>
+        <source>Welcome to BLOCS Core.</source>
+        <translation>Bem-vindo ao BLOCS Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BITSTATS Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde BITSTATS Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where BLOCS Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde BLOCS Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>BITSTATS Core will download and store a copy of the BITSTATS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BITSTATS Core vai baixar e armazenar uma cópia da blockchain BITSTATS. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>BLOCS Core will download and store a copy of the BLOCS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BLOCS Core vai baixar e armazenar uma cópia da blockchain BLOCS. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1246,8 +1246,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1577,8 +1577,8 @@ MultiSend: %1</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the BITSTATS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente BITSTATS no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the BLOCS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente BLOCS no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1597,12 +1597,12 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start BITSTATS after logging in to the system.</source>
-        <translation>Iniciar automaticamente BITSTATS depois de logar no sistema.</translation>
+        <source>Automatically start BLOCS after logging in to the system.</source>
+        <translation>Iniciar automaticamente BLOCS depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start BITSTATS on system login</source>
-        <translation>&amp;Iniciar BITSTATS ao logar no sistema</translation>
+        <source>&amp;Start BLOCS on system login</source>
+        <translation>&amp;Iniciar BLOCS ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1617,18 +1617,18 @@ MultiSend: %1</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BITSTATS.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do BITSTATS.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BLOCS.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do BLOCS.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitstats-project/bitstats-project-translations</source>
+https://www.transifex.com/blocs-project/blocs-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/bitstats-project/bitstats-project-translations</translation>
+https://www.transifex.com/blocs-project/blocs-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the BITSTATS network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede BITSTATS através de um proxy SOCKS5</translation>
+        <source>Connect to the BLOCS network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede BLOCS através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1758,8 +1758,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede BITSTATS após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BLOCS network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede BLOCS após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1855,16 +1855,16 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Ações Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BITSTATS network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede BITSTATS após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BLOCS network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede BLOCS após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTST</source>
-        <translation>zBTST</translation>
+        <source>zBLOCS</source>
+        <translation>zBLOCS</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1883,8 +1883,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>O endereço BITSTATS para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
+        <source>The BLOCS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>O endereço BLOCS para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1923,8 +1923,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Estatísticas zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBTST</source>
-        <translation>Balanço Total incluindo não confirmadas e imaturas zBTST</translation>
+        <source>Total Balance including unconfirmed and immature zBLOCS</source>
+        <translation>Balanço Total incluindo não confirmadas e imaturas zBLOCS</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2045,8 +2045,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a BITSTATS address (e.g. %1)</source>
-        <translation>Insira um endereço BITSTATS (e.g. %1)</translation>
+        <source>Enter a BLOCS address (e.g. %1)</source>
+        <translation>Insira um endereço BLOCS (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2085,8 +2085,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     </context>
 <context>
@@ -2307,8 +2307,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the BITSTATS RPC console.</source>
-        <translation>Bem-vindo ao console da BITSTATS RPC</translation>
+        <source>Welcome to the BLOCS RPC console.</source>
+        <translation>Bem-vindo ao console da BLOCS RPC</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
@@ -2567,8 +2567,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 BTST</source>
-        <translation>0 BTST</translation>
+        <source>0 BLOCS</source>
+        <translation>0 BLOCS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2611,12 +2611,12 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBTSTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBTSTs in fee,&lt;br /&gt;while "at least" pays 1000 uBTSTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uBTSTs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uBTSTs em taxa,&lt;br /&gt; pagará pelo menos 1000 uBTSTs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBLOCSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBLOCSs in fee,&lt;br /&gt;while "at least" pays 1000 uBLOCSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uBLOCSs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uBLOCSs em taxa,&lt;br /&gt; pagará pelo menos 1000 uBLOCSs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BITSTATS transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de BITSTATS do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BLOCS transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de BLOCS do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2663,8 +2663,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Adicionar &amp;Recipiente</translation>
     </message>
     <message>
-        <source>Anonymized BTST</source>
-        <translation>BTST anonimizadas</translation>
+        <source>Anonymized BLOCS</source>
+        <translation>BLOCS anonimizadas</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2699,8 +2699,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Copiar troco</translation>
     </message>
     <message>
-        <source>Warning: Invalid BITSTATS address</source>
-        <translation>Aviso: endereço BITSTATS inválido</translation>
+        <source>Warning: Invalid BLOCS address</source>
+        <translation>Aviso: endereço BLOCS inválido</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2786,8 +2786,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The BITSTATS address to send the payment to</source>
-        <translation>O endereço BITSTATS para enviar o pagamento</translation>
+        <source>The BLOCS address to send the payment to</source>
+        <translation>O endereço BLOCS para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2849,8 +2849,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BITSTATS Core is shutting down...</source>
-        <translation>BITSTATS Core está desligando...</translation>
+        <source>BLOCS Core is shutting down...</source>
+        <translation>BLOCS Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2868,8 +2868,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The BITSTATS address to sign the message with</source>
-        <translation>O endereço BITSTATS para assinar a mensagem</translation>
+        <source>The BLOCS address to sign the message with</source>
+        <translation>O endereço BLOCS para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2900,16 +2900,16 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITSTATS address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço BITSTATS</translation>
+        <source>Sign the message to prove you own this BLOCS address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço BLOCS</translation>
     </message>
     <message>
-        <source>The BITSTATS address the message was signed with</source>
-        <translation>O endereço BITSTATS que assinou a mensagem</translation>
+        <source>The BLOCS address the message was signed with</source>
+        <translation>O endereço BLOCS que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITSTATS address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço BITSTATS especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified BLOCS address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço BLOCS especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2991,8 +2991,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BITSTATS Core</source>
-        <translation>BITSTATS Core</translation>
+        <source>BLOCS Core</source>
+        <translation>BLOCS Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3007,8 +3007,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The BITSTATS Core developers</source>
-        <translation>Os desenvolvedores do BITSTATS Core</translation>
+        <source>The BLOCS Core developers</source>
+        <translation>Os desenvolvedores do BLOCS Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3525,8 +3525,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>0</translation>
     </message>
     <message>
-        <source>zBTST</source>
-        <translation>zBTST</translation>
+        <source>zBLOCS</source>
+        <translation>zBLOCS</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -3534,7 +3534,7 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
     </message>
     </context>
 <context>
-    <name>bitstats-core</name>
+    <name>blocs-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
@@ -3552,12 +3552,12 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em BTST/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in BLOCS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em BLOCS/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BTST/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em BTST/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in BLOCS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em BLOCS/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3576,8 +3576,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BTST.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 BTST.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BLOCS.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 BLOCS.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3592,8 +3592,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BITSTATS Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core BITSTATS não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BLOCS Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core BLOCS não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3660,8 +3660,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The BITSTATS Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do BITSTATS Core</translation>
+        <source>Copyright (C) 2015-%i The BLOCS Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do BLOCS Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3712,8 +3712,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BITSTATS Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da BITSTATS Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BLOCS Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da BLOCS Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3752,8 +3752,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in BTST/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em BTST/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in BLOCS/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em BLOCS/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -4066,8 +4066,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Verificando carteira...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart BITSTATS Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o BITSTATS Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart BLOCS Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o BLOCS Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

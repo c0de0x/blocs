@@ -11,10 +11,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both bitstatsd and bitstats-qt, to make it harder for attackers to
+ * for both blocsd and blocs-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("BITSTATS Core");
+const std::string CLIENT_NAME("BLOCS Core");
 
 /**
  * Client version number

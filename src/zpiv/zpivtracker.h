@@ -1,10 +1,10 @@
 /* Copyright (c) 2019-2020 The Bitstats Developers */
-// Copyright (c) 2018-2019 The BITSTATS developers
+// Copyright (c) 2018-2019 The BLOCS developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_ZBTSTTRACKER_H
-#define BITSTATS_ZBTSTTRACKER_H
+#ifndef BLOCS_ZBLOCSTRACKER_H
+#define BLOCS_ZBLOCSTRACKER_H
 
 #include "zerocoin.h"
 #include "witness.h"
@@ -12,9 +12,9 @@
 #include <list>
 
 class CDeterministicMint;
-class CzBTSTWallet;
+class CzBLOCSWallet;
 
-class CzBTSTTracker
+class CzBLOCSTracker
 {
 private:
     bool fInitialized;
@@ -24,9 +24,9 @@ private:
     std::map<uint256, std::unique_ptr<CoinWitnessData> > mapStakeCache; //serialhash, witness value, height
     bool UpdateStatusInternal(const std::set<uint256>& setMempool, CMintMeta& mint);
 public:
-    CzBTSTTracker(std::string strWalletFile);
-    ~CzBTSTTracker();
-    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzBTSTWallet* zBTSTWallet = NULL);
+    CzBLOCSTracker(std::string strWalletFile);
+    ~CzBLOCSTracker();
+    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzBLOCSWallet* zBLOCSWallet = NULL);
     void Add(const CZerocoinMint& mint, bool isNew = false, bool isArchived = false);
     bool Archive(CMintMeta& meta);
     bool HasPubcoin(const CBigNum& bnValue) const;
@@ -56,4 +56,4 @@ public:
     void Clear();
 };
 
-#endif //BITSTATS_ZBTSTTRACKER_H
+#endif //BLOCS_ZBLOCSTRACKER_H

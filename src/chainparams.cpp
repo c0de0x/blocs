@@ -127,15 +127,15 @@ public:
         pchMessageStart[3] = 0xf9;
         vAlertPubKey = ParseHex("04e3a5f17f5cbed8f206fc16d39965ec712893f857b8201856de820f4d0e793ae4f6d34112421f00da59c566216ab04de7a9c799cd7d20fffc078d7038e35b2fbc");
         nDefaultPort = 5636;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // BITSTATS starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // BLOCS starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 525600;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 8100; // 75%
         nRejectBlockOutdatedMajority = 10260; // 95%
         nToCheckBlockUpgradeMajority = 10800; // Approximate expected amount of blocks in 7 days (1440*7.5)
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // BITSTATS: 1 day
-        nTargetSpacing = 1 * 60;  // BITSTATS: 1 minute
+        nTargetTimespan = 1 * 60; // BLOCS: 1 day
+        nTargetSpacing = 1 * 60;  // BLOCS: 1 minute
         nMaturity = 100;
         nMasternodeCountDrift = 20;
         nMasternodeCollateral = 3000 * COIN;
@@ -190,8 +190,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x1cef028bc4ed71d9842708d166c5f2c95aaa054a4ce826ba61ece2554929b7ff"));
 
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("bitstats.io", "seed1.bitstats.io"));     // Primary DNS Seeder from bitstats
-        vSeeds.push_back(CDNSSeedData("bitstats.io", "seed2.bitstats.io"));    // Secondary DNS Seeder from bitstats
+        vSeeds.push_back(CDNSSeedData("blockanalysis.io", "seed1.blockanalysis.io"));     // Primary DNS Seeder from blocs
+        vSeeds.push_back(CDNSSeedData("blockanalysis.io", "seed2.blockanalysis.io"));    // Secondary DNS Seeder from blocs
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 65);
@@ -267,8 +267,8 @@ public:
         nRejectBlockOutdatedMajority = 5472; // 95%
         nToCheckBlockUpgradeMajority = 5760; // 4 days
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // BITSTATS: 1 day
-        nTargetSpacing = 1 * 60;  // BITSTATS: 1 minute
+        nTargetTimespan = 1 * 60; // BLOCS: 1 day
+        nTargetSpacing = 1 * 60;  // BLOCS: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -298,14 +298,14 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet BITSTATS addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet BITSTATS script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet BLOCS addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet BLOCS script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet BITSTATS BIP32 pubkeys start with 'DRKV'
+        // Testnet BLOCS BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet BITSTATS BIP32 prvkeys start with 'DRKP'
+        // Testnet BLOCS BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet BITSTATS BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet BLOCS BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         //convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -354,8 +354,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // BITSTATS: 1 day
-        nTargetSpacing = 1 * 60;        // BITSTATS: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // BLOCS: 1 day
+        nTargetSpacing = 1 * 60;        // BLOCS: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nLastPOWBlock = 250;
         nMaturity = 100;

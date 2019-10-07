@@ -9,7 +9,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitstats-config.h"
+#include "config/blocs-config.h"
 #endif
 
 #ifdef WIN32

@@ -268,11 +268,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop BITSTATS server.");
+            "\nStop BLOCS server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "BITSTATS server stopping";
+    return "BLOCS server stopping";
 }
 
 
@@ -366,35 +366,35 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblock",           &waitforblock,           true,  true,  false  },
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true,  true,  false  },
 
-        /* BITSTATS features */
-        {"bitstats", "listmasternodes", &listmasternodes, true, true, false},
-        {"bitstats", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"bitstats", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"bitstats", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"bitstats", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"bitstats", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"bitstats", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"bitstats", "masternodedebug", &masternodedebug, true, true, false},
-        {"bitstats", "startmasternode", &startmasternode, true, true, false},
-        {"bitstats", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"bitstats", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"bitstats", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"bitstats", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"bitstats", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"bitstats", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"bitstats", "preparebudget", &preparebudget, true, true, false},
-        {"bitstats", "submitbudget", &submitbudget, true, true, false},
-        {"bitstats", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"bitstats", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"bitstats", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"bitstats", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"bitstats", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"bitstats", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"bitstats", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"bitstats", "checkbudgets", &checkbudgets, true, true, false},
-        {"bitstats", "mnsync", &mnsync, true, true, false},
-        {"bitstats", "spork", &spork, true, true, false},
-        {"bitstats", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* BLOCS features */
+        {"blocs", "listmasternodes", &listmasternodes, true, true, false},
+        {"blocs", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"blocs", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"blocs", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"blocs", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"blocs", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"blocs", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"blocs", "masternodedebug", &masternodedebug, true, true, false},
+        {"blocs", "startmasternode", &startmasternode, true, true, false},
+        {"blocs", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"blocs", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"blocs", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"blocs", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"blocs", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"blocs", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"blocs", "preparebudget", &preparebudget, true, true, false},
+        {"blocs", "submitbudget", &submitbudget, true, true, false},
+        {"blocs", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"blocs", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"blocs", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"blocs", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"blocs", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"blocs", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"blocs", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"blocs", "checkbudgets", &checkbudgets, true, true, false},
+        {"blocs", "mnsync", &mnsync, true, true, false},
+        {"blocs", "spork", &spork, true, true, false},
+        {"blocs", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -634,7 +634,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> bitstats-cli " + methodname + " " + args + "\n";
+    return "> blocs-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

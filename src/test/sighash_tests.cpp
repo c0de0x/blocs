@@ -12,7 +12,7 @@
 #include "script/interpreter.h"
 #include "util.h"
 #include "version.h"
-#include "test_bitstats.h"
+#include "test_blocs.h"
 
 #include <iostream>
 

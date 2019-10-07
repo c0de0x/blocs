@@ -195,6 +195,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>bitstats-core</name>
+    <name>blocs-core</name>
     </context>
 </TS>

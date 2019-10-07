@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITSTATS_ACCUMULATORMAP_H
-#define BITSTATS_ACCUMULATORMAP_H
+#ifndef BLOCS_ACCUMULATORMAP_H
+#define BLOCS_ACCUMULATORMAP_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -27,4 +27,4 @@ public:
     void Reset();
     void Reset(libzerocoin::ZerocoinParams* params2);
 };
-#endif //BITSTATS_ACCUMULATORMAP_H
+#endif //BLOCS_ACCUMULATORMAP_H
