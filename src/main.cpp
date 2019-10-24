@@ -2022,18 +2022,22 @@ int64_t GetBlockValue(int nHeight)
     int64_t nSubsidy = 0;
 
     
-    if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 0) {
-        nSubsidy = (double)(Params().MaxMoneyOut() / (10 * Params().LAST_POW_BLOCK() * COIN)) * COIN;
-    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 1051200) { // first two years
-        nSubsidy = 6 * COIN;
-    } else if (nHeight > 1051200 && nHeight <= 2102400) { // 3rd and 4th year
-        nSubsidy = 4 * COIN;
+    if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 0) { //equally distributes 5% premine to all initial POW blocks
+        nSubsidy = (double)(Params().MaxMoneyOut() / (20 * Params().LAST_POW_BLOCK() * COIN)) * COIN;
+    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 525600) { // first year
+        nSubsidy = 28.5 * COIN;
+    } else if (nHeight > 525600 && nHeight <= 1051200) { // second year
+        nSubsidy = 23.655 * COIN;
+    } else if (nHeight > 1051200 && nHeight <= 1576800) { // third year
+        nSubsidy = 21.5 * COIN;
+    } else if (nHeight > 1576800 && nHeight <= 2102400) { // fourth year
+        nSubsidy =  17.2 * COIN;
     } else {
-        nSubsidy = 2 * COIN;
+        nSubsidy = 16.7 * COIN;
 
-        //After 5 years, yearly decline of production by 10% per year until reached max coin ~21M.
+        //After 5 years, yearly decline of production by 16% per year until reached max coin ~100M.
         for (int i = 5 * Params().SubsidyHalvingInterval(); i <= nHeight; i += Params().SubsidyHalvingInterval()) {
-            nSubsidy -= nSubsidy * 0.1;
+            nSubsidy -= nSubsidy * 0.16;
         }
     }
 
@@ -2286,7 +2290,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 
     if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 0) {
         ret = blockValue * 0.10;
-    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 1051200) { // first two years
+    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 1051200) { // 1st and 2nd year
         ret = blockValue * 0.90;   // 90% to masternodes
     } else if (nHeight > 1051200 && nHeight <= 2102400) { // 3rd and 4th year
         ret = blockValue * 0.80;

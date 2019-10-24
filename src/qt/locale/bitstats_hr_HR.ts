@@ -4896,8 +4896,8 @@ Please be patient...</source>
         <translation>Morate odrediti masternodeprivkey u konfiguraciji. Za pomoć pogledajte dokumentaciju.</translation>
     </message>
     <message>
-        <source>(5536 could be used only on mainnet)</source>
-        <translation>(5536 se može koristiti samo na mainnetu)</translation>
+        <source>(5636 could be used only on mainnet)</source>
+        <translation>(5636 se može koristiti samo na mainnetu)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4908,8 +4908,8 @@ Please be patient...</source>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 5536 for mainnet)</source>
-        <translation>(mora biti 5536 za glavnu mrežu)</translation>
+        <source>(must be 5636 for mainnet)</source>
+        <translation>(mora biti 5636 za glavnu mrežu)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

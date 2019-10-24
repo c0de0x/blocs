@@ -5195,8 +5195,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Vous devez spécifier une masternodeprivkey dans la configuration. Veuillez consulter la documentation pour obtenir de l'aide.</translation>
     </message>
     <message>
-        <source>(5536 could be used only on mainnet)</source>
-        <translation>(5536 ne peut être utilisé que pour le mainnet)</translation>
+        <source>(5636 could be used only on mainnet)</source>
+        <translation>(5636 ne peut être utilisé que pour le mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5207,8 +5207,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 5536 for mainnet)</source>
-        <translation>(doit être 5536 pour le mainnet)</translation>
+        <source>(must be 5636 for mainnet)</source>
+        <translation>(doit être 5636 pour le mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

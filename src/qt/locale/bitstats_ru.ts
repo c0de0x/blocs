@@ -4893,8 +4893,8 @@ Please be patient...</source>
         <translation>Вы должны указать в  строке приложенный ключ. Пожалуйста, обратитесь к документации для получения справки</translation>
     </message>
     <message>
-        <source>(5536 could be used only on mainnet)</source>
-        <translation>(5536 можно использовать только в сети)</translation>
+        <source>(5636 could be used only on mainnet)</source>
+        <translation>(5636 можно использовать только в сети)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4905,8 +4905,8 @@ Please be patient...</source>
         <translation>(неуплата: 1)</translation>
     </message>
     <message>
-        <source>(must be 5536 for mainnet)</source>
-        <translation>(должен быть 5536 для mainet)</translation>
+        <source>(must be 5636 for mainnet)</source>
+        <translation>(должен быть 5636 для mainet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

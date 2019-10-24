@@ -3608,8 +3608,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(5536 could be used only on mainnet)</source>
-        <translation>(5536 could be used only on mainnet)</translation>
+        <source>(5636 could be used only on mainnet)</source>
+        <translation>(5636 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3620,8 +3620,8 @@ https://www.transifex.com/bitstats-project/bitstats-project-translations</transl
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 5536 for mainnet)</source>
-        <translation>(deve ser 5536 para mainnet)</translation>
+        <source>(must be 5636 for mainnet)</source>
+        <translation>(deve ser 5636 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
