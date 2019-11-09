@@ -38,6 +38,7 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
+src/config/blocs-config.h
 src/config/bitstats-config.h
 src/config/bitstats-config.h.in
 src/config/stamp-h1
