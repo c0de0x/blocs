@@ -1,0 +1,3 @@
+usr/local/bin/blocsd usr/bin
+usr/local/bin/blocs-cli usr/bin
+debian/examples/blocs.conf etc/blocs

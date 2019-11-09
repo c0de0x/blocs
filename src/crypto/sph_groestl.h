@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Bitstats Developers */
+/* Copyright (c) 2019-2020 The Blocs Developers */
 /* $Id: sph_groestl.h 216 2010-06-08 09:46:57Z tp $ */
 /**
  * Groestl interface. This code implements Groestl with the recommended

@@ -1,5 +1,5 @@
-/* src/config/bitstats-config.h.  Generated from bitstats-config.h.in by configure.  */
-/* src/config/bitstats-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/blocs-config.h.  Generated from blocs-config.h.in by configure.  */
+/* src/config/blocs-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef BLOCS_CONFIG_H
 
@@ -334,16 +334,16 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "www.bitstats.org"
+#define PACKAGE_BUGREPORT "www.blocs.org"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Bitstats Core"
+#define PACKAGE_NAME "Blocs Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Bitstats Core 1.1.0"
+#define PACKAGE_STRING "Blocs Core 1.1.0"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "bitstats"
+#define PACKAGE_TARNAME "blocs"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""

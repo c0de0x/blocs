@@ -1,24 +1,24 @@
-BITSTATS Core version *3.1.1* is now available from:  <https://github.com/bitstats-project/bitstats/releases>
+BLOCS Core version *3.1.1* is now available from:  <https://github.com/blocs-project/blocs/releases>
 
 This is a new minor version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/bitstats-project/bitstats/issues>
+Please report bugs using the issue tracker at github: <https://github.com/blocs-project/blocs/issues>
 
 Non-Mandatory Update
 ==============
 
-BITSTATS Core v3.1.1 is a non-mandatory update to address bugs and introduce minor enhancements that do not require a network change.
+BLOCS Core v3.1.1 is a non-mandatory update to address bugs and introduce minor enhancements that do not require a network change.
 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/BITSTATS-Qt (on Mac) or bitstatsd/bitstats-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/BLOCS-Qt (on Mac) or blocsd/blocs-qt (on Linux).
 
 
 Compatibility
 ==============
 
-BITSTATS Core is extensively tested on multiple operating systems using
+BLOCS Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -26,7 +26,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-BITSTATS Core should also work on most other Unix-like systems but is not
+BLOCS Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 ### :exclamation::exclamation::exclamation: MacOS 10.13 High Sierra :exclamation::exclamation::exclamation:
@@ -45,7 +45,7 @@ The transition to v2 zBLOCS and reset of the accumulators caused blocks 1050000 
 
 ### Adjustment to staking properties to reduce orphaned blocks
 
-zBLOCS stake set to update more frequently and lowering the stake hashdrift to 30 seconds to reduce the number of orphans being experienced by BITSTATS stakers.
+zBLOCS stake set to update more frequently and lowering the stake hashdrift to 30 seconds to reduce the number of orphans being experienced by BLOCS stakers.
 
 Further work is being done to improve the efficiently of zPoS beyond this, and will be available in a subsequent release at a later date.
 
@@ -67,7 +67,7 @@ When starting the wallet with `-reindexaccumulators` and/or `-reindexzerocoin`, 
 An icon is now shown for clients that are connected and operating over the TOR network. Included is a mouse-over tooltip showing the onion address associated with the client. This icon is only shown when a connection to the TOR network can be established, and will be hidden otherwise.
 
 
-BITSTATS Daemon & Client (RPC Changes)
+BLOCS Daemon & Client (RPC Changes)
 --------------
 
 ### Fix listtransactions RPC function
@@ -81,7 +81,7 @@ Technical Changes
 
 ### Switch to libsecp256k1 signature verification
 
-Here is the long overdue update for BITSTATS to let go of OpenSSL in its consensus code. The rationale behind it is to avoid depending on an external and changing library where our consensus code is affected. This is security and consensus critical. BITSTATS users will experience quicker block validations and sync times as block transactions are verified under libsecp256k1.
+Here is the long overdue update for BLOCS to let go of OpenSSL in its consensus code. The rationale behind it is to avoid depending on an external and changing library where our consensus code is affected. This is security and consensus critical. BLOCS users will experience quicker block validations and sync times as block transactions are verified under libsecp256k1.
 
 The recent [CVE-2018-0495](https://www.nccgroup.trust/us/our-research/technical-advisory-return-of-the-hidden-number-problem/) brings into question a potential vulnerability with OpenSSL (and other crypto libraries) that libsecp256k1 is not susceptible to.
 
@@ -93,7 +93,7 @@ Secondary improvement area is in ConnectBlock() when multiple zerocoin transacti
 
 ### Resolution of excessive peer banning
 
-It was found that following a forced closure of the BITSTATS core wallet (ungraceful), a situation could arise that left partial/incomplete data in the disk cache. This caused the client to fail a basic sanity test and ban any peer which was sending the (complete) data. This, in turn, was causing the wallet to become stuck. This issue has been resolved client side by guarding against this partial/incomplete data in the disk cache.
+It was found that following a forced closure of the BLOCS core wallet (ungraceful), a situation could arise that left partial/incomplete data in the disk cache. This caused the client to fail a basic sanity test and ban any peer which was sending the (complete) data. This, in turn, was causing the wallet to become stuck. This issue has been resolved client side by guarding against this partial/incomplete data in the disk cache.
 
 *3.1.1* Change log
 --------------
@@ -151,4 +151,4 @@ Thanks to everyone who directly contributed to this release:
  - presstab
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitstats-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/blocs-project-translations/).

@@ -1,3 +1,0 @@
-usr/local/bin/bitstatsd usr/bin
-usr/local/bin/bitstats-cli usr/bin
-debian/examples/bitstats.conf etc/bitstats

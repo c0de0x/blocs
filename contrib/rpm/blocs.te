@@ -1,0 +1,81 @@
+policy_module(blocs, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type blocs_t;
+type blocs_exec_t;
+init_daemon_domain(blocs_t, blocs_exec_t)
+
+permissive blocs_t;
+
+type blocs_initrc_exec_t;
+init_script_file(blocs_initrc_exec_t)
+
+type blocs_conf_t;
+files_type(blocs_conf_t)
+
+type blocs_var_lib_t;
+files_type(blocs_var_lib_t)
+
+type blocs_var_run_t;
+files_type(blocs_var_run_t)
+
+type blocs_port_t;
+corenet_port(blocs_port_t)
+
+########################################
+#
+# blocs local policy
+#
+allow blocs_t self:process { fork };
+
+allow blocs_t self:fifo_file rw_fifo_file_perms;
+allow blocs_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(blocs_t, blocs_conf_t, blocs_conf_t)
+manage_files_pattern(blocs_t, blocs_conf_t, blocs_conf_t)
+
+manage_dirs_pattern(blocs_t, blocs_var_lib_t, blocs_var_lib_t)
+manage_files_pattern(blocs_t, blocs_var_lib_t, blocs_var_lib_t)
+files_var_lib_filetrans(blocs_t, blocs_var_lib_t, { dir file })
+
+manage_dirs_pattern(blocs_t, blocs_var_run_t, blocs_var_run_t)
+manage_files_pattern(blocs_t, blocs_var_run_t, blocs_var_run_t)
+
+sysnet_dns_name_resolve(blocs_t)
+corenet_all_recvfrom_unlabeled(blocs_t)
+
+allow blocs_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(blocs_t)
+corenet_tcp_sendrecv_generic_node(blocs_t)
+corenet_tcp_sendrecv_all_ports(blocs_t)
+corenet_tcp_bind_generic_node(blocs_t)
+
+gen_require(`
+    type blocs_port_t;
+')
+allow blocs_t blocs_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type blocs_port_t;
+')
+allow blocs_t blocs_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(blocs_t)
+
+files_read_etc_files(blocs_t)
+
+miscfiles_read_localization(blocs_t)
+
+sysnet_dns_name_resolve(blocs_t)
+
+allow blocs_t blocs_exec_t:file execute_no_trans;
+allow blocs_t self:process setsched;
+corecmd_exec_ls(blocs_t)
+corenet_tcp_connect_http_port(blocs_t)
+dev_read_urand(blocs_t)
+fs_getattr_xattr_fs(blocs_t)
+kernel_read_system_state(blocs_t)

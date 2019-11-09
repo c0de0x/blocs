@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Bitstats Developers */
+/* Copyright (c) 2019-2020 The Blocs Developers */
 // tinyformat.h
 // Copyright (C) 2011, Chris Foster [chris42f (at) gmail (d0t) com]
 //

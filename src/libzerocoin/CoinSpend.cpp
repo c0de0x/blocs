@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Bitstats Developers */
+/* Copyright (c) 2019-2020 The Blocs Developers */
 /**
  * @file       CoinSpend.cpp
  *

@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Bitstats Developers */
+/* Copyright (c) 2019-2020 The Blocs Developers */
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2016-2017 The BLOCS developers

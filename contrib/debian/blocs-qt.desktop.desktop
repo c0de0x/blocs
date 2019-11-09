@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=BLOCS Core
+Comment=BLOCS P2P Cryptocurrency
+Exec=BLOCS-qt %u
+Terminal=false
+Type=Application
+Icon=BLOCS128
+MimeType=x-scheme-handler/BLOCS;
+Categories=Office;Finance;
+StartupWMClass=Blocs-qt
+Name[en_IN]=blocs-qt.desktop

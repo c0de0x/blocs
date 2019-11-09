@@ -1,5 +1,5 @@
 ---
-name: "bitstats-dmg-signer"
+name: "blocs-dmg-signer"
 distro: "ubuntu"
 suites:
 - "bionic"
@@ -8,10 +8,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/bitstats-project/bitstats-detached-sigs.git"
+- "url": "https://github.com/blocs-project/blocs-detached-sigs.git"
   "dir": "signature"
 files:
-- "bitstats-osx-unsigned.tar.gz"
+- "blocs-osx-unsigned.tar.gz"
 script: |
   set -e -o pipefail
 
@@ -30,8 +30,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=bitstats-osx-unsigned.tar.gz
-  SIGNED=bitstats-osx-signed.dmg
+  UNSIGNED=blocs-osx-unsigned.tar.gz
+  SIGNED=blocs-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

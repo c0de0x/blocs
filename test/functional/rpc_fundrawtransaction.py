@@ -201,9 +201,9 @@ class RawTransactionsTest(BitcoinTestFramework):
 
         try:
             self.nodes[2].fundrawtransaction(rawtx, {'changeAddress': 'foobar'})
-            raise AssertionError("Accepted invalid bitstats address")
+            raise AssertionError("Accepted invalid blocs address")
         except JSONRPCException as e:
-            assert("changeAddress must be a valid bitstats address" in e.error['message'])
+            assert("changeAddress must be a valid blocs address" in e.error['message'])
 
 
         ############################################################

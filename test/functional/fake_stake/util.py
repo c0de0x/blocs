@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019 The BITSTATS developers
+# Copyright (c) 2019 The BLOCS developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 # -*- coding: utf-8 -*-
@@ -15,7 +15,7 @@ from test_framework.util import wait_until
 ''' -------------------------------------------------------------------------
 TestNode CLASS --------------------------------------------------------------
 
-A peer we use to send messsages to bitstatsd and store responses
+A peer we use to send messsages to blocsd and store responses
 Extends P2PInterface.
 '''
 

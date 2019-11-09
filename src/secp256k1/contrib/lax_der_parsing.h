@@ -1,4 +1,4 @@
-/* Copyright (c) 2019-2020 The Bitstats Developers */
+/* Copyright (c) 2019-2020 The Blocs Developers */
 /**********************************************************************
  * Copyright (c) 2015 Pieter Wuille                                   *
  * Distributed under the MIT software license, see the accompanying   *

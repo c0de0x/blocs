@@ -1,5 +1,5 @@
 # !/usr/bin/env python3
-# Copyright (c) 2019 The BITSTATS developers
+# Copyright (c) 2019 The BLOCS developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,10 +13,10 @@ from io import BytesIO
 import time
 from test_framework.messages import CTransaction, CBlock
 from test_framework.util import bytes_to_hex_str, hex_str_to_bytes, assert_equal
-from fake_stake.base_test import BITSTATS_FakeStakeTest
+from fake_stake.base_test import BLOCS_FakeStakeTest
 
 
-class ZerocoinPublicSpendReorg(BITSTATS_FakeStakeTest):
+class ZerocoinPublicSpendReorg(BLOCS_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the reorg with a zc public spend in vtx"

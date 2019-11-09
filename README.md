@@ -1,14 +1,14 @@
-BITSTATS:  Instant – Verified – Transaction - Charity projects
+BLOCS:  Instant – Verified – Transaction - Charity projects
 =====================================
 
-BITSTATS is open source, decentralized blockchain-based cryptocurrency focused on achieving fungibility, transaction privacy, community governance, network  scalability, and real-world utilization to become one of the most technically advanced globally-accepted online digital currency and accounting software that has the companies, self-employee and professionals  give part of these benefits will be used for charity projects.
-Dexirgi implemented an advanced version of the “Zerocoin Protocol”, that gives Bitstats  users the option of making completely anonymous transactions. 
-The Bitstats token is a global adoption currency for transparent accounting and helps charities of corporations, medium, small and autonomous companies.
-In the Bitcoin network, transactions require 10 minutes for confirmation! For a business, this is unacceptable. Bitstats transactions, on the other hand, are confirmed within 60 seconds and are most often instant.
-Currently, the fee to send a $25 Bitcoin transaction, e.g. to pay for a decent meal, is $0.42. The same transaction, paid with BITSTATS, would cost less than $0.01. i.e. It’d almost be free!
+BLOCS is open source, decentralized blockchain-based cryptocurrency focused on achieving fungibility, transaction privacy, community governance, network  scalability, and real-world utilization to become one of the most technically advanced globally-accepted online digital currency and accounting software that has the companies, self-employee and professionals  give part of these benefits will be used for charity projects.
+Dexirgi implemented an advanced version of the “Zerocoin Protocol”, that gives Blocs  users the option of making completely anonymous transactions. 
+The Blocs token is a global adoption currency for transparent accounting and helps charities of corporations, medium, small and autonomous companies.
+In the Bitcoin network, transactions require 10 minutes for confirmation! For a business, this is unacceptable. Blocs transactions, on the other hand, are confirmed within 60 seconds and are most often instant.
+Currently, the fee to send a $25 Bitcoin transaction, e.g. to pay for a decent meal, is $0.42. The same transaction, paid with BLOCS, would cost less than $0.01. i.e. It’d almost be free!
 
 
-More information at [bitstats.io](http://www.bitstats.io) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+More information at [blocs.io](http://www.blocs.io) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
 
 ### Coin Specs
 <table>

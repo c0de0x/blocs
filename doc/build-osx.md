@@ -38,20 +38,20 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-Build BITSTATS Core
+Build BLOCS Core
 ------------------------
 
-1. Clone the BITSTATS Core source code:
+1. Clone the BLOCS Core source code:
 
-        git clone https://github.com/bitstats-project/bitstats
-        cd bitstats
+        git clone https://github.com/blocs-project/blocs
+        cd blocs
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
         export LDFLAGS+=-L/usr/local/opt/openssl/lib
         export CPPFLAGS+=-I/usr/local/opt/openssl/include
 
-3.  Build BITSTATS Core:
+3.  Build BLOCS Core:
 
         ./autogen.sh
         ./configure
@@ -69,7 +69,7 @@ Disable-wallet mode
 --------------------
 **Note:** This functionality is not yet completely implemented, and compilation using the below option will currently fail.
 
-When the intention is to run only a P2P node without a wallet, BITSTATS Core may be compiled in
+When the intention is to run only a P2P node without a wallet, BLOCS Core may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -79,28 +79,28 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-BITSTATS Core is now available at `./src/bitstatsd`
+BLOCS Core is now available at `./src/blocsd`
 
 Before running, you may create an empty configuration file:
 
-    mkdir -p "/Users/${USER}/Library/Application Support/BITSTATS"
+    mkdir -p "/Users/${USER}/Library/Application Support/BLOCS"
 
-    touch "/Users/${USER}/Library/Application Support/BITSTATS/bitstats.conf"
+    touch "/Users/${USER}/Library/Application Support/BLOCS/blocs.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/BITSTATS/bitstats.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/BLOCS/blocs.conf"
 
-The first time you run bitstatsd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run blocsd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/BITSTATS/debug.log
+    tail -f $HOME/Library/Application\ Support/BLOCS/debug.log
 
 Other commands:
 -------
 
-    ./src/bitstatsd -daemon # Starts the bitstats daemon.
-    ./src/bitstats-cli --help # Outputs a list of command-line options.
-    ./src/bitstats-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/blocsd -daemon # Starts the blocs daemon.
+    ./src/blocs-cli --help # Outputs a list of command-line options.
+    ./src/blocs-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

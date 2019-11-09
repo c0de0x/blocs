@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019 The BITSTATS developers
+# Copyright (c) 2019 The BLOCS developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,9 +13,9 @@ from time import sleep
 from test_framework.authproxy import JSONRPCException
 from test_framework.util import assert_equal, assert_greater_than
 
-from fake_stake.base_test import BITSTATS_FakeStakeTest
+from fake_stake.base_test import BLOCS_FakeStakeTest
 
-class zBLOCSValidCoinSpendTest(BITSTATS_FakeStakeTest):
+class zBLOCSValidCoinSpendTest(BLOCS_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the 'valid publicCoinSpend spend' scenario."
