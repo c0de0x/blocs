@@ -8,7 +8,7 @@ In the Bitcoin network, transactions require 10 minutes for confirmation! For a 
 Currently, the fee to send a $25 Bitcoin transaction, e.g. to pay for a decent meal, is $0.42. The same transaction, paid with BLOCS, would cost less than $0.01. i.e. It’d almost be free!
 
 
-More information at [blocs.io](http://www.blocs.io) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+More information at [blockanalysis.io](https://www.blockanalysis.io) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
 
 ### Coin Specs
 <table>
