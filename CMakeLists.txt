@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(DEXERGI)
+project(BLOCS)
 
 set(BDB_VER "4.8.30")
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/contrib/cmake")
@@ -97,8 +97,8 @@ else()
     )
 endif()
 
-# run configure if dexergi_config.h doesn't exist
-if (EXISTS	"${CMAKE_CURRENT_SOURCE_DIR}/src/config/dexergi-config.h")
+# run configure if blocs_config.h doesn't exist
+if (EXISTS	"${CMAKE_CURRENT_SOURCE_DIR}/src/config/blocs-config.h")
 else()
     execute_process(
             COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/configure ${BDB_CONFIGURE_FLAGS} ${BIGNUM_CONFIGURE_FLAGS}
@@ -144,7 +144,7 @@ include_directories(
 )
 
 set(libleveldb_a_headers
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/config/dexergi-config.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/config/blocs-config.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/atomic_pointer.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/port_example.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/port_posix.h
@@ -495,9 +495,9 @@ add_library(UTIL_A STATIC ${BitcoinHeaders} ${UTIL_SOURCES})
 set(CLI_SOURCES ./src/rpc/client.cpp)
 add_library(CLI_A STATIC ${BitcoinHeaders} ${CLI_SOURCES})
 
-add_executable(dexergi-cli ${CMAKE_CURRENT_SOURCE_DIR}/src/dexergi-cli.cpp)
-add_dependencies(dexergi-cli libunivalue)
-target_link_libraries(dexergi-cli
+add_executable(blocs-cli ${CMAKE_CURRENT_SOURCE_DIR}/src/blocs-cli.cpp)
+add_dependencies(blocs-cli libunivalue)
+target_link_libraries(blocs-cli
         CLI_A
         univalue
         UTIL_A
@@ -505,9 +505,9 @@ target_link_libraries(dexergi-cli
         ${Boost_LIBRARIES} ${OPENSSL_LIBRARIES} ${LIBEVENT_LIB}
         )
 
-add_executable(dexergi-tx ${CMAKE_CURRENT_SOURCE_DIR}/src/dexergi-tx.cpp)
-add_dependencies(dexergi-tx libunivalue libsecp256k1)
-target_link_libraries(dexergi-tx
+add_executable(blocs-tx ${CMAKE_CURRENT_SOURCE_DIR}/src/blocs-tx.cpp)
+add_dependencies(blocs-tx libunivalue libsecp256k1)
+target_link_libraries(blocs-tx
         univalue
         COMMON_A
         ZEROCOIN_A
@@ -517,12 +517,12 @@ target_link_libraries(dexergi-tx
         ${Boost_LIBRARIES} ${OPENSSL_LIBRARIES} ${LIBEVENT_LIB}
         )
 if(GMP_FOUND)
-    target_link_libraries(dexergi-tx ${GMP_LIBRARY})
+    target_link_libraries(blocs-tx ${GMP_LIBRARY})
 endif()
 
-add_executable(dexergid ${CMAKE_CURRENT_SOURCE_DIR}/src/dexergid.cpp)
-add_dependencies(dexergid libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
-target_link_libraries(dexergid
+add_executable(blocsd ${CMAKE_CURRENT_SOURCE_DIR}/src/blocsd.cpp)
+add_dependencies(blocsd libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
+target_link_libraries(blocsd
         SERVER_A
         COMMON_A
         univalue
@@ -534,10 +534,10 @@ target_link_libraries(dexergid
         ${BerkeleyDB_LIBRARIES} ${OPENSSL_LIBRARIES} ${Boost_LIBRARIES} ${LIBEVENT_LIB} miniupnpc pthread
         )
 if(GMP_FOUND)
-    target_link_libraries(dexergid ${GMP_LIBRARY})
+    target_link_libraries(blocsd ${GMP_LIBRARY})
 endif()
 if(ZMQ_FOUND)
-    target_link_libraries(dexergid ZMQ_A ${ZMQ_LIB})
+    target_link_libraries(blocsd ZMQ_A ${ZMQ_LIB})
 endif ()
 
 
