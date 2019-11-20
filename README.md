@@ -1,14 +1,12 @@
-BLOCS:  Instant – Verified – Transaction - Charity projects
+Blocs - Building trust in blockchains
 =====================================
 
-BLOCS is open source, decentralized blockchain-based cryptocurrency focused on achieving fungibility, transaction privacy, community governance, network  scalability, and real-world utilization to become one of the most technically advanced globally-accepted online digital currency and accounting software that has the companies, self-employee and professionals  give part of these benefits will be used for charity projects.
-Dexirgi implemented an advanced version of the “Zerocoin Protocol”, that gives Blocs  users the option of making completely anonymous transactions. 
-The Blocs token is a global adoption currency for transparent accounting and helps charities of corporations, medium, small and autonomous companies.
-In the Bitcoin network, transactions require 10 minutes for confirmation! For a business, this is unacceptable. Blocs transactions, on the other hand, are confirmed within 60 seconds and are most often instant.
-Currently, the fee to send a $25 Bitcoin transaction, e.g. to pay for a decent meal, is $0.42. The same transaction, paid with BLOCS, would cost less than $0.01. i.e. It’d almost be free!
+We create transparency for a global economy built on blockchains and blocs. It is the only decentralized solution in the market
+
+As the blockchain analysis community with POS technology. Our mission is to build trust in blockchains and for us that begins with transparency. Through POS technology every time a Masternodes is installed, it creates a point that automatically collects information through ML tools in all internet space about blockchain. This information will be stored and an explorer will be created to have quality information about the blockchain. We are the world's first POS system with its own decentralized browser to store information only about blockchain.
 
 
-More information at [blockanalysis.io](https://www.blockanalysis.io) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+More information at [blockanalysis.io](https://www.blockanalysis.io) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=5201511.msg53076685#msg53076685)
 
 ### Coin Specs
 <table>
